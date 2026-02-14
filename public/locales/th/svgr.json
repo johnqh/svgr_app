@@ -15,6 +15,7 @@
   "invalidFileType": "กรุณาเลือกไฟล์รูปภาพ (PNG, JPG, WEBP, BMP, GIF)",
   "clear": "ล้าง",
   "svgPlaceholder": "SVG ที่แปลงแล้วจะแสดงที่นี่",
+  "loginForFree": "เข้าสู่ระบบเพื่อแปลงไฟล์ฟรีโดยไม่มีลายน้ำ",
   "conversionFailed": "การแปลงล้มเหลว",
   "privacy": "ความเป็นส่วนตัว",
   "terms": "ข้อกำหนด",

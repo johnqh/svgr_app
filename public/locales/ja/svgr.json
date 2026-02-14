@@ -15,6 +15,7 @@
   "invalidFileType": "画像ファイルを選択してください（PNG, JPG, WEBP, BMP, GIF）",
   "clear": "クリア",
   "svgPlaceholder": "変換された SVG がここに表示されます",
+  "loginForFree": "ログインすると透かしなしで無料変換できます",
   "conversionFailed": "変換に失敗しました",
   "privacy": "プライバシー",
   "terms": "利用規約",

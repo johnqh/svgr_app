@@ -15,6 +15,7 @@
   "invalidFileType": "이미지 파일을 선택해 주세요 (PNG, JPG, WEBP, BMP, GIF)",
   "clear": "지우기",
   "svgPlaceholder": "변환된 SVG가 여기에 표시됩니다",
+  "loginForFree": "로그인하면 워터마크 없이 무료로 변환할 수 있습니다",
   "conversionFailed": "변환 실패",
   "privacy": "개인정보처리방침",
   "terms": "이용약관",

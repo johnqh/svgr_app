@@ -9,14 +9,20 @@ import {
   useLocation,
 } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { SudobilityAppWithFirebaseAuth } from '@sudobility/building_blocks/firebase';
 import {
-  SudobilityApp,
   AppPageLayout,
-  AppTopBar,
+  AppTopBarWithFirebaseAuth,
   AppFooter,
 } from '@sudobility/building_blocks';
+import { AuthAction } from '@sudobility/auth-components';
+import type { ComponentType } from 'react';
+import type { AuthActionProps } from '@sudobility/building_blocks';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
+import { API_URL } from './config/constants';
+import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import ConvertPage from './pages/ConvertPage';
+import LoginPage from './pages/LoginPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 
@@ -55,7 +61,7 @@ function LangRoutes() {
   return (
     <AppPageLayout
       topBar={
-        <AppTopBar
+        <AppTopBarWithFirebaseAuth
           logo={{
             src: '/logo.svg',
             appName: 'SVGR',
@@ -64,6 +70,8 @@ function LangRoutes() {
           menuItems={[]}
           currentLanguage={currentLang}
           onLanguageChange={handleLanguageChange}
+          AuthActionComponent={AuthAction as ComponentType<AuthActionProps>}
+          onLoginClick={() => navigate(`/${currentLang}/login`)}
           sticky
         />
       }
@@ -83,6 +91,7 @@ function LangRoutes() {
     >
       <Routes>
         <Route index element={<ConvertPage />} />
+        <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />
         <Route path="terms" element={<TermsPage />} />
       </Routes>
@@ -110,9 +119,14 @@ function AppRoutes() {
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <SudobilityApp i18n={i18n} storageKeyPrefix="svgr">
+      <SudobilityAppWithFirebaseAuth
+        i18n={i18n}
+        storageKeyPrefix="svgr"
+        baseUrl={API_URL}
+        AuthProviderWrapper={AuthProviderWrapper}
+      >
         <AppRoutes />
-      </SudobilityApp>
+      </SudobilityAppWithFirebaseAuth>
     </QueryClientProvider>
   );
 }

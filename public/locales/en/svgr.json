@@ -15,6 +15,7 @@
   "invalidFileType": "Please select an image file (PNG, JPG, WEBP, BMP, GIF)",
   "clear": "Clear",
   "svgPlaceholder": "Converted SVG will appear here",
+  "loginForFree": "Log in to convert for free without watermark",
   "conversionFailed": "Conversion failed",
   "privacy": "Privacy",
   "terms": "Terms",

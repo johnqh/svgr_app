@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage: en -->
+  <url>
+    <loc>https://svgr.app/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: zh -->
+  <url>
+    <loc>https://svgr.app/zh</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: zh-hant -->
+  <url>
+    <loc>https://svgr.app/zh-hant</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: ja -->
+  <url>
+    <loc>https://svgr.app/ja</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: ko -->
+  <url>
+    <loc>https://svgr.app/ko</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: es -->
+  <url>
+    <loc>https://svgr.app/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: fr -->
+  <url>
+    <loc>https://svgr.app/fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: de -->
+  <url>
+    <loc>https://svgr.app/de</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: it -->
+  <url>
+    <loc>https://svgr.app/it</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: pt -->
+  <url>
+    <loc>https://svgr.app/pt</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: ru -->
+  <url>
+    <loc>https://svgr.app/ru</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: ar -->
+  <url>
+    <loc>https://svgr.app/ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: sv -->
+  <url>
+    <loc>https://svgr.app/sv</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: th -->
+  <url>
+    <loc>https://svgr.app/th</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: uk -->
+  <url>
+    <loc>https://svgr.app/uk</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Homepage: vi -->
+  <url>
+    <loc>https://svgr.app/vi</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Privacy: en -->
+  <url>
+    <loc>https://svgr.app/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: zh -->
+  <url>
+    <loc>https://svgr.app/zh/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: zh-hant -->
+  <url>
+    <loc>https://svgr.app/zh-hant/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: ja -->
+  <url>
+    <loc>https://svgr.app/ja/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: ko -->
+  <url>
+    <loc>https://svgr.app/ko/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: es -->
+  <url>
+    <loc>https://svgr.app/es/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: fr -->
+  <url>
+    <loc>https://svgr.app/fr/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: de -->
+  <url>
+    <loc>https://svgr.app/de/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: it -->
+  <url>
+    <loc>https://svgr.app/it/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: pt -->
+  <url>
+    <loc>https://svgr.app/pt/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: ru -->
+  <url>
+    <loc>https://svgr.app/ru/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: ar -->
+  <url>
+    <loc>https://svgr.app/ar/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: sv -->
+  <url>
+    <loc>https://svgr.app/sv/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: th -->
+  <url>
+    <loc>https://svgr.app/th/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: uk -->
+  <url>
+    <loc>https://svgr.app/uk/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Privacy: vi -->
+  <url>
+    <loc>https://svgr.app/vi/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms: en -->
+  <url>
+    <loc>https://svgr.app/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: zh -->
+  <url>
+    <loc>https://svgr.app/zh/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: zh-hant -->
+  <url>
+    <loc>https://svgr.app/zh-hant/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: ja -->
+  <url>
+    <loc>https://svgr.app/ja/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: ko -->
+  <url>
+    <loc>https://svgr.app/ko/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: es -->
+  <url>
+    <loc>https://svgr.app/es/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: fr -->
+  <url>
+    <loc>https://svgr.app/fr/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: de -->
+  <url>
+    <loc>https://svgr.app/de/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: it -->
+  <url>
+    <loc>https://svgr.app/it/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: pt -->
+  <url>
+    <loc>https://svgr.app/pt/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: ru -->
+  <url>
+    <loc>https://svgr.app/ru/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: ar -->
+  <url>
+    <loc>https://svgr.app/ar/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: sv -->
+  <url>
+    <loc>https://svgr.app/sv/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: th -->
+  <url>
+    <loc>https://svgr.app/th/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: uk -->
+  <url>
+    <loc>https://svgr.app/uk/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <!-- Terms: vi -->
+  <url>
+    <loc>https://svgr.app/vi/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

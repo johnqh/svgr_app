@@ -15,6 +15,7 @@
   "invalidFileType": "请选择图片文件（PNG, JPG, WEBP, BMP, GIF）",
   "clear": "清除",
   "svgPlaceholder": "转换后的 SVG 将显示在此处",
+  "loginForFree": "登录即可免费转换，无水印",
   "conversionFailed": "转换失败",
   "privacy": "隐私政策",
   "terms": "使用条款",

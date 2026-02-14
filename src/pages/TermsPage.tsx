@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
+import SEO from '../components/seo/SEO';
 
 export default function TermsPage() {
   const { t } = useTranslation();
@@ -63,5 +64,10 @@ export default function TermsPage() {
     },
   };
 
-  return <AppTextPage text={text} lastUpdatedDate="2025-02-14" />;
+  return (
+    <>
+      <SEO title={t('termsTitle')} canonical="/terms" />
+      <AppTextPage text={text} lastUpdatedDate="2025-02-14" />
+    </>
+  );
 }

@@ -17,6 +17,8 @@
     "verify": "bun run typecheck && bun run lint && bun run test && bun run build"
   },
   "dependencies": {
+    "@sudobility/auth-components": "^1.0.8",
+    "@sudobility/auth_lib": "^0.0.44",
     "@sudobility/building_blocks": "^0.0.120",
     "@sudobility/components": "^5.0.7",
     "@sudobility/design": "^1.1.18",
@@ -24,6 +26,7 @@
     "@sudobility/di": "^1.5.34",
     "@sudobility/di_web": "^0.1.102",
     "@sudobility/entity_client": "^0.0.19",
+    "@sudobility/seo_lib": "^0.0.2",
     "@sudobility/subscription-components": "^1.0.27",
     "@sudobility/subscription_lib": "^0.0.14",
     "@sudobility/svgr_client": "^1.0.6",

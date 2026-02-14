@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
+import SEO from '../components/seo/SEO';
 
 export default function PrivacyPage() {
   const { t } = useTranslation();
@@ -74,5 +75,10 @@ export default function PrivacyPage() {
     },
   };
 
-  return <AppTextPage text={text} lastUpdatedDate="2025-02-14" />;
+  return (
+    <>
+      <SEO title={t('privacyTitle')} canonical="/privacy" />
+      <AppTextPage text={text} lastUpdatedDate="2025-02-14" />
+    </>
+  );
 }

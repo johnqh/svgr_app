@@ -31,7 +31,7 @@ i18n
   .init({
     fallbackLng: 'en',
     supportedLngs: supportedLanguages,
-    ns: ['svgr'],
+    ns: ['svgr', 'auth'],
     defaultNS: 'svgr',
     load: 'currentOnly',
     lowerCaseLng: true,

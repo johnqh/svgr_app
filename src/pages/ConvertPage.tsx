@@ -1,13 +1,20 @@
 import { useState, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useParams } from 'react-router-dom';
+import { useAuthStatus } from '@sudobility/auth-components';
 import { useConvert } from '@sudobility/svgr_client';
 import { useSvgrClient } from '../hooks/useSvgrClient';
+import SEO from '../components/seo/SEO';
+import { APP_NAME, APP_DOMAIN } from '../config/constants';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
 
 export default function ConvertPage() {
   const { t } = useTranslation();
+  const { user } = useAuthStatus();
+  const navigate = useNavigate();
+  const { lang } = useParams<{ lang: string }>();
   const client = useSvgrClient();
   const convertMutation = useConvert(client);
 
@@ -78,6 +85,25 @@ export default function ConvertPage() {
 
   return (
     <main className="flex-1 flex flex-col">
+      <SEO
+        description={t('subtitle')}
+        keywords="svg converter, raster to vector, png to svg, jpg to svg, webp to svg, image conversion, vector graphics, ai logo converter"
+        canonical="/"
+        structuredData={{
+          "@context": "https://schema.org",
+          "@type": "WebApplication",
+          name: APP_NAME,
+          url: `https://${APP_DOMAIN}`,
+          applicationCategory: "DesignApplication",
+          operatingSystem: "Any",
+          description: t('subtitle'),
+          offers: {
+            "@type": "Offer",
+            price: "0",
+            priceCurrency: "USD",
+          },
+        }}
+      />
       {/* Header */}
       <div className="text-center py-8 px-4">
         <p className="text-gray-500 text-sm">
@@ -86,6 +112,17 @@ export default function ConvertPage() {
         <p className="mt-3 text-gray-400 text-xs max-w-xl mx-auto">
           {t('description')}
         </p>
+        {!user && (
+          <p className="mt-3 text-orange-600 text-sm">
+            <button
+              type="button"
+              onClick={() => navigate(`/${lang || 'en'}/login`)}
+              className="underline hover:text-orange-700 cursor-pointer"
+            >
+              {t('loginForFree')}
+            </button>
+          </p>
+        )}
       </div>
 
       {/* Quality slider */}

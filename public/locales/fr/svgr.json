@@ -15,6 +15,7 @@
   "invalidFileType": "Veuillez sélectionner un fichier image (PNG, JPG, WEBP, BMP, GIF)",
   "clear": "Effacer",
   "svgPlaceholder": "Le SVG converti apparaîtra ici",
+  "loginForFree": "Connectez-vous pour convertir gratuitement sans filigrane",
   "conversionFailed": "La conversion a échoué",
   "privacy": "Confidentialité",
   "terms": "Conditions",
