@@ -1,5 +1,8 @@
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { SudobilityApp, AppFooter } from '@sudobility/building_blocks';
 import ConvertPage from './pages/ConvertPage';
+
+const queryClient = new QueryClient();
 
 // Minimal i18n stub — SVGR doesn't need localization
 const i18nStub = {
@@ -10,9 +13,10 @@ const i18nStub = {
 
 function App() {
   return (
-    <SudobilityApp i18n={i18nStub} storageKeyPrefix="svgr">
-      <div className="min-h-screen flex flex-col">
-        <ConvertPage />
+    <QueryClientProvider client={queryClient}>
+      <SudobilityApp i18n={i18nStub} storageKeyPrefix="svgr">
+        <div className="min-h-screen flex flex-col">
+          <ConvertPage />
         <AppFooter
           companyName="Sudobility Inc."
           companyUrl="https://sudobility.com"
@@ -23,7 +27,8 @@ function App() {
           sticky
         />
       </div>
-    </SudobilityApp>
+      </SudobilityApp>
+    </QueryClientProvider>
   );
 }
 
