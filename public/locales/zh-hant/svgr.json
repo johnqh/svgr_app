@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "將點陣圖轉換為可縮放向量圖形",
+  "pronunciation": "發音為 \"Sveeger\"",
   "description": "非常適合轉換 AI 生成的 Logo。由於所有 Logo 生成器都會建立點陣圖檔案，縮放和編輯變得困難。SVGR 將它們轉換為向量格式，為設計師提供一個可以進一步調整的起點——即使結果並非像素級完美。",
   "quality": "品質",
   "qualityMin": "較小檔案",

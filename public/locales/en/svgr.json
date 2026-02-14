@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Convert raster images to scalable vector graphics",
+  "pronunciation": "Pronounced \"Sveeger\"",
   "description": "Ideal for converting AI-generated logos. Since all logo generators create raster files, scaling and editing become difficult. SVGR converts them to vector format, giving designers a starting point to fine-tune — even if the result isn't pixel-perfect.",
   "quality": "Quality",
   "qualityMin": "Smaller file",

@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Converta imagens rasterizadas em gráficos vetoriais escaláveis",
+  "pronunciation": "Pronuncia-se \"Sveeger\"",
   "description": "Ideal para converter logotipos gerados por IA. Como todos os geradores de logotipos criam arquivos rasterizados, redimensionar e editar torna-se difícil. O SVGR os converte para formato vetorial, dando aos designers um ponto de partida para refinar — mesmo que o resultado não seja perfeito em cada pixel.",
   "quality": "Qualidade",
   "qualityMin": "Arquivo menor",

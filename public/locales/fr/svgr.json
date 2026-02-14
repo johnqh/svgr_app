@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Convertissez des images matricielles en graphiques vectoriels",
+  "pronunciation": "Se prononce « Sveeger »",
   "description": "Idéal pour convertir les logos générés par IA. Comme tous les générateurs de logos créent des fichiers matriciels, la mise à l'échelle et l'édition deviennent difficiles. SVGR les convertit en format vectoriel, offrant aux designers un point de départ pour affiner — même si le résultat n'est pas parfait au pixel près.",
   "quality": "Qualité",
   "qualityMin": "Fichier plus petit",

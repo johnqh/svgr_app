@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Konvertera rasterbilder till skalbara vektorgrafik",
+  "pronunciation": "Uttalas \"Sveeger\"",
   "description": "Perfekt för att konvertera AI-genererade logotyper. Eftersom alla logotypgeneratorer skapar rasterfiler blir skalning och redigering svårt. SVGR konverterar dem till vektorformat och ger designers en startpunkt att finjustera — även om resultatet inte är pixelperfekt.",
   "quality": "Kvalitet",
   "qualityMin": "Mindre fil",

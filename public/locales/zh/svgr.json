@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "将位图转换为可缩放矢量图形",
+  "pronunciation": "发音为 \"Sveeger\"",
   "description": "非常适合转换 AI 生成的 Logo。由于所有 Logo 生成器都会创建位图文件，缩放和编辑变得困难。SVGR 将它们转换为矢量格式，为设计师提供一个可以进一步调整的起点——即使结果并非像素级完美。",
   "quality": "质量",
   "qualityMin": "更小文件",

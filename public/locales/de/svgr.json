@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Rasterbilder in skalierbare Vektorgrafiken umwandeln",
+  "pronunciation": "Ausgesprochen \u201eSveeger\u201c",
   "description": "Ideal zum Konvertieren von KI-generierten Logos. Da alle Logo-Generatoren Rasterdateien erzeugen, wird das Skalieren und Bearbeiten schwierig. SVGR wandelt sie in Vektorformat um und gibt Designern einen Ausgangspunkt zur Feinabstimmung — auch wenn das Ergebnis nicht pixelgenau ist.",
   "quality": "Qualität",
   "qualityMin": "Kleinere Datei",

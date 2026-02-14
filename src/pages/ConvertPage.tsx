@@ -109,6 +109,9 @@ export default function ConvertPage() {
         <p className="text-gray-500 text-sm">
           {t('subtitle')}
         </p>
+        <p className="mt-1 text-gray-400 text-xs italic">
+          {t('pronunciation')}
+        </p>
         <p className="mt-3 text-gray-400 text-xs max-w-xl mx-auto">
           {t('description')}
         </p>

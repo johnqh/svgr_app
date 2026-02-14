@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Chuyển đổi ảnh raster thành đồ họa vector có thể mở rộng",
+  "pronunciation": "Phát âm là \"Sveeger\"",
   "description": "Lý tưởng để chuyển đổi logo do AI tạo ra. Vì tất cả các trình tạo logo đều tạo file raster, việc thay đổi kích thước và chỉnh sửa trở nên khó khăn. SVGR chuyển đổi chúng sang định dạng vector, cung cấp cho nhà thiết kế một điểm khởi đầu để tinh chỉnh — ngay cả khi kết quả chưa hoàn hảo đến từng pixel.",
   "quality": "Chất lượng",
   "qualityMin": "Tệp nhỏ hơn",

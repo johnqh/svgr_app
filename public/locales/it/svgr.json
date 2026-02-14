@@ -1,6 +1,7 @@
 {
   "title": "SVGR",
   "subtitle": "Converti immagini raster in grafica vettoriale scalabile",
+  "pronunciation": "Si pronuncia \"Sveeger\"",
   "description": "Ideale per convertire loghi generati dall'IA. Poiché tutti i generatori di loghi creano file raster, ridimensionare e modificare diventa difficile. SVGR li converte in formato vettoriale, offrendo ai designer un punto di partenza per perfezionare — anche se il risultato non è perfetto al pixel.",
   "quality": "Qualità",
   "qualityMin": "File più piccolo",
