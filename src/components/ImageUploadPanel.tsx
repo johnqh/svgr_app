@@ -3,6 +3,7 @@ import { useCallback, useRef, useState } from 'react';
 interface ImageUploadPanelProps {
   file: File | null;
   previewUrl: string | null;
+  imageDimensions: { width: number; height: number } | null;
   onFileSelect: (file: File) => void;
   onClear: () => void;
 }
@@ -10,6 +11,7 @@ interface ImageUploadPanelProps {
 export default function ImageUploadPanel({
   file,
   previewUrl,
+  imageDimensions,
   onFileSelect,
   onClear,
 }: ImageUploadPanelProps) {
@@ -82,6 +84,11 @@ export default function ImageUploadPanel({
               <span className="text-gray-400 ml-2">
                 ({(file.size / 1024).toFixed(1)} KB)
               </span>
+              {imageDimensions && (
+                <span className="text-gray-400 ml-2">
+                  {imageDimensions.width} x {imageDimensions.height}px
+                </span>
+              )}
             </div>
             <button
               onClick={onClear}

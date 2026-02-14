@@ -12,7 +12,7 @@ export default function ConvertPage() {
   const [file, setFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
   const [svgResult, setSvgResult] = useState<string | null>(null);
-  const [svgDimensions, setSvgDimensions] = useState<{
+  const [imageDimensions, setImageDimensions] = useState<{
     width: number;
     height: number;
   } | null>(null);
@@ -20,10 +20,17 @@ export default function ConvertPage() {
 
   const handleFileSelect = useCallback((f: File) => {
     setFile(f);
-    setPreviewUrl(URL.createObjectURL(f));
+    const url = URL.createObjectURL(f);
+    setPreviewUrl(url);
     setSvgResult(null);
-    setSvgDimensions(null);
+    setImageDimensions(null);
     setError(null);
+
+    const img = new Image();
+    img.onload = () => {
+      setImageDimensions({ width: img.naturalWidth, height: img.naturalHeight });
+    };
+    img.src = url;
   }, []);
 
   const handleClear = useCallback(() => {
@@ -31,7 +38,7 @@ export default function ConvertPage() {
     setFile(null);
     setPreviewUrl(null);
     setSvgResult(null);
-    setSvgDimensions(null);
+    setImageDimensions(null);
     setError(null);
   }, [previewUrl]);
 
@@ -48,10 +55,6 @@ export default function ConvertPage() {
           onSuccess: (response) => {
             if (response.success && response.data) {
               setSvgResult(response.data.svg);
-              setSvgDimensions({
-                width: response.data.width,
-                height: response.data.height,
-              });
             } else {
               setError(
                 (response as { error?: string }).error || 'Conversion failed',
@@ -84,6 +87,7 @@ export default function ConvertPage() {
         <ImageUploadPanel
           file={file}
           previewUrl={previewUrl}
+          imageDimensions={imageDimensions}
           onFileSelect={handleFileSelect}
           onClear={handleClear}
         />
@@ -96,7 +100,6 @@ export default function ConvertPage() {
 
         <SvgPreviewPanel
           svg={svgResult}
-          dimensions={svgDimensions}
           filename={file?.name}
         />
       </div>
