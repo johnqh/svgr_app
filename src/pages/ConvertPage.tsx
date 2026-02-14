@@ -16,6 +16,7 @@ export default function ConvertPage() {
     width: number;
     height: number;
   } | null>(null);
+  const [quality, setQuality] = useState(5);
   const [error, setError] = useState<string | null>(null);
 
   const handleFileSelect = useCallback((f: File) => {
@@ -50,7 +51,7 @@ export default function ConvertPage() {
     reader.onload = () => {
       const base64 = (reader.result as string).split(',')[1];
       convertMutation.mutate(
-        { original: base64, filename: file.name },
+        { original: base64, filename: file.name, quality },
         {
           onSuccess: (response) => {
             if (response.success && response.data) {
@@ -70,7 +71,7 @@ export default function ConvertPage() {
       );
     };
     reader.readAsDataURL(file);
-  }, [file, convertMutation]);
+  }, [file, convertMutation, quality]);
 
   return (
     <main className="flex-1 flex flex-col">
@@ -80,6 +81,30 @@ export default function ConvertPage() {
         <p className="mt-2 text-gray-500 text-sm">
           Convert raster images to scalable vector graphics
         </p>
+      </div>
+
+      {/* Quality slider */}
+      <div className="max-w-md mx-auto w-full px-4 pb-4">
+        <div className="flex items-center gap-3">
+          <label className="text-sm font-medium text-gray-600 whitespace-nowrap">
+            Quality
+          </label>
+          <input
+            type="range"
+            min={1}
+            max={10}
+            value={quality}
+            onChange={(e) => setQuality(Number(e.target.value))}
+            className="flex-1"
+          />
+          <span className="text-sm text-gray-500 w-16 text-right">
+            {quality} / 10
+          </span>
+        </div>
+        <div className="flex justify-between text-xs text-gray-400 mt-1 px-1">
+          <span>Smaller file</span>
+          <span>Higher fidelity</span>
+        </div>
       </div>
 
       {/* Three-column layout */}
