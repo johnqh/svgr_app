@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -26,7 +26,7 @@
     "@sudobility/entity_client": "^0.0.19",
     "@sudobility/subscription-components": "^1.0.27",
     "@sudobility/subscription_lib": "^0.0.14",
-    "@sudobility/svgr_client": "^1.0.4",
+    "@sudobility/svgr_client": "^1.0.6",
     "@sudobility/svgr_types": "^1.0.3",
     "@sudobility/types": "^1.9.50",
     "@tanstack/react-query": "^5.0.0",
