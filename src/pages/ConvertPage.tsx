@@ -17,6 +17,7 @@ export default function ConvertPage() {
     height: number;
   } | null>(null);
   const [quality, setQuality] = useState(5);
+  const [transparentBg, setTransparentBg] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const handleFileSelect = useCallback((f: File) => {
@@ -51,7 +52,7 @@ export default function ConvertPage() {
     reader.onload = () => {
       const base64 = (reader.result as string).split(',')[1];
       convertMutation.mutate(
-        { original: base64, filename: file.name, quality },
+        { original: base64, filename: file.name, quality, transparentBg },
         {
           onSuccess: (response) => {
             if (response.success && response.data) {
@@ -71,7 +72,7 @@ export default function ConvertPage() {
       );
     };
     reader.readAsDataURL(file);
-  }, [file, convertMutation, quality]);
+  }, [file, convertMutation, quality, transparentBg]);
 
   return (
     <main className="flex-1 flex flex-col">
@@ -105,6 +106,21 @@ export default function ConvertPage() {
           <span>Smaller file</span>
           <span>Higher fidelity</span>
         </div>
+      </div>
+
+      {/* Transparent background toggle */}
+      <div className="max-w-md mx-auto w-full px-4 pb-4">
+        <label className="flex items-center gap-2 cursor-pointer">
+          <input
+            type="checkbox"
+            checked={transparentBg}
+            onChange={(e) => setTransparentBg(e.target.checked)}
+            className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+          />
+          <span className="text-sm font-medium text-gray-600">
+            Transparent background
+          </span>
+        </label>
       </div>
 
       {/* Three-column layout */}
