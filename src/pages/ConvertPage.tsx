@@ -1,4 +1,5 @@
 import { useState, useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useConvert } from '@sudobility/svgr_client';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import ImageUploadPanel from '../components/ImageUploadPanel';
@@ -6,6 +7,7 @@ import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
 
 export default function ConvertPage() {
+  const { t } = useTranslation();
   const client = useSvgrClient();
   const convertMutation = useConvert(client);
 
@@ -59,28 +61,30 @@ export default function ConvertPage() {
               setSvgResult(response.data.svg);
             } else {
               setError(
-                (response as { error?: string }).error || 'Conversion failed',
+                (response as { error?: string }).error || t('conversionFailed'),
               );
             }
           },
           onError: (err) => {
             setError(
-              err instanceof Error ? err.message : 'Conversion failed',
+              err instanceof Error ? err.message : t('conversionFailed'),
             );
           },
         },
       );
     };
     reader.readAsDataURL(file);
-  }, [file, convertMutation, quality, transparentBg]);
+  }, [file, convertMutation, quality, transparentBg, t]);
 
   return (
     <main className="flex-1 flex flex-col">
       {/* Header */}
       <div className="text-center py-8 px-4">
-        <h1 className="text-3xl font-bold text-gray-900">SVGR</h1>
-        <p className="mt-2 text-gray-500 text-sm">
-          Convert raster images to scalable vector graphics
+        <p className="text-gray-500 text-sm">
+          {t('subtitle')}
+        </p>
+        <p className="mt-3 text-gray-400 text-xs max-w-xl mx-auto">
+          {t('description')}
         </p>
       </div>
 
@@ -88,7 +92,7 @@ export default function ConvertPage() {
       <div className="max-w-md mx-auto w-full px-4 pb-4">
         <div className="flex items-center gap-3">
           <label className="text-sm font-medium text-gray-600 whitespace-nowrap">
-            Quality
+            {t('quality')}
           </label>
           <input
             type="range"
@@ -103,8 +107,8 @@ export default function ConvertPage() {
           </span>
         </div>
         <div className="flex justify-between text-xs text-gray-400 mt-1 px-1">
-          <span>Smaller file</span>
-          <span>Higher fidelity</span>
+          <span>{t('qualityMin')}</span>
+          <span>{t('qualityMax')}</span>
         </div>
       </div>
 
@@ -118,7 +122,7 @@ export default function ConvertPage() {
             className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
           />
           <span className="text-sm font-medium text-gray-600">
-            Transparent background
+            {t('transparentBg')}
           </span>
         </label>
       </div>

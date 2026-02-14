@@ -1,4 +1,5 @@
 import { useCallback } from 'react';
+import { useTranslation } from 'react-i18next';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 
@@ -15,6 +16,8 @@ export default function SvgPreviewPanel({
   svg,
   filename,
 }: SvgPreviewPanelProps) {
+  const { t } = useTranslation();
+
   const handleDownloadSvg = useCallback(() => {
     if (!svg) return;
     const blob = new Blob([svg], { type: 'image/svg+xml' });
@@ -83,7 +86,7 @@ export default function SvgPreviewPanel({
   return (
     <div className="flex flex-col h-full">
       <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
-        Converted SVG
+        {t('convertedSvg')}
       </h3>
 
       {svgDataUri ? (
@@ -91,7 +94,7 @@ export default function SvgPreviewPanel({
           <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
             <img
               src={svgDataUri}
-              alt="Converted SVG"
+              alt={t('convertedSvg')}
               className="max-w-full max-h-full object-contain"
             />
           </div>
@@ -122,7 +125,7 @@ export default function SvgPreviewPanel({
       ) : (
         <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
           <p className="text-sm text-gray-400">
-            Converted SVG will appear here
+            {t('svgPlaceholder')}
           </p>
         </div>
       )}

@@ -1,3 +1,5 @@
+import { useTranslation } from 'react-i18next';
+
 interface ConvertButtonProps {
   disabled: boolean;
   loading: boolean;
@@ -9,6 +11,8 @@ export default function ConvertButton({
   loading,
   onClick,
 }: ConvertButtonProps) {
+  const { t } = useTranslation();
+
   return (
     <div className="flex items-center justify-center">
       <button
@@ -41,7 +45,7 @@ export default function ConvertButton({
                 d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
               />
             </svg>
-            Converting...
+            {t('converting')}
           </>
         ) : (
           <>
@@ -58,7 +62,7 @@ export default function ConvertButton({
                 d="M13 7l5 5m0 0l-5 5m5-5H6"
               />
             </svg>
-            Convert to SVG
+            {t('convertToSvg')}
           </>
         )}
       </button>

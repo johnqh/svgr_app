@@ -1,4 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 interface ImageUploadPanelProps {
   file: File | null;
@@ -15,6 +16,7 @@ export default function ImageUploadPanel({
   onFileSelect,
   onClear,
 }: ImageUploadPanelProps) {
+  const { t } = useTranslation();
   const inputRef = useRef<HTMLInputElement>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -23,12 +25,12 @@ export default function ImageUploadPanel({
     (f: File) => {
       setError(null);
       if (!f.type.startsWith('image/')) {
-        setError('Please select an image file (PNG, JPG, WEBP, BMP, GIF)');
+        setError(t('invalidFileType'));
         return;
       }
       onFileSelect(f);
     },
-    [onFileSelect],
+    [onFileSelect, t],
   );
 
   const handleDrop = useCallback(
@@ -66,7 +68,7 @@ export default function ImageUploadPanel({
   return (
     <div className="flex flex-col h-full">
       <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
-        Original Image
+        {t('originalImage')}
       </h3>
 
       {previewUrl && file ? (
@@ -94,7 +96,7 @@ export default function ImageUploadPanel({
               onClick={onClear}
               className="text-sm text-red-500 hover:text-red-700 font-medium"
             >
-              Clear
+              {t('clear')}
             </button>
           </div>
         </div>
@@ -125,10 +127,10 @@ export default function ImageUploadPanel({
             />
           </svg>
           <p className="text-sm text-gray-600 font-medium">
-            Drop an image here or click to upload
+            {t('dropOrClick')}
           </p>
           <p className="text-xs text-gray-400 mt-1">
-            PNG, JPG, WEBP, BMP, GIF
+            {t('supportedFormats')}
           </p>
         </div>
       )}
