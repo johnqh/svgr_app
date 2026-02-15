@@ -25,6 +25,7 @@ PROJECTS=(
     "../svgr_types:60"
     "../svgr_api:0"
     "../svgr_client:60"
+    "../svgr_lib:60"
     "../svgr_app:0"
 )
 
