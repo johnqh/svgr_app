@@ -90,15 +90,18 @@ export default function ConvertPage() {
           {t('description')}
         </p>
         {!user && (
-          <p className="mt-3 text-orange-600 text-sm">
+          <div className="mt-4">
             <button
               type="button"
               onClick={() => navigate(`/${lang || 'en'}/login`)}
-              className="underline hover:text-orange-700 cursor-pointer"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all cursor-pointer"
             >
               {t('loginForFree')}
+              <span className="bg-white text-orange-600 text-xs font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wide">
+                {t('free', 'FREE')}
+              </span>
             </button>
-          </p>
+          </div>
         )}
       </div>
 
