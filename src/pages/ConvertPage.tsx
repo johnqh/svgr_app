@@ -2,10 +2,9 @@ import { useState, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useAuthStatus } from '@sudobility/auth-components';
-import { useConvert } from '@sudobility/svgr_client';
+import { useImageConverter, APP_NAME, APP_DOMAIN, QUALITY_MIN, QUALITY_MAX } from '@sudobility/svgr_lib';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import SEO from '../components/seo/SEO';
-import { APP_NAME, APP_DOMAIN } from '../config/constants';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
@@ -16,72 +15,47 @@ export default function ConvertPage() {
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
   const client = useSvgrClient();
-  const convertMutation = useConvert(client);
+  const converter = useImageConverter(client);
 
   const [file, setFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
-  const [svgResult, setSvgResult] = useState<string | null>(null);
   const [imageDimensions, setImageDimensions] = useState<{
     width: number;
     height: number;
   } | null>(null);
-  const [quality, setQuality] = useState(5);
-  const [transparentBg, setTransparentBg] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   const handleFileSelect = useCallback((f: File) => {
     setFile(f);
     const url = URL.createObjectURL(f);
     setPreviewUrl(url);
-    setSvgResult(null);
     setImageDimensions(null);
-    setError(null);
+    converter.reset();
 
     const img = new Image();
     img.onload = () => {
       setImageDimensions({ width: img.naturalWidth, height: img.naturalHeight });
     };
     img.src = url;
-  }, []);
+  }, [converter]);
 
   const handleClear = useCallback(() => {
     if (previewUrl) URL.revokeObjectURL(previewUrl);
     setFile(null);
     setPreviewUrl(null);
-    setSvgResult(null);
     setImageDimensions(null);
-    setError(null);
-  }, [previewUrl]);
+    converter.reset();
+  }, [previewUrl, converter]);
 
   const handleConvert = useCallback(async () => {
     if (!file) return;
-    setError(null);
 
     const reader = new FileReader();
     reader.onload = () => {
       const base64 = (reader.result as string).split(',')[1];
-      convertMutation.mutate(
-        { original: base64, filename: file.name, quality, transparentBg },
-        {
-          onSuccess: (response) => {
-            if (response.success && response.data) {
-              setSvgResult(response.data.svg);
-            } else {
-              setError(
-                (response as { error?: string }).error || t('conversionFailed'),
-              );
-            }
-          },
-          onError: (err) => {
-            setError(
-              err instanceof Error ? err.message : t('conversionFailed'),
-            );
-          },
-        },
-      );
+      converter.convert(base64, file.name);
     };
     reader.readAsDataURL(file);
-  }, [file, convertMutation, quality, transparentBg, t]);
+  }, [file, converter]);
 
   return (
     <main className="flex-1 flex flex-col">
@@ -136,14 +110,14 @@ export default function ConvertPage() {
           </label>
           <input
             type="range"
-            min={1}
-            max={10}
-            value={quality}
-            onChange={(e) => setQuality(Number(e.target.value))}
+            min={QUALITY_MIN}
+            max={QUALITY_MAX}
+            value={converter.quality}
+            onChange={(e) => converter.setQuality(Number(e.target.value))}
             className="flex-1"
           />
           <span className="text-sm text-gray-500 w-16 text-right">
-            {quality} / 10
+            {converter.quality} / {QUALITY_MAX}
           </span>
         </div>
         <div className="flex justify-between text-xs text-gray-400 mt-1 px-1">
@@ -157,8 +131,8 @@ export default function ConvertPage() {
         <label className="flex items-center gap-2 cursor-pointer">
           <input
             type="checkbox"
-            checked={transparentBg}
-            onChange={(e) => setTransparentBg(e.target.checked)}
+            checked={converter.transparentBg}
+            onChange={(e) => converter.setTransparentBg(e.target.checked)}
             className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
           />
           <span className="text-sm font-medium text-gray-600">
@@ -179,21 +153,21 @@ export default function ConvertPage() {
 
         <ConvertButton
           disabled={!file}
-          loading={convertMutation.isPending}
+          loading={converter.isConverting}
           onClick={handleConvert}
         />
 
         <SvgPreviewPanel
-          svg={svgResult}
+          svg={converter.svgResult}
           filename={file?.name}
         />
       </div>
 
       {/* Error display */}
-      {error && (
+      {converter.error && (
         <div className="max-w-6xl mx-auto px-4 pb-4">
           <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-700">
-            {error}
+            {converter.error}
           </div>
         </div>
       )}

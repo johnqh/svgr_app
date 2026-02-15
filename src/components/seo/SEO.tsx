@@ -1,6 +1,6 @@
 import { SEO as SeoLibSEO } from "@sudobility/seo_lib";
 import { useTranslation } from "react-i18next";
-import { supportedLanguages } from "../../i18n";
+import { SUPPORTED_LANGUAGE_CODES, LANGUAGE_HREFLANG_MAP } from "@sudobility/svgr_lib";
 import { seoConfig } from "../../config/seo-config";
 
 interface SEOProps {
@@ -13,25 +13,6 @@ interface SEOProps {
   noIndex?: boolean;
   structuredData?: object | object[];
 }
-
-const LANGUAGE_HREFLANG_MAP: Record<string, string> = {
-  en: "en",
-  ar: "ar",
-  de: "de",
-  es: "es",
-  fr: "fr",
-  it: "it",
-  ja: "ja",
-  ko: "ko",
-  pt: "pt",
-  ru: "ru",
-  sv: "sv",
-  th: "th",
-  uk: "uk",
-  vi: "vi",
-  zh: "zh-Hans",
-  "zh-hant": "zh-Hant",
-};
 
 export default function SEO({
   title,
@@ -60,7 +41,7 @@ export default function SEO({
   if (canonical) {
     const normalizedPath =
       canonical === "/" ? "" : canonical.replace(/\/$/, "");
-    supportedLanguages.forEach((lang) => {
+    SUPPORTED_LANGUAGE_CODES.forEach((lang) => {
       hreflangLinks.push({
         rel: "alternate",
         hrefLang: LANGUAGE_HREFLANG_MAP[lang] || lang,
@@ -86,7 +67,7 @@ export default function SEO({
       content: currentLang === "en" ? "en_US" : currentLang,
     },
   ];
-  supportedLanguages
+  SUPPORTED_LANGUAGE_CODES
     .filter((lang) => lang !== currentLang)
     .forEach((lang) => {
       additionalMeta.push({

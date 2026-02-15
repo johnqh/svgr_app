@@ -11,6 +11,7 @@ export default defineConfig({
       'react-helmet-async',
       '@sudobility/components',
       '@sudobility/building_blocks',
+      '@sudobility/svgr_client',
     ],
     alias: {
       react: resolve(__dirname, 'node_modules/react'),
@@ -18,6 +19,10 @@ export default defineConfig({
       'react-helmet-async': resolve(
         __dirname,
         'node_modules/react-helmet-async',
+      ),
+      '@sudobility/svgr_client': resolve(
+        __dirname,
+        'node_modules/@sudobility/svgr_client',
       ),
     },
   },

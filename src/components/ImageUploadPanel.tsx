@@ -1,5 +1,6 @@
 import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { isValidImageType } from '@sudobility/svgr_lib';
 
 interface ImageUploadPanelProps {
   file: File | null;
@@ -24,7 +25,7 @@ export default function ImageUploadPanel({
   const validateAndSelect = useCallback(
     (f: File) => {
       setError(null);
-      if (!f.type.startsWith('image/')) {
+      if (!isValidImageType(f.type)) {
         setError(t('invalidFileType'));
         return;
       }

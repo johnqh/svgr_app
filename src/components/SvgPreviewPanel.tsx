@@ -2,14 +2,11 @@ import { useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
+import { getBaseName, getSvgDimensions, getSvgFileSizeKB } from '@sudobility/svgr_lib';
 
 interface SvgPreviewPanelProps {
   svg: string | null;
   filename?: string;
-}
-
-function getBaseName(filename?: string): string {
-  return filename ? filename.replace(/\.[^.]+$/, '') : 'converted';
 }
 
 export default function SvgPreviewPanel({
@@ -32,28 +29,11 @@ export default function SvgPreviewPanel({
   const handleDownloadPdf = useCallback(async () => {
     if (!svg) return;
 
+    const { width, height } = getSvgDimensions(svg);
+
     const parser = new DOMParser();
     const svgDoc = parser.parseFromString(svg, 'image/svg+xml');
     const svgElement = svgDoc.documentElement;
-
-    let width = parseFloat(svgElement.getAttribute('width') || '0');
-    let height = parseFloat(svgElement.getAttribute('height') || '0');
-
-    if (width === 0 || height === 0) {
-      const viewBox = svgElement.getAttribute('viewBox');
-      if (viewBox) {
-        const parts = viewBox.split(/[\s,]+/).map(Number);
-        if (parts.length === 4) {
-          width = parts[2];
-          height = parts[3];
-        }
-      }
-    }
-
-    if (width === 0 || height === 0) {
-      width = 800;
-      height = 600;
-    }
 
     const orientation = width >= height ? 'landscape' : 'portrait';
     const doc = new jsPDF({ orientation, unit: 'px', format: [width, height] });
@@ -101,7 +81,7 @@ export default function SvgPreviewPanel({
           <div className="mt-3 flex items-center justify-between">
             {svg && (
               <span className="text-sm text-gray-500">
-                {(new Blob([svg]).size / 1024).toFixed(1)} KB
+                {getSvgFileSizeKB(svg)} KB
               </span>
             )}
             <div className="flex items-center gap-3">

@@ -2,25 +2,9 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
+import { SUPPORTED_LANGUAGE_CODES, DEFAULT_LANGUAGE, I18N_NAMESPACES, DEFAULT_NAMESPACE } from '@sudobility/svgr_lib';
 
-export const supportedLanguages = [
-  'en',
-  'zh',
-  'zh-hant',
-  'ja',
-  'ko',
-  'es',
-  'fr',
-  'de',
-  'it',
-  'pt',
-  'ru',
-  'ar',
-  'sv',
-  'th',
-  'uk',
-  'vi',
-] as const;
+export const supportedLanguages = SUPPORTED_LANGUAGE_CODES;
 
 export type SupportedLanguage = (typeof supportedLanguages)[number];
 
@@ -29,10 +13,10 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: DEFAULT_LANGUAGE,
     supportedLngs: supportedLanguages,
-    ns: ['svgr', 'auth'],
-    defaultNS: 'svgr',
+    ns: [...I18N_NAMESPACES],
+    defaultNS: DEFAULT_NAMESPACE,
     load: 'currentOnly',
     lowerCaseLng: true,
     cleanCode: false,
