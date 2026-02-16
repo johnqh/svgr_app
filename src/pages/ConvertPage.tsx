@@ -105,59 +105,14 @@ export default function ConvertPage() {
         )}
       </div>
 
-      {/* Quality slider */}
-      <div className="max-w-md mx-auto w-full px-4 pb-4">
-        <div className="flex items-center gap-3">
-          <label className="text-sm font-medium text-gray-600 whitespace-nowrap">
-            {t('quality')}
-          </label>
-          <input
-            type="range"
-            min={QUALITY_MIN}
-            max={QUALITY_MAX}
-            value={converter.quality}
-            onChange={(e) => converter.setQuality(Number(e.target.value))}
-            className="flex-1"
-          />
-          <span className="text-sm text-gray-500 w-16 text-right">
-            {converter.quality} / {QUALITY_MAX}
-          </span>
-        </div>
-        <div className="flex justify-between text-xs text-gray-400 mt-1 px-1">
-          <span>{t('qualityMin')}</span>
-          <span>{t('qualityMax')}</span>
-        </div>
-      </div>
-
-      {/* Transparent background toggle */}
-      <div className="max-w-md mx-auto w-full px-4 pb-4">
-        <label className="flex items-center gap-2 cursor-pointer">
-          <input
-            type="checkbox"
-            checked={converter.transparentBg}
-            onChange={(e) => converter.setTransparentBg(e.target.checked)}
-            className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-          />
-          <span className="text-sm font-medium text-gray-600">
-            {t('transparentBg')}
-          </span>
-        </label>
-      </div>
-
-      {/* Three-column layout */}
-      <div className="flex-1 max-w-6xl w-full mx-auto px-4 pb-8 grid grid-cols-1 md:grid-cols-[1fr_auto_1fr] gap-6 items-stretch min-h-[400px]">
+      {/* Two-column panels */}
+      <div className="flex-1 max-w-6xl w-full mx-auto px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch min-h-[400px]">
         <ImageUploadPanel
           file={file}
           previewUrl={previewUrl}
           imageDimensions={imageDimensions}
           onFileSelect={handleFileSelect}
           onClear={handleClear}
-        />
-
-        <ConvertButton
-          disabled={!file}
-          loading={converter.isConverting}
-          onClick={handleConvert}
         />
 
         <SvgPreviewPanel
@@ -168,12 +123,57 @@ export default function ConvertPage() {
 
       {/* Error display */}
       {converter.error && (
-        <div className="max-w-6xl mx-auto px-4 pb-4">
+        <div className="max-w-6xl mx-auto px-4 pb-2">
           <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-700">
             {converter.error}
           </div>
         </div>
       )}
+
+      {/* Controls bar */}
+      <div className="border-t border-gray-200 bg-gray-50 px-4 py-3">
+        <div className="max-w-6xl mx-auto flex items-center gap-6">
+          {/* Quality slider */}
+          <div className="flex-1 flex items-center gap-3">
+            <label className="text-sm font-medium text-gray-600 whitespace-nowrap">
+              {t('quality')}
+            </label>
+            <span className="text-xs text-gray-400">{t('qualityMin')}</span>
+            <input
+              type="range"
+              min={QUALITY_MIN}
+              max={QUALITY_MAX}
+              value={converter.quality}
+              onChange={(e) => converter.setQuality(Number(e.target.value))}
+              className="flex-1"
+            />
+            <span className="text-xs text-gray-400">{t('qualityMax')}</span>
+            <span className="text-sm text-gray-500 w-12 text-right">
+              {converter.quality}/{QUALITY_MAX}
+            </span>
+          </div>
+
+          {/* Transparent background toggle */}
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={converter.transparentBg}
+              onChange={(e) => converter.setTransparentBg(e.target.checked)}
+              className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-sm font-medium text-gray-600 whitespace-nowrap">
+              {t('transparentBg')}
+            </span>
+          </label>
+
+          {/* Convert button */}
+          <ConvertButton
+            disabled={!file}
+            loading={converter.isConverting}
+            onClick={handleConvert}
+          />
+        </div>
+      </div>
     </main>
   );
 }

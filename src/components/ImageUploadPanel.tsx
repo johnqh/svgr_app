@@ -72,34 +72,29 @@ export default function ImageUploadPanel({
         {t('originalImage')}
       </h3>
 
+      {/* Image area — flex-1, matches SvgPreviewPanel */}
       {previewUrl && file ? (
-        <div className="flex-1 flex flex-col">
-          <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
-            <img
-              src={previewUrl}
-              alt="Preview"
-              className="max-w-full max-h-full object-contain"
-            />
+        <div className="relative flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
+          <img
+            src={previewUrl}
+            alt="Preview"
+            className="max-w-full max-h-full object-contain"
+          />
+          {/* Info badge overlay */}
+          <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
+            <span className="text-xs text-white font-medium">
+              {imageDimensions && `${imageDimensions.width}x${imageDimensions.height}`}
+              {imageDimensions && file && ' · '}
+              {(file.size / 1024).toFixed(1)} KB
+            </span>
           </div>
-          <div className="mt-3 flex items-center justify-between">
-            <div className="text-sm text-gray-600 truncate">
-              <span className="font-medium">{file.name}</span>
-              <span className="text-gray-400 ml-2">
-                ({(file.size / 1024).toFixed(1)} KB)
-              </span>
-              {imageDimensions && (
-                <span className="text-gray-400 ml-2">
-                  {imageDimensions.width} x {imageDimensions.height}px
-                </span>
-              )}
-            </div>
-            <button
-              onClick={onClear}
-              className="text-sm text-red-500 hover:text-red-700 font-medium"
-            >
-              {t('clear')}
-            </button>
-          </div>
+          {/* Close button overlay */}
+          <button
+            onClick={onClear}
+            className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center bg-black/50 hover:bg-black/70 rounded-full transition-colors"
+          >
+            <span className="text-white text-sm font-semibold leading-none">✕</span>
+          </button>
         </div>
       ) : (
         <div
@@ -139,6 +134,15 @@ export default function ImageUploadPanel({
       {error && (
         <p className="mt-2 text-sm text-red-500">{error}</p>
       )}
+
+      {/* Bottom bar — fixed height, matches SvgPreviewPanel */}
+      <div className="h-10 flex items-center mt-2">
+        {file && (
+          <span className="text-sm font-medium text-gray-700 truncate">
+            {file.name}
+          </span>
+        )}
+      </div>
 
       <input
         ref={inputRef}

@@ -47,6 +47,9 @@ export default function SvgPreviewPanel({
     ? `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svg)))}`
     : null;
 
+  const dimensions = svg ? getSvgDimensions(svg) : null;
+  const fileSizeKB = svg ? getSvgFileSizeKB(svg) : null;
+
   const downloadIcon = (
     <svg
       className="w-4 h-4"
@@ -69,37 +72,21 @@ export default function SvgPreviewPanel({
         {t('convertedSvg')}
       </h3>
 
+      {/* SVG area — flex-1, matches ImageUploadPanel */}
       {svgDataUri ? (
-        <div className="flex-1 flex flex-col">
-          <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
-            <img
-              src={svgDataUri}
-              alt={t('convertedSvg')}
-              className="max-w-full max-h-full object-contain"
-            />
-          </div>
-          <div className="mt-3 flex items-center justify-between">
-            {svg && (
-              <span className="text-sm text-gray-500">
-                {getSvgFileSizeKB(svg)} KB
-              </span>
-            )}
-            <div className="flex items-center gap-3">
-              <button
-                onClick={handleDownloadSvg}
-                className="flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800"
-              >
-                {downloadIcon}
-                SVG
-              </button>
-              <button
-                onClick={handleDownloadPdf}
-                className="flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800"
-              >
-                {downloadIcon}
-                PDF
-              </button>
-            </div>
+        <div className="relative flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
+          <img
+            src={svgDataUri}
+            alt={t('convertedSvg')}
+            className="max-w-full max-h-full object-contain"
+          />
+          {/* Info badge overlay */}
+          <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
+            <span className="text-xs text-white font-medium">
+              {dimensions && `${dimensions.width}x${dimensions.height}`}
+              {dimensions && fileSizeKB && ' · '}
+              {fileSizeKB}
+            </span>
           </div>
         </div>
       ) : (
@@ -109,6 +96,28 @@ export default function SvgPreviewPanel({
           </p>
         </div>
       )}
+
+      {/* Bottom bar — fixed height, matches ImageUploadPanel */}
+      <div className="h-10 flex items-center justify-end mt-2">
+        {svg && (
+          <div className="flex items-center gap-3">
+            <button
+              onClick={handleDownloadSvg}
+              className="flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800"
+            >
+              {downloadIcon}
+              SVG
+            </button>
+            <button
+              onClick={handleDownloadPdf}
+              className="flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800"
+            >
+              {downloadIcon}
+              PDF
+            </button>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
