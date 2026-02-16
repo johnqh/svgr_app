@@ -19,6 +19,7 @@ import { AuthAction } from '@sudobility/auth-components';
 import type { ComponentType } from 'react';
 import type { AuthActionProps } from '@sudobility/building_blocks';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
+import { trackButtonClick } from './analytics';
 import { API_URL } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import ConvertPage from './pages/ConvertPage';
@@ -71,7 +72,10 @@ function LangRoutes() {
           currentLanguage={currentLang}
           onLanguageChange={handleLanguageChange}
           AuthActionComponent={AuthAction as ComponentType<AuthActionProps>}
-          onLoginClick={() => navigate(`/${currentLang}/login`)}
+          onLoginClick={() => {
+            trackButtonClick('topbar_login');
+            navigate(`/${currentLang}/login`);
+          }}
           sticky
         />
       }

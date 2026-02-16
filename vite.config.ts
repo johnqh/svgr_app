@@ -31,6 +31,12 @@ export default defineConfig({
   },
   server: {
     port: 5175,
+    fs: {
+      allow: [
+        __dirname,
+        resolve(__dirname, '../svgr_client'),
+      ],
+    },
   },
   build: {
     outDir: 'dist',

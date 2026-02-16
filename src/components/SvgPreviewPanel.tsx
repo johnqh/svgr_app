@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 import { getBaseName, getSvgDimensions, getSvgFileSizeKB } from '@sudobility/svgr_lib';
+import { trackButtonClick } from '../analytics';
 
 interface SvgPreviewPanelProps {
   svg: string | null;
@@ -17,6 +18,7 @@ export default function SvgPreviewPanel({
 
   const handleDownloadSvg = useCallback(() => {
     if (!svg) return;
+    trackButtonClick('download_svg');
     const blob = new Blob([svg], { type: 'image/svg+xml' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -28,6 +30,7 @@ export default function SvgPreviewPanel({
 
   const handleDownloadPdf = useCallback(async () => {
     if (!svg) return;
+    trackButtonClick('download_pdf');
 
     const { width, height } = getSvgDimensions(svg);
 

@@ -1,9 +1,8 @@
 import { useState, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useNavigate, useParams } from 'react-router-dom';
-import { useAuthStatus } from '@sudobility/auth-components';
 import { useImageConverter, APP_NAME, APP_DOMAIN, QUALITY_MIN, QUALITY_MAX } from '@sudobility/svgr_lib';
 import { useSvgrClient } from '../hooks/useSvgrClient';
+import { trackButtonClick } from '../analytics';
 import SEO from '../components/seo/SEO';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
@@ -11,9 +10,6 @@ import SvgPreviewPanel from '../components/SvgPreviewPanel';
 
 export default function ConvertPage() {
   const { t } = useTranslation();
-  const { user } = useAuthStatus();
-  const navigate = useNavigate();
-  const { lang } = useParams<{ lang: string }>();
   const client = useSvgrClient();
   const converter = useImageConverter(client);
 
@@ -48,6 +44,7 @@ export default function ConvertPage() {
 
   const handleConvert = useCallback(async () => {
     if (!file) return;
+    trackButtonClick('convert_to_svg', { file_type: file.type, file_size: file.size });
 
     const reader = new FileReader();
     reader.onload = () => {
@@ -89,20 +86,6 @@ export default function ConvertPage() {
         <p className="mt-3 text-gray-400 text-xs max-w-xl mx-auto">
           {t('description')}
         </p>
-        {!user && (
-          <div className="mt-4">
-            <button
-              type="button"
-              onClick={() => navigate(`/${lang || 'en'}/login`)}
-              className="inline-flex items-center gap-2 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white text-lg font-semibold rounded-full shadow-lg hover:shadow-xl transition-all cursor-pointer"
-            >
-              {t('loginForFree')}
-              <span className="bg-white text-orange-600 text-xs font-extrabold px-2 py-0.5 rounded-full uppercase tracking-wide">
-                {t('free', 'FREE')}
-              </span>
-            </button>
-          </div>
-        )}
       </div>
 
       {/* Two-column panels */}

@@ -1,6 +1,7 @@
 import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { isValidImageType } from '@sudobility/svgr_lib';
+import { trackButtonClick } from '../analytics';
 
 interface ImageUploadPanelProps {
   file: File | null;
@@ -29,6 +30,7 @@ export default function ImageUploadPanel({
         setError(t('invalidFileType'));
         return;
       }
+      trackButtonClick('image_upload', { file_type: f.type, file_size: f.size });
       onFileSelect(f);
     },
     [onFileSelect, t],
@@ -90,7 +92,10 @@ export default function ImageUploadPanel({
           </div>
           {/* Close button overlay */}
           <button
-            onClick={onClear}
+            onClick={() => {
+              trackButtonClick('clear_image');
+              onClear();
+            }}
             className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center bg-black/50 hover:bg-black/70 rounded-full transition-colors"
           >
             <span className="text-white text-sm font-semibold leading-none">✕</span>
