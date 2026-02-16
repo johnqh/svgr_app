@@ -27,6 +27,7 @@ PROJECTS=(
     "../svgr_client:60"
     "../svgr_lib:60"
     "../svgr_app:0"
+    "../svgr_app_rn:0"
 )
 
 # Download reusable script from GitHub
