@@ -92,6 +92,9 @@ function LangRoutes() {
       }
       maxWidth="7xl"
       background="default"
+      className="h-dvh min-h-0"
+      mainClassName="flex flex-col"
+      contentClassName="flex-1 flex flex-col min-h-0"
     >
       <Routes>
         <Route index element={<ConvertPage />} />

@@ -69,14 +69,14 @@ export default function ImageUploadPanel({
   );
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col">
       <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
         {t('originalImage')}
       </h3>
 
-      {/* Image area — flex-1, matches SvgPreviewPanel */}
+      {/* Image area — fixed 4:3 aspect ratio, matches SvgPreviewPanel */}
       {previewUrl && file ? (
-        <div className="relative flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
+        <div className="relative aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
           <img
             src={previewUrl}
             alt="Preview"
@@ -108,7 +108,7 @@ export default function ImageUploadPanel({
           onDragOver={handleDragOver}
           onDragEnter={handleDragOver}
           onDragLeave={handleDragLeave}
-          className={`flex-1 flex flex-col items-center justify-center rounded-lg border-2 border-dashed cursor-pointer transition-colors ${
+          className={`aspect-[4/3] flex flex-col items-center justify-center rounded-lg border-2 border-dashed cursor-pointer transition-colors ${
             isDragging
               ? 'border-blue-400 bg-blue-50'
               : 'border-gray-300 hover:border-gray-400 bg-gray-50'

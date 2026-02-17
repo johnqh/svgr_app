@@ -14,11 +14,11 @@ export default function ConvertButton({
   const { t } = useTranslation();
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="w-full">
       <button
         onClick={onClick}
         disabled={disabled || loading}
-        className={`flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm transition-all ${
+        className={`w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm transition-all ${
           disabled || loading
             ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
             : 'bg-blue-600 text-white hover:bg-blue-700 active:bg-blue-800 shadow-md hover:shadow-lg'

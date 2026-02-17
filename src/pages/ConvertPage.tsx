@@ -75,8 +75,8 @@ export default function ConvertPage() {
           },
         }}
       />
-      {/* Header */}
-      <div className="text-center py-8 px-4">
+      {/* Header — hidden on mobile to save space */}
+      <div className="hidden md:block text-center py-8 px-4">
         <p className="text-gray-500 text-sm">
           {t('subtitle')}
         </p>
@@ -89,7 +89,7 @@ export default function ConvertPage() {
       </div>
 
       {/* Two-column panels */}
-      <div className="flex-1 max-w-6xl w-full mx-auto px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch min-h-[400px]">
+      <div className="max-w-6xl w-full mx-auto px-4 pb-4 grid grid-cols-1 md:grid-cols-2 gap-6">
         <ImageUploadPanel
           file={file}
           previewUrl={previewUrl}
@@ -113,11 +113,11 @@ export default function ConvertPage() {
         </div>
       )}
 
-      {/* Controls bar */}
-      <div className="border-t border-gray-200 bg-gray-50 px-4 py-3">
-        <div className="max-w-6xl mx-auto flex items-center gap-6">
+      {/* Controls bar — always at bottom, sticky when scrolling */}
+      <div className="mt-auto sticky bottom-0 z-10 border-t border-gray-200 bg-gray-50 px-4 py-3">
+        <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-x-6 gap-y-3">
           {/* Quality slider */}
-          <div className="flex-1 flex items-center gap-3">
+          <div className="w-full md:w-auto md:flex-1 flex items-center gap-3">
             <label className="text-sm font-medium text-gray-600 whitespace-nowrap">
               {t('quality')}
             </label>
@@ -149,12 +149,14 @@ export default function ConvertPage() {
             </span>
           </label>
 
-          {/* Convert button */}
-          <ConvertButton
-            disabled={!file}
-            loading={converter.isConverting}
-            onClick={handleConvert}
-          />
+          {/* Convert button — full width row */}
+          <div className="w-full">
+            <ConvertButton
+              disabled={!file}
+              loading={converter.isConverting}
+              onClick={handleConvert}
+            />
+          </div>
         </div>
       </div>
     </main>

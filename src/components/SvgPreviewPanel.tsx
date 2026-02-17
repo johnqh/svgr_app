@@ -70,14 +70,14 @@ export default function SvgPreviewPanel({
   );
 
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col">
       <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
         {t('convertedSvg')}
       </h3>
 
-      {/* SVG area — flex-1, matches ImageUploadPanel */}
+      {/* SVG area — fixed 4:3 aspect ratio, matches ImageUploadPanel */}
       {svgDataUri ? (
-        <div className="relative flex-1 flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
+        <div className="relative aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
           <img
             src={svgDataUri}
             alt={t('convertedSvg')}
@@ -93,7 +93,7 @@ export default function SvgPreviewPanel({
           </div>
         </div>
       ) : (
-        <div className="flex-1 flex items-center justify-center bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
+        <div className="aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
           <p className="text-sm text-gray-400">
             {t('svgPlaceholder')}
           </p>
