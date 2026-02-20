@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.14",
+  "version": "1.0.15",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -78,6 +78,6 @@
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.46.4",
     "vite": "^6.0.0",
-    "vitest": "^1.0.0"
+    "vitest": "^4.0.0"
   }
 }
