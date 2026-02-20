@@ -16,6 +16,8 @@ import {
   AppFooter,
 } from '@sudobility/building_blocks';
 import { AuthAction } from '@sudobility/auth-components';
+import { CreditBalanceBadge } from '@sudobility/consumables_pages';
+import { useBalance } from '@sudobility/consumables_client';
 import type { ComponentType } from 'react';
 import type { AuthActionProps } from '@sudobility/building_blocks';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
@@ -23,6 +25,7 @@ import { trackButtonClick } from './analytics';
 import { API_URL } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import ConvertPage from './pages/ConvertPage';
+import CreditsPage from './pages/CreditsPage';
 import LoginPage from './pages/LoginPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
@@ -34,6 +37,7 @@ function LangRoutes() {
   const { t, i18n: i18nInstance } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
+  const { balance, isLoading: balanceLoading } = useBalance();
 
   useEffect(() => {
     if (lang && supportedLanguages.includes(lang as SupportedLanguage)) {
@@ -72,6 +76,13 @@ function LangRoutes() {
           currentLanguage={currentLang}
           onLanguageChange={handleLanguageChange}
           AuthActionComponent={AuthAction as ComponentType<AuthActionProps>}
+          renderCenterSection={() => (
+            <CreditBalanceBadge
+              balance={balance}
+              isLoading={balanceLoading}
+              onClick={() => navigate(`/${currentLang}/credits`)}
+            />
+          )}
           onLoginClick={() => {
             trackButtonClick('topbar_login');
             navigate(`/${currentLang}/login`);
@@ -98,6 +109,7 @@ function LangRoutes() {
     >
       <Routes>
         <Route index element={<ConvertPage />} />
+        <Route path="credits" element={<CreditsPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />
         <Route path="terms" element={<TermsPage />} />

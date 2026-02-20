@@ -1,8 +1,15 @@
-import { useCallback } from 'react';
+import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate, useParams } from 'react-router-dom';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 import { getBaseName, getSvgDimensions, getSvgFileSizeKB } from '@sudobility/svgr_lib';
+import {
+  useBalance,
+  isConsumablesInitialized,
+  getConsumablesInstance,
+  notifyBalanceChange,
+} from '@sudobility/consumables_client';
 import { trackButtonClick } from '../analytics';
 
 interface SvgPreviewPanelProps {
@@ -15,22 +22,56 @@ export default function SvgPreviewPanel({
   filename,
 }: SvgPreviewPanelProps) {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const { lang } = useParams<{ lang: string }>();
+  const { balance } = useBalance();
+  const [insufficientCredits, setInsufficientCredits] = useState(false);
+
+  const consumeCredit = useCallback(async (downloadFilename: string) => {
+    if (!isConsumablesInitialized()) return true; // No consumables = free
+    try {
+      const instance = getConsumablesInstance();
+      const result = await instance.recordUsage(downloadFilename);
+      notifyBalanceChange();
+      return result.success;
+    } catch {
+      return true; // Allow download on error (async recording)
+    }
+  }, []);
+
+  const checkBalance = useCallback(() => {
+    // If consumables not initialized, allow download
+    if (!isConsumablesInitialized()) return true;
+    if (balance === null) return true; // Still loading, allow
+    if (balance > 0) return true;
+    setInsufficientCredits(true);
+    return false;
+  }, [balance]);
 
   const handleDownloadSvg = useCallback(() => {
     if (!svg) return;
     trackButtonClick('download_svg');
+
+    if (!checkBalance()) return;
+
+    const downloadName = `${getBaseName(filename)}.svg`;
     const blob = new Blob([svg], { type: 'image/svg+xml' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `${getBaseName(filename)}.svg`;
+    a.download = downloadName;
     a.click();
     URL.revokeObjectURL(url);
-  }, [svg, filename]);
+
+    // Record usage asynchronously
+    consumeCredit(downloadName);
+  }, [svg, filename, checkBalance, consumeCredit]);
 
   const handleDownloadPdf = useCallback(async () => {
     if (!svg) return;
     trackButtonClick('download_pdf');
+
+    if (!checkBalance()) return;
 
     const { width, height } = getSvgDimensions(svg);
 
@@ -43,8 +84,12 @@ export default function SvgPreviewPanel({
 
     await svg2pdf(svgElement, doc, { x: 0, y: 0, width, height });
 
-    doc.save(`${getBaseName(filename)}.pdf`);
-  }, [svg, filename]);
+    const downloadName = `${getBaseName(filename)}.pdf`;
+    doc.save(downloadName);
+
+    // Record usage asynchronously
+    consumeCredit(downloadName);
+  }, [svg, filename, checkBalance, consumeCredit]);
 
   const svgDataUri = svg
     ? `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svg)))}`
@@ -97,6 +142,24 @@ export default function SvgPreviewPanel({
           <p className="text-sm text-gray-400">
             {t('svgPlaceholder')}
           </p>
+        </div>
+      )}
+
+      {/* Insufficient credits notice */}
+      {insufficientCredits && (
+        <div className="mt-2 p-2 bg-yellow-50 rounded-lg border border-yellow-200 flex items-center justify-between">
+          <p className="text-xs text-yellow-800">
+            {t('credits.insufficient', 'No credits remaining')}
+          </p>
+          <button
+            onClick={() => {
+              setInsufficientCredits(false);
+              navigate(`/${lang || 'en'}/credits`);
+            }}
+            className="text-xs font-medium text-blue-600 hover:text-blue-800 ml-2"
+          >
+            {t('credits.buyMore', 'Buy Credits')}
+          </button>
         </div>
       )}
 

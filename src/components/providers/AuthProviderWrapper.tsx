@@ -1,15 +1,18 @@
-import { type ReactNode, useMemo } from "react";
+import { type ReactNode, useEffect, useMemo } from "react";
 import { useTranslation } from "react-i18next";
+import { onAuthStateChanged } from "firebase/auth";
 import { AuthProvider } from "@sudobility/auth-components";
 import {
   getFirebaseAuth,
   getFirebaseErrorMessage,
   initializeFirebaseAuth,
 } from "@sudobility/auth_lib";
+import { setConsumablesUserId } from "@sudobility/consumables_client";
 import {
   createAuthTexts,
   createAuthErrorTexts,
 } from "../../config/auth-config";
+import { initializeConsumablesService } from "../../config/consumables";
 
 interface AuthProviderWrapperProps {
   children: ReactNode;
@@ -30,6 +33,20 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
   const errorTexts = useMemo(() => createAuthErrorTexts(), []);
 
   const auth = getFirebaseAuth();
+
+  // Initialize consumables and sync user ID on auth state change
+  useEffect(() => {
+    if (!auth) return;
+
+    initializeConsumablesService(() =>
+      auth.currentUser?.getIdToken() ?? Promise.resolve(null),
+    );
+
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setConsumablesUserId(user?.uid, user?.email ?? undefined);
+    });
+    return unsubscribe;
+  }, [auth]);
 
   // If Firebase is not configured, render children without auth
   if (!auth) {
