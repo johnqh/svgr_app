@@ -22,7 +22,10 @@ BASE_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
 # Wait times are used for packages that need CI/CD to complete publishing
 # before dependent packages can fetch the new version from npm.
 PROJECTS=(
+    "../consumables_client:0"
+    "../consumables_service:0"
     "../svgr_types:60"
+    "../consumables_pages:0"
     "../svgr_api:0"
     "../svgr_client:60"
     "../svgr_lib:60"
