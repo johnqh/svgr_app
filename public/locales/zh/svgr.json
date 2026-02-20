@@ -24,7 +24,7 @@
 
   "privacyTitle": "隐私政策",
   "privacyIntroTitle": "简介",
-  "privacyIntroContent": "Sudobility Inc.（以下简称"我们"）运营 SVGR，一项位图转矢量图的图像转换服务。本隐私政策说明了当您使用我们的服务时，我们如何收集、使用和保护您的信息。",
+  "privacyIntroContent": "Sudobility Inc.（以下简称\u201C我们\u201D）运营 SVGR，一项位图转矢量图的图像转换服务。本隐私政策说明了当您使用我们的服务时，我们如何收集、使用和保护您的信息。",
   "privacyCollectTitle": "我们收集的信息",
   "privacyCollectAutoTitle": "自动收集的信息",
   "privacyCollectAutoItem1": "浏览器类型和版本",
@@ -46,7 +46,7 @@
   "privacyRightsItem2": "请求删除与您相关的任何数据",
   "privacyRightsItem3": "通过使用浏览器隐私设置或广告拦截器选择退出分析跟踪",
   "privacyChangesTitle": "政策变更",
-  "privacyChangesContent": "我们可能会不时更新本隐私政策。如有重大变更，我们将通过更新本页面顶部的"最后更新"日期来通知用户。",
+  "privacyChangesContent": "我们可能会不时更新本隐私政策。如有重大变更，我们将通过更新本页面顶部的\u201C最后更新\u201D日期来通知用户。",
   "privacyContactTitle": "联系我们",
   "privacyContactDescription": "如果您对本隐私政策有任何疑问，请与我们联系。",
   "privacyContactEmailLabel": "邮箱：",
@@ -54,9 +54,9 @@
 
   "termsTitle": "服务条款",
   "termsAcceptanceTitle": "条款接受",
-  "termsAcceptanceContent": "访问或使用由 Sudobility Inc. 运营的 SVGR（以下简称"服务"），即表示您同意受这些服务条款的约束。如果您不同意这些条款，请勿使用本服务。",
+  "termsAcceptanceContent": "访问或使用由 Sudobility Inc. 运营的 SVGR（以下简称\u201C服务\u201D），即表示您同意受这些服务条款的约束。如果您不同意这些条款，请勿使用本服务。",
   "termsServiceTitle": "服务描述",
-  "termsServiceContent": "SVGR 是一款基于网络的工具，可将位图图像（PNG、JPG、WEBP、BMP、GIF）转换为可缩放矢量图形（SVG）。本服务按"原样"提供，旨在为设计师提供进一步优化的起点。",
+  "termsServiceContent": "SVGR 是一款基于网络的工具，可将位图图像（PNG、JPG、WEBP、BMP、GIF）转换为可缩放矢量图形（SVG）。本服务按\u201C原样\u201D提供，旨在为设计师提供进一步优化的起点。",
   "termsUseTitle": "可接受的使用",
   "termsUseItem1": "您可以将本服务用于个人或商业用途",
   "termsUseItem2": "您不得上传非法、有害或侵权的内容",
@@ -67,7 +67,7 @@
   "termsUploadsTitle": "上传内容",
   "termsUploadsContent": "您上传的图片在内存中处理，转换后立即删除。我们不会存储、审查或共享您上传的内容。您全权负责确保您有权上传和转换您提交的任何图片。",
   "termsDisclaimerTitle": "免责声明",
-  "termsDisclaimerContent": "本服务按"原样"提供，不提供任何明示或暗示的担保。我们不保证转换结果完全准确或适合任何特定用途。输出的 SVG 文件是原始位图图像的近似值，可能需要进一步编辑。",
+  "termsDisclaimerContent": "本服务按\u201C原样\u201D提供，不提供任何明示或暗示的担保。我们不保证转换结果完全准确或适合任何特定用途。输出的 SVG 文件是原始位图图像的近似值，可能需要进一步编辑。",
   "termsLiabilityTitle": "责任限制",
   "termsLiabilityContent": "在法律允许的最大范围内，Sudobility Inc. 不对因您使用本服务而产生的任何间接、附带、特殊或后果性损害承担责任，包括但不限于数据丢失、利润损失或业务中断。",
   "termsTerminationTitle": "终止",
@@ -77,5 +77,81 @@
   "termsContactTitle": "联系我们",
   "termsContactDescription": "如果您对这些服务条款有任何疑问，请与我们联系。",
   "termsContactEmailLabel": "邮箱：",
-  "termsContactWebsiteLabel": "网站："
+  "termsContactWebsiteLabel": "网站：",
+
+  "navigation": {
+    "useCases": "使用场景"
+  },
+
+  "useCases": {
+    "title": "为什么使用 SVGR？",
+    "subtitle": "SVGR 将位图（PNG、JPG）转换为可缩放矢量图形（SVG）——为您节省时间和金钱。",
+
+    "aiLogos": {
+      "title": "将 AI 生成的 Logo 转换为矢量",
+      "description": "所有 AI Logo 生成器都会创建位图（PNG/JPG）。这些图片放大后会失真，在大屏幕上看起来模糊，无法在矢量设计工具中干净地编辑。要将 AI 生成的 Logo 用于专业场景——名片、横幅、周边商品或网站——您需要矢量版本。",
+      "problem": "问题",
+      "problemDescription": "AI Logo 生成器只输出位图文件。位图不可缩放，不适合高分辨率打印，且难以编辑。聘请平面设计师手动将 Logo 重新创建为矢量需要花费金钱和时间。",
+      "solution": "SVGR 如何帮助",
+      "solutionDescription": "SVGR 可以即时将您的 AI 生成 Logo 转换为 SVG 文件。即使对于复杂的设计，SVGR 也能创建出色的初稿，大幅减少手动工作——为设计师提供一个干净的起点来优化，而不是从头开始。",
+      "designersTitle": "热门 AI Logo 生成器",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "AI 驱动的 Logo 制作器，附带品牌套件。生成 Logo、名片和社交媒体素材——全部为位图格式。"
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "AI Logo 设计工具，可从关键词创建独特的 Logo。输出需要矢量化才能用于打印的 PNG 和 JPG 文件。"
+        },
+        "hatchful": {
+          "name": "Hatchful（Shopify 出品）",
+          "url": "https://hatchful.shopify.com",
+          "description": "Shopify 提供的免费 Logo 制作器。快速简便，但只导出位图——不适合缩放或专业打印。"
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "AI 驱动的 Logo 生成器，附带品牌标识套餐。生成高质量的位图 Logo，仍需转换用于矢量工作流程。"
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "涵盖 Logo、视频和样机的 AI 设计套件。Logo 输出为位图格式，需要矢量化才能用于可缩放用途。"
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "用于 Logo 和营销材料的 AI 品牌平台。生成的位图 Logo 无法在不损失质量的情况下缩放。"
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "带有 AI 生成设计选项的在线 Logo 制作器。导出位图文件——转换为 SVG 确保您的 Logo 在任何尺寸下都保持清晰。"
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "界面简洁的 AI Logo 生成器。创建 PNG 格式的专业 Logo，需要矢量化才能用于打印和大幅面用途。"
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "现代化旧有图片资源",
+      "description": "许多组织拥有旧有图片资源——Logo、图标、图表和插图——仅以位图文件形式存储。这些资源可能在多年前矢量工具还不普及时创建，或者原始源文件已随时间丢失。",
+      "problem": "问题",
+      "problemDescription": "旧有位图在调整大小时会失真，在现代高 DPI 屏幕上看起来像素化，且无法轻松编辑或重新着色。从头重新创建它们耗时且昂贵。",
+      "solution": "SVGR 如何帮助",
+      "solutionDescription": "SVGR 让您可以将旧有位图资源转换为干净的 SVG 文件。结果是一个可缩放、可编辑的矢量，在任何屏幕尺寸上都能完美显示——从移动设备到 4K 显示器和打印。"
+    },
+
+    "cta": {
+      "title": "准备好转换了吗？",
+      "subtitle": "上传您的位图，几秒钟内即可获得 SVG。",
+      "button": "开始转换"
+    }
+  }
 }

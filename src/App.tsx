@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Routes,
@@ -15,6 +15,7 @@ import {
   AppTopBarWithFirebaseAuth,
   AppFooter,
 } from '@sudobility/building_blocks';
+import type { MenuItemConfig } from '@sudobility/building_blocks';
 import { AuthAction } from '@sudobility/auth-components';
 import { CreditBalanceBadge } from '@sudobility/consumables_pages';
 import { useBalance } from '@sudobility/consumables_client';
@@ -29,6 +30,13 @@ import CreditsPage from './pages/CreditsPage';
 import LoginPage from './pages/LoginPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
+import UseCasesPage from './pages/UseCasesPage';
+
+const LightBulbIcon = ({ className }: { className?: string }) => (
+  <svg className={className} fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
+    <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+  </svg>
+);
 
 const queryClient = new QueryClient();
 
@@ -51,6 +59,18 @@ function LangRoutes() {
 
   const currentLang = (lang || i18nInstance.language || 'en') as string;
 
+  const menuItems: MenuItemConfig[] = useMemo(
+    () => [
+      {
+        id: 'use-cases',
+        label: t('navigation.useCases'),
+        icon: LightBulbIcon,
+        href: `/${currentLang}/use-cases`,
+      },
+    ],
+    [t, currentLang],
+  );
+
   const handleLanguageChange = useCallback(
     (newLang: string) => {
       if (supportedLanguages.includes(newLang as SupportedLanguage)) {
@@ -72,7 +92,7 @@ function LangRoutes() {
             appName: 'SVGR',
             onClick: () => navigate(`/${currentLang}`),
           }}
-          menuItems={[]}
+          menuItems={menuItems}
           currentLanguage={currentLang}
           onLanguageChange={handleLanguageChange}
           AuthActionComponent={AuthAction as ComponentType<AuthActionProps>}
@@ -109,6 +129,7 @@ function LangRoutes() {
     >
       <Routes>
         <Route index element={<ConvertPage />} />
+        <Route path="use-cases" element={<UseCasesPage />} />
         <Route path="credits" element={<CreditsPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />

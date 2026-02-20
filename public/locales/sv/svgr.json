@@ -77,5 +77,81 @@
   "termsContactTitle": "Kontakta oss",
   "termsContactDescription": "Om du har frågor om dessa Användarvillkor, vänligen kontakta oss.",
   "termsContactEmailLabel": "E-post:",
-  "termsContactWebsiteLabel": "Webbplats:"
+  "termsContactWebsiteLabel": "Webbplats:",
+
+  "navigation": {
+    "useCases": "Användningsfall"
+  },
+
+  "useCases": {
+    "title": "Varför använda SVGR?",
+    "subtitle": "SVGR konverterar rasterbilder (PNG, JPG) till skalbara vektorgrafik (SVG) — och sparar dig tid och pengar.",
+
+    "aiLogos": {
+      "title": "Konvertera AI-genererade logotyper till vektorer",
+      "description": "Alla AI-logotypgeneratorer skapar rasterbilder (PNG/JPG). Dessa bilder förlorar kvalitet vid skalning, ser suddiga ut på stora skärmar och kan inte redigeras rent i vektordesignverktyg. För att använda en AI-genererad logotyp professionellt — på visitkort, banderoller, merchandise eller webbplatser — behöver du en vektorversion.",
+      "problem": "Problemet",
+      "problemDescription": "AI-logotypgeneratorer producerar bara rasterfiler. Rasterbilder är inte skalbara, inte lämpliga för högupplöst utskrift och svåra att redigera. Att anlita en grafisk designer för att manuellt återskapa logotypen som vektor kostar pengar och tid.",
+      "solution": "Hur SVGR hjälper",
+      "solutionDescription": "SVGR konverterar din AI-genererade logotyp till en SVG-fil direkt. Även för komplexa designer skapar SVGR ett solitt första utkast som avsevärt minskar manuellt arbete — och ger designers en ren utgångspunkt att förfina istället för att börja från noll.",
+      "designersTitle": "Populära AI-logotypgeneratorer",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "AI-driven logotypskapare med varumärkeskit. Genererar logotyper, visitkort och sociala medier-tillgångar — allt i rasterformat."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "AI-logotypdesignverktyg som skapar unika logotyper från nyckelord. Producerar PNG- och JPG-filer som behöver vektoriseras för tryckanvändning."
+        },
+        "hatchful": {
+          "name": "Hatchful från Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Gratis logotypskapare från Shopify. Snabb och enkel, men exporterar bara rasterbilder — inte idealisk för skalning eller professionell utskrift."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "AI-driven logotypgenerator med varumärkesidentitetspaket. Producerar högkvalitativa rasterlogotyper som fortfarande behöver konverteras för vektorarbetsflöden."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "AI-designsvit som täcker logotyper, videor och mockuper. Logotyputdata är rasterbaserad och kräver vektorisering för skalbar användning."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "AI-varumärkesplattform för logotyper och marknadsföringsmaterial. Genererar rasterlogotyper som inte kan skalas utan kvalitetsförlust."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Online-logotypskapare med AI-genererade designalternativ. Exporterar rasterfiler — konvertering till SVG säkerställer att din logotyp förblir skarp i alla storlekar."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "AI-logotypgenerator med enkelt gränssnitt. Skapar professionella logotyper i PNG-format som behöver vektoriseras för tryck och storformatanvändning."
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "Modernisera äldre bildtillgångar",
+      "description": "Många organisationer har äldre bildtillgångar — logotyper, ikoner, diagram och illustrationer — lagrade enbart som rasterfiler. Dessa tillgångar kan ha skapats för år sedan när vektorverktyg var mindre tillgängliga, eller originalfilerna har gått förlorade med tiden.",
+      "problem": "Problemet",
+      "problemDescription": "Äldre rasterbilder försämras vid storleksändring, ser pixliga ut på moderna högupplösta skärmar och kan inte enkelt redigeras eller ändra färg. Att återskapa dem från grunden är tidskrävande och dyrt.",
+      "solution": "Hur SVGR hjälper",
+      "solutionDescription": "SVGR låter dig konvertera gamla rastertillgångar till rena SVG-filer. Resultatet är en skalbar, redigerbar vektor som fungerar perfekt i alla skärmstorlekar — från mobila enheter till 4K-skärmar och tryck."
+    },
+
+    "cta": {
+      "title": "Redo att konvertera?",
+      "subtitle": "Ladda upp din rasterbild och få en SVG på sekunder.",
+      "button": "Börja konvertera"
+    }
+  }
 }

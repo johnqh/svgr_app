@@ -77,5 +77,81 @@
   "termsContactTitle": "Liên hệ với chúng tôi",
   "termsContactDescription": "Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản Dịch vụ này, vui lòng liên hệ với chúng tôi.",
   "termsContactEmailLabel": "Email:",
-  "termsContactWebsiteLabel": "Website:"
+  "termsContactWebsiteLabel": "Website:",
+
+  "navigation": {
+    "useCases": "Trường hợp sử dụng"
+  },
+
+  "useCases": {
+    "title": "Tại sao sử dụng SVGR?",
+    "subtitle": "SVGR chuyển đổi hình ảnh raster (PNG, JPG) thành đồ họa vector có thể mở rộng (SVG) — giúp bạn tiết kiệm thời gian và tiền bạc.",
+
+    "aiLogos": {
+      "title": "Chuyển đổi logo tạo bởi AI sang vector",
+      "description": "Tất cả các trình tạo logo AI đều tạo ra hình ảnh raster (PNG/JPG). Những hình ảnh này mất chất lượng khi phóng to, trông mờ trên màn hình lớn và không thể chỉnh sửa gọn gàng trong các công cụ thiết kế vector. Để sử dụng logo tạo bởi AI một cách chuyên nghiệp — trên danh thiếp, biểu ngữ, hàng hóa hoặc trang web — bạn cần phiên bản vector.",
+      "problem": "Vấn đề",
+      "problemDescription": "Các trình tạo logo AI chỉ xuất file raster. Hình ảnh raster không thể mở rộng, không phù hợp cho in ấn độ phân giải cao và khó chỉnh sửa. Thuê nhà thiết kế đồ họa để tạo lại logo dưới dạng vector tốn tiền và thời gian.",
+      "solution": "SVGR giúp như thế nào",
+      "solutionDescription": "SVGR chuyển đổi logo tạo bởi AI của bạn thành file SVG ngay lập tức. Ngay cả với các thiết kế phức tạp, SVGR tạo ra bản nháp đầu tiên vững chắc giúp giảm đáng kể công việc thủ công — cho các nhà thiết kế điểm khởi đầu sạch để tinh chỉnh thay vì bắt đầu từ đầu.",
+      "designersTitle": "Các trình tạo logo AI phổ biến",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "Trình tạo logo bằng AI với bộ thương hiệu. Tạo logo, danh thiếp và tài sản mạng xã hội — tất cả ở định dạng raster."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "Công cụ thiết kế logo AI tạo logo độc đáo từ từ khóa. Xuất file PNG và JPG cần vector hóa để sử dụng trong in ấn."
+        },
+        "hatchful": {
+          "name": "Hatchful bởi Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Trình tạo logo miễn phí từ Shopify. Nhanh và dễ, nhưng chỉ xuất hình ảnh raster — không lý tưởng để mở rộng hoặc in ấn chuyên nghiệp."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "Trình tạo logo AI với gói nhận diện thương hiệu. Tạo logo raster chất lượng cao vẫn cần chuyển đổi cho quy trình làm việc vector."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "Bộ công cụ thiết kế AI bao gồm logo, video và mockup. Đầu ra logo là raster, cần vector hóa để sử dụng có thể mở rộng."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "Nền tảng xây dựng thương hiệu AI cho logo và tài liệu tiếp thị. Tạo logo raster không thể phóng to mà không mất chất lượng."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Trình tạo logo trực tuyến với tùy chọn thiết kế AI. Xuất file raster — chuyển đổi sang SVG đảm bảo logo của bạn luôn sắc nét ở mọi kích thước."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "Trình tạo logo AI với giao diện đơn giản. Tạo logo chuyên nghiệp ở định dạng PNG, cần vector hóa cho in ấn và sử dụng khổ lớn."
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "Hiện đại hóa tài sản hình ảnh cũ",
+      "description": "Nhiều tổ chức có tài sản hình ảnh cũ — logo, biểu tượng, sơ đồ và hình minh họa — chỉ được lưu dưới dạng file raster. Những tài sản này có thể đã được tạo từ nhiều năm trước khi các công cụ vector ít phổ biến hơn, hoặc file nguồn gốc đã bị mất theo thời gian.",
+      "problem": "Vấn đề",
+      "problemDescription": "Hình ảnh raster cũ bị giảm chất lượng khi thay đổi kích thước, trông bị pixel trên màn hình độ phân giải cao hiện đại và không thể dễ dàng chỉnh sửa hoặc đổi màu. Tạo lại từ đầu tốn thời gian và chi phí.",
+      "solution": "SVGR giúp như thế nào",
+      "solutionDescription": "SVGR cho phép bạn chuyển đổi tài sản raster cũ thành file SVG sạch. Kết quả là vector có thể mở rộng, chỉnh sửa được, hoạt động hoàn hảo trên mọi kích thước màn hình — từ thiết bị di động đến màn hình 4K và in ấn."
+    },
+
+    "cta": {
+      "title": "Sẵn sàng chuyển đổi?",
+      "subtitle": "Tải lên hình ảnh raster của bạn và nhận SVG trong vài giây.",
+      "button": "Bắt đầu chuyển đổi"
+    }
+  }
 }

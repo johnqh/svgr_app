@@ -77,5 +77,81 @@
   "termsContactTitle": "Nous contacter",
   "termsContactDescription": "Si vous avez des questions concernant ces Conditions d'utilisation, veuillez nous contacter.",
   "termsContactEmailLabel": "E-mail :",
-  "termsContactWebsiteLabel": "Site web :"
+  "termsContactWebsiteLabel": "Site web :",
+
+  "navigation": {
+    "useCases": "Cas d'utilisation"
+  },
+
+  "useCases": {
+    "title": "Pourquoi utiliser SVGR ?",
+    "subtitle": "SVGR convertit les images matricielles (PNG, JPG) en graphiques vectoriels évolutifs (SVG) — vous faisant gagner du temps et de l'argent.",
+
+    "aiLogos": {
+      "title": "Convertir les logos générés par IA en vecteurs",
+      "description": "Tous les générateurs de logos IA créent des images matricielles (PNG/JPG). Ces images perdent en qualité lors du redimensionnement, apparaissent floues sur les grands écrans et ne peuvent pas être éditées proprement dans les outils de design vectoriel. Pour utiliser un logo généré par IA de manière professionnelle — sur des cartes de visite, des bannières, du merchandising ou des sites web — vous avez besoin d'une version vectorielle.",
+      "problem": "Le problème",
+      "problemDescription": "Les générateurs de logos IA ne produisent que des fichiers matriciels. Les images matricielles ne sont pas évolutives, ne conviennent pas à l'impression haute résolution et sont difficiles à éditer. Engager un graphiste pour recréer manuellement le logo en vecteur coûte de l'argent et du temps.",
+      "solution": "Comment SVGR aide",
+      "solutionDescription": "SVGR convertit votre logo généré par IA en fichier SVG instantanément. Même pour les designs complexes, SVGR crée une première ébauche solide qui réduit considérablement le travail manuel — offrant aux designers un point de départ propre pour affiner plutôt que de partir de zéro.",
+      "designersTitle": "Générateurs de logos IA populaires",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "Créateur de logos alimenté par l'IA avec kit de marque. Génère des logos, cartes de visite et ressources pour les réseaux sociaux — le tout en format matriciel."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "Outil de design de logos IA qui crée des logos uniques à partir de mots-clés. Produit des fichiers PNG et JPG nécessitant une vectorisation pour l'impression."
+        },
+        "hatchful": {
+          "name": "Hatchful par Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Créateur de logos gratuit de Shopify. Rapide et facile, mais n'exporte que des images matricielles — pas idéal pour le redimensionnement ou l'impression professionnelle."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "Générateur de logos piloté par IA avec packages d'identité de marque. Produit des logos matriciels de haute qualité nécessitant encore une conversion pour les flux vectoriels."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "Suite de design IA couvrant logos, vidéos et maquettes. La sortie logo est matricielle, nécessitant une vectorisation pour une utilisation évolutive."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "Plateforme de branding IA pour logos et supports marketing. Génère des logos matriciels qui ne peuvent pas être agrandis sans perte de qualité."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Créateur de logos en ligne avec options de design générées par IA. Exporte des fichiers matriciels — la conversion en SVG garantit que votre logo reste net à toute taille."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "Générateur de logos IA avec interface simple. Crée des logos d'aspect professionnel au format PNG, nécessitant une vectorisation pour l'impression et le grand format."
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "Moderniser les anciens actifs visuels",
+      "description": "De nombreuses organisations possèdent d'anciens actifs visuels — logos, icônes, diagrammes et illustrations — stockés uniquement sous forme de fichiers matriciels. Ces actifs ont peut-être été créés il y a des années quand les outils vectoriels étaient moins accessibles, ou les fichiers sources originaux ont été perdus au fil du temps.",
+      "problem": "Le problème",
+      "problemDescription": "Les anciennes images matricielles se dégradent lors du redimensionnement, apparaissent pixelisées sur les écrans modernes haute résolution et ne peuvent pas être facilement éditées ou recolorisées. Les recréer de zéro est chronophage et coûteux.",
+      "solution": "Comment SVGR aide",
+      "solutionDescription": "SVGR vous permet de convertir d'anciens actifs matriciels en fichiers SVG propres. Le résultat est un vecteur évolutif et éditable qui fonctionne parfaitement sur toute taille d'écran — des appareils mobiles aux écrans 4K et à l'impression."
+    },
+
+    "cta": {
+      "title": "Prêt à convertir ?",
+      "subtitle": "Téléchargez votre image matricielle et obtenez un SVG en quelques secondes.",
+      "button": "Commencer la conversion"
+    }
+  }
 }

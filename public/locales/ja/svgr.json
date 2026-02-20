@@ -77,5 +77,81 @@
   "termsContactTitle": "お問い合わせ",
   "termsContactDescription": "これらの利用規約に関するご質問がございましたら、お気軽にお問い合わせください。",
   "termsContactEmailLabel": "メール：",
-  "termsContactWebsiteLabel": "ウェブサイト："
+  "termsContactWebsiteLabel": "ウェブサイト：",
+
+  "navigation": {
+    "useCases": "ユースケース"
+  },
+
+  "useCases": {
+    "title": "なぜSVGRを使うのか？",
+    "subtitle": "SVGRはラスター画像（PNG、JPG）をスケーラブルなベクターグラフィック（SVG）に変換し、時間とコストを節約します。",
+
+    "aiLogos": {
+      "title": "AI生成ロゴをベクターに変換",
+      "description": "すべてのAIロゴジェネレーターはラスター画像（PNG/JPG）を作成します。これらの画像は拡大すると品質が劣化し、大きなディスプレイではぼやけて見え、ベクターデザインツールできれいに編集できません。AI生成ロゴをプロフェッショナルに使用するには — 名刺、バナー、グッズ、ウェブサイトで — ベクター版が必要です。",
+      "problem": "問題点",
+      "problemDescription": "AIロゴジェネレーターはラスターファイルしか出力しません。ラスター画像はスケーラブルではなく、高解像度印刷に適さず、編集が困難です。グラフィックデザイナーにロゴをベクターとして手動で再作成してもらうには費用と時間がかかります。",
+      "solution": "SVGRの解決策",
+      "solutionDescription": "SVGRはAI生成ロゴを即座にSVGファイルに変換します。複雑なデザインでも、SVGRは手作業を大幅に削減する確かな初稿を作成し、デザイナーにゼロから始めるのではなく、洗練するためのクリーンな出発点を提供します。",
+      "designersTitle": "人気のAIロゴジェネレーター",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "ブランドキット付きのAI搭載ロゴメーカー。ロゴ、名刺、ソーシャルメディアアセットを生成 — すべてラスター形式で。"
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "キーワードからユニークなロゴを作成するAIロゴデザインツール。印刷用にベクター化が必要なPNGとJPGファイルを出力します。"
+        },
+        "hatchful": {
+          "name": "Hatchful by Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Shopifyの無料ロゴメーカー。迅速で簡単ですが、ラスター画像のみエクスポート — スケーリングやプロ印刷には不向きです。"
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "ブランドアイデンティティパッケージ付きのAI駆動ロゴジェネレーター。高品質なラスターロゴを生成しますが、ベクターワークフローには変換が必要です。"
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "ロゴ、動画、モックアップをカバーするAIデザインスイート。ロゴ出力はラスターベースで、スケーラブルな使用にはベクター化が必要です。"
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "ロゴとマーケティング素材のためのAIブランディングプラットフォーム。品質を損なわずにスケーリングできないラスターロゴを生成します。"
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "AI生成デザインオプション付きのオンラインロゴメーカー。ラスターファイルをエクスポート — SVGに変換することで、ロゴがどんなサイズでもクリアに保たれます。"
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "シンプルなインターフェースのAIロゴジェネレーター。PNG形式でプロフェッショナルなロゴを作成しますが、印刷や大判使用にはベクター化が必要です。"
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "レガシー画像アセットの近代化",
+      "description": "多くの組織には古い画像アセット — ロゴ、アイコン、図表、イラスト — がラスターファイルとしてのみ保存されています。これらのアセットは、ベクターツールがまだ普及していなかった数年前に作成されたか、元のソースファイルが時間の経過とともに失われた可能性があります。",
+      "problem": "問題点",
+      "problemDescription": "レガシーのラスター画像はリサイズすると劣化し、最新の高DPIスクリーンではピクセル化して見え、簡単に編集や色変更ができません。ゼロから再作成するのは時間がかかり、コストも高くなります。",
+      "solution": "SVGRの解決策",
+      "solutionDescription": "SVGRを使えば、古いラスターアセットをクリーンなSVGファイルに変換できます。結果は、モバイルデバイスから4Kディスプレイ、印刷まで、あらゆる画面サイズで完璧に機能するスケーラブルで編集可能なベクターです。"
+    },
+
+    "cta": {
+      "title": "変換する準備はできましたか？",
+      "subtitle": "ラスター画像をアップロードして、数秒でSVGを取得しましょう。",
+      "button": "変換を開始"
+    }
+  }
 }

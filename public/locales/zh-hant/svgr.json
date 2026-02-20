@@ -77,5 +77,81 @@
   "termsContactTitle": "聯絡我們",
   "termsContactDescription": "如果您對這些服務條款有任何疑問，請與我們聯絡。",
   "termsContactEmailLabel": "電子郵件：",
-  "termsContactWebsiteLabel": "網站："
+  "termsContactWebsiteLabel": "網站：",
+
+  "navigation": {
+    "useCases": "使用場景"
+  },
+
+  "useCases": {
+    "title": "為什麼使用 SVGR？",
+    "subtitle": "SVGR 將點陣圖（PNG、JPG）轉換為可縮放向量圖形（SVG）——為您節省時間和金錢。",
+
+    "aiLogos": {
+      "title": "將 AI 生成的 Logo 轉換為向量",
+      "description": "所有 AI Logo 生成器都會建立點陣圖（PNG/JPG）。這些圖片放大後會失真，在大螢幕上看起來模糊，無法在向量設計工具中乾淨地編輯。要將 AI 生成的 Logo 用於專業場景——名片、橫幅、周邊商品或網站——您需要向量版本。",
+      "problem": "問題",
+      "problemDescription": "AI Logo 生成器只輸出點陣檔案。點陣圖不可縮放，不適合高解析度列印，且難以編輯。聘請平面設計師手動將 Logo 重新建立為向量需要花費金錢和時間。",
+      "solution": "SVGR 如何幫助",
+      "solutionDescription": "SVGR 可以即時將您的 AI 生成 Logo 轉換為 SVG 檔案。即使對於複雜的設計，SVGR 也能建立出色的初稿，大幅減少手動工作——為設計師提供一個乾淨的起點來最佳化，而不是從頭開始。",
+      "designersTitle": "熱門 AI Logo 生成器",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "AI 驅動的 Logo 製作器，附帶品牌套件。生成 Logo、名片和社群媒體素材——全部為點陣格式。"
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "AI Logo 設計工具，可從關鍵字建立獨特的 Logo。輸出需要向量化才能用於列印的 PNG 和 JPG 檔案。"
+        },
+        "hatchful": {
+          "name": "Hatchful（Shopify 出品）",
+          "url": "https://hatchful.shopify.com",
+          "description": "Shopify 提供的免費 Logo 製作器。快速簡便，但只匯出點陣圖——不適合縮放或專業列印。"
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "AI 驅動的 Logo 生成器，附帶品牌識別套餐。生成高品質的點陣 Logo，仍需轉換用於向量工作流程。"
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "涵蓋 Logo、影片和模型的 AI 設計套件。Logo 輸出為點陣格式，需要向量化才能用於可縮放用途。"
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "用於 Logo 和行銷材料的 AI 品牌平台。生成的點陣 Logo 無法在不損失品質的情況下縮放。"
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "帶有 AI 生成設計選項的線上 Logo 製作器。匯出點陣檔案——轉換為 SVG 確保您的 Logo 在任何尺寸下都保持清晰。"
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "介面簡潔的 AI Logo 生成器。建立 PNG 格式的專業 Logo，需要向量化才能用於列印和大幅面用途。"
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "現代化舊有圖片資源",
+      "description": "許多組織擁有舊有圖片資源——Logo、圖示、圖表和插圖——僅以點陣檔案形式儲存。這些資源可能在多年前向量工具還不普及時建立，或者原始來源檔案已隨時間遺失。",
+      "problem": "問題",
+      "problemDescription": "舊有點陣圖在調整大小時會失真，在現代高 DPI 螢幕上看起來像素化，且無法輕鬆編輯或重新著色。從頭重新建立它們耗時且昂貴。",
+      "solution": "SVGR 如何幫助",
+      "solutionDescription": "SVGR 讓您可以將舊有點陣資源轉換為乾淨的 SVG 檔案。結果是一個可縮放、可編輯的向量，在任何螢幕尺寸上都能完美顯示——從行動裝置到 4K 顯示器和列印。"
+    },
+
+    "cta": {
+      "title": "準備好轉換了嗎？",
+      "subtitle": "上傳您的點陣圖，幾秒鐘內即可獲得 SVG。",
+      "button": "開始轉換"
+    }
+  }
 }

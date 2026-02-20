@@ -77,5 +77,81 @@
   "termsContactTitle": "Fale conosco",
   "termsContactDescription": "Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco.",
   "termsContactEmailLabel": "E-mail:",
-  "termsContactWebsiteLabel": "Site:"
+  "termsContactWebsiteLabel": "Site:",
+
+  "navigation": {
+    "useCases": "Casos de uso"
+  },
+
+  "useCases": {
+    "title": "Por que usar o SVGR?",
+    "subtitle": "O SVGR converte imagens raster (PNG, JPG) em gráficos vetoriais escaláveis (SVG) — economizando tempo e dinheiro.",
+
+    "aiLogos": {
+      "title": "Converta logos gerados por IA em vetores",
+      "description": "Todo gerador de logos com IA cria imagens raster (PNG/JPG). Essas imagens perdem qualidade ao serem ampliadas, ficam borradas em telas grandes e não podem ser editadas de forma limpa em ferramentas de design vetorial. Para usar um logo gerado por IA profissionalmente — em cartões de visita, banners, produtos ou sites — você precisa de uma versão vetorial.",
+      "problem": "O problema",
+      "problemDescription": "Geradores de logos com IA só produzem arquivos raster. Imagens raster não são escaláveis, não são adequadas para impressão de alta resolução e são difíceis de editar. Contratar um designer gráfico para recriar manualmente o logo como vetor custa dinheiro e tempo.",
+      "solution": "Como o SVGR ajuda",
+      "solutionDescription": "O SVGR converte seu logo gerado por IA em um arquivo SVG instantaneamente. Mesmo para designs complexos, o SVGR cria um primeiro rascunho sólido que reduz significativamente o trabalho manual — dando aos designers um ponto de partida limpo para refinar em vez de começar do zero.",
+      "designersTitle": "Geradores de logos com IA populares",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "Criador de logos com IA com kit de marca. Gera logos, cartões de visita e recursos para redes sociais — tudo em formato raster."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "Ferramenta de design de logos com IA que cria logos únicos a partir de palavras-chave. Produz arquivos PNG e JPG que precisam de vetorização para uso em impressão."
+        },
+        "hatchful": {
+          "name": "Hatchful do Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Criador de logos gratuito do Shopify. Rápido e fácil, mas só exporta imagens raster — não ideal para redimensionamento ou impressão profissional."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "Gerador de logos com IA com pacotes de identidade de marca. Produz logos raster de alta qualidade que ainda precisam de conversão para fluxos de trabalho vetoriais."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "Suíte de design com IA que abrange logos, vídeos e mockups. A saída de logo é raster, exigindo vetorização para uso escalável."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "Plataforma de branding com IA para logos e materiais de marketing. Gera logos raster que não podem ser ampliados sem perda de qualidade."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Criador de logos online com opções de design geradas por IA. Exporta arquivos raster — converter para SVG garante que seu logo fique nítido em qualquer tamanho."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "Gerador de logos com IA com interface simples. Cria logos de aparência profissional em formato PNG, que precisam de vetorização para impressão e uso em grande formato."
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "Modernize recursos visuais antigos",
+      "description": "Muitas organizações possuem recursos visuais antigos — logos, ícones, diagramas e ilustrações — armazenados apenas como arquivos raster. Esses recursos podem ter sido criados anos atrás quando ferramentas vetoriais eram menos acessíveis, ou os arquivos fonte originais foram perdidos com o tempo.",
+      "problem": "O problema",
+      "problemDescription": "Imagens raster antigas se degradam ao serem redimensionadas, ficam pixeladas em telas modernas de alta resolução e não podem ser facilmente editadas ou recoloridas. Recriá-las do zero é demorado e caro.",
+      "solution": "Como o SVGR ajuda",
+      "solutionDescription": "O SVGR permite converter recursos raster antigos em arquivos SVG limpos. O resultado é um vetor escalável e editável que funciona perfeitamente em qualquer tamanho de tela — de dispositivos móveis a telas 4K e impressão."
+    },
+
+    "cta": {
+      "title": "Pronto para converter?",
+      "subtitle": "Faça upload da sua imagem raster e obtenha um SVG em segundos.",
+      "button": "Começar a converter"
+    }
+  }
 }

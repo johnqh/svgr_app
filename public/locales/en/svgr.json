@@ -77,5 +77,81 @@
   "termsContactTitle": "Contact Us",
   "termsContactDescription": "If you have any questions about these Terms of Service, please contact us.",
   "termsContactEmailLabel": "Email:",
-  "termsContactWebsiteLabel": "Website:"
+  "termsContactWebsiteLabel": "Website:",
+
+  "navigation": {
+    "useCases": "Use Cases"
+  },
+
+  "useCases": {
+    "title": "Why Use SVGR?",
+    "subtitle": "SVGR converts raster images (PNG, JPG) into scalable vector graphics (SVG) — saving you time and money.",
+
+    "aiLogos": {
+      "title": "Convert AI-Generated Logos to Vector",
+      "description": "Every AI logo generator creates raster images (PNG/JPG). These images lose quality when scaled, look blurry on large displays, and can't be cleanly edited in vector design tools. To use an AI-generated logo professionally — on business cards, banners, merchandise, or websites — you need a vector version.",
+      "problem": "The Problem",
+      "problemDescription": "AI logo generators only output raster files. Raster images are not scalable, not suitable for high-resolution printing, and difficult to edit. Hiring a graphic designer to manually recreate the logo as a vector costs money and takes time.",
+      "solution": "How SVGR Helps",
+      "solutionDescription": "SVGR converts your AI-generated logo into an SVG file instantly. Even for complex designs, SVGR creates a solid first draft that significantly reduces manual work — giving designers a clean starting point to fine-tune rather than starting from scratch.",
+      "designersTitle": "Popular AI Logo Generators",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "AI-powered logo maker with brand kit. Generates logos, business cards, and social media assets — all in raster format."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "AI logo design tool that creates unique logos from keywords. Outputs PNG and JPG files that need vectorization for print use."
+        },
+        "hatchful": {
+          "name": "Hatchful by Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Free logo maker from Shopify. Quick and easy, but only exports raster images — not ideal for scaling or professional printing."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "AI-driven logo generator with brand identity packages. Produces high-quality raster logos that still need conversion for vector workflows."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "AI design suite covering logos, videos, and mockups. Logo output is raster-based, requiring vectorization for scalable use."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "AI branding platform for logos and marketing materials. Generates raster logos that can't be scaled without quality loss."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Online logo maker with AI-generated design options. Exports raster files — converting to SVG ensures your logo stays crisp at any size."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "AI logo generator with a simple interface. Creates professional-looking logos in PNG format, which need vectorization for print and large-format use."
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "Modernize Legacy Image Assets",
+      "description": "Many organizations have older image assets — logos, icons, diagrams, and illustrations — stored only as raster files. These assets may have been created years ago when vector tools were less accessible, or the original source files have been lost over time.",
+      "problem": "The Problem",
+      "problemDescription": "Legacy raster images degrade when resized, look pixelated on modern high-DPI screens, and can't be easily edited or recolored. Recreating them from scratch is time-consuming and expensive.",
+      "solution": "How SVGR Helps",
+      "solutionDescription": "SVGR lets you batch-convert old raster assets into clean SVG files. The result is a scalable, editable vector that works perfectly on any screen size — from mobile devices to 4K displays and print."
+    },
+
+    "cta": {
+      "title": "Ready to Convert?",
+      "subtitle": "Upload your raster image and get an SVG in seconds.",
+      "button": "Start Converting"
+    }
+  }
 }

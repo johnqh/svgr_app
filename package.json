@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.12",
+  "version": "1.0.13",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -28,7 +28,7 @@
     "@revenuecat/purchases-js": "^1.26.0",
     "@sudobility/auth-components": "^1.0.8",
     "@sudobility/auth_lib": "^0.0.47",
-    "@sudobility/building_blocks": "^0.0.126",
+    "@sudobility/building_blocks": "^0.0.127",
     "@sudobility/components": "^5.0.11",
     "@sudobility/consumables_client": "^0.0.3",
     "@sudobility/consumables_pages": "^0.0.3",

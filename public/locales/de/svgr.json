@@ -24,7 +24,7 @@
 
   "privacyTitle": "Datenschutzrichtlinie",
   "privacyIntroTitle": "Einleitung",
-  "privacyIntroContent": "Sudobility Inc. („wir", „uns" oder „unser") betreibt SVGR, einen Dienst zur Konvertierung von Rasterbildern in Vektorgrafiken. Diese Datenschutzrichtlinie erläutert, wie wir Ihre Informationen erfassen, verwenden und schützen, wenn Sie unseren Dienst nutzen.",
+  "privacyIntroContent": "Sudobility Inc. (\u201Ewir\u201C, \u201Euns\u201C oder \u201Eunser\u201C) betreibt SVGR, einen Dienst zur Konvertierung von Rasterbildern in Vektorgrafiken. Diese Datenschutzrichtlinie erläutert, wie wir Ihre Informationen erfassen, verwenden und schützen, wenn Sie unseren Dienst nutzen.",
   "privacyCollectTitle": "Informationen, die wir erfassen",
   "privacyCollectAutoTitle": "Automatisch erfasst",
   "privacyCollectAutoItem1": "Browsertyp und -version",
@@ -46,7 +46,7 @@
   "privacyRightsItem2": "Löschung aller mit Ihnen verbundenen Daten anfordern",
   "privacyRightsItem3": "Analyse-Tracking durch Verwendung von Browser-Datenschutzeinstellungen oder Werbeblockern deaktivieren",
   "privacyChangesTitle": "Änderungen dieser Richtlinie",
-  "privacyChangesContent": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir informieren die Benutzer über wesentliche Änderungen, indem wir das Datum „Zuletzt aktualisiert" oben auf dieser Seite aktualisieren.",
+  "privacyChangesContent": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren. Wir informieren die Benutzer über wesentliche Änderungen, indem wir das Datum \u201EZuletzt aktualisiert\u201C oben auf dieser Seite aktualisieren.",
   "privacyContactTitle": "Kontakt",
   "privacyContactDescription": "Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte.",
   "privacyContactEmailLabel": "E-Mail:",
@@ -54,9 +54,9 @@
 
   "termsTitle": "Nutzungsbedingungen",
   "termsAcceptanceTitle": "Annahme der Bedingungen",
-  "termsAcceptanceContent": "Durch den Zugriff auf oder die Nutzung von SVGR (der „Dienst"), betrieben von Sudobility Inc., erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie den Dienst bitte nicht.",
+  "termsAcceptanceContent": "Durch den Zugriff auf oder die Nutzung von SVGR (der \u201EDienst\u201C), betrieben von Sudobility Inc., erklären Sie sich mit diesen Nutzungsbedingungen einverstanden. Wenn Sie diesen Bedingungen nicht zustimmen, nutzen Sie den Dienst bitte nicht.",
   "termsServiceTitle": "Beschreibung des Dienstes",
-  "termsServiceContent": "SVGR ist ein webbasiertes Tool, das Rasterbilder (PNG, JPG, WEBP, BMP, GIF) in skalierbare Vektorgrafiken (SVG) umwandelt. Der Dienst wird „wie besehen" bereitgestellt und soll Designern einen Ausgangspunkt für die weitere Verfeinerung bieten.",
+  "termsServiceContent": "SVGR ist ein webbasiertes Tool, das Rasterbilder (PNG, JPG, WEBP, BMP, GIF) in skalierbare Vektorgrafiken (SVG) umwandelt. Der Dienst wird \u201Ewie besehen\u201C bereitgestellt und soll Designern einen Ausgangspunkt für die weitere Verfeinerung bieten.",
   "termsUseTitle": "Zulässige Nutzung",
   "termsUseItem1": "Sie dürfen den Dienst für persönliche oder kommerzielle Zwecke nutzen",
   "termsUseItem2": "Sie dürfen keine illegalen, schädlichen oder rechtsverletzenden Inhalte hochladen",
@@ -67,7 +67,7 @@
   "termsUploadsTitle": "Hochgeladene Inhalte",
   "termsUploadsContent": "Hochgeladene Bilder werden im Arbeitsspeicher verarbeitet und nach der Konvertierung sofort gelöscht. Wir speichern, überprüfen oder teilen Ihre hochgeladenen Inhalte nicht. Sie sind allein dafür verantwortlich sicherzustellen, dass Sie das Recht haben, die von Ihnen eingereichten Bilder hochzuladen und zu konvertieren.",
   "termsDisclaimerTitle": "Haftungsausschluss",
-  "termsDisclaimerContent": "Der Dienst wird „wie besehen" ohne jegliche Gewährleistung, weder ausdrücklich noch stillschweigend, bereitgestellt. Wir garantieren nicht, dass die Konvertierungsergebnisse perfekt genau oder für einen bestimmten Zweck geeignet sind. Die ausgegebenen SVG-Dateien sind Annäherungen an die ursprünglichen Rasterbilder und erfordern möglicherweise weitere Bearbeitung.",
+  "termsDisclaimerContent": "Der Dienst wird \u201Ewie besehen\u201C ohne jegliche Gewährleistung, weder ausdrücklich noch stillschweigend, bereitgestellt. Wir garantieren nicht, dass die Konvertierungsergebnisse perfekt genau oder für einen bestimmten Zweck geeignet sind. Die ausgegebenen SVG-Dateien sind Annäherungen an die ursprünglichen Rasterbilder und erfordern möglicherweise weitere Bearbeitung.",
   "termsLiabilityTitle": "Haftungsbeschränkung",
   "termsLiabilityContent": "Im größtmöglichen gesetzlich zulässigen Umfang haftet Sudobility Inc. nicht für indirekte, zufällige, besondere oder Folgeschäden, die aus Ihrer Nutzung des Dienstes entstehen, einschließlich, aber nicht beschränkt auf Datenverlust, Gewinnverlust oder Geschäftsunterbrechung.",
   "termsTerminationTitle": "Kündigung",
@@ -77,5 +77,81 @@
   "termsContactTitle": "Kontakt",
   "termsContactDescription": "Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte.",
   "termsContactEmailLabel": "E-Mail:",
-  "termsContactWebsiteLabel": "Website:"
+  "termsContactWebsiteLabel": "Website:",
+
+  "navigation": {
+    "useCases": "Anwendungsf\u00E4lle"
+  },
+
+  "useCases": {
+    "title": "Warum SVGR nutzen?",
+    "subtitle": "SVGR konvertiert Rasterbilder (PNG, JPG) in skalierbare Vektorgrafiken (SVG) \u2014 und spart Ihnen Zeit und Geld.",
+
+    "aiLogos": {
+      "title": "KI-generierte Logos in Vektoren umwandeln",
+      "description": "Jeder KI-Logo-Generator erstellt Rasterbilder (PNG/JPG). Diese Bilder verlieren beim Skalieren an Qualit\u00E4t, sehen auf gro\u00DFen Bildschirmen unscharf aus und k\u00F6nnen in Vektor-Design-Tools nicht sauber bearbeitet werden. Um ein KI-generiertes Logo professionell zu nutzen \u2014 auf Visitenkarten, Bannern, Merchandise oder Websites \u2014 brauchen Sie eine Vektorversion.",
+      "problem": "Das Problem",
+      "problemDescription": "KI-Logo-Generatoren geben nur Rasterdateien aus. Rasterbilder sind nicht skalierbar, nicht f\u00FCr hochaufl\u00F6senden Druck geeignet und schwer zu bearbeiten. Einen Grafikdesigner zu beauftragen, das Logo manuell als Vektor nachzuerstellen, kostet Geld und Zeit.",
+      "solution": "Wie SVGR hilft",
+      "solutionDescription": "SVGR konvertiert Ihr KI-generiertes Logo sofort in eine SVG-Datei. Selbst bei komplexen Designs erstellt SVGR einen soliden ersten Entwurf, der den manuellen Aufwand erheblich reduziert \u2014 und Designern einen sauberen Ausgangspunkt zum Verfeinern bietet, anstatt bei Null anzufangen.",
+      "designersTitle": "Beliebte KI-Logo-Generatoren",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "KI-gest\u00FCtzter Logo-Maker mit Marken-Kit. Erstellt Logos, Visitenkarten und Social-Media-Assets \u2014 alles im Rasterformat."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "KI-Logo-Design-Tool, das einzigartige Logos aus Schl\u00FCsselw\u00F6rtern erstellt. Gibt PNG- und JPG-Dateien aus, die f\u00FCr den Druckeinsatz vektorisiert werden m\u00FCssen."
+        },
+        "hatchful": {
+          "name": "Hatchful von Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Kostenloser Logo-Maker von Shopify. Schnell und einfach, exportiert aber nur Rasterbilder \u2014 nicht ideal zum Skalieren oder f\u00FCr professionellen Druck."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "KI-gesteuerter Logo-Generator mit Markenidentit\u00E4tspaketen. Produziert hochwertige Raster-Logos, die trotzdem f\u00FCr Vektor-Workflows konvertiert werden m\u00FCssen."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "KI-Design-Suite f\u00FCr Logos, Videos und Mockups. Logo-Ausgabe ist rasterbasiert und erfordert Vektorisierung f\u00FCr skalierbare Nutzung."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "KI-Branding-Plattform f\u00FCr Logos und Marketingmaterialien. Erstellt Raster-Logos, die ohne Qualit\u00E4tsverlust nicht skaliert werden k\u00F6nnen."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Online-Logo-Maker mit KI-generierten Design-Optionen. Exportiert Rasterdateien \u2014 die Konvertierung in SVG stellt sicher, dass Ihr Logo in jeder Gr\u00F6\u00DFe scharf bleibt."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "KI-Logo-Generator mit einfacher Benutzeroberfl\u00E4che. Erstellt professionell aussehende Logos im PNG-Format, die f\u00FCr Druck und Gro\u00DFformate vektorisiert werden m\u00FCssen."
+        }
+      }
+    },
+
+    "legacyAssets": {
+      "title": "\u00C4ltere Bild-Assets modernisieren",
+      "description": "Viele Unternehmen haben \u00E4ltere Bild-Assets \u2014 Logos, Icons, Diagramme und Illustrationen \u2014 die nur als Rasterdateien gespeichert sind. Diese Assets wurden m\u00F6glicherweise vor Jahren erstellt, als Vektor-Tools weniger zug\u00E4nglich waren, oder die Original-Quelldateien sind im Laufe der Zeit verloren gegangen.",
+      "problem": "Das Problem",
+      "problemDescription": "\u00C4ltere Rasterbilder verschlechtern sich beim Skalieren, sehen auf modernen hochaufl\u00F6senden Bildschirmen pixelig aus und k\u00F6nnen nicht einfach bearbeitet oder umgef\u00E4rbt werden. Sie von Grund auf neu zu erstellen ist zeitaufw\u00E4ndig und teuer.",
+      "solution": "Wie SVGR hilft",
+      "solutionDescription": "Mit SVGR k\u00F6nnen Sie alte Raster-Assets in saubere SVG-Dateien konvertieren. Das Ergebnis ist ein skalierbarer, bearbeitbarer Vektor, der auf jeder Bildschirmgr\u00F6\u00DFe perfekt funktioniert \u2014 von Mobilger\u00E4ten \u00FCber 4K-Displays bis hin zum Druck."
+    },
+
+    "cta": {
+      "title": "Bereit zum Konvertieren?",
+      "subtitle": "Laden Sie Ihr Rasterbild hoch und erhalten Sie in Sekunden eine SVG-Datei.",
+      "button": "Jetzt konvertieren"
+    }
+  }
 }
