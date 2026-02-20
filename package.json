@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -31,7 +31,7 @@
     "@sudobility/building_blocks": "^0.0.127",
     "@sudobility/components": "^5.0.11",
     "@sudobility/consumables_client": "^0.0.3",
-    "@sudobility/consumables_pages": "^0.0.3",
+    "@sudobility/consumables_pages": "^0.0.5",
     "@sudobility/design": "^1.1.18",
     "@sudobility/devops-components": "^2.0.17",
     "@sudobility/di": "^1.5.36",
