@@ -2,6 +2,12 @@ import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAuthStatus } from "@sudobility/auth-components";
 import { getFirebaseAuth } from "@sudobility/auth_lib";
+import {
+  signInWithEmailAndPassword,
+  createUserWithEmailAndPassword,
+  GoogleAuthProvider,
+  signInWithPopup,
+} from "firebase/auth";
 import { LoginPage as LoginPageComponent } from "@sudobility/building_blocks";
 import SEO from "../components/seo/SEO";
 
@@ -40,7 +46,15 @@ function LoginPage() {
     <LoginPageComponent
       appName="SVGR"
       logo={<img src="/logo.svg" alt="SVGR" className="h-12" />}
-      auth={auth}
+      onEmailSignIn={async (email, password) => {
+        await signInWithEmailAndPassword(auth, email, password);
+      }}
+      onEmailSignUp={async (email, password) => {
+        await createUserWithEmailAndPassword(auth, email, password);
+      }}
+      onGoogleSignIn={async () => {
+        await signInWithPopup(auth, new GoogleAuthProvider());
+      }}
       onSuccess={() => navigate(`/${lang || "en"}`, { replace: true })}
     />
     </>
