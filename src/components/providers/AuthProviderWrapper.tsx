@@ -6,6 +6,7 @@ import {
   getFirebaseAuth,
   getFirebaseErrorMessage,
   initializeFirebaseAuth,
+  FirebaseAuthNetworkService,
 } from "@sudobility/auth_lib";
 import { setConsumablesUserId } from "@sudobility/consumables_client";
 import {
@@ -38,9 +39,7 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
   useEffect(() => {
     if (!auth) return;
 
-    initializeConsumablesService(() =>
-      auth.currentUser?.getIdToken() ?? Promise.resolve(null),
-    );
+    initializeConsumablesService(new FirebaseAuthNetworkService());
 
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       setConsumablesUserId(user?.uid, user?.email ?? undefined);

@@ -4,6 +4,7 @@ import {
   createConsumablesWebAdapter,
   ConsumablesApiClient,
 } from "@sudobility/consumables_client";
+import type { NetworkClient } from "@sudobility/types";
 import { API_URL } from "./constants";
 
 export const REVENUECAT_API_KEY =
@@ -13,9 +14,7 @@ export const CONSUMABLES_OFFERING_ID =
 
 let initialized = false;
 
-export function initializeConsumablesService(
-  getToken: () => Promise<string | null>,
-) {
+export function initializeConsumablesService(networkClient: NetworkClient) {
   if (initialized) return;
   if (!REVENUECAT_API_KEY) {
     console.warn(
@@ -28,7 +27,7 @@ export function initializeConsumablesService(
 
   initializeConsumables({
     adapter: createConsumablesWebAdapter(),
-    apiClient: new ConsumablesApiClient({ baseUrl: API_URL, getToken }),
+    apiClient: new ConsumablesApiClient({ baseUrl: API_URL, networkClient }),
   });
 
   initialized = true;
