@@ -27,8 +27,8 @@
         "@sudobility/seo_lib": "^0.0.3",
         "@sudobility/subscription-components": "^1.0.27",
         "@sudobility/subscription_lib": "^0.0.18",
-        "@sudobility/svgr_client": "^1.0.12",
-        "@sudobility/svgr_lib": "^0.0.7",
+        "@sudobility/svgr_client": "^1.0.13",
+        "@sudobility/svgr_lib": "^0.0.8",
         "@sudobility/svgr_types": "^1.0.7",
         "@sudobility/types": "^1.9.54",
         "@tanstack/react-query": "^5.0.0",
@@ -478,9 +478,9 @@
 
     "@sudobility/subscription_lib": ["@sudobility/subscription_lib@0.0.18", "", { "peerDependencies": { "@revenuecat/purchases-js": "^1.0.0", "@sudobility/types": "^1.9.54", "react": "^18.0.0 || ^19.0.0", "react-native-purchases": ">=7.0.0" }, "optionalPeers": ["@revenuecat/purchases-js", "react-native-purchases"] }, "sha512-H/WOZVRP5QHnNWab04y48pVtFO8czlEbmI50z8efeklE+4SiNIqRZfUAZwgy7gpeQ4kTKhqMW32iaWSga9JAbQ=="],
 
-    "@sudobility/svgr_client": ["@sudobility/svgr_client@1.0.12", "", { "dependencies": { "@sudobility/svgr_types": "^1.0.7" }, "peerDependencies": { "@sudobility/types": "^1.9.54", "@tanstack/react-query": "^5.0.0", "react": "^18.0.0 || ^19.0.0" } }, "sha512-2NG2RUD3gACjkG7B4EfLEaz59TXI/HG8EsQ8B1twU9CFfktL/28pD0DkH338jSw8Qmgt5vpEN+iSHZw+0Xz46w=="],
+    "@sudobility/svgr_client": ["@sudobility/svgr_client@1.0.13", "", { "dependencies": { "@sudobility/svgr_types": "^1.0.7" }, "peerDependencies": { "@sudobility/types": "^1.9.54", "@tanstack/react-query": "^5.0.0", "react": "^18.0.0 || ^19.0.0" } }, "sha512-50niw64eEN81DNIVBhXro8hKkQiNr51a5mWOzzreqQ/O32j3kk1kQcYbWLiDzkqDJSA0Ke1Mt4UPGSOsEJupjQ=="],
 
-    "@sudobility/svgr_lib": ["@sudobility/svgr_lib@0.0.7", "", { "peerDependencies": { "@sudobility/svgr_client": "^1.0.12", "@sudobility/svgr_types": "^1.0.7", "@sudobility/types": "^1.9.54", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-2xNaQRWc9XOQZA0toJIvmvllhJQeiP4QK/rEX/M8H1b0C2lYjOKYX3Gpl04+TvqBmSwIR0vdjIl9n/i+DM6CHw=="],
+    "@sudobility/svgr_lib": ["@sudobility/svgr_lib@0.0.8", "", { "peerDependencies": { "@sudobility/svgr_client": "^1.0.13", "@sudobility/svgr_types": "^1.0.7", "@sudobility/types": "^1.9.54", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-sUzgpiDX7O9YPstB5l+2WDOVstD00JS3xLF0hIBE4b8rFnGvnWZLBN5hBdLDQ3yOdW/kaDzyzeQjPx9W9Q+org=="],
 
     "@sudobility/svgr_types": ["@sudobility/svgr_types@1.0.7", "", { "peerDependencies": { "@sudobility/types": "^1.9.54" } }, "sha512-Nd4wIEBoWm33lzrNDsWH8ApZKkpkBiUrVWeibAa+rlB1mA9zlbnCXEUq6wHIIfRE9ysCI+fm7ljJWKPb5qL9xw=="],
 
