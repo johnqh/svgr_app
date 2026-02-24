@@ -40,9 +40,9 @@ describe('initializeApp', () => {
     expect(initializeFirebaseService).toHaveBeenCalledOnce();
     expect(initializeFirebaseService).toHaveBeenCalledWith(
       expect.objectContaining({
-        apiKey: expect.any(String),
-        authDomain: expect.any(String),
-        projectId: expect.any(String),
+        apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+        authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+        projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
       }),
     );
   });
