@@ -17,7 +17,7 @@
         "@sudobility/auth_lib": "^0.0.55",
         "@sudobility/building_blocks": "^0.0.139",
         "@sudobility/components": "^5.0.15",
-        "@sudobility/consumables_client": "^0.0.8",
+        "@sudobility/consumables_client": "^0.0.9",
         "@sudobility/consumables_pages": "^0.0.10",
         "@sudobility/design": "^1.1.20",
         "@sudobility/devops-components": "^2.0.17",
@@ -487,7 +487,7 @@
 
     "@sudobility/components": ["@sudobility/components@5.0.15", "", { "optionalDependencies": { "@rollup/rollup-linux-x64-gnu": "4.52.5", "@rollup/rollup-linux-x64-musl": "4.52.5" }, "peerDependencies": { "@heroicons/react": ">=2.0.0", "@radix-ui/react-alert-dialog": ">=1.0.0", "@radix-ui/react-dialog": ">=1.0.0", "@radix-ui/react-label": ">=2.0.0", "@radix-ui/react-select": ">=2.0.0", "@radix-ui/react-slot": ">=1.0.0", "@radix-ui/react-switch": ">=1.0.0", "@radix-ui/react-tabs": ">=1.0.0", "@sudobility/design": "^1.1.20", "@sudobility/types": "^1.9.54", "class-variance-authority": ">=0.7.0", "clsx": ">=2.0.0", "i18next": ">=23.0.0", "react": ">=18.0.0", "react-dom": ">=18.0.0", "react-i18next": ">=14.0.0", "react-router-dom": ">=6.0.0", "tailwind-merge": ">=2.0.0", "web-vitals": ">=3.0.0" } }, "sha512-lZR9lWdaO9clQdNHFxSlaF/j8troSRRbdZA51u/fhwhcxGuRGhcDKpSyucxXhsC6Pwy3FXjcMkkmFtdrOEckBQ=="],
 
-    "@sudobility/consumables_client": ["@sudobility/consumables_client@0.0.8", "", { "peerDependencies": { "@revenuecat/purchases-js": "^1.0.0", "@sudobility/types": "^1.9.54", "react": "^18.0.0 || ^19.0.0", "react-native-purchases": ">=7.0.0" }, "optionalPeers": ["@revenuecat/purchases-js", "react-native-purchases"] }, "sha512-wgDjxw9zd1FEem0BR549XEsqxlQqcn2KiMCkmZRtq3lq2+cAFrYJTLosm9k1X82pwk8L8zAemho15chWd6Bygw=="],
+    "@sudobility/consumables_client": ["@sudobility/consumables_client@0.0.9", "", { "peerDependencies": { "@revenuecat/purchases-js": "^1.0.0", "@sudobility/types": "^1.9.54", "react": "^18.0.0 || ^19.0.0", "react-native-purchases": ">=7.0.0" }, "optionalPeers": ["@revenuecat/purchases-js", "react-native-purchases"] }, "sha512-AQBKDCFZWd/9EnzAXlm4AYfM+KLs5O6qd2F9K1Ik8Ty8ei+dy3zePMqsZKcQJT+lZHqN3QO5+bsV2Jx7nO6Lsw=="],
 
     "@sudobility/consumables_pages": ["@sudobility/consumables_pages@0.0.10", "", { "peerDependencies": { "@sudobility/consumables_client": "^0.0.8", "@sudobility/types": "^1.9.54", "react": "^18.0.0 || ^19.0.0", "react-dom": "^18.0.0 || ^19.0.0" } }, "sha512-usNlUx9wXJd2fn5knB0i+YIfIzRMAoIVcyP9EEZ/C3mJmhF7Mw/4RUY4hv/9v7hhdlAInKaIomof5l1oHRrCmg=="],
 

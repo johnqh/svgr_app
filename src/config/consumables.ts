@@ -9,10 +9,12 @@
 
 import {
   initializeConsumables,
-  configureConsumablesWebAdapter,
-  createConsumablesWebAdapter,
   ConsumablesApiClient,
 } from "@sudobility/consumables_client";
+import {
+  configureConsumablesWebAdapter,
+  createConsumablesWebAdapter,
+} from "@sudobility/consumables_client/adapter/web";
 import type { NetworkClient } from "@sudobility/types";
 import { API_URL } from "./constants";
 
