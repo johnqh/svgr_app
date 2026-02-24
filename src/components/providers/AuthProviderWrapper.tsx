@@ -35,7 +35,11 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
 
   const auth = getFirebaseAuth();
 
-  // Initialize consumables and sync user ID on auth state change
+  // Initialize the consumables (credit) service once Firebase Auth is ready.
+  // Also subscribes to auth state changes to sync the consumables user ID,
+  // which ensures credit balance and purchases are tied to the correct user.
+  // The consumables API client needs an authenticated network client, so this
+  // must run after Firebase Auth initialization.
   useEffect(() => {
     if (!auth) return;
 

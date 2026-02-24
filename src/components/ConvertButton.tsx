@@ -1,8 +1,20 @@
+/**
+ * Primary action button that triggers the image-to-SVG conversion.
+ *
+ * Displays a spinner and "Converting..." text while the API call is in progress,
+ * and an arrow icon with "Convert to SVG" text when idle. The button is
+ * disabled when no file is selected or a conversion is in progress.
+ */
+
 import { useTranslation } from 'react-i18next';
+import { SpinnerIcon, ArrowRightIcon } from './icons';
 
 interface ConvertButtonProps {
+  /** Whether the button should be disabled (e.g., no file selected). */
   disabled: boolean;
+  /** Whether a conversion is currently in progress. */
   loading: boolean;
+  /** Called when the user clicks the button. */
   onClick: () => void;
 }
 
@@ -26,42 +38,12 @@ export default function ConvertButton({
       >
         {loading ? (
           <>
-            <svg
-              className="animate-spin h-4 w-4"
-              fill="none"
-              viewBox="0 0 24 24"
-            >
-              <circle
-                className="opacity-25"
-                cx="12"
-                cy="12"
-                r="10"
-                stroke="currentColor"
-                strokeWidth="4"
-              />
-              <path
-                className="opacity-75"
-                fill="currentColor"
-                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z"
-              />
-            </svg>
+            <SpinnerIcon className="animate-spin h-4 w-4" />
             {t('converting')}
           </>
         ) : (
           <>
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M13 7l5 5m0 0l-5 5m5-5H6"
-              />
-            </svg>
+            <ArrowRightIcon className="w-4 h-4" />
             {t('convertToSvg')}
           </>
         )}

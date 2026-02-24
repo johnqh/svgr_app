@@ -1,4 +1,17 @@
-import { useState, useCallback } from 'react';
+/**
+ * Main conversion page -- the primary feature of the SVGR app.
+ *
+ * Provides a two-panel layout: image upload (left) and SVG preview (right),
+ * with a bottom control bar for quality adjustment and conversion trigger.
+ *
+ * Flow:
+ * 1. User uploads an image via drag-drop or file picker (`ImageUploadPanel`)
+ * 2. Adjusts quality slider and transparent background toggle
+ * 3. Clicks the convert button -- calls the SVGR API (free, no auth required)
+ * 4. Result appears in `SvgPreviewPanel` with download buttons (credit-gated)
+ */
+
+import { useState, useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useImageConverter, APP_NAME, APP_DOMAIN, QUALITY_MIN, QUALITY_MAX } from '@sudobility/svgr_lib';
 import { useSvgrClient } from '../hooks/useSvgrClient';
@@ -20,9 +33,28 @@ export default function ConvertPage() {
     height: number;
   } | null>(null);
 
+  // Track the current object URL in a ref so the cleanup effect can revoke
+  // it on unmount without needing previewUrl in its dependency array.
+  const previewUrlRef = useRef<string | null>(null);
+
+  // Revoke the object URL when the component unmounts to prevent memory leaks
+  // (Item 6: consolidate object URL memory management).
+  useEffect(() => {
+    return () => {
+      if (previewUrlRef.current) {
+        URL.revokeObjectURL(previewUrlRef.current);
+      }
+    };
+  }, []);
+
   const handleFileSelect = useCallback((f: File) => {
+    // Revoke the previous object URL before creating a new one
+    if (previewUrlRef.current) {
+      URL.revokeObjectURL(previewUrlRef.current);
+    }
     setFile(f);
     const url = URL.createObjectURL(f);
+    previewUrlRef.current = url;
     setPreviewUrl(url);
     setImageDimensions(null);
     converter.reset();
@@ -35,12 +67,15 @@ export default function ConvertPage() {
   }, [converter]);
 
   const handleClear = useCallback(() => {
-    if (previewUrl) URL.revokeObjectURL(previewUrl);
+    if (previewUrlRef.current) {
+      URL.revokeObjectURL(previewUrlRef.current);
+      previewUrlRef.current = null;
+    }
     setFile(null);
     setPreviewUrl(null);
     setImageDimensions(null);
     converter.reset();
-  }, [previewUrl, converter]);
+  }, [converter]);
 
   const handleConvert = useCallback(async () => {
     if (!file) return;
@@ -50,6 +85,10 @@ export default function ConvertPage() {
     reader.onload = () => {
       const base64 = (reader.result as string).split(',')[1];
       converter.convert(base64, file.name);
+    };
+    reader.onerror = () => {
+      console.error('[ConvertPage] FileReader failed:', reader.error);
+      converter.reset();
     };
     reader.readAsDataURL(file);
   }, [file, converter]);
@@ -118,16 +157,21 @@ export default function ConvertPage() {
         <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-x-6 gap-y-3">
           {/* Quality slider */}
           <div className="w-full md:w-auto md:flex-1 flex items-center gap-3">
-            <label className="text-sm font-medium text-gray-600 whitespace-nowrap">
+            <label htmlFor="quality-slider" className="text-sm font-medium text-gray-600 whitespace-nowrap">
               {t('quality')}
             </label>
             <span className="text-xs text-gray-400">{t('qualityMin')}</span>
             <input
+              id="quality-slider"
               type="range"
               min={QUALITY_MIN}
               max={QUALITY_MAX}
               value={converter.quality}
               onChange={(e) => converter.setQuality(Number(e.target.value))}
+              aria-label={t('quality')}
+              aria-valuemin={QUALITY_MIN}
+              aria-valuemax={QUALITY_MAX}
+              aria-valuenow={converter.quality}
               className="flex-1"
             />
             <span className="text-xs text-gray-400">{t('qualityMax')}</span>

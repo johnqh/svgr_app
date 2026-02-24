@@ -1,16 +1,35 @@
+/**
+ * SEO wrapper component that generates meta tags, hreflang links, and
+ * Open Graph metadata for all language-prefixed routes.
+ *
+ * Automatically prepends the current language prefix to canonical URLs
+ * and generates hreflang alternate links for all 16 supported languages
+ * plus an `x-default` entry pointing to `/en`.
+ *
+ * Delegates actual `<head>` rendering to `@sudobility/seo_lib`.
+ */
+
 import { SEO as SeoLibSEO } from "@sudobility/seo_lib";
 import { useTranslation } from "react-i18next";
 import { SUPPORTED_LANGUAGE_CODES, LANGUAGE_HREFLANG_MAP } from "@sudobility/svgr_lib";
 import { seoConfig } from "../../config/seo-config";
 
 interface SEOProps {
+  /** Page-specific title appended to the app name. */
   title?: string;
+  /** Meta description for search engines. Falls back to seoConfig.defaultDescription. */
   description?: string;
+  /** Comma-separated keywords for the meta keywords tag. */
   keywords?: string;
+  /** Canonical path without language prefix (e.g., "/", "/credits"). */
   canonical?: string;
+  /** Open Graph content type. */
   ogType?: "website" | "article";
+  /** Open Graph image URL override. */
   ogImage?: string;
+  /** If true, adds a noindex meta tag to prevent search engine indexing. */
   noIndex?: boolean;
+  /** JSON-LD structured data for rich search results. */
   structuredData?: object | object[];
 }
 

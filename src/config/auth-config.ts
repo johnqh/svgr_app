@@ -19,7 +19,7 @@ export function createAuthTexts(t: TFunction): AuthTexts {
     logout: t("logout"),
     login: t("login"),
     continueWithGoogle: t("continueWithGoogle"),
-    continueWithApple: "Continue with Apple",
+    continueWithApple: t("continueWithApple", "Continue with Apple"),
     continueWithEmail: t("continueWithEmail"),
     sendResetLink: t("sendResetLink"),
     backToSignIn: t("backToSignIn"),

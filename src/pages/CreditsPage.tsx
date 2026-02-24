@@ -1,3 +1,11 @@
+/**
+ * Credit store page where users can view their balance and purchase credits.
+ *
+ * Delegates rendering to `CreditStorePage` from `@sudobility/consumables_pages`,
+ * wiring up authentication state, balance, product packages, and purchase
+ * handlers. Unauthenticated users see a prompt to log in.
+ */
+
 import { useCallback } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";

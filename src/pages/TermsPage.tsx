@@ -1,7 +1,15 @@
+/**
+ * Terms of service page rendered from i18n-translated content.
+ *
+ * Uses the shared `AppTextPage` layout component from `@sudobility/building_blocks`
+ * for consistent legal page formatting across the Sudobility ecosystem.
+ */
+
 import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
 import SEO from '../components/seo/SEO';
+import { LAST_UPDATED_DATE } from '../config/constants';
 
 export default function TermsPage() {
   const { t } = useTranslation();
@@ -67,7 +75,7 @@ export default function TermsPage() {
   return (
     <>
       <SEO title={t('termsTitle')} canonical="/terms" />
-      <AppTextPage text={text} lastUpdatedDate="2025-02-14" />
+      <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>
   );
 }

@@ -1,7 +1,20 @@
+/**
+ * Marketing page showcasing use cases for SVGR image-to-SVG conversion.
+ *
+ * Highlights two primary use cases:
+ * 1. Converting AI-generated logo designs (from services like Looka, Brandmark, etc.)
+ *    from raster PNG/JPG to scalable SVG format.
+ * 2. Converting legacy raster assets to modern vector formats.
+ *
+ * Each use case is presented with a problem/solution layout and a call-to-action
+ * that navigates back to the main conversion page.
+ */
+
 import { useTranslation } from "react-i18next";
 import { useNavigate, useParams } from "react-router-dom";
 import SEO from "../components/seo/SEO";
 
+/** Keys for AI logo designer entries used to generate the designer grid from i18n. */
 const AI_DESIGNER_KEYS = [
   "looka",
   "brandmark",

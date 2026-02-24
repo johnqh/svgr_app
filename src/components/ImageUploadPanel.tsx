@@ -1,13 +1,29 @@
+/**
+ * Image upload panel with drag-and-drop and file picker support.
+ *
+ * Displays either a drop zone (no image selected) or a preview of the
+ * selected image with dimension/size metadata and a clear button.
+ *
+ * Validates file types against `isValidImageType` from `@sudobility/svgr_lib`
+ * and shows an error message for unsupported formats.
+ */
+
 import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { isValidImageType } from '@sudobility/svgr_lib';
 import { trackButtonClick } from '../analytics';
+import { ImageUploadIcon } from './icons';
 
 interface ImageUploadPanelProps {
+  /** The currently selected image file, or null if none selected. */
   file: File | null;
+  /** Object URL for the image preview, or null. */
   previewUrl: string | null;
+  /** Natural dimensions of the selected image, or null while loading. */
   imageDimensions: { width: number; height: number } | null;
+  /** Called when the user selects a valid image file. */
   onFileSelect: (file: File) => void;
+  /** Called when the user clears the current selection. */
   onClear: () => void;
 }
 
@@ -60,6 +76,14 @@ export default function ImageUploadPanel({
     inputRef.current?.click();
   }, []);
 
+  /** Opens the file picker when the drop zone receives a keyboard Enter or Space. */
+  const handleKeyDown = useCallback((e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      inputRef.current?.click();
+    }
+  }, []);
+
   const handleChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
       const f = e.target.files?.[0];
@@ -74,12 +98,12 @@ export default function ImageUploadPanel({
         {t('originalImage')}
       </h3>
 
-      {/* Image area — fixed 4:3 aspect ratio, matches SvgPreviewPanel */}
+      {/* Image area -- fixed 4:3 aspect ratio, matches SvgPreviewPanel */}
       {previewUrl && file ? (
         <div className="relative aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
           <img
             src={previewUrl}
-            alt="Preview"
+            alt={t('originalImage')}
             className="max-w-full max-h-full object-contain"
           />
           {/* Info badge overlay */}
@@ -96,14 +120,19 @@ export default function ImageUploadPanel({
               trackButtonClick('clear_image');
               onClear();
             }}
+            aria-label={t('clearImage', 'Clear image')}
             className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center bg-black/50 hover:bg-black/70 rounded-full transition-colors"
           >
-            <span className="text-white text-sm font-semibold leading-none">✕</span>
+            <span className="text-white text-sm font-semibold leading-none">&#x2715;</span>
           </button>
         </div>
       ) : (
         <div
+          role="button"
+          tabIndex={0}
+          aria-label={t('dropOrClick')}
           onClick={handleClick}
+          onKeyDown={handleKeyDown}
           onDrop={handleDrop}
           onDragOver={handleDragOver}
           onDragEnter={handleDragOver}
@@ -114,19 +143,7 @@ export default function ImageUploadPanel({
               : 'border-gray-300 hover:border-gray-400 bg-gray-50'
           }`}
         >
-          <svg
-            className="w-12 h-12 text-gray-400 mb-3"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={1.5}
-              d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-            />
-          </svg>
+          <ImageUploadIcon className="w-12 h-12 text-gray-400 mb-3" />
           <p className="text-sm text-gray-600 font-medium">
             {t('dropOrClick')}
           </p>
@@ -137,10 +154,10 @@ export default function ImageUploadPanel({
       )}
 
       {error && (
-        <p className="mt-2 text-sm text-red-500">{error}</p>
+        <p className="mt-2 text-sm text-red-500" role="alert">{error}</p>
       )}
 
-      {/* Bottom bar — fixed height, matches SvgPreviewPanel */}
+      {/* Bottom bar -- fixed height, matches SvgPreviewPanel */}
       <div className="h-10 flex items-center mt-2">
         {file && (
           <span className="text-sm font-medium text-gray-700 truncate">
@@ -155,6 +172,7 @@ export default function ImageUploadPanel({
         accept="image/*"
         onChange={handleChange}
         className="hidden"
+        aria-hidden="true"
       />
     </div>
   );

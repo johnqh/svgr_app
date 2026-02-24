@@ -1,6 +1,15 @@
+/**
+ * SEO configuration for meta tags, Open Graph, and hreflang generation.
+ *
+ * Used by the `SEO` component to produce consistent metadata across
+ * all language-prefixed routes. The default description is in English
+ * and serves as the fallback when no page-specific description is provided.
+ */
+
 import type { SEOConfig } from "@sudobility/seo_lib";
 import { APP_NAME, APP_DOMAIN } from "./constants";
 
+/** Global SEO configuration shared across all pages. */
 export const seoConfig: SEOConfig = {
   appName: APP_NAME,
   baseUrl: `https://${APP_DOMAIN}`,

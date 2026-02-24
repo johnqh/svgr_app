@@ -1,3 +1,10 @@
+/**
+ * Authentication page supporting email/password and Google sign-in.
+ *
+ * Redirects authenticated users to the main page. Delegates rendering
+ * to the shared `LoginPage` component from `@sudobility/building_blocks`.
+ */
+
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useAuthStatus } from "@sudobility/auth-components";
@@ -10,6 +17,7 @@ import {
 } from "firebase/auth";
 import { LoginPage as LoginPageComponent } from "@sudobility/building_blocks";
 import SEO from "../components/seo/SEO";
+import { APP_NAME } from "../config/constants";
 
 function LoginPage() {
   const { user, loading } = useAuthStatus();
@@ -44,8 +52,8 @@ function LoginPage() {
     <>
     <SEO noIndex />
     <LoginPageComponent
-      appName="SVGR"
-      logo={<img src="/logo.svg" alt="SVGR" className="h-12" />}
+      appName={APP_NAME}
+      logo={<img src="/logo.svg" alt={APP_NAME} className="h-12" />}
       onEmailSignIn={async (email, password) => {
         await signInWithEmailAndPassword(auth, email, password);
       }}
