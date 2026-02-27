@@ -3,3 +3,6 @@ dist/
 .env
 .env.local
 .env.production
+
+# Claude Code local settings
+.claude/settings.local.json
