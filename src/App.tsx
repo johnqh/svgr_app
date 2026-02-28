@@ -14,6 +14,8 @@ import {
   AppPageLayout,
   AppTopBarWithFirebaseAuth,
   AppFooter,
+  AppFooterForHomePage,
+  type FooterLinkSection,
 } from '@sudobility/building_blocks';
 import type { MenuItemConfig } from '@sudobility/building_blocks';
 import { AuthAction } from '@sudobility/auth-components';
@@ -84,6 +86,47 @@ function LangRoutes() {
     [i18nInstance, navigate, location.pathname, currentLang],
   );
 
+  const pathParts = location.pathname.split('/').filter(Boolean);
+  const isHomePage = pathParts.length <= 1;
+
+  const linkSections: FooterLinkSection[] = [
+    {
+      title: t('product', { defaultValue: 'Product' }),
+      links: [
+        { label: t('convert', { defaultValue: 'Convert' }), href: `/${currentLang}` },
+        { label: t('navigation.useCases', { defaultValue: 'Use Cases' }), href: `/${currentLang}/use-cases` },
+      ],
+    },
+    {
+      title: t('legal', { defaultValue: 'Legal' }),
+      links: [
+        { label: t('privacy'), href: `/${currentLang}/privacy` },
+        { label: t('terms'), href: `/${currentLang}/terms` },
+      ],
+    },
+  ];
+
+  const footer = isHomePage ? (
+    <AppFooterForHomePage
+      logo={{ appName: APP_NAME }}
+      linkSections={linkSections}
+      companyName={COMPANY_NAME}
+      companyUrl={`https://${APP_DOMAIN}`}
+      description={t('app.description', { defaultValue: `Convert images to SVG with ${APP_NAME}` })}
+      gridColumns={2}
+    />
+  ) : (
+    <AppFooter
+      companyName={COMPANY_NAME}
+      companyUrl={`https://${APP_DOMAIN}`}
+      links={[
+        { label: t('privacy'), href: `/${currentLang}/privacy` },
+        { label: t('terms'), href: `/${currentLang}/terms` },
+      ]}
+      sticky
+    />
+  );
+
   return (
     <AppPageLayout
       topBar={
@@ -111,17 +154,7 @@ function LangRoutes() {
           sticky
         />
       }
-      footer={
-        <AppFooter
-          companyName={COMPANY_NAME}
-          companyUrl={`https://${APP_DOMAIN}`}
-          links={[
-            { label: t('privacy'), href: `/${currentLang}/privacy` },
-            { label: t('terms'), href: `/${currentLang}/terms` },
-          ]}
-          sticky
-        />
-      }
+      footer={footer}
       maxWidth="7xl"
       background="default"
       className="h-dvh min-h-0"
