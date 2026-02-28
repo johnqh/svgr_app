@@ -12,17 +12,15 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { SudobilityAppWithFirebaseAuth } from '@sudobility/building_blocks/firebase';
 import {
   AppPageLayout,
-  AppTopBarWithFirebaseAuth,
-  AppFooter,
-  AppFooterForHomePage,
+  type TopBarConfig,
+  type FooterConfig,
   type FooterLinkSection,
 } from '@sudobility/building_blocks';
-import type { MenuItemConfig } from '@sudobility/building_blocks';
+import type { MenuItemConfig, AuthActionProps } from '@sudobility/building_blocks';
 import { AuthAction } from '@sudobility/auth-components';
 import { CreditBalanceBadge } from '@sudobility/consumables_pages';
 import { useBalance } from '@sudobility/consumables_client';
 import type { ComponentType } from 'react';
-import type { AuthActionProps } from '@sudobility/building_blocks';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
 import { trackButtonClick } from './analytics';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
@@ -106,60 +104,63 @@ function LangRoutes() {
     },
   ];
 
-  const footer = isHomePage ? (
-    <AppFooterForHomePage
-      logo={{ appName: APP_NAME }}
-      linkSections={linkSections}
-      companyName={COMPANY_NAME}
-      companyUrl={`https://${APP_DOMAIN}`}
-      description={t('app.description', { defaultValue: `Convert images to SVG with ${APP_NAME}` })}
-      gridColumns={2}
-    />
-  ) : (
-    <AppFooter
-      companyName={COMPANY_NAME}
-      companyUrl={`https://${APP_DOMAIN}`}
-      links={[
-        { label: t('privacy'), href: `/${currentLang}/privacy` },
-        { label: t('terms'), href: `/${currentLang}/terms` },
-      ]}
-      sticky
-    />
-  );
+  const footerConfig: FooterConfig = isHomePage
+    ? {
+        variant: 'full',
+        logo: { appName: APP_NAME },
+        linkSections,
+        companyName: COMPANY_NAME,
+        companyUrl: `https://${APP_DOMAIN}`,
+        description: t('app.description', { defaultValue: `Convert images to SVG with ${APP_NAME}` }),
+        gridColumns: 2,
+      }
+    : {
+        variant: 'compact',
+        companyName: COMPANY_NAME,
+        companyUrl: `https://${APP_DOMAIN}`,
+        links: [
+          { label: t('privacy'), href: `/${currentLang}/privacy` },
+          { label: t('terms'), href: `/${currentLang}/terms` },
+        ],
+        sticky: true,
+      };
+
+  const topBarConfig: TopBarConfig = {
+    variant: 'firebase',
+    logo: {
+      src: '/logo.svg',
+      appName: APP_NAME,
+      onClick: () => navigate(`/${currentLang}`),
+    },
+    menuItems,
+    currentLanguage: currentLang,
+    onLanguageChange: handleLanguageChange,
+    AuthActionComponent: AuthAction as ComponentType<AuthActionProps>,
+    renderCenterSection: () => (
+      <CreditBalanceBadge
+        balance={balance}
+        isLoading={balanceLoading}
+        onClick={() => navigate(`/${currentLang}/credits`)}
+      />
+    ),
+    onLoginClick: () => {
+      trackButtonClick('topbar_login');
+      navigate(`/${currentLang}/login`);
+    },
+    sticky: true,
+  };
 
   return (
     <AppPageLayout
-      topBar={
-        <AppTopBarWithFirebaseAuth
-          logo={{
-            src: '/logo.svg',
-            appName: APP_NAME,
-            onClick: () => navigate(`/${currentLang}`),
-          }}
-          menuItems={menuItems}
-          currentLanguage={currentLang}
-          onLanguageChange={handleLanguageChange}
-          AuthActionComponent={AuthAction as ComponentType<AuthActionProps>}
-          renderCenterSection={() => (
-            <CreditBalanceBadge
-              balance={balance}
-              isLoading={balanceLoading}
-              onClick={() => navigate(`/${currentLang}/credits`)}
-            />
-          )}
-          onLoginClick={() => {
-            trackButtonClick('topbar_login');
-            navigate(`/${currentLang}/login`);
-          }}
-          sticky
-        />
-      }
-      footer={footer}
-      maxWidth="7xl"
-      background="default"
-      className="h-dvh min-h-0"
-      mainClassName="flex flex-col"
-      contentClassName="flex-1 flex flex-col min-h-0"
+      topBar={topBarConfig}
+      footer={footerConfig}
+      page={{
+        maxWidth: '7xl',
+        background: 'default',
+        className: 'h-dvh min-h-0',
+        mainClassName: 'flex flex-col',
+        contentClassName: 'flex-1 flex flex-col min-h-0',
+      }}
     >
       <Routes>
         <Route index element={<ConvertPage />} />
