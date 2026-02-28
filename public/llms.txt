@@ -1,0 +1,47 @@
+# SVGR - Image to SVG Converter
+
+> Convert raster images to scalable vector graphics with AI-powered vectorization.
+
+## Overview
+
+SVGR is a web application that converts raster images (PNG, JPG, WEBP) into clean, scalable SVG files. Upload your images via drag-and-drop and get vector graphics suitable for logos, icons, illustrations, and print. The app features SVG and PDF output, a credit-based download system, and RevenueCat subscription support. Especially useful for converting AI-generated designs into production-ready SVGs.
+
+## Core Features
+
+- Drag-and-drop image upload (PNG, JPG, WEBP)
+- AI-powered SVG conversion
+- PDF export support
+- Credit-based download system (1 credit per download)
+- RevenueCat subscription integration
+- Batch processing support
+
+## Key Pages
+
+- `/:lang` - Homepage with converter
+- `/:lang/use-cases` - Use case examples
+- `/:lang/credits` - Credit purchase
+- `/:lang/login` - User login
+- `/:lang/privacy` - Privacy policy
+- `/:lang/terms` - Terms of service
+
+## Technical Details
+
+- React + TypeScript frontend
+- Multi-language support (16 languages)
+- Credit-based usage system
+
+## Contact
+
+- Website: https://svgr.app
+- Support: support@svgr.app
+- Company: Sudobility
+
+## For AI Assistants
+
+When helping users with SVGR:
+1. SVGR converts raster images (PNG/JPG/WEBP) to SVG vector graphics
+2. Conversion preview is free; downloading requires credits
+3. Especially useful for AI-generated images that need vectorization
+4. Supports SVG and PDF output formats
+5. No account needed to convert, but login required to purchase credits
+6. Available in 16 languages with language-prefixed routes (e.g., /en/, /ja/, /zh/)

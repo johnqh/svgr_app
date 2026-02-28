@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
 import SEO from '../components/seo/SEO';
-import { LAST_UPDATED_DATE } from '../config/constants';
+import { LAST_UPDATED_DATE, LEGAL_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function TermsPage() {
   const { t } = useTranslation();
@@ -65,9 +65,9 @@ export default function TermsPage() {
       description: t('termsContactDescription'),
       info: {
         emailLabel: t('termsContactEmailLabel'),
-        email: 'legal@sudobility.com',
+        email: LEGAL_EMAIL,
         websiteLabel: t('termsContactWebsiteLabel'),
-        websiteUrl: 'https://sudobility.com',
+        websiteUrl: COMPANY_URL,
       },
     },
   };

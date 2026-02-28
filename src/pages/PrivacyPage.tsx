@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
 import SEO from '../components/seo/SEO';
-import { LAST_UPDATED_DATE } from '../config/constants';
+import { LAST_UPDATED_DATE, PRIVACY_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function PrivacyPage() {
   const { t } = useTranslation();
@@ -76,9 +76,9 @@ export default function PrivacyPage() {
       description: t('privacyContactDescription'),
       info: {
         emailLabel: t('privacyContactEmailLabel'),
-        email: 'privacy@sudobility.com',
+        email: PRIVACY_EMAIL,
         websiteLabel: t('privacyContactWebsiteLabel'),
-        websiteUrl: 'https://sudobility.com',
+        websiteUrl: COMPANY_URL,
       },
     },
   };

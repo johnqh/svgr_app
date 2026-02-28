@@ -1,5 +1,5 @@
-# robots.txt for SVGR
-# https://svgr.app
+# robots.txt for {{VITE_APP_NAME}}
+# https://{{VITE_APP_DOMAIN}}
 
 # ===========================================
 # Standard Search Engine Crawlers
@@ -120,11 +120,11 @@ Crawl-delay: 5
 # Sitemaps
 # ===========================================
 
-Sitemap: https://svgr.app/sitemap.xml
+Sitemap: https://{{VITE_APP_DOMAIN}}/sitemap.xml
 
 # ===========================================
 # AI Content Files
 # ===========================================
 
 # LLMs.txt - AI crawler guidance
-# Available at: https://svgr.app/llms.txt
+# Available at: https://{{VITE_APP_DOMAIN}}/llms.txt

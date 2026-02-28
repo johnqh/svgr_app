@@ -23,7 +23,7 @@ import type { ComponentType } from 'react';
 import type { AuthActionProps } from '@sudobility/building_blocks';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
 import { trackButtonClick } from './analytics';
-import { API_URL } from './config/constants';
+import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { LightBulbIcon } from './components/icons';
 import ConvertPage from './pages/ConvertPage';
@@ -90,7 +90,7 @@ function LangRoutes() {
         <AppTopBarWithFirebaseAuth
           logo={{
             src: '/logo.svg',
-            appName: 'SVGR',
+            appName: APP_NAME,
             onClick: () => navigate(`/${currentLang}`),
           }}
           menuItems={menuItems}
@@ -113,8 +113,8 @@ function LangRoutes() {
       }
       footer={
         <AppFooter
-          companyName="Sudobility Inc."
-          companyUrl="https://sudobility.com"
+          companyName={COMPANY_NAME}
+          companyUrl={`https://${APP_DOMAIN}`}
           links={[
             { label: t('privacy'), href: `/${currentLang}/privacy` },
             { label: t('terms'), href: `/${currentLang}/terms` },
