@@ -131,11 +131,9 @@ Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Suppo
 - **SEO is important** -- language-prefixed routes, hreflang tags, and meta tags are generated for all 16 languages. Changes to routing must preserve SEO structure.
 - Environment variables must be prefixed with `VITE_` to be available in client code.
 
-## Testing
+## Testing Notes
 
-- **Command**: `bun test` (runs Vitest)
 - Tests are in `*.test.ts` / `*.test.tsx` files alongside source files (e.g., `src/config/constants.test.ts`)
 - Use Vitest's `vi.mock()` for mocking dependencies
 - Test utilities are in `src/test/`
 - Component tests should use React Testing Library patterns
-- Run `bun run verify` before committing to run lint, typecheck, tests, and build together
