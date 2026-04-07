@@ -5,19 +5,19 @@
  * to the shared `LoginPage` component from `@sudobility/building_blocks`.
  */
 
-import { useEffect } from "react";
-import { useNavigate, useParams } from "react-router-dom";
-import { useAuthStatus } from "@sudobility/auth-components";
-import { getFirebaseAuth } from "@sudobility/auth_lib";
+import { useEffect } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import { useAuthStatus } from '@sudobility/auth-components';
+import { getFirebaseAuth } from '@sudobility/auth_lib';
 import {
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
   GoogleAuthProvider,
   signInWithPopup,
-} from "firebase/auth";
-import { LoginPage as LoginPageComponent } from "@sudobility/building_blocks";
-import SEO from "../components/seo/SEO";
-import { APP_NAME } from "../config/constants";
+} from 'firebase/auth';
+import { LoginPage as LoginPageComponent } from '@sudobility/building_blocks';
+import SEO from '../components/seo/SEO';
+import { APP_NAME } from '../config/constants';
 
 function LoginPage() {
   const { user, loading } = useAuthStatus();
@@ -28,7 +28,7 @@ function LoginPage() {
   // Redirect to main page if already authenticated
   useEffect(() => {
     if (!loading && user) {
-      navigate(`/${lang || "en"}`, { replace: true });
+      navigate(`/${lang || 'en'}`, { replace: true });
     }
   }, [user, loading, navigate, lang]);
 
@@ -50,21 +50,21 @@ function LoginPage() {
 
   return (
     <>
-    <SEO noIndex />
-    <LoginPageComponent
-      appName={APP_NAME}
-      logo={<img src="/logo.svg" alt={APP_NAME} className="h-12" />}
-      onEmailSignIn={async (email, password) => {
-        await signInWithEmailAndPassword(auth, email, password);
-      }}
-      onEmailSignUp={async (email, password) => {
-        await createUserWithEmailAndPassword(auth, email, password);
-      }}
-      onGoogleSignIn={async () => {
-        await signInWithPopup(auth, new GoogleAuthProvider());
-      }}
-      onSuccess={() => navigate(`/${lang || "en"}`, { replace: true })}
-    />
+      <SEO noIndex />
+      <LoginPageComponent
+        appName={APP_NAME}
+        logo={<img src="/logo.svg" alt={APP_NAME} className="h-12" />}
+        onEmailSignIn={async (email, password) => {
+          await signInWithEmailAndPassword(auth, email, password);
+        }}
+        onEmailSignUp={async (email, password) => {
+          await createUserWithEmailAndPassword(auth, email, password);
+        }}
+        onGoogleSignIn={async () => {
+          await signInWithPopup(auth, new GoogleAuthProvider());
+        }}
+        onSuccess={() => navigate(`/${lang || 'en'}`, { replace: true })}
+      />
     </>
   );
 }

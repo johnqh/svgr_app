@@ -49,7 +49,7 @@ export default function ImageUploadPanel({
       trackButtonClick('image_upload', { file_type: f.type, file_size: f.size });
       onFileSelect(f);
     },
-    [onFileSelect, t],
+    [onFileSelect, t]
   );
 
   const handleDrop = useCallback(
@@ -59,7 +59,7 @@ export default function ImageUploadPanel({
       const f = e.dataTransfer.files[0];
       if (f) validateAndSelect(f);
     },
-    [validateAndSelect],
+    [validateAndSelect]
   );
 
   const handleDragOver = useCallback((e: React.DragEvent) => {
@@ -89,7 +89,7 @@ export default function ImageUploadPanel({
       const f = e.target.files?.[0];
       if (f) validateAndSelect(f);
     },
-    [validateAndSelect],
+    [validateAndSelect]
   );
 
   return (
@@ -144,26 +144,20 @@ export default function ImageUploadPanel({
           }`}
         >
           <ImageUploadIcon className="w-12 h-12 text-gray-400 mb-3" />
-          <p className="text-sm text-gray-600 font-medium">
-            {t('dropOrClick')}
-          </p>
-          <p className="text-xs text-gray-400 mt-1">
-            {t('supportedFormats')}
-          </p>
+          <p className="text-sm text-gray-600 font-medium">{t('dropOrClick')}</p>
+          <p className="text-xs text-gray-400 mt-1">{t('supportedFormats')}</p>
         </div>
       )}
 
       {error && (
-        <p className="mt-2 text-sm text-red-500" role="alert">{error}</p>
+        <p className="mt-2 text-sm text-red-500" role="alert">
+          {error}
+        </p>
       )}
 
       {/* Bottom bar -- fixed height, matches SvgPreviewPanel */}
       <div className="h-10 flex items-center mt-2">
-        {file && (
-          <span className="text-sm font-medium text-gray-700 truncate">
-            {file.name}
-          </span>
-        )}
+        {file && <span className="text-sm font-medium text-gray-700 truncate">{file.name}</span>}
       </div>
 
       <input

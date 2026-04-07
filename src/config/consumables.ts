@@ -7,24 +7,19 @@
  * Downloads (SVG and PDF) cost 1 credit each; the conversion itself is free.
  */
 
-import {
-  initializeConsumables,
-  ConsumablesApiClient,
-} from "@sudobility/consumables_client";
+import { initializeConsumables, ConsumablesApiClient } from '@sudobility/consumables_client';
 import {
   configureConsumablesWebAdapter,
   createConsumablesWebAdapter,
-} from "@sudobility/consumables_client/adapter/web";
-import type { NetworkClient } from "@sudobility/types";
-import { API_URL } from "./constants";
+} from '@sudobility/consumables_client/adapter/web';
+import type { NetworkClient } from '@sudobility/types';
+import { API_URL } from './constants';
 
 /** RevenueCat web API key for credit purchases. Empty string disables consumables. */
-export const REVENUECAT_API_KEY =
-  import.meta.env.VITE_REVENUECAT_API_KEY || "";
+export const REVENUECAT_API_KEY = import.meta.env.VITE_REVENUECAT_API_KEY || '';
 
 /** RevenueCat offering ID that contains the credit packages to display in the store. */
-export const CONSUMABLES_OFFERING_ID =
-  import.meta.env.VITE_CONSUMABLES_OFFERING_ID || "credits";
+export const CONSUMABLES_OFFERING_ID = import.meta.env.VITE_CONSUMABLES_OFFERING_ID || 'credits';
 
 let initialized = false;
 
@@ -43,9 +38,7 @@ let initialized = false;
 export function initializeConsumablesService(networkClient: NetworkClient) {
   if (initialized) return;
   if (!REVENUECAT_API_KEY) {
-    console.warn(
-      "[consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled",
-    );
+    console.warn('[consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled');
     return;
   }
 

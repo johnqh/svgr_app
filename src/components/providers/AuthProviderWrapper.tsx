@@ -1,19 +1,16 @@
-import { type ReactNode, useEffect, useMemo } from "react";
-import { useTranslation } from "react-i18next";
-import { onAuthStateChanged } from "firebase/auth";
-import { AuthProvider } from "@sudobility/auth-components";
+import { type ReactNode, useEffect, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
+import { onAuthStateChanged } from 'firebase/auth';
+import { AuthProvider } from '@sudobility/auth-components';
 import {
   getFirebaseAuth,
   getFirebaseErrorMessage,
   initializeFirebaseAuth,
   FirebaseAuthNetworkService,
-} from "@sudobility/auth_lib";
-import { setConsumablesUserId } from "@sudobility/consumables_client";
-import {
-  createAuthTexts,
-  createAuthErrorTexts,
-} from "../../config/auth-config";
-import { initializeConsumablesService } from "../../config/consumables";
+} from '@sudobility/auth_lib';
+import { setConsumablesUserId } from '@sudobility/consumables_client';
+import { createAuthTexts, createAuthErrorTexts } from '../../config/auth-config';
+import { initializeConsumablesService } from '../../config/consumables';
 
 interface AuthProviderWrapperProps {
   children: ReactNode;
@@ -24,7 +21,7 @@ interface AuthProviderWrapperProps {
  * with i18n translations and Firebase config
  */
 export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
-  const { t } = useTranslation(["auth"]);
+  const { t } = useTranslation(['auth']);
 
   // Initialize Firebase Auth (idempotent - safe to call multiple times)
   initializeFirebaseAuth();
@@ -45,7 +42,7 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
 
     initializeConsumablesService(new FirebaseAuthNetworkService());
 
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const unsubscribe = onAuthStateChanged(auth, user => {
       setConsumablesUserId(user?.uid, user?.email ?? undefined);
     });
     return unsubscribe;
@@ -53,17 +50,15 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
 
   // If Firebase is not configured, render children without auth
   if (!auth) {
-    console.warn(
-      "[AuthProviderWrapper] No auth instance - Firebase not configured",
-    );
+    console.warn('[AuthProviderWrapper] No auth instance - Firebase not configured');
     return <>{children}</>;
   }
 
   return (
     <AuthProvider
-      firebaseConfig={{ type: "instance", auth: auth }}
+      firebaseConfig={{ type: 'instance', auth: auth }}
       providerConfig={{
-        providers: ["google", "email"],
+        providers: ['google', 'email'],
         enableAnonymous: false,
       }}
       texts={texts}

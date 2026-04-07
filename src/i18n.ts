@@ -2,7 +2,12 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
-import { SUPPORTED_LANGUAGE_CODES, DEFAULT_LANGUAGE, I18N_NAMESPACES, DEFAULT_NAMESPACE } from '@sudobility/svgr_lib';
+import {
+  SUPPORTED_LANGUAGE_CODES,
+  DEFAULT_LANGUAGE,
+  I18N_NAMESPACES,
+  DEFAULT_NAMESPACE,
+} from '@sudobility/svgr_lib';
 
 export const supportedLanguages = SUPPORTED_LANGUAGE_CODES;
 

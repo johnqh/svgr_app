@@ -15,10 +15,7 @@ vi.mock('@sudobility/consumables_client', () => ({
   ConsumablesApiClient: vi.fn(),
 }));
 
-import {
-  REVENUECAT_API_KEY,
-  CONSUMABLES_OFFERING_ID,
-} from './consumables';
+import { REVENUECAT_API_KEY, CONSUMABLES_OFFERING_ID } from './consumables';
 
 describe('consumables config', () => {
   beforeEach(() => {

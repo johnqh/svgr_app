@@ -12,5 +12,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Suspense fallback={null}>
       <App />
     </Suspense>
-  </React.StrictMode>,
+  </React.StrictMode>
 );

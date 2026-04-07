@@ -28,12 +28,7 @@ export default function TermsPage() {
       },
       {
         title: t('termsUseTitle'),
-        items: [
-          t('termsUseItem1'),
-          t('termsUseItem2'),
-          t('termsUseItem3'),
-          t('termsUseItem4'),
-        ],
+        items: [t('termsUseItem1'), t('termsUseItem2'), t('termsUseItem3'), t('termsUseItem4')],
       },
       {
         title: t('termsIpTitle'),

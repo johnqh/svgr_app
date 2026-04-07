@@ -32,15 +32,13 @@ const REQUIRED_ENV_VARS = [
 function validateEnvironment(): void {
   if (import.meta.env.PROD) return;
 
-  const missing = REQUIRED_ENV_VARS.filter(
-    (key) => !import.meta.env[key],
-  );
+  const missing = REQUIRED_ENV_VARS.filter(key => !import.meta.env[key]);
 
   if (missing.length > 0) {
     console.warn(
       `[initializeApp] Missing required environment variables: ${missing.join(', ')}. ` +
-      'Firebase features may not work correctly. ' +
-      'Check your .env file or deployment configuration.',
+        'Firebase features may not work correctly. ' +
+        'Check your .env file or deployment configuration.'
     );
   }
 }

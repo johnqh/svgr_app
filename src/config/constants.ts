@@ -6,7 +6,12 @@
  * in the Vite client bundle.
  */
 
-import { APP_NAME as DEFAULT_APP_NAME, APP_DOMAIN as DEFAULT_APP_DOMAIN, DEFAULT_API_URL, COMPANY_NAME as DEFAULT_COMPANY_NAME } from '@sudobility/svgr_lib';
+import {
+  APP_NAME as DEFAULT_APP_NAME,
+  APP_DOMAIN as DEFAULT_APP_DOMAIN,
+  DEFAULT_API_URL,
+  COMPANY_NAME as DEFAULT_COMPANY_NAME,
+} from '@sudobility/svgr_lib';
 
 /** Base URL for the SVGR conversion API. Overridable via `VITE_API_URL`. */
 export const API_URL = import.meta.env.VITE_API_URL || DEFAULT_API_URL;

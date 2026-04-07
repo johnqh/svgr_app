@@ -28,8 +28,5 @@ export function useSvgrClient(): SvgrClient {
   const fallbackNetworkClient = useFirebaseAuthNetworkClient();
   const networkClient = api?.networkClient ?? fallbackNetworkClient;
 
-  return useMemo(
-    () => new SvgrClient({ baseUrl: API_URL, networkClient }),
-    [networkClient],
-  );
+  return useMemo(() => new SvgrClient({ baseUrl: API_URL, networkClient }), [networkClient]);
 }

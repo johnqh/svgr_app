@@ -1,5 +1,14 @@
 import { describe, it, expect } from 'vitest';
-import { API_URL, APP_NAME, APP_DOMAIN, LAST_UPDATED_DATE, COMPANY_NAME, COMPANY_URL, PRIVACY_EMAIL, LEGAL_EMAIL } from './constants';
+import {
+  API_URL,
+  APP_NAME,
+  APP_DOMAIN,
+  LAST_UPDATED_DATE,
+  COMPANY_NAME,
+  COMPANY_URL,
+  PRIVACY_EMAIL,
+  LEGAL_EMAIL,
+} from './constants';
 
 describe('constants', () => {
   it('has a default API_URL', () => {

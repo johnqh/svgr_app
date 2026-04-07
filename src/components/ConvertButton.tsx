@@ -18,11 +18,7 @@ interface ConvertButtonProps {
   onClick: () => void;
 }
 
-export default function ConvertButton({
-  disabled,
-  loading,
-  onClick,
-}: ConvertButtonProps) {
+export default function ConvertButton({ disabled, loading, onClick }: ConvertButtonProps) {
   const { t } = useTranslation();
 
   return (

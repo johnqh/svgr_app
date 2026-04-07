@@ -35,20 +35,13 @@ export default function PrivacyPage() {
           },
           {
             title: t('privacyCollectUploadTitle'),
-            items: [
-              t('privacyCollectUploadItem1'),
-              t('privacyCollectUploadItem2'),
-            ],
+            items: [t('privacyCollectUploadItem1'), t('privacyCollectUploadItem2')],
           },
         ],
       },
       {
         title: t('privacyUseTitle'),
-        items: [
-          t('privacyUseItem1'),
-          t('privacyUseItem2'),
-          t('privacyUseItem3'),
-        ],
+        items: [t('privacyUseItem1'), t('privacyUseItem2'), t('privacyUseItem3')],
       },
       {
         title: t('privacyStorageTitle'),
@@ -60,11 +53,7 @@ export default function PrivacyPage() {
       },
       {
         title: t('privacyRightsTitle'),
-        items: [
-          t('privacyRightsItem1'),
-          t('privacyRightsItem2'),
-          t('privacyRightsItem3'),
-        ],
+        items: [t('privacyRightsItem1'), t('privacyRightsItem2'), t('privacyRightsItem3')],
       },
       {
         title: t('privacyChangesTitle'),

@@ -1,9 +1,10 @@
-import { lazy, useCallback, useEffect, useMemo } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Routes,
   Route,
   Navigate,
+  Outlet,
   useParams,
   useNavigate,
   useLocation,
@@ -26,6 +27,8 @@ import { trackButtonClick } from './analytics';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { LightBulbIcon } from './components/icons';
+import { PageConfigProvider } from './context/PageConfigProvider';
+import { usePageConfig } from './hooks/usePageConfig';
 import ConvertPage from './pages/ConvertPage';
 
 /*
@@ -41,12 +44,23 @@ const UseCasesPage = lazy(() => import('./pages/UseCasesPage'));
 
 const queryClient = new QueryClient();
 
-function LangRoutes() {
+const LoadingFallback = () => (
+  <div className="min-h-screen flex items-center justify-center bg-theme-bg-primary">
+    <div
+      role="status"
+      aria-label="Loading"
+      className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"
+    />
+  </div>
+);
+
+function LangLayoutInner() {
   const { lang } = useParams<{ lang: string }>();
   const { t, i18n: i18nInstance } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const { balance, isLoading: balanceLoading } = useBalance();
+  const { pageConfig } = usePageConfig();
 
   useEffect(() => {
     if (lang && supportedLanguages.includes(lang as SupportedLanguage)) {
@@ -69,7 +83,7 @@ function LangRoutes() {
         href: `/${currentLang}/use-cases`,
       },
     ],
-    [t, currentLang],
+    [t, currentLang]
   );
 
   const handleLanguageChange = useCallback(
@@ -81,7 +95,7 @@ function LangRoutes() {
         navigate(`/${newLang}${subPath}`);
       }
     },
-    [i18nInstance, navigate, location.pathname, currentLang],
+    [i18nInstance, navigate, location.pathname, currentLang]
   );
 
   const pathParts = location.pathname.split('/').filter(Boolean);
@@ -92,7 +106,10 @@ function LangRoutes() {
       title: t('product', { defaultValue: 'Product' }),
       links: [
         { label: t('convert', { defaultValue: 'Convert' }), href: `/${currentLang}` },
-        { label: t('navigation.useCases', { defaultValue: 'Use Cases' }), href: `/${currentLang}/use-cases` },
+        {
+          label: t('navigation.useCases', { defaultValue: 'Use Cases' }),
+          href: `/${currentLang}/use-cases`,
+        },
       ],
     },
     {
@@ -111,7 +128,9 @@ function LangRoutes() {
         linkSections,
         companyName: COMPANY_NAME,
         companyUrl: `https://${APP_DOMAIN}`,
-        description: t('app.description', { defaultValue: `Convert images to SVG with ${APP_NAME}` }),
+        description: t('app.description', {
+          defaultValue: `Convert images to SVG with ${APP_NAME}`,
+        }),
         gridColumns: 2,
       }
     : {
@@ -160,17 +179,25 @@ function LangRoutes() {
         className: 'h-dvh min-h-0',
         mainClassName: 'flex flex-col',
         contentClassName: 'flex-1 flex flex-col min-h-0',
+        ...pageConfig,
       }}
     >
-      <Routes>
-        <Route index element={<ConvertPage />} />
-        <Route path="use-cases" element={<UseCasesPage />} />
-        <Route path="credits" element={<CreditsPage />} />
-        <Route path="login" element={<LoginPage />} />
-        <Route path="privacy" element={<PrivacyPage />} />
-        <Route path="terms" element={<TermsPage />} />
-      </Routes>
+      <Suspense fallback={<LoadingFallback />}>
+        <Outlet />
+      </Suspense>
     </AppPageLayout>
+  );
+}
+
+/**
+ * Route-level layout providing PageConfigProvider so child pages
+ * can use useSetPageConfig for layout overrides.
+ */
+function LangLayout() {
+  return (
+    <PageConfigProvider>
+      <LangLayoutInner />
+    </PageConfigProvider>
   );
 }
 
@@ -179,13 +206,15 @@ function AppRoutes() {
 
   return (
     <Routes>
-      <Route path="/:lang/*" element={<LangRoutes />} />
-      <Route
-        path="/"
-        element={
-          <Navigate to={`/${i18nInstance.language || 'en'}`} replace />
-        }
-      />
+      <Route path="/:lang" element={<LangLayout />}>
+        <Route index element={<ConvertPage />} />
+        <Route path="use-cases" element={<UseCasesPage />} />
+        <Route path="credits" element={<CreditsPage />} />
+        <Route path="login" element={<LoginPage />} />
+        <Route path="privacy" element={<PrivacyPage />} />
+        <Route path="terms" element={<TermsPage />} />
+      </Route>
+      <Route path="/" element={<Navigate to={`/${i18nInstance.language || 'en'}`} replace />} />
       <Route path="*" element={<Navigate to="/en" replace />} />
     </Routes>
   );

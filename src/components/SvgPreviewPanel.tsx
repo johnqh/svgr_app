@@ -35,10 +35,7 @@ interface SvgPreviewPanelProps {
   filename?: string;
 }
 
-export default function SvgPreviewPanel({
-  svg,
-  filename,
-}: SvgPreviewPanelProps) {
+export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps) {
   const { t } = useTranslation();
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
@@ -163,15 +160,16 @@ export default function SvgPreviewPanel({
         </div>
       ) : (
         <div className="aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
-          <p className="text-sm text-gray-400">
-            {t('svgPlaceholder')}
-          </p>
+          <p className="text-sm text-gray-400">{t('svgPlaceholder')}</p>
         </div>
       )}
 
       {/* Insufficient credits notice */}
       {insufficientCredits && (
-        <div className="mt-2 p-2 bg-yellow-50 rounded-lg border border-yellow-200 flex items-center justify-between" role="alert">
+        <div
+          className="mt-2 p-2 bg-yellow-50 rounded-lg border border-yellow-200 flex items-center justify-between"
+          role="alert"
+        >
           <p className="text-xs text-yellow-800">
             {t('credits.insufficient', 'No credits remaining')}
           </p>
