@@ -7,6 +7,7 @@
   "qualityMin": "ไฟล์เล็กลง",
   "qualityMax": "ความคมชัดสูง",
   "transparentBg": "พื้นหลังโปร่งใส",
+  "recognizeText": "จดจำข้อความ",
   "originalImage": "ภาพต้นฉบับ",
   "convertedSvg": "SVG ที่แปลงแล้ว",
   "convertToSvg": "แปลงเป็น SVG",

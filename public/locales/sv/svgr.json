@@ -7,6 +7,7 @@
   "qualityMin": "Mindre fil",
   "qualityMax": "Högre kvalitet",
   "transparentBg": "Transparent bakgrund",
+  "recognizeText": "Identifiera text",
   "originalImage": "Originalbild",
   "convertedSvg": "Konverterad SVG",
   "convertToSvg": "Konvertera till SVG",

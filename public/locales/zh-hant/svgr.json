@@ -7,6 +7,7 @@
   "qualityMin": "較小檔案",
   "qualityMax": "較高保真",
   "transparentBg": "透明背景",
+  "recognizeText": "辨識文字",
   "originalImage": "原始圖片",
   "convertedSvg": "轉換後的 SVG",
   "convertToSvg": "轉換為 SVG",

@@ -196,6 +196,19 @@ export default function ConvertPage() {
             </span>
           </label>
 
+          {/* Recognize text toggle */}
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={converter.ocr}
+              onChange={e => converter.setOcr(e.target.checked)}
+              className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+            />
+            <span className="text-sm font-medium text-gray-600 whitespace-nowrap">
+              {t('recognizeText')}
+            </span>
+          </label>
+
           {/* Convert button — full width row */}
           <div className="w-full">
             <ConvertButton

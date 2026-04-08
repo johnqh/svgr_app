@@ -7,6 +7,7 @@
   "qualityMin": "File più piccolo",
   "qualityMax": "Maggiore fedeltà",
   "transparentBg": "Sfondo trasparente",
+  "recognizeText": "Riconosci testo",
   "originalImage": "Immagine originale",
   "convertedSvg": "SVG convertito",
   "convertToSvg": "Converti in SVG",

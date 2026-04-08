@@ -7,6 +7,7 @@
   "qualityMin": "ملف أصغر",
   "qualityMax": "دقة أعلى",
   "transparentBg": "خلفية شفافة",
+  "recognizeText": "التعرف على النص",
   "originalImage": "الصورة الأصلية",
   "convertedSvg": "SVG المحوّل",
   "convertToSvg": "تحويل إلى SVG",
