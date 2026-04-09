@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.66",
+  "version": "1.0.67",
   "type": "module",
   "scripts": {
     "dev": "bun run process:static && vite",
@@ -29,8 +29,8 @@
     "@revenuecat/purchases-js": "^1.26.0",
     "@sudobility/auth-components": "^1.0.10",
     "@sudobility/auth_lib": "^0.0.68",
-    "@sudobility/building_blocks": "^0.0.205",
-    "@sudobility/components": "^5.0.53",
+    "@sudobility/building_blocks": "^0.0.206",
+    "@sudobility/components": "^5.0.54",
     "@sudobility/consumables_client": "^0.0.15",
     "@sudobility/consumables_pages": "^0.0.19",
     "@sudobility/design": "^1.1.27",

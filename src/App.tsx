@@ -132,7 +132,6 @@ function LangLayoutInner() {
         description: t('app.description', {
           defaultValue: `Convert images to SVG with ${APP_NAME}`,
         }),
-        gridColumns: 2,
       }
     : {
         variant: 'compact',
