@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.67",
+  "version": "1.0.68",
   "type": "module",
   "scripts": {
     "dev": "bun run process:static && vite",
@@ -15,6 +15,8 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,json,md,css}\"",
     "typecheck": "tsc -b",
     "process:static": "curl -sL https://raw.githubusercontent.com/johnqh/workflows/main/scripts/process-static-files.ts -o /tmp/process-static-files.ts && bunx tsx /tmp/process-static-files.ts",
+    "localize": "SCRIPT=$(mktemp) && curl -fsSL https://raw.githubusercontent.com/johnqh/workflows/main/scripts/localize_batch.cjs -o $SCRIPT && node $SCRIPT ./public/locales https://api.whisperly.dev/api/v1/translate/jie9cytr/svgr --batch-limit 15 && rm -f $SCRIPT && prettier . --write",
+    "localized": "node scripts/localization_verify.cjs",
     "verify": "bun run typecheck && bun run lint && bun run test && bun run build"
   },
   "dependencies": {
@@ -29,14 +31,14 @@
     "@revenuecat/purchases-js": "^1.26.0",
     "@sudobility/auth-components": "^1.0.10",
     "@sudobility/auth_lib": "^0.0.68",
-    "@sudobility/building_blocks": "^0.0.206",
+    "@sudobility/building_blocks": "^0.0.208",
     "@sudobility/components": "^5.0.54",
     "@sudobility/consumables_client": "^0.0.15",
     "@sudobility/consumables_pages": "^0.0.19",
     "@sudobility/design": "^1.1.27",
     "@sudobility/devops-components": "^2.0.19",
     "@sudobility/di": "^1.5.52",
-    "@sudobility/di_web": "^0.1.162",
+    "@sudobility/di_web": "^0.1.163",
     "@sudobility/entity_client": "^0.0.33",
     "@sudobility/seo_lib": "^0.0.9",
     "@sudobility/subscription-components": "^1.0.31",
