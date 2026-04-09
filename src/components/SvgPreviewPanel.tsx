@@ -16,6 +16,7 @@
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
+import { ui } from '@sudobility/design';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 import { getBaseName, getSvgDimensions, getSvgFileSizeKB } from '@sudobility/svgr_lib';
@@ -137,13 +138,13 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
 
   return (
     <div className="flex flex-col">
-      <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
+      <h3 className={`${ui.text.uppercase} mb-3`}>
         {t('convertedSvg')}
       </h3>
 
       {/* SVG area -- fixed 4:3 aspect ratio, matches ImageUploadPanel */}
       {svgDataUri ? (
-        <div className="relative aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
+        <div className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}>
           <img
             src={svgDataUri}
             alt={t('convertedSvg')}
@@ -159,8 +160,8 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
           </div>
         </div>
       ) : (
-        <div className="aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border-2 border-dashed border-gray-200">
-          <p className="text-sm text-gray-400">{t('svgPlaceholder')}</p>
+        <div className={`aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border-2 border-dashed ${ui.border.default}`}>
+          <p className={ui.text.caption}>{t('svgPlaceholder')}</p>
         </div>
       )}
 
@@ -170,7 +171,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
           className="mt-2 p-2 bg-yellow-50 rounded-lg border border-yellow-200 flex items-center justify-between"
           role="alert"
         >
-          <p className="text-xs text-yellow-800">
+          <p className={`text-xs ${ui.text.warning}`}>
             {t('credits.insufficient', 'No credits remaining')}
           </p>
           <button
@@ -178,7 +179,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
               setInsufficientCredits(false);
               navigate(`/${lang || 'en'}/credits`);
             }}
-            className="text-xs font-medium text-blue-600 hover:text-blue-800 ml-2"
+            className={`text-xs font-medium ${ui.text.linkSubtle} ml-2`}
           >
             {t('credits.buyMore', 'Buy Credits')}
           </button>
@@ -192,7 +193,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
             <button
               onClick={handleDownloadSvg}
               aria-label={t('downloadSvg', 'Download SVG')}
-              className="flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800"
+              className={`flex items-center gap-1.5 text-sm font-medium ${ui.text.linkSubtle}`}
             >
               <DownloadIcon className="w-4 h-4" />
               SVG
@@ -200,7 +201,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
             <button
               onClick={handleDownloadPdf}
               aria-label={t('downloadPdf', 'Download PDF')}
-              className="flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800"
+              className={`flex items-center gap-1.5 text-sm font-medium ${ui.text.linkSubtle}`}
             >
               <DownloadIcon className="w-4 h-4" />
               PDF

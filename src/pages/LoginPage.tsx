@@ -16,6 +16,7 @@ import {
   signInWithPopup,
 } from 'firebase/auth';
 import { LoginPage as LoginPageComponent } from '@sudobility/building_blocks';
+import { variants, ui } from '@sudobility/design';
 import SEO from '../components/seo/SEO';
 import { APP_NAME } from '../config/constants';
 
@@ -35,7 +36,7 @@ function LoginPage() {
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-theme-bg-primary">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-600"></div>
+        <div className={variants.loading.spinner.large()} />
       </div>
     );
   }
@@ -43,7 +44,7 @@ function LoginPage() {
   if (!auth) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-theme-bg-primary">
-        <p className="text-red-600">Firebase not configured</p>
+        <p className={ui.text.error}>Firebase not configured</p>
       </div>
     );
   }

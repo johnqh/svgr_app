@@ -20,6 +20,7 @@ import {
   QUALITY_MIN,
   QUALITY_MAX,
 } from '@sudobility/svgr_lib';
+import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick } from '../analytics';
 import SEO from '../components/seo/SEO';
@@ -123,11 +124,11 @@ export default function ConvertPage() {
           },
         }}
       />
-      {/* Header — hidden on mobile to save space */}
+      {/* Header -- hidden on mobile to save space */}
       <div className="hidden md:block text-center py-8 px-4">
-        <p className="text-gray-500 text-sm">{t('subtitle')}</p>
-        <p className="mt-1 text-gray-400 text-xs italic">{t('pronunciation')}</p>
-        <p className="mt-3 text-gray-400 text-xs max-w-xl mx-auto">{t('description')}</p>
+        <p className={ui.text.caption}>{t('subtitle')}</p>
+        <p className={`mt-1 ${ui.text.muted} text-xs italic`}>{t('pronunciation')}</p>
+        <p className={`mt-3 ${ui.text.muted} text-xs max-w-xl mx-auto`}>{t('description')}</p>
       </div>
 
       {/* Two-column panels */}
@@ -146,24 +147,24 @@ export default function ConvertPage() {
       {/* Error display */}
       {converter.error && (
         <div className="max-w-6xl mx-auto px-4 pb-2">
-          <div className="bg-red-50 border border-red-200 rounded-lg p-3 text-sm text-red-700">
+          <div className={`${colors.component.alert.error.base} ${colors.component.alert.error.dark} border border-red-200 rounded-lg p-3 text-sm`}>
             {converter.error}
           </div>
         </div>
       )}
 
       {/* Controls bar — always at bottom, sticky when scrolling */}
-      <div className="mt-auto sticky bottom-0 z-10 border-t border-gray-200 bg-gray-50 px-4 py-3">
+      <div className={`mt-auto sticky bottom-0 z-10 border-t ${ui.border.default} ${ui.background.subtle} px-4 py-3`}>
         <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-x-6 gap-y-3">
           {/* Quality slider */}
           <div className="w-full md:w-auto md:flex-1 flex items-center gap-3">
             <label
               htmlFor="quality-slider"
-              className="text-sm font-medium text-gray-600 whitespace-nowrap"
+              className={`${ui.text.label} whitespace-nowrap`}
             >
               {t('quality')}
             </label>
-            <span className="text-xs text-gray-400">{t('qualityMin')}</span>
+            <span className={`text-xs ${ui.text.muted}`}>{t('qualityMin')}</span>
             <input
               id="quality-slider"
               type="range"
@@ -177,8 +178,8 @@ export default function ConvertPage() {
               aria-valuenow={converter.quality}
               className="flex-1"
             />
-            <span className="text-xs text-gray-400">{t('qualityMax')}</span>
-            <span className="text-sm text-gray-500 w-12 text-right">
+            <span className={`text-xs ${ui.text.muted}`}>{t('qualityMax')}</span>
+            <span className={`text-sm ${ui.text.muted} w-12 text-right`}>
               {converter.quality}/{QUALITY_MAX}
             </span>
           </div>
@@ -191,7 +192,7 @@ export default function ConvertPage() {
               onChange={e => converter.setTransparentBg(e.target.checked)}
               className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
             />
-            <span className="text-sm font-medium text-gray-600 whitespace-nowrap">
+            <span className={`${ui.text.label} whitespace-nowrap`}>
               {t('transparentBg')}
             </span>
           </label>
@@ -202,9 +203,9 @@ export default function ConvertPage() {
               type="checkbox"
               checked={converter.ocr}
               onChange={e => converter.setOcr(e.target.checked)}
-              className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+              className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
             />
-            <span className="text-sm font-medium text-gray-600 whitespace-nowrap">
+            <span className={`${ui.text.label} whitespace-nowrap`}>
               {t('recognizeText')}
             </span>
           </label>

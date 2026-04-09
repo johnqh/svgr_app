@@ -11,6 +11,7 @@ import {
 } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { SudobilityAppWithFirebaseAuth } from '@sudobility/building_blocks/firebase';
+import { variants } from '@sudobility/design';
 import {
   AppPageLayout,
   type TopBarConfig,
@@ -49,7 +50,7 @@ const LoadingFallback = () => (
     <div
       role="status"
       aria-label="Loading"
-      className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"
+      className={variants.loading.spinner.large()}
     />
   </div>
 );

@@ -11,6 +11,7 @@
 import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { isValidImageType } from '@sudobility/svgr_lib';
+import { ui } from '@sudobility/design';
 import { trackButtonClick } from '../analytics';
 import { ImageUploadIcon } from './icons';
 
@@ -94,13 +95,13 @@ export default function ImageUploadPanel({
 
   return (
     <div className="flex flex-col">
-      <h3 className="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-3">
+      <h3 className={`${ui.text.uppercase} mb-3`}>
         {t('originalImage')}
       </h3>
 
       {/* Image area -- fixed 4:3 aspect ratio, matches SvgPreviewPanel */}
       {previewUrl && file ? (
-        <div className="relative aspect-[4/3] flex items-center justify-center bg-gray-50 rounded-lg border border-gray-200 overflow-hidden">
+        <div className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}>
           <img
             src={previewUrl}
             alt={t('originalImage')}
@@ -121,7 +122,7 @@ export default function ImageUploadPanel({
               onClear();
             }}
             aria-label={t('clearImage', 'Clear image')}
-            className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center bg-black/50 hover:bg-black/70 rounded-full transition-colors"
+            className={`absolute top-2 right-2 w-6 h-6 flex items-center justify-center bg-black/50 hover:bg-black/70 rounded-full ${ui.transition.default}`}
           >
             <span className="text-white text-sm font-semibold leading-none">&#x2715;</span>
           </button>
@@ -137,27 +138,27 @@ export default function ImageUploadPanel({
           onDragOver={handleDragOver}
           onDragEnter={handleDragOver}
           onDragLeave={handleDragLeave}
-          className={`aspect-[4/3] flex flex-col items-center justify-center rounded-lg border-2 border-dashed cursor-pointer transition-colors ${
+          className={`aspect-[4/3] flex flex-col items-center justify-center rounded-lg border-2 border-dashed cursor-pointer ${ui.transition.default} ${
             isDragging
               ? 'border-blue-400 bg-blue-50'
-              : 'border-gray-300 hover:border-gray-400 bg-gray-50'
+              : `border-gray-300 hover:border-gray-400 ${ui.background.subtle}`
           }`}
         >
-          <ImageUploadIcon className="w-12 h-12 text-gray-400 mb-3" />
-          <p className="text-sm text-gray-600 font-medium">{t('dropOrClick')}</p>
-          <p className="text-xs text-gray-400 mt-1">{t('supportedFormats')}</p>
+          <ImageUploadIcon className={`w-12 h-12 ${ui.text.muted} mb-3`} />
+          <p className={`${ui.text.bodySmall} font-medium`}>{t('dropOrClick')}</p>
+          <p className={`${ui.text.caption} mt-1`}>{t('supportedFormats')}</p>
         </div>
       )}
 
       {error && (
-        <p className="mt-2 text-sm text-red-500" role="alert">
+        <p className={`mt-2 text-sm ${ui.text.error}`} role="alert">
           {error}
         </p>
       )}
 
       {/* Bottom bar -- fixed height, matches SvgPreviewPanel */}
       <div className="h-10 flex items-center mt-2">
-        {file && <span className="text-sm font-medium text-gray-700 truncate">{file.name}</span>}
+        {file && <span className={`${ui.text.label} truncate`}>{file.name}</span>}
       </div>
 
       <input
