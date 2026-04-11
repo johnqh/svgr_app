@@ -8,6 +8,7 @@
   "qualityMax": "較高保真",
   "transparentBg": "透明背景",
   "recognizeText": "辨識文字",
+  "mergePaths": "合併路徑",
   "originalImage": "原始圖片",
   "convertedSvg": "轉換後的 SVG",
   "convertToSvg": "轉換為 SVG",

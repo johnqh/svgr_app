@@ -8,6 +8,7 @@
   "qualityMax": "높은 충실도",
   "transparentBg": "투명 배경",
   "recognizeText": "텍스트 인식",
+  "mergePaths": "경로 병합",
   "originalImage": "원본 이미지",
   "convertedSvg": "변환된 SVG",
   "convertToSvg": "SVG로 변환",

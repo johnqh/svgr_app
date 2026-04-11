@@ -8,6 +8,7 @@
   "qualityMax": "Higher fidelity",
   "transparentBg": "Transparent background",
   "recognizeText": "Recognize text",
+  "mergePaths": "Merge paths",
   "originalImage": "Original Image",
   "convertedSvg": "Converted SVG",
   "convertToSvg": "Convert to SVG",

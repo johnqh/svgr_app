@@ -8,6 +8,7 @@
   "qualityMax": "Высокая точность",
   "transparentBg": "Прозрачный фон",
   "recognizeText": "Распознать текст",
+  "mergePaths": "Объединить контуры",
   "originalImage": "Исходное изображение",
   "convertedSvg": "Преобразованный SVG",
   "convertToSvg": "Преобразовать в SVG",

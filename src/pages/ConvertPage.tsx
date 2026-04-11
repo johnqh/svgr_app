@@ -210,6 +210,19 @@ export default function ConvertPage() {
             </span>
           </label>
 
+          {/* Merge paths toggle */}
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              checked={converter.mergePaths}
+              onChange={e => converter.setMergePaths(e.target.checked)}
+              className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
+            />
+            <span className={`${ui.text.label} whitespace-nowrap`}>
+              {t('mergePaths')}
+            </span>
+          </label>
+
           {/* Convert button — full width row */}
           <div className="w-full">
             <ConvertButton

@@ -4,7 +4,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://svgr.app/en</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
@@ -29,7 +29,7 @@
   <!-- Use Cases -->
   <url>
     <loc>https://svgr.app/en/use-cases</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
@@ -54,7 +54,7 @@
   <!-- Credits -->
   <url>
     <loc>https://svgr.app/en/credits</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
@@ -79,7 +79,7 @@
   <!-- Login -->
   <url>
     <loc>https://svgr.app/en/login</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/login" />
@@ -104,7 +104,7 @@
   <!-- Privacy Policy -->
   <url>
     <loc>https://svgr.app/en/privacy</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
@@ -129,7 +129,7 @@
   <!-- Terms of Service -->
   <url>
     <loc>https://svgr.app/en/terms</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-04-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />

@@ -8,6 +8,7 @@
   "qualityMax": "ความคมชัดสูง",
   "transparentBg": "พื้นหลังโปร่งใส",
   "recognizeText": "จดจำข้อความ",
+  "mergePaths": "รวมเส้นทาง",
   "originalImage": "ภาพต้นฉบับ",
   "convertedSvg": "SVG ที่แปลงแล้ว",
   "convertToSvg": "แปลงเป็น SVG",

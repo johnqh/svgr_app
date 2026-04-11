@@ -8,6 +8,7 @@
   "qualityMax": "Вища точність",
   "transparentBg": "Прозорий фон",
   "recognizeText": "Розпізнати текст",
+  "mergePaths": "Об'єднати контури",
   "originalImage": "Оригінальне зображення",
   "convertedSvg": "Перетворений SVG",
   "convertToSvg": "Перетворити на SVG",
