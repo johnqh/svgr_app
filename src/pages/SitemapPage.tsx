@@ -37,7 +37,12 @@ const LANGUAGE_FLAGS: Record<string, string> = {
   'zh-hant': '\u{1F1F9}\u{1F1FC}',
 };
 
-function LinkWrapper({ href, className, children, language }: LinkComponentProps & { language?: string }) {
+function LinkWrapper({
+  href,
+  className,
+  children,
+  language,
+}: LinkComponentProps & { language?: string }) {
   const { lang } = useParams<{ lang: string }>();
   const navigate = useNavigate();
   const targetLang = language || lang || 'en';

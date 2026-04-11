@@ -22,6 +22,10 @@
     "terms": {
       "title": "服务条款",
       "description": "SVGR图像转SVG服务的使用条款。个人和商业用途均可免费转换。"
+    },
+    "sitemap": {
+      "title": "网站地图",
+      "description": "浏览 SVGR 的所有页面——图像转 SVG 转换器。找到转换器、使用案例、致谢和法律页面。"
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "准备好转换了吗？",
       "subtitle": "上传您的位图，几秒钟内即可获得 SVG。",
       "button": "开始转换"
+    }
+  },
+  "sitemap": {
+    "title": "网站地图",
+    "subtitle": "浏览 SVGR 上所有可用的页面和功能。",
+    "languages": "语言",
+    "languagesDescription": "SVGR 支持 16 种语言。请选择您偏好的语言：",
+    "quickLinks": "快速链接",
+    "sections": {
+      "main": "主",
+      "legal": "法律的"
+    },
+    "links": {
+      "convert": "图像转SVG转换器",
+      "useCases": "使用案例",
+      "credits": "购买积分",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    },
+    "descriptions": {
+      "convert": "上传PNG、JPG或WEBP图像并将其转换为可缩放的SVG矢量图形。",
+      "useCases": "了解SVGR如何帮助将AI生成的徽标和旧的光栅资产转换为SVG。",
+      "credits": "购买积分以下载您转换后的SVG和PDF文件。",
+      "privacy": "SVGR 如何处理您的数据并保护您的隐私。",
+      "terms": "使用SVGR转换服务的条款和条件。"
     }
   }
 }

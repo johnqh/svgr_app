@@ -22,6 +22,10 @@
     "terms": {
       "title": "服務條款",
       "description": "SVGR圖片轉SVG服務的服務條款。個人和商業用途均可免費轉換。"
+    },
+    "sitemap": {
+      "title": "網站地圖",
+      "description": "瀏覽 SVGR 的所有頁面——圖片轉 SVG 轉換器。找到轉換器、使用案例、致謝和法律頁面。"
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "準備好轉換了嗎？",
       "subtitle": "上傳您的點陣圖，幾秒鐘內即可獲得 SVG。",
       "button": "開始轉換"
+    }
+  },
+  "sitemap": {
+    "title": "網站地圖",
+    "subtitle": "瀏覽 SVGR 上所有可用的頁面和功能。",
+    "languages": "語言",
+    "languagesDescription": "SVGR 支援 16 種語言。請選擇您偏好的語言：",
+    "quickLinks": "快速連結",
+    "sections": {
+      "main": "主",
+      "legal": "法律的"
+    },
+    "links": {
+      "convert": "圖像轉SVG轉換器",
+      "useCases": "使用案例",
+      "credits": "購買積分",
+      "privacy": "隱私政策",
+      "terms": "服務條款"
+    },
+    "descriptions": {
+      "convert": "上傳 PNG、JPG 或 WEBP 圖像，並轉換為可縮放的 SVG 向量圖形。",
+      "useCases": "了解SVGR如何幫助將AI生成的徽標和舊的光柵資產轉換為SVG。",
+      "credits": "購買積分以下載您轉換後的SVG和PDF文件。",
+      "privacy": "SVGR 如何處理您的數據並保護您的隱私。",
+      "terms": "使用SVGR轉換服務的條款和條件。"
     }
   }
 }

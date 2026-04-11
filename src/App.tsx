@@ -138,7 +138,10 @@ function LangLayoutInner() {
         links: [
           { label: t('privacy'), href: `/${currentLang}/privacy` },
           { label: t('terms'), href: `/${currentLang}/terms` },
-          { label: t('sitemap.title', { defaultValue: 'Sitemap' }), href: `/${currentLang}/sitemap` },
+          {
+            label: t('sitemap.title', { defaultValue: 'Sitemap' }),
+            href: `/${currentLang}/sitemap`,
+          },
         ],
         sticky: true,
       };

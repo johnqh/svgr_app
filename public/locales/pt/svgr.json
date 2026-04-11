@@ -22,6 +22,10 @@
     "terms": {
       "title": "Termos de Serviço",
       "description": "Termos de serviço para o serviço de conversão de imagem para SVG com SVGR. Gratuito para uso pessoal e comercial."
+    },
+    "sitemap": {
+      "title": "Mapa do site",
+      "description": "Navegue por todas as páginas do SVGR - o conversor de imagem para SVG. Encontre o conversor, casos de uso, créditos e páginas legais."
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "Pronto para converter?",
       "subtitle": "Faça upload da sua imagem raster e obtenha um SVG em segundos.",
       "button": "Começar a converter"
+    }
+  },
+  "sitemap": {
+    "title": "Mapa do site",
+    "subtitle": "Navegue por todas as páginas e recursos disponíveis no SVGR.",
+    "languages": "Idiomas",
+    "languagesDescription": "O SVGR está disponível em 16 idiomas. Selecione o idioma desejado:",
+    "quickLinks": "Links rápidos",
+    "sections": {
+      "main": "Principal",
+      "legal": "Legal"
+    },
+    "links": {
+      "convert": "Conversor de imagem para SVG",
+      "useCases": "Casos de uso",
+      "credits": "Comprar créditos",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço"
+    },
+    "descriptions": {
+      "convert": "Carregue imagens PNG, JPG ou WEBP e converta-as em gráficos vetoriais SVG escaláveis.",
+      "useCases": "Descubra como o SVGR ajuda a converter logotipos gerados por IA e ativos rasterizados herdados para SVG.",
+      "credits": "Compre créditos para baixar seus arquivos SVG e PDF convertidos.",
+      "privacy": "Como o SVGR lida com seus dados e protege sua privacidade.",
+      "terms": "Termos e condições para o uso do serviço de conversão SVGR."
     }
   }
 }

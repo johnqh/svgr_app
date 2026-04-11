@@ -22,6 +22,10 @@
     "terms": {
       "title": "Villkor för tjänsten",
       "description": "Villkor för tjänsten SVGR bild till SVG-omvandling. Gratis att konvertera för privat och kommersiellt bruk."
+    },
+    "sitemap": {
+      "title": "Webbplatskarta",
+      "description": "Bläddra bland alla sidor på SVGR – konverteraren från bilder till SVG. Hitta konverteraren, användningsområden, upphovsrätt och juridiska sidor."
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "Redo att konvertera?",
       "subtitle": "Ladda upp din rasterbild och få en SVG på sekunder.",
       "button": "Börja konvertera"
+    }
+  },
+  "sitemap": {
+    "title": "Webbplatskarta",
+    "subtitle": "Bläddra bland alla sidor och funktioner som finns tillgängliga på SVGR.",
+    "languages": "Språk",
+    "languagesDescription": "SVGR finns tillgängligt på 16 språk. Välj ditt önskade språk:",
+    "quickLinks": "Snabblänkar",
+    "sections": {
+      "main": "Hem",
+      "legal": "Juridisk"
+    },
+    "links": {
+      "convert": "Bild till SVG-omvandlare",
+      "useCases": "Användningsområden",
+      "credits": "Köp kredit",
+      "privacy": "Integritetspolicy",
+      "terms": "Villkor för tjänsten"
+    },
+    "descriptions": {
+      "convert": "Ladda upp PNG-, JPG- eller WEBP-bilder och konvertera dem till skalbara vektorgrafik i SVG.",
+      "useCases": "Lär dig hur SVGR hjälper till att omvandla AI-genererade logotyper och äldre rasterbilder till SVG.",
+      "credits": "Köp kredit för att ladda ner dina konverterade SVG- och PDF-filer.",
+      "privacy": "Hur SVGR hanterar dina data och skyddar din integritet.",
+      "terms": "Villkor för användning av SVGR-omvandlingstjänsten."
     }
   }
 }

@@ -22,6 +22,10 @@
     "terms": {
       "title": "이용 약관",
       "description": "SVGR 이미지에서 SVG로 변환 서비스의 이용 약관. 개인 및 상업적 사용을 위해 무료로 변환 가능합니다."
+    },
+    "sitemap": {
+      "title": "사이트맵",
+      "description": "SVGR - 이미지에서 SVG로 변환하는 도구의 모든 페이지를 둘러보세요. 변환기, 사용 사례, 출처 및 법적 페이지를 찾으세요."
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "변환할 준비가 되셨나요?",
       "subtitle": "래스터 이미지를 업로드하고 몇 초 만에 SVG를 받으세요.",
       "button": "변환 시작"
+    }
+  },
+  "sitemap": {
+    "title": "사이트맵",
+    "subtitle": "SVGR에서 사용 가능한 모든 페이지와 기능을 둘러보세요.",
+    "languages": "언어",
+    "languagesDescription": "SVGR은 16개의 언어로 사용할 수 있습니다. 선호하는 언어를 선택하세요:",
+    "quickLinks": "빠른 링크",
+    "sections": {
+      "main": "메인",
+      "legal": "법적"
+    },
+    "links": {
+      "convert": "이미지에서 SVG로 변환기",
+      "useCases": "사용 사례",
+      "credits": "크레딧 구매",
+      "privacy": "개인정보 보호정책",
+      "terms": "이용 약관"
+    },
+    "descriptions": {
+      "convert": "PNG, JPG 또는 WEBP 이미지를 업로드하고 스케일링 가능한 SVG 벡터 그래픽으로 변환하세요.",
+      "useCases": "SVGR이 AI 생성 로고와 구형 래스터 자산을 SVG로 변환하는 방법을 학습하세요.",
+      "credits": "변환된 SVG 및 PDF 파일을 다운로드하려면 크레딧을 구입하세요.",
+      "privacy": "SVGR이 사용자의 데이터를 어떻게 처리하고 개인정보를 보호하는지.",
+      "terms": "SVGR 변환 서비스 이용을 위한 이용 약관."
     }
   }
 }

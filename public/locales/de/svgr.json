@@ -22,6 +22,10 @@
     "terms": {
       "title": "Allgemeine Geschäftsbedingungen",
       "description": "Allgemeine Geschäftsbedingungen für den SVGR-Bild-zu-SVG-Konvertierungsdienst. Kostenlos für persönliche und kommerzielle Nutzung."
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "description": "Alle Seiten von SVGR anzeigen – dem Bild-zu-SVG-Konverter. Finden Sie den Konverter, Einsatzgebiete, Urheberrechte und rechtliche Seiten."
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "Bereit zum Konvertieren?",
       "subtitle": "Laden Sie Ihr Rasterbild hoch und erhalten Sie in Sekunden eine SVG-Datei.",
       "button": "Jetzt konvertieren"
+    }
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "subtitle": "Alle Seiten und Funktionen von SVGR durchsuchen.",
+    "languages": "Sprachen",
+    "languagesDescription": "SVGR ist in 16 Sprachen verfügbar. Wählen Sie Ihre bevorzugte Sprache:",
+    "quickLinks": "Schnellverknüpfungen",
+    "sections": {
+      "main": "Hauptseite",
+      "legal": "Rechtlich"
+    },
+    "links": {
+      "convert": "Bild zu SVG Konverter",
+      "useCases": "Verwendungsbeispiele",
+      "credits": "Kredite kaufen",
+      "privacy": "Datenschutzbestimmungen",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    },
+    "descriptions": {
+      "convert": "Laden Sie PNG-, JPG- oder WEBP-Bilder hoch und konvertieren Sie sie in skalierbare Vektorgrafiken im SVG-Format.",
+      "useCases": "Erfahren Sie, wie SVGR dabei hilft, künstlich generierte Logos und veraltete Raster-Assets in SVG umzuwandeln.",
+      "credits": "Kaufe Credits, um deine konvertierten SVG- und PDF-Dateien herunterzuladen.",
+      "privacy": "Wie SVGR Ihre Daten verarbeitet und Ihren Datenschutz schützt.",
+      "terms": "Allgemeine Geschäftsbedingungen für die Verwendung des SVGR-Konvertierungsdienstes."
     }
   }
 }

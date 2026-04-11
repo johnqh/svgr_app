@@ -22,6 +22,10 @@
     "terms": {
       "title": "Điều khoản dịch vụ",
       "description": "Điều khoản dịch vụ cho dịch vụ chuyển đổi hình ảnh sang SVG bằng SVGR. Miễn phí chuyển đổi cho mục đích cá nhân và thương mại."
+    },
+    "sitemap": {
+      "title": "Sơ đồ trang web",
+      "description": "Duyệt tất cả các trang trên SVGR — công cụ chuyển đổi hình ảnh thành SVG. Tìm công cụ chuyển đổi, các trường hợp sử dụng, trang ghi công và trang pháp lý."
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "Sẵn sàng chuyển đổi?",
       "subtitle": "Tải lên hình ảnh raster của bạn và nhận SVG trong vài giây.",
       "button": "Bắt đầu chuyển đổi"
+    }
+  },
+  "sitemap": {
+    "title": "Sơ đồ trang web",
+    "subtitle": "Duyệt tất cả các trang và tính năng có sẵn trên SVGR.",
+    "languages": "Ngôn ngữ",
+    "languagesDescription": "SVGR có sẵn trong 16 ngôn ngữ. Chọn ngôn ngữ bạn thích:",
+    "quickLinks": "Liên kết nhanh",
+    "sections": {
+      "main": "Chính",
+      "legal": "Pháp lý"
+    },
+    "links": {
+      "convert": "Trình chuyển đổi hình ảnh sang SVG",
+      "useCases": "Trường hợp sử dụng",
+      "credits": "Mua tín dụng",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản dịch vụ"
+    },
+    "descriptions": {
+      "convert": "Tải lên hình ảnh PNG, JPG hoặc WEBP và chuyển đổi chúng thành đồ họa vector SVG có thể mở rộng.",
+      "useCases": "Học cách SVGR giúp chuyển đổi các biểu tượng do AI tạo ra và các tài sản raster cũ thành SVG.",
+      "credits": "Mua tín dụng để tải xuống các tệp SVG và PDF đã chuyển đổi của bạn.",
+      "privacy": "SVGR xử lý dữ liệu của bạn như thế nào và bảo vệ quyền riêng tư của bạn ra sao.",
+      "terms": "Điều khoản và điều kiện sử dụng dịch vụ chuyển đổi SVGR."
     }
   }
 }

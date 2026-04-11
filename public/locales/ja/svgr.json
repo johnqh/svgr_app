@@ -22,6 +22,10 @@
     "terms": {
       "title": "利用規約",
       "description": "SVGR画像からSVGへの変換サービスの利用規約。個人的および商業的用途で無料で変換可能です。"
+    },
+    "sitemap": {
+      "title": "サイトマップ",
+      "description": "SVGR - 画像からSVGに変換するツールのすべてのページを閲覧してください。変換ツール、利用例、クレジット、法的ページを確認してください。"
     }
   },
   "title": "SVGR",
@@ -175,6 +179,31 @@
       "title": "変換する準備はできましたか？",
       "subtitle": "ラスター画像をアップロードして、数秒でSVGを取得しましょう。",
       "button": "変換を開始"
+    }
+  },
+  "sitemap": {
+    "title": "サイトマップ",
+    "subtitle": "SVGRで利用可能なすべてのページと機能を閲覧します。",
+    "languages": "言語",
+    "languagesDescription": "SVGRは16の言語で利用可能です。お好みの言語を選択してください：",
+    "quickLinks": "クイックリンク",
+    "sections": {
+      "main": "メイン",
+      "legal": "法的"
+    },
+    "links": {
+      "convert": "画像からSVG変換ツール",
+      "useCases": "使用事例",
+      "credits": "クレジットを購入",
+      "privacy": "プライバシーポリシー",
+      "terms": "利用規約"
+    },
+    "descriptions": {
+      "convert": "PNG、JPG、またはWEBP画像をアップロードして、スケーラブルなSVGベクター画像に変換します。",
+      "useCases": "SVGRがAI生成ロゴおよびレガシーラスター資産をSVGに変換する方法を学びましょう。",
+      "credits": "変換されたSVGおよびPDFファイルをダウンロードするにはクレジットを購入してください。",
+      "privacy": "SVGRがお客様のデータをどのように扱い、プライバシーを保護するか。",
+      "terms": "SVGR変換サービスの利用に関する利用規約。"
     }
   }
 }
