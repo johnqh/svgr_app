@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "Convertisseur d'image en SVG - PNG, JPG, WEBP vers vectoriel",
+      "description": "Transformez les images raster en graphiques vectoriels évolutifs en ligne. Téléchargez des fichiers PNG, JPG ou WEBP et obtenez une sortie SVG propre instantanément. Aperçu gratuit, idéal pour les logos générés par IA.",
+      "keywords": "convertisseur d'image en SVG, PNG vers SVG, JPG vers SVG, WEBP vers SVG, raster vers vectoriel, convertisseur SVG en ligne, vectorisation d'image"
+    },
+    "useCases": {
+      "title": "Convertir les logos d'IA en SVG - Cas d'utilisation",
+      "description": "Voyez comment SVGR convertit les logos générés par IA et les images rasters héritées en fichiers vectoriels SVG évolutifs. Fonctionne avec Looka, Brandmark et bien d'autres.",
+      "keywords": "logo IA en vectoriel, convertir logo en SVG, vectoriser logo IA, image raster en vector, image héritée en SVG"
+    },
+    "credits": {
+      "title": "Acheter des crédits de téléchargement SVG",
+      "description": "Achetez des crédits pour télécharger vos fichiers SVG et PDF convertis depuis SVGR. Des forfaits de crédits abordables pour les designers et les entreprises.",
+      "keywords": "Crédits SVGR, crédits de téléchargement SVG, crédits d'achat vectoriels, crédits de téléchargement PDF"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "description": "Comment SVGR gère vos données. Les images téléchargées sont traitées en mémoire et supprimées immédiatement. Aucune donnée d'image n'est stockée ou partagée."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "description": "Conditions d'utilisation du service de conversion d'images en SVG de SVGR. Gratuit pour une utilisation personnelle et commerciale."
+    }
+  },
   "title": "SVGR",
   "subtitle": "Convertissez des images matricielles en graphiques vectoriels",
   "pronunciation": "Se prononce « Sveeger »",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "Le SVG converti apparaîtra ici",
   "loginForFree": "Connectez-vous pour convertir gratuitement sans filigrane",
   "conversionFailed": "La conversion a échoué",
+  "product": "Produit",
+  "convert": "Convertir",
+  "legal": "Légal",
   "privacy": "Confidentialité",
   "terms": "Conditions",
   "lastUpdated": "Dernière mise à jour : {{date}}",
-
   "privacyTitle": "Politique de confidentialité",
   "privacyIntroTitle": "Introduction",
   "privacyIntroContent": "Sudobility Inc. (« nous ») exploite SVGR, un service de conversion d'images matricielles en images vectorielles. Cette Politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations lorsque vous utilisez notre service.",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "Si vous avez des questions concernant cette Politique de confidentialité, veuillez nous contacter.",
   "privacyContactEmailLabel": "E-mail :",
   "privacyContactWebsiteLabel": "Site web :",
-
   "termsTitle": "Conditions d'utilisation",
   "termsAcceptanceTitle": "Acceptation des conditions",
   "termsAcceptanceContent": "En accédant ou en utilisant SVGR (le « Service »), exploité par Sudobility Inc., vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser le Service.",
@@ -80,15 +106,12 @@
   "termsContactDescription": "Si vous avez des questions concernant ces Conditions d'utilisation, veuillez nous contacter.",
   "termsContactEmailLabel": "E-mail :",
   "termsContactWebsiteLabel": "Site web :",
-
   "navigation": {
     "useCases": "Cas d'utilisation"
   },
-
   "useCases": {
     "title": "Pourquoi utiliser SVGR ?",
     "subtitle": "SVGR convertit les images matricielles (PNG, JPG) en graphiques vectoriels évolutifs (SVG) — vous faisant gagner du temps et de l'argent.",
-
     "aiLogos": {
       "title": "Convertir les logos générés par IA en vecteurs",
       "description": "Tous les générateurs de logos IA créent des images matricielles (PNG/JPG). Ces images perdent en qualité lors du redimensionnement, apparaissent floues sur les grands écrans et ne peuvent pas être éditées proprement dans les outils de design vectoriel. Pour utiliser un logo généré par IA de manière professionnelle — sur des cartes de visite, des bannières, du merchandising ou des sites web — vous avez besoin d'une version vectorielle.",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "Moderniser les anciens actifs visuels",
       "description": "De nombreuses organisations possèdent d'anciens actifs visuels — logos, icônes, diagrammes et illustrations — stockés uniquement sous forme de fichiers matriciels. Ces actifs ont peut-être été créés il y a des années quand les outils vectoriels étaient moins accessibles, ou les fichiers sources originaux ont été perdus au fil du temps.",
@@ -149,7 +171,6 @@
       "solution": "Comment SVGR aide",
       "solutionDescription": "SVGR vous permet de convertir d'anciens actifs matriciels en fichiers SVG propres. Le résultat est un vecteur évolutif et éditable qui fonctionne parfaitement sur toute taille d'écran — des appareils mobiles aux écrans 4K et à l'impression."
     },
-
     "cta": {
       "title": "Prêt à convertir ?",
       "subtitle": "Téléchargez votre image matricielle et obtenez un SVG en quelques secondes.",

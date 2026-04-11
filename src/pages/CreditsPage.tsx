@@ -17,6 +17,7 @@ import {
 import { CreditStorePage } from '@sudobility/consumables_pages';
 import { useAuthStatus } from '@sudobility/auth-components';
 import { CONSUMABLES_OFFERING_ID } from '../config/consumables';
+import SEO from '../components/seo/SEO';
 
 export default function CreditsPage() {
   const { t } = useTranslation();
@@ -41,29 +42,37 @@ export default function CreditsPage() {
   }, [navigate, lang]);
 
   return (
-    <CreditStorePage
-      isAuthenticated={isAuthenticated}
-      balance={balance}
-      packages={packages}
-      isLoading={balanceLoading || productsLoading}
-      isPurchasing={isPurchasing}
-      error={error?.message ?? null}
-      onPurchase={handlePurchase}
-      onLoginClick={handleLoginClick}
-      labels={{
-        title: t('credits.title', 'Buy Credits'),
-        currentBalanceLabel: t('credits.currentBalance', 'Current Balance'),
-        creditsUnit: t('credits.unit', 'credits'),
-        purchaseButton: t('credits.buy', 'Buy'),
-        purchasingButton: t('credits.processing', 'Processing...'),
-        noProducts: t('credits.noProducts', 'No packages available'),
-        errorTitle: t('credits.error', 'Error'),
-        loginRequired: t('credits.loginRequired', 'Log in to purchase credits'),
-      }}
-      formatters={{
-        formatCredits: count => `${count} ${t('credits.unit', 'credits')}`,
-      }}
-      className="py-8 px-4"
-    />
+    <>
+      <SEO
+        title={t('seo.credits.title')}
+        description={t('seo.credits.description')}
+        keywords={t('seo.credits.keywords')}
+        canonical="/credits"
+      />
+      <CreditStorePage
+        isAuthenticated={isAuthenticated}
+        balance={balance}
+        packages={packages}
+        isLoading={balanceLoading || productsLoading}
+        isPurchasing={isPurchasing}
+        error={error?.message ?? null}
+        onPurchase={handlePurchase}
+        onLoginClick={handleLoginClick}
+        labels={{
+          title: t('credits.title', 'Buy Credits'),
+          currentBalanceLabel: t('credits.currentBalance', 'Current Balance'),
+          creditsUnit: t('credits.unit', 'credits'),
+          purchaseButton: t('credits.buy', 'Buy'),
+          purchasingButton: t('credits.processing', 'Processing...'),
+          noProducts: t('credits.noProducts', 'No packages available'),
+          errorTitle: t('credits.error', 'Error'),
+          loginRequired: t('credits.loginRequired', 'Log in to purchase credits'),
+        }}
+        formatters={{
+          formatCredits: count => `${count} ${t('credits.unit', 'credits')}`,
+        }}
+        className="py-8 px-4"
+      />
+    </>
   );
 }

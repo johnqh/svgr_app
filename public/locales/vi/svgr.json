@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "Trình chuyển đổi hình ảnh sang SVG - PNG, JPG, WEBP sang vector",
+      "description": "Chuyển đổi hình ảnh raster thành đồ họa vector có thể mở rộng trực tuyến. Tải lên PNG, JPG hoặc WEBP và nhận đầu ra SVG sạch sẽ ngay lập tức. Xem trước miễn phí, lý tưởng cho logo được tạo bởi AI.",
+      "keywords": "chuyển đổi hình ảnh sang SVG, chuyển đổi PNG sang SVG, chuyển đổi JPG sang SVG, chuyển đổi WEBP sang SVG, chuyển đổi từ raster sang vector, công cụ chuyển đổi SVG trực tuyến, chuyển đổi hình ảnh sang vector"
+    },
+    "useCases": {
+      "title": "Chuyển đổi biểu tượng AI thành SVG - Các trường hợp sử dụng",
+      "description": "Xem cách SVGR chuyển đổi các biểu tượng do AI tạo ra và các hình ảnh raster cũ thành các tệp SVG vector có thể mở rộng. Hoạt động tốt với Looka, Brandmark và nhiều công cụ khác.",
+      "keywords": "logo AI thành vector, chuyển đổi logo thành SVG, chuyển logo thành vector, chuyển ảnh raster thành vector, chuyển ảnh cũ thành SVG"
+    },
+    "credits": {
+      "title": "Mua tín dụng tải xuống SVG",
+      "description": "Mua tín chỉ để tải xuống các tệp SVG và PDF đã chuyển đổi từ SVGR. Gói tín chỉ giá cả phải chăng cho các nhà thiết kế và doanh nghiệp.",
+      "keywords": "SVGR tín dụng, tín dụng tải SVG, mua tín dụng vector, tín dụng tải PDF"
+    },
+    "privacy": {
+      "title": "Chính sách bảo mật",
+      "description": "Cách SVGR xử lý dữ liệu của bạn. Các hình ảnh được tải lên sẽ được xử lý trong bộ nhớ và xóa ngay lập tức. Không có dữ liệu hình ảnh nào được lưu trữ hay chia sẻ."
+    },
+    "terms": {
+      "title": "Điều khoản dịch vụ",
+      "description": "Điều khoản dịch vụ cho dịch vụ chuyển đổi hình ảnh sang SVG bằng SVGR. Miễn phí chuyển đổi cho mục đích cá nhân và thương mại."
+    }
+  },
   "title": "SVGR",
   "subtitle": "Chuyển đổi ảnh raster thành đồ họa vector có thể mở rộng",
   "pronunciation": "Phát âm là \"Sveeger\"",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "SVG đã chuyển đổi sẽ hiển thị tại đây",
   "loginForFree": "Đăng nhập để chuyển đổi miễn phí không có hình mờ",
   "conversionFailed": "Chuyển đổi thất bại",
+  "product": "Sản phẩm",
+  "convert": "Chuyển đổi",
+  "legal": "Pháp lý",
   "privacy": "Quyền riêng tư",
   "terms": "Điều khoản",
   "lastUpdated": "Cập nhật lần cuối: {{date}}",
-
   "privacyTitle": "Chính sách Quyền riêng tư",
   "privacyIntroTitle": "Giới thiệu",
   "privacyIntroContent": "Sudobility Inc. (\"chúng tôi\") vận hành SVGR, một dịch vụ chuyển đổi ảnh raster sang ảnh vector. Chính sách Quyền riêng tư này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn khi bạn sử dụng dịch vụ của chúng tôi.",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "Nếu bạn có bất kỳ câu hỏi nào về Chính sách Quyền riêng tư này, vui lòng liên hệ với chúng tôi.",
   "privacyContactEmailLabel": "Email:",
   "privacyContactWebsiteLabel": "Website:",
-
   "termsTitle": "Điều khoản Dịch vụ",
   "termsAcceptanceTitle": "Chấp nhận điều khoản",
   "termsAcceptanceContent": "Bằng cách truy cập hoặc sử dụng SVGR (\"Dịch vụ\"), được vận hành bởi Sudobility Inc., bạn đồng ý tuân theo các Điều khoản Dịch vụ này. Nếu bạn không đồng ý với các điều khoản này, vui lòng không sử dụng Dịch vụ.",
@@ -80,15 +106,12 @@
   "termsContactDescription": "Nếu bạn có bất kỳ câu hỏi nào về các Điều khoản Dịch vụ này, vui lòng liên hệ với chúng tôi.",
   "termsContactEmailLabel": "Email:",
   "termsContactWebsiteLabel": "Website:",
-
   "navigation": {
     "useCases": "Trường hợp sử dụng"
   },
-
   "useCases": {
     "title": "Tại sao sử dụng SVGR?",
     "subtitle": "SVGR chuyển đổi hình ảnh raster (PNG, JPG) thành đồ họa vector có thể mở rộng (SVG) — giúp bạn tiết kiệm thời gian và tiền bạc.",
-
     "aiLogos": {
       "title": "Chuyển đổi logo tạo bởi AI sang vector",
       "description": "Tất cả các trình tạo logo AI đều tạo ra hình ảnh raster (PNG/JPG). Những hình ảnh này mất chất lượng khi phóng to, trông mờ trên màn hình lớn và không thể chỉnh sửa gọn gàng trong các công cụ thiết kế vector. Để sử dụng logo tạo bởi AI một cách chuyên nghiệp — trên danh thiếp, biểu ngữ, hàng hóa hoặc trang web — bạn cần phiên bản vector.",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "Hiện đại hóa tài sản hình ảnh cũ",
       "description": "Nhiều tổ chức có tài sản hình ảnh cũ — logo, biểu tượng, sơ đồ và hình minh họa — chỉ được lưu dưới dạng file raster. Những tài sản này có thể đã được tạo từ nhiều năm trước khi các công cụ vector ít phổ biến hơn, hoặc file nguồn gốc đã bị mất theo thời gian.",
@@ -149,7 +171,6 @@
       "solution": "SVGR giúp như thế nào",
       "solutionDescription": "SVGR cho phép bạn chuyển đổi tài sản raster cũ thành file SVG sạch. Kết quả là vector có thể mở rộng, chỉnh sửa được, hoạt động hoàn hảo trên mọi kích thước màn hình — từ thiết bị di động đến màn hình 4K và in ấn."
     },
-
     "cta": {
       "title": "Sẵn sàng chuyển đổi?",
       "subtitle": "Tải lên hình ảnh raster của bạn và nhận SVG trong vài giây.",

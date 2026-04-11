@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "Convertidor de imagen a SVG - PNG, JPG, WEBP a vectorial",
+      "description": "Convierte imágenes ráster en gráficos vectoriales escalables en línea. Sube PNG, JPG o WEBP y obtén una salida SVG limpia de inmediato. Vista previa gratuita, ideal para logotipos generados por IA.",
+      "keywords": "convertidor de imagen a SVG, PNG a SVG, JPG a SVG, WEBP a SVG, raster a vectorial, convertidor SVG en línea, vectorizar imagen"
+    },
+    "useCases": {
+      "title": "Convertir logotipos de IA a SVG - Casos de uso",
+      "description": "Vea cómo SVGR convierte logotipos generados por IA y imágenes ráster heredadas en archivos vectoriales SVG escalables. Funciona con Looka, Brandmark y más.",
+      "keywords": "logotipo de IA a vectorial, convertir logotipo a SVG, vectorizar logotipo de IA, imagen raster a vectorial, imagen heredada a SVG"
+    },
+    "credits": {
+      "title": "Comprar créditos de descarga de SVG",
+      "description": "Compre créditos para descargar sus archivos SVG y PDF convertidos desde SVGR. Paquetes de créditos asequibles para diseñadores y empresas.",
+      "keywords": "Créditos SVGR, créditos para descargar SVG, compre créditos de vectores, créditos para descargar PDF"
+    },
+    "privacy": {
+      "title": "Política de privacidad",
+      "description": "Cómo maneja SVGR sus datos. Las imágenes cargadas se procesan en memoria y se eliminan inmediatamente. No se almacena ni comparte ninguna información de imagen."
+    },
+    "terms": {
+      "title": "Términos de servicio",
+      "description": "Términos de servicio para el servicio de conversión de imágenes a SVG de SVGR. Gratis para convertir para uso personal y comercial."
+    }
+  },
   "title": "SVGR",
   "subtitle": "Convierte imágenes rasterizadas en gráficos vectoriales escalables",
   "pronunciation": "Se pronuncia \"Sveeger\"",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "El SVG convertido aparecerá aquí",
   "loginForFree": "Inicia sesión para convertir gratis sin marca de agua",
   "conversionFailed": "La conversión falló",
+  "product": "Producto",
+  "convert": "Convertir",
+  "legal": "Legal",
   "privacy": "Privacidad",
   "terms": "Términos",
   "lastUpdated": "Última actualización: {{date}}",
-
   "privacyTitle": "Política de Privacidad",
   "privacyIntroTitle": "Introducción",
   "privacyIntroContent": "Sudobility Inc. (\"nosotros\") opera SVGR, un servicio de conversión de imágenes rasterizadas a vectoriales. Esta Política de Privacidad explica cómo recopilamos, usamos y protegemos su información cuando utiliza nuestro servicio.",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "Si tiene alguna pregunta sobre esta Política de Privacidad, contáctenos.",
   "privacyContactEmailLabel": "Correo electrónico:",
   "privacyContactWebsiteLabel": "Sitio web:",
-
   "termsTitle": "Términos de Servicio",
   "termsAcceptanceTitle": "Aceptación de los términos",
   "termsAcceptanceContent": "Al acceder o utilizar SVGR (el \"Servicio\"), operado por Sudobility Inc., usted acepta estar sujeto a estos Términos de Servicio. Si no está de acuerdo con estos términos, no utilice el Servicio.",
@@ -80,15 +106,12 @@
   "termsContactDescription": "Si tiene alguna pregunta sobre estos Términos de Servicio, contáctenos.",
   "termsContactEmailLabel": "Correo electrónico:",
   "termsContactWebsiteLabel": "Sitio web:",
-
   "navigation": {
     "useCases": "Casos de uso"
   },
-
   "useCases": {
     "title": "¿Por qué usar SVGR?",
     "subtitle": "SVGR convierte imágenes rasterizadas (PNG, JPG) en gráficos vectoriales escalables (SVG) — ahorrándote tiempo y dinero.",
-
     "aiLogos": {
       "title": "Convierte logos generados por IA a vectores",
       "description": "Todos los generadores de logos con IA crean imágenes rasterizadas (PNG/JPG). Estas imágenes pierden calidad al escalarlas, se ven borrosas en pantallas grandes y no se pueden editar limpiamente en herramientas de diseño vectorial. Para usar un logo generado por IA profesionalmente — en tarjetas de presentación, banners, merchandising o sitios web — necesitas una versión vectorial.",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "Moderniza recursos de imagen antiguos",
       "description": "Muchas organizaciones tienen recursos de imagen antiguos — logos, iconos, diagramas e ilustraciones — almacenados solo como archivos rasterizados. Estos recursos pueden haber sido creados hace años cuando las herramientas vectoriales eran menos accesibles, o los archivos fuente originales se han perdido con el tiempo.",
@@ -149,7 +171,6 @@
       "solution": "Cómo ayuda SVGR",
       "solutionDescription": "SVGR te permite convertir recursos rasterizados antiguos en archivos SVG limpios. El resultado es un vector escalable y editable que funciona perfectamente en cualquier tamaño de pantalla — desde dispositivos móviles hasta pantallas 4K e impresión."
     },
-
     "cta": {
       "title": "¿Listo para convertir?",
       "subtitle": "Sube tu imagen rasterizada y obtén un SVG en segundos.",

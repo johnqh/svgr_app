@@ -95,13 +95,13 @@ export default function ImageUploadPanel({
 
   return (
     <div className="flex flex-col">
-      <h3 className={`${ui.text.uppercase} mb-3`}>
-        {t('originalImage')}
-      </h3>
+      <h3 className={`${ui.text.uppercase} mb-3`}>{t('originalImage')}</h3>
 
       {/* Image area -- fixed 4:3 aspect ratio, matches SvgPreviewPanel */}
       {previewUrl && file ? (
-        <div className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}>
+        <div
+          className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}
+        >
           <img
             src={previewUrl}
             alt={t('originalImage')}

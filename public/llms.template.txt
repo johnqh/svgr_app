@@ -23,6 +23,7 @@
 - `/:lang/login` - User login
 - `/:lang/privacy` - Privacy policy
 - `/:lang/terms` - Terms of service
+- `/:lang/sitemap` - HTML sitemap with all pages and language links
 
 ## Technical Details
 

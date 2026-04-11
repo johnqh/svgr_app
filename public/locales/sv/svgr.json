@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "Bild till SVG-omvandlare - PNG, JPG, WEBP till vektor",
+      "description": "Konvertera rasterbilder till skalbara vektorgrafik online. Ladda upp PNG, JPG eller WEBP och få ren SVG-utdata omedelbart. Gratis förhandsgranskning, idealisk för AI-genererade logotyper.",
+      "keywords": "omvandlare av bild till SVG, PNG till SVG, JPG till SVG, WEBP till SVG, raster till vektor, online-omvandlare till SVG, vektorisera bild"
+    },
+    "useCases": {
+      "title": "Konvertera AI-logotyper till SVG - Användningsområden",
+      "description": "Se hur SVGR omvandlar AI-genererade logotyper och gamla rasterbilder till skalbara SVG-vektorfiler. Fungerar med Looka, Brandmark och fler.",
+      "keywords": "AI-logotyp till vektor, konvertera logotyp till SVG, vektorisera AI-logotyp, rasterlogotyp till vektor, äldre bild till SVG"
+    },
+    "credits": {
+      "title": "Köp SVG-nedladdningskrediter",
+      "description": "Köp kredit för att ladda ner dina konverterade SVG- och PDF-filer från SVGR. Ekonomiska kreditpaket för designrar och företag.",
+      "keywords": "SVGR-kredit, SVG-nedladdningskredit, köp vektor-kredit, PDF-nedladdningskredit"
+    },
+    "privacy": {
+      "title": "Integritetspolicy",
+      "description": "Hur SVGR hanterar ditt data. Uppladdade bilder bearbetas i minnet och raderas omedelbart. Ingen bilddata lagras eller delas."
+    },
+    "terms": {
+      "title": "Villkor för tjänsten",
+      "description": "Villkor för tjänsten SVGR bild till SVG-omvandling. Gratis att konvertera för privat och kommersiellt bruk."
+    }
+  },
   "title": "SVGR",
   "subtitle": "Konvertera rasterbilder till skalbara vektorgrafik",
   "pronunciation": "Uttalas \"Sveeger\"",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "Konverterad SVG visas här",
   "loginForFree": "Logga in för att konvertera gratis utan vattenstämpel",
   "conversionFailed": "Konverteringen misslyckades",
+  "product": "Produkt",
+  "convert": "Konvertera",
+  "legal": "Juridisk",
   "privacy": "Integritet",
   "terms": "Villkor",
   "lastUpdated": "Senast uppdaterad: {{date}}",
-
   "privacyTitle": "Integritetspolicy",
   "privacyIntroTitle": "Inledning",
   "privacyIntroContent": "Sudobility Inc. (\"vi\") driver SVGR, en tjänst för konvertering av rasterbilder till vektorgrafik. Denna integritetspolicy förklarar hur vi samlar in, använder och skyddar din information när du använder vår tjänst.",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "Om du har frågor om denna integritetspolicy, vänligen kontakta oss.",
   "privacyContactEmailLabel": "E-post:",
   "privacyContactWebsiteLabel": "Webbplats:",
-
   "termsTitle": "Användarvillkor",
   "termsAcceptanceTitle": "Godkännande av villkor",
   "termsAcceptanceContent": "Genom att använda SVGR (\"Tjänsten\"), som drivs av Sudobility Inc., godkänner du att vara bunden av dessa Användarvillkor. Om du inte godkänner dessa villkor, vänligen använd inte Tjänsten.",
@@ -80,15 +106,12 @@
   "termsContactDescription": "Om du har frågor om dessa Användarvillkor, vänligen kontakta oss.",
   "termsContactEmailLabel": "E-post:",
   "termsContactWebsiteLabel": "Webbplats:",
-
   "navigation": {
     "useCases": "Användningsfall"
   },
-
   "useCases": {
     "title": "Varför använda SVGR?",
     "subtitle": "SVGR konverterar rasterbilder (PNG, JPG) till skalbara vektorgrafik (SVG) — och sparar dig tid och pengar.",
-
     "aiLogos": {
       "title": "Konvertera AI-genererade logotyper till vektorer",
       "description": "Alla AI-logotypgeneratorer skapar rasterbilder (PNG/JPG). Dessa bilder förlorar kvalitet vid skalning, ser suddiga ut på stora skärmar och kan inte redigeras rent i vektordesignverktyg. För att använda en AI-genererad logotyp professionellt — på visitkort, banderoller, merchandise eller webbplatser — behöver du en vektorversion.",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "Modernisera äldre bildtillgångar",
       "description": "Många organisationer har äldre bildtillgångar — logotyper, ikoner, diagram och illustrationer — lagrade enbart som rasterfiler. Dessa tillgångar kan ha skapats för år sedan när vektorverktyg var mindre tillgängliga, eller originalfilerna har gått förlorade med tiden.",
@@ -149,7 +171,6 @@
       "solution": "Hur SVGR hjälper",
       "solutionDescription": "SVGR låter dig konvertera gamla rastertillgångar till rena SVG-filer. Resultatet är en skalbar, redigerbar vektor som fungerar perfekt i alla skärmstorlekar — från mobila enheter till 4K-skärmar och tryck."
     },
-
     "cta": {
       "title": "Redo att konvertera?",
       "subtitle": "Ladda upp din rasterbild och få en SVG på sekunder.",

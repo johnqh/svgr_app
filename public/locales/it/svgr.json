@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "Convertitore da immagine a SVG - PNG, JPG, WEBP in vettoriale",
+      "description": "Converti immagini raster in grafica vettoriale scalabile online. Carica PNG, JPG o WEBP e ottieni in uscita SVG pulito istantaneamente. Anteprima gratuita, ideale per loghi generati con IA.",
+      "keywords": "convertitore da immagine a SVG, da PNG a SVG, da JPG a SVG, da WEBP a SVG, da raster a vettoriale, convertitore SVG online, vettorializza immagine"
+    },
+    "useCases": {
+      "title": "Converti i loghi dell'IA in SVG - Casi d'uso",
+      "description": "Vedi come SVGR converte loghi generati dall'IA e immagini raster legacy in file vettoriali SVG scalabili. Funziona con Looka, Brandmark e altri.",
+      "keywords": "Logo AI in vettore, converti logo in SVG, vettorizza logo AI, logo raster in vettore, immagine legacy in SVG"
+    },
+    "credits": {
+      "title": "Acquista crediti per il download SVG",
+      "description": "Acquista crediti per scaricare i tuoi file SVG e PDF convertiti da SVGR. Pacchetti di crediti economici per designer e aziende.",
+      "keywords": "Crediti SVGR, crediti per il download SVG, crediti per l'acquisto vettoriale, crediti per il download PDF"
+    },
+    "privacy": {
+      "title": "Informativa sulla privacy",
+      "description": "Come SVGR gestisce i tuoi dati. Le immagini caricate vengono elaborate in memoria e eliminate immediatamente. Nessun dato delle immagini viene memorizzato o condiviso."
+    },
+    "terms": {
+      "title": "Termini di servizio",
+      "description": "Termini di servizio per il servizio di conversione immagine-SVG SVGR. Gratuito da utilizzare per uso personale e commerciale."
+    }
+  },
   "title": "SVGR",
   "subtitle": "Converti immagini raster in grafica vettoriale scalabile",
   "pronunciation": "Si pronuncia \"Sveeger\"",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "Il SVG convertito apparirà qui",
   "loginForFree": "Accedi per convertire gratuitamente senza filigrana",
   "conversionFailed": "Conversione non riuscita",
+  "product": "Prodotto",
+  "convert": "Convertire",
+  "legal": "Legale",
   "privacy": "Privacy",
   "terms": "Termini",
   "lastUpdated": "Ultimo aggiornamento: {{date}}",
-
   "privacyTitle": "Informativa sulla Privacy",
   "privacyIntroTitle": "Introduzione",
   "privacyIntroContent": "Sudobility Inc. (\"noi\") gestisce SVGR, un servizio di conversione di immagini raster in immagini vettoriali. Questa Informativa sulla Privacy spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni quando utilizzi il nostro servizio.",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "Per qualsiasi domanda su questa Informativa sulla Privacy, contattaci.",
   "privacyContactEmailLabel": "Email:",
   "privacyContactWebsiteLabel": "Sito web:",
-
   "termsTitle": "Termini di Servizio",
   "termsAcceptanceTitle": "Accettazione dei termini",
   "termsAcceptanceContent": "Accedendo o utilizzando SVGR (il \"Servizio\"), gestito da Sudobility Inc., accetti di essere vincolato da questi Termini di Servizio. Se non accetti questi termini, ti preghiamo di non utilizzare il Servizio.",
@@ -80,15 +106,12 @@
   "termsContactDescription": "Per qualsiasi domanda su questi Termini di Servizio, contattaci.",
   "termsContactEmailLabel": "Email:",
   "termsContactWebsiteLabel": "Sito web:",
-
   "navigation": {
     "useCases": "Casi d'uso"
   },
-
   "useCases": {
     "title": "Perché usare SVGR?",
     "subtitle": "SVGR converte le immagini raster (PNG, JPG) in grafica vettoriale scalabile (SVG) — risparmiando tempo e denaro.",
-
     "aiLogos": {
       "title": "Converti i loghi generati dall'IA in vettori",
       "description": "Tutti i generatori di loghi IA creano immagini raster (PNG/JPG). Queste immagini perdono qualità quando vengono ridimensionate, appaiono sfocate su schermi grandi e non possono essere modificate in modo pulito negli strumenti di design vettoriale. Per usare un logo generato dall'IA in modo professionale — su biglietti da visita, banner, merchandising o siti web — serve una versione vettoriale.",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "Modernizza le risorse visive legacy",
       "description": "Molte organizzazioni hanno risorse visive legacy — loghi, icone, diagrammi e illustrazioni — archiviate solo come file raster. Queste risorse potrebbero essere state create anni fa quando gli strumenti vettoriali erano meno accessibili, o i file sorgente originali sono andati persi nel tempo.",
@@ -149,7 +171,6 @@
       "solution": "Come SVGR aiuta",
       "solutionDescription": "SVGR ti permette di convertire le vecchie risorse raster in file SVG puliti. Il risultato è un vettore scalabile e modificabile che funziona perfettamente su qualsiasi dimensione di schermo — dai dispositivi mobili ai display 4K e alla stampa."
     },
-
     "cta": {
       "title": "Pronto a convertire?",
       "subtitle": "Carica la tua immagine raster e ottieni un SVG in pochi secondi.",

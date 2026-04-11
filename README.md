@@ -29,11 +29,11 @@ bun run verify       # All checks + build
 
 ## Environment Variables
 
-| Variable | Description |
-|----------|-------------|
-| `VITE_API_URL` | SVGR API server URL |
-| `VITE_FIREBASE_*` | Firebase configuration (7 vars) |
-| `VITE_REVENUECAT_API_KEY` | RevenueCat web API key |
+| Variable                  | Description                     |
+| ------------------------- | ------------------------------- |
+| `VITE_API_URL`            | SVGR API server URL             |
+| `VITE_FIREBASE_*`         | Firebase configuration (7 vars) |
+| `VITE_REVENUECAT_API_KEY` | RevenueCat web API key          |
 
 ## Related Packages
 

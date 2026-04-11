@@ -106,8 +106,9 @@ export default function ConvertPage() {
   return (
     <main className="flex-1 flex flex-col">
       <SEO
-        description={t('subtitle')}
-        keywords="svg converter, raster to vector, png to svg, jpg to svg, webp to svg, image conversion, vector graphics, ai logo converter"
+        title={t('seo.home.title')}
+        description={t('seo.home.description')}
+        keywords={t('seo.home.keywords')}
         canonical="/"
         structuredData={{
           '@context': 'https://schema.org',
@@ -147,21 +148,22 @@ export default function ConvertPage() {
       {/* Error display */}
       {converter.error && (
         <div className="max-w-6xl mx-auto px-4 pb-2">
-          <div className={`${colors.component.alert.error.base} ${colors.component.alert.error.dark} border border-red-200 rounded-lg p-3 text-sm`}>
+          <div
+            className={`${colors.component.alert.error.base} ${colors.component.alert.error.dark} border border-red-200 rounded-lg p-3 text-sm`}
+          >
             {converter.error}
           </div>
         </div>
       )}
 
       {/* Controls bar — always at bottom, sticky when scrolling */}
-      <div className={`mt-auto sticky bottom-0 z-10 border-t ${ui.border.default} ${ui.background.subtle} px-4 py-3`}>
+      <div
+        className={`mt-auto sticky bottom-0 z-10 border-t ${ui.border.default} ${ui.background.subtle} px-4 py-3`}
+      >
         <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-x-6 gap-y-3">
           {/* Quality slider */}
           <div className="w-full md:w-auto md:flex-1 flex items-center gap-3">
-            <label
-              htmlFor="quality-slider"
-              className={`${ui.text.label} whitespace-nowrap`}
-            >
+            <label htmlFor="quality-slider" className={`${ui.text.label} whitespace-nowrap`}>
               {t('quality')}
             </label>
             <span className={`text-xs ${ui.text.muted}`}>{t('qualityMin')}</span>
@@ -192,9 +194,7 @@ export default function ConvertPage() {
               onChange={e => converter.setTransparentBg(e.target.checked)}
               className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
             />
-            <span className={`${ui.text.label} whitespace-nowrap`}>
-              {t('transparentBg')}
-            </span>
+            <span className={`${ui.text.label} whitespace-nowrap`}>{t('transparentBg')}</span>
           </label>
 
           {/* Recognize text toggle */}
@@ -205,9 +205,7 @@ export default function ConvertPage() {
               onChange={e => converter.setOcr(e.target.checked)}
               className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
             />
-            <span className={`${ui.text.label} whitespace-nowrap`}>
-              {t('recognizeText')}
-            </span>
+            <span className={`${ui.text.label} whitespace-nowrap`}>{t('recognizeText')}</span>
           </label>
 
           {/* Merge paths toggle */}
@@ -218,9 +216,7 @@ export default function ConvertPage() {
               onChange={e => converter.setMergePaths(e.target.checked)}
               className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
             />
-            <span className={`${ui.text.label} whitespace-nowrap`}>
-              {t('mergePaths')}
-            </span>
+            <span className={`${ui.text.label} whitespace-nowrap`}>{t('mergePaths')}</span>
           </label>
 
           {/* Convert button — full width row */}

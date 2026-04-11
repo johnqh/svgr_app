@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "画像からSVGへの変換 - PNG、JPG、WEBPをベクター形式に",
+      "description": "オンラインでラスタ画像をスケーラブルなベクターグラフィックに変換します。PNG、JPG、またはWEBPをアップロードし、瞬時にクリーンなSVG出力を得られます。無料のプレビュー機能で、AI生成ロゴに最適です。",
+      "keywords": "画像からSVG変換ツール、PNGからSVG、JPGからSVG、WEBPからSVG、ラスターデータからベクター画像、オンラインSVG変換ツール、画像をベクター化"
+    },
+    "useCases": {
+      "title": "AIロゴをSVGに変換する - 使用例",
+      "description": "SVGRがAI生成ロゴおよびレガシーなラスタ画像をスケーラブルなSVGベクター形式に変換する方法を確認してください。Looka、Brandmarkなどに対応しています。",
+      "keywords": "AIロゴをベクターに変換、ロゴをSVGに変換、AIロゴをベクター化、ラスターロゴをベクターに、レガシーアイコンをSVGに"
+    },
+    "credits": {
+      "title": "SVGダウンロードクレジットを購入",
+      "description": "SVGRから変換されたSVGおよびPDFファイルをダウンロードするためのクレジットを購入してください。デザイナーおよび企業向けの手頃な価格のクレジットパックがあります。",
+      "keywords": "SVGRクレジット、SVGダウンロードクレジット、ベクタークレジット購入、PDFダウンロードクレジット"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "description": "SVGRがお客様のデータをどのように処理するか。アップロードされた画像はメモリ上で処理され、すぐに削除されます。画像データは保存されず、共有されません。"
+    },
+    "terms": {
+      "title": "利用規約",
+      "description": "SVGR画像からSVGへの変換サービスの利用規約。個人的および商業的用途で無料で変換可能です。"
+    }
+  },
   "title": "SVGR",
   "subtitle": "ラスター画像をスケーラブルベクターグラフィックスに変換",
   "pronunciation": "「Sveeger（スヴィーガー）」と発音します",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "変換された SVG がここに表示されます",
   "loginForFree": "ログインすると透かしなしで無料変換できます",
   "conversionFailed": "変換に失敗しました",
+  "product": "製品",
+  "convert": "変換",
+  "legal": "法的",
   "privacy": "プライバシー",
   "terms": "利用規約",
   "lastUpdated": "最終更新日：{{date}}",
-
   "privacyTitle": "プライバシーポリシー",
   "privacyIntroTitle": "はじめに",
   "privacyIntroContent": "Sudobility Inc.（以下「当社」）は、ラスター画像からベクター画像への変換サービスである SVGR を運営しています。本プライバシーポリシーは、当社のサービスをご利用いただく際に、お客様の情報をどのように収集、使用、保護するかについて説明します。",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "本プライバシーポリシーに関するご質問がございましたら、お気軽にお問い合わせください。",
   "privacyContactEmailLabel": "メール：",
   "privacyContactWebsiteLabel": "ウェブサイト：",
-
   "termsTitle": "利用規約",
   "termsAcceptanceTitle": "規約への同意",
   "termsAcceptanceContent": "Sudobility Inc. が運営する SVGR（以下「本サービス」）にアクセスまたは使用することにより、お客様はこれらの利用規約に拘束されることに同意するものとします。これらの規約に同意されない場合は、本サービスをご利用にならないでください。",
@@ -80,15 +106,12 @@
   "termsContactDescription": "これらの利用規約に関するご質問がございましたら、お気軽にお問い合わせください。",
   "termsContactEmailLabel": "メール：",
   "termsContactWebsiteLabel": "ウェブサイト：",
-
   "navigation": {
     "useCases": "ユースケース"
   },
-
   "useCases": {
     "title": "なぜSVGRを使うのか？",
     "subtitle": "SVGRはラスター画像（PNG、JPG）をスケーラブルなベクターグラフィック（SVG）に変換し、時間とコストを節約します。",
-
     "aiLogos": {
       "title": "AI生成ロゴをベクターに変換",
       "description": "すべてのAIロゴジェネレーターはラスター画像（PNG/JPG）を作成します。これらの画像は拡大すると品質が劣化し、大きなディスプレイではぼやけて見え、ベクターデザインツールできれいに編集できません。AI生成ロゴをプロフェッショナルに使用するには — 名刺、バナー、グッズ、ウェブサイトで — ベクター版が必要です。",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "レガシー画像アセットの近代化",
       "description": "多くの組織には古い画像アセット — ロゴ、アイコン、図表、イラスト — がラスターファイルとしてのみ保存されています。これらのアセットは、ベクターツールがまだ普及していなかった数年前に作成されたか、元のソースファイルが時間の経過とともに失われた可能性があります。",
@@ -149,7 +171,6 @@
       "solution": "SVGRの解決策",
       "solutionDescription": "SVGRを使えば、古いラスターアセットをクリーンなSVGファイルに変換できます。結果は、モバイルデバイスから4Kディスプレイ、印刷まで、あらゆる画面サイズで完璧に機能するスケーラブルで編集可能なベクターです。"
     },
-
     "cta": {
       "title": "変換する準備はできましたか？",
       "subtitle": "ラスター画像をアップロードして、数秒でSVGを取得しましょう。",

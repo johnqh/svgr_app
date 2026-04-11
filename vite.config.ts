@@ -16,14 +16,8 @@ export default defineConfig({
     alias: {
       react: resolve(__dirname, 'node_modules/react'),
       'react-dom': resolve(__dirname, 'node_modules/react-dom'),
-      'react-helmet-async': resolve(
-        __dirname,
-        'node_modules/react-helmet-async',
-      ),
-      '@sudobility/svgr_client': resolve(
-        __dirname,
-        'node_modules/@sudobility/svgr_client',
-      ),
+      'react-helmet-async': resolve(__dirname, 'node_modules/react-helmet-async'),
+      '@sudobility/svgr_client': resolve(__dirname, 'node_modules/@sudobility/svgr_client'),
     },
   },
   optimizeDeps: {
@@ -32,10 +26,7 @@ export default defineConfig({
   server: {
     port: 5175,
     fs: {
-      allow: [
-        __dirname,
-        resolve(__dirname, '../svgr_client'),
-      ],
+      allow: [__dirname, resolve(__dirname, '../svgr_client')],
     },
   },
   build: {

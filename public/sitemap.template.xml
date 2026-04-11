@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Homepage -->
+  <!-- Homepage (en) -->
   <url>
     <loc>https://{{VITE_APP_DOMAIN}}/en</loc>
     <lastmod>{{TODAY}}</lastmod>
@@ -25,8 +26,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
   </url>
+  <!-- Homepage (ar) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ar</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (de) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/de</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (es) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/es</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (fr) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/fr</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (it) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/it</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (ja) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ja</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (ko) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ko</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (pt) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/pt</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (ru) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ru</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (sv) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/sv</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (th) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/th</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (uk) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/uk</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (vi) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/vi</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (zh) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
+  <!-- Homepage (zh-hant) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh-hant</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
+  </url>
 
   <!-- Use Cases -->
+  <!-- Use Cases (en) -->
   <url>
     <loc>https://{{VITE_APP_DOMAIN}}/en/use-cases</loc>
     <lastmod>{{TODAY}}</lastmod>
@@ -50,8 +412,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
   </url>
+  <!-- Use Cases (ar) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ar/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (de) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/de/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (es) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/es/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (fr) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/fr/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (it) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/it/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (ja) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ja/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (ko) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ko/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (pt) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/pt/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (ru) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ru/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (sv) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/sv/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (th) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/th/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (uk) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/uk/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (vi) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/vi/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (zh) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
+  <!-- Use Cases (zh-hant) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
+  </url>
 
   <!-- Credits -->
+  <!-- Credits (en) -->
   <url>
     <loc>https://{{VITE_APP_DOMAIN}}/en/credits</loc>
     <lastmod>{{TODAY}}</lastmod>
@@ -75,33 +798,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
   </url>
-
-  <!-- Login -->
+  <!-- Credits (ar) -->
   <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/en/login</loc>
+    <loc>https://{{VITE_APP_DOMAIN}}/ar/credits</loc>
     <lastmod>{{TODAY}}</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/login" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/login" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/login" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/login" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/login" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/login" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/login" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/login" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/login" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/login" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/login" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/login" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/login" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/login" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/login" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/login" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/login" />
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (de) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/de/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (es) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/es/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (fr) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/fr/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (it) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/it/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (ja) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ja/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (ko) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ko/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (pt) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/pt/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (ru) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ru/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (sv) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/sv/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (th) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/th/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (uk) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/uk/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (vi) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/vi/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (zh) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+  </url>
+  <!-- Credits (zh-hant) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh-hant/credits</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
   </url>
 
   <!-- Privacy Policy -->
+  <!-- Privacy Policy (en) -->
   <url>
     <loc>https://{{VITE_APP_DOMAIN}}/en/privacy</loc>
     <lastmod>{{TODAY}}</lastmod>
@@ -125,8 +1184,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
   </url>
+  <!-- Privacy Policy (ar) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ar/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (de) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/de/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (es) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/es/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (fr) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/fr/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (it) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/it/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (ja) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ja/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (ko) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ko/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (pt) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/pt/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (ru) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ru/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (sv) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/sv/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (th) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/th/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (uk) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/uk/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (vi) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/vi/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (zh) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
+  <!-- Privacy Policy (zh-hant) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh-hant/privacy</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
+  </url>
 
   <!-- Terms of Service -->
+  <!-- Terms of Service (en) -->
   <url>
     <loc>https://{{VITE_APP_DOMAIN}}/en/terms</loc>
     <lastmod>{{TODAY}}</lastmod>
@@ -150,4 +1570,751 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
   </url>
+  <!-- Terms of Service (ar) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ar/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (de) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/de/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (es) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/es/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (fr) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/fr/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (it) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/it/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (ja) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ja/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (ko) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ko/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (pt) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/pt/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (ru) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ru/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (sv) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/sv/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (th) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/th/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (uk) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/uk/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (vi) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/vi/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (zh) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+  <!-- Terms of Service (zh-hant) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh-hant/terms</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
+  </url>
+
+  <!-- Sitemap -->
+  <!-- Sitemap (en) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/en/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (ar) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ar/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (de) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/de/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (es) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/es/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (fr) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/fr/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (it) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/it/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (ja) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ja/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (ko) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ko/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (pt) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/pt/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (ru) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/ru/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (sv) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/sv/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (th) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/th/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (uk) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/uk/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (vi) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/vi/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (zh) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+  <!-- Sitemap (zh-hant) -->
+  <url>
+    <loc>https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap</loc>
+    <lastmod>{{TODAY}}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
+  </url>
+
 </urlset>

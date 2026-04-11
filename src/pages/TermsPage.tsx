@@ -69,7 +69,11 @@ export default function TermsPage() {
 
   return (
     <>
-      <SEO title={t('termsTitle')} canonical="/terms" />
+      <SEO
+        title={t('seo.terms.title')}
+        description={t('seo.terms.description')}
+        canonical="/terms"
+      />
       <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>
   );

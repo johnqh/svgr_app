@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <!-- Homepage -->
+  <!-- Homepage (en) -->
   <url>
     <loc>https://svgr.app/en</loc>
     <lastmod>2026-04-11</lastmod>
@@ -25,8 +26,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
   </url>
+  <!-- Homepage (ar) -->
+  <url>
+    <loc>https://svgr.app/ar</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (de) -->
+  <url>
+    <loc>https://svgr.app/de</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (es) -->
+  <url>
+    <loc>https://svgr.app/es</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (fr) -->
+  <url>
+    <loc>https://svgr.app/fr</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (it) -->
+  <url>
+    <loc>https://svgr.app/it</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (ja) -->
+  <url>
+    <loc>https://svgr.app/ja</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (ko) -->
+  <url>
+    <loc>https://svgr.app/ko</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (pt) -->
+  <url>
+    <loc>https://svgr.app/pt</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (ru) -->
+  <url>
+    <loc>https://svgr.app/ru</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (sv) -->
+  <url>
+    <loc>https://svgr.app/sv</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (th) -->
+  <url>
+    <loc>https://svgr.app/th</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (uk) -->
+  <url>
+    <loc>https://svgr.app/uk</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (vi) -->
+  <url>
+    <loc>https://svgr.app/vi</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (zh) -->
+  <url>
+    <loc>https://svgr.app/zh</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
+  <!-- Homepage (zh-hant) -->
+  <url>
+    <loc>https://svgr.app/zh-hant</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
+  </url>
 
   <!-- Use Cases -->
+  <!-- Use Cases (en) -->
   <url>
     <loc>https://svgr.app/en/use-cases</loc>
     <lastmod>2026-04-11</lastmod>
@@ -50,8 +412,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
   </url>
+  <!-- Use Cases (ar) -->
+  <url>
+    <loc>https://svgr.app/ar/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (de) -->
+  <url>
+    <loc>https://svgr.app/de/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (es) -->
+  <url>
+    <loc>https://svgr.app/es/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (fr) -->
+  <url>
+    <loc>https://svgr.app/fr/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (it) -->
+  <url>
+    <loc>https://svgr.app/it/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (ja) -->
+  <url>
+    <loc>https://svgr.app/ja/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (ko) -->
+  <url>
+    <loc>https://svgr.app/ko/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (pt) -->
+  <url>
+    <loc>https://svgr.app/pt/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (ru) -->
+  <url>
+    <loc>https://svgr.app/ru/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (sv) -->
+  <url>
+    <loc>https://svgr.app/sv/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (th) -->
+  <url>
+    <loc>https://svgr.app/th/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (uk) -->
+  <url>
+    <loc>https://svgr.app/uk/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (vi) -->
+  <url>
+    <loc>https://svgr.app/vi/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (zh) -->
+  <url>
+    <loc>https://svgr.app/zh/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
+  <!-- Use Cases (zh-hant) -->
+  <url>
+    <loc>https://svgr.app/zh-hant/use-cases</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
+  </url>
 
   <!-- Credits -->
+  <!-- Credits (en) -->
   <url>
     <loc>https://svgr.app/en/credits</loc>
     <lastmod>2026-04-11</lastmod>
@@ -75,33 +798,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
   </url>
-
-  <!-- Login -->
+  <!-- Credits (ar) -->
   <url>
-    <loc>https://svgr.app/en/login</loc>
+    <loc>https://svgr.app/ar/credits</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/login" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/login" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/login" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/login" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/login" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/login" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/login" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/login" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/login" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/login" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/login" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/login" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/login" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/login" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/login" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/login" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/login" />
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (de) -->
+  <url>
+    <loc>https://svgr.app/de/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (es) -->
+  <url>
+    <loc>https://svgr.app/es/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (fr) -->
+  <url>
+    <loc>https://svgr.app/fr/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (it) -->
+  <url>
+    <loc>https://svgr.app/it/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (ja) -->
+  <url>
+    <loc>https://svgr.app/ja/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (ko) -->
+  <url>
+    <loc>https://svgr.app/ko/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (pt) -->
+  <url>
+    <loc>https://svgr.app/pt/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (ru) -->
+  <url>
+    <loc>https://svgr.app/ru/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (sv) -->
+  <url>
+    <loc>https://svgr.app/sv/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (th) -->
+  <url>
+    <loc>https://svgr.app/th/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (uk) -->
+  <url>
+    <loc>https://svgr.app/uk/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (vi) -->
+  <url>
+    <loc>https://svgr.app/vi/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (zh) -->
+  <url>
+    <loc>https://svgr.app/zh/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
+  </url>
+  <!-- Credits (zh-hant) -->
+  <url>
+    <loc>https://svgr.app/zh-hant/credits</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/credits" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/credits" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/credits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/credits" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/credits" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/credits" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/credits" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/credits" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/credits" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/credits" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/credits" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/credits" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/credits" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/credits" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/credits" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/credits" />
   </url>
 
   <!-- Privacy Policy -->
+  <!-- Privacy Policy (en) -->
   <url>
     <loc>https://svgr.app/en/privacy</loc>
     <lastmod>2026-04-11</lastmod>
@@ -125,8 +1184,369 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
   </url>
+  <!-- Privacy Policy (ar) -->
+  <url>
+    <loc>https://svgr.app/ar/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (de) -->
+  <url>
+    <loc>https://svgr.app/de/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (es) -->
+  <url>
+    <loc>https://svgr.app/es/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (fr) -->
+  <url>
+    <loc>https://svgr.app/fr/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (it) -->
+  <url>
+    <loc>https://svgr.app/it/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (ja) -->
+  <url>
+    <loc>https://svgr.app/ja/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (ko) -->
+  <url>
+    <loc>https://svgr.app/ko/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (pt) -->
+  <url>
+    <loc>https://svgr.app/pt/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (ru) -->
+  <url>
+    <loc>https://svgr.app/ru/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (sv) -->
+  <url>
+    <loc>https://svgr.app/sv/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (th) -->
+  <url>
+    <loc>https://svgr.app/th/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (uk) -->
+  <url>
+    <loc>https://svgr.app/uk/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (vi) -->
+  <url>
+    <loc>https://svgr.app/vi/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (zh) -->
+  <url>
+    <loc>https://svgr.app/zh/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
+  <!-- Privacy Policy (zh-hant) -->
+  <url>
+    <loc>https://svgr.app/zh-hant/privacy</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
+  </url>
 
   <!-- Terms of Service -->
+  <!-- Terms of Service (en) -->
   <url>
     <loc>https://svgr.app/en/terms</loc>
     <lastmod>2026-04-11</lastmod>
@@ -150,4 +1570,751 @@
     <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
   </url>
+  <!-- Terms of Service (ar) -->
+  <url>
+    <loc>https://svgr.app/ar/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (de) -->
+  <url>
+    <loc>https://svgr.app/de/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (es) -->
+  <url>
+    <loc>https://svgr.app/es/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (fr) -->
+  <url>
+    <loc>https://svgr.app/fr/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (it) -->
+  <url>
+    <loc>https://svgr.app/it/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (ja) -->
+  <url>
+    <loc>https://svgr.app/ja/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (ko) -->
+  <url>
+    <loc>https://svgr.app/ko/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (pt) -->
+  <url>
+    <loc>https://svgr.app/pt/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (ru) -->
+  <url>
+    <loc>https://svgr.app/ru/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (sv) -->
+  <url>
+    <loc>https://svgr.app/sv/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (th) -->
+  <url>
+    <loc>https://svgr.app/th/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (uk) -->
+  <url>
+    <loc>https://svgr.app/uk/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (vi) -->
+  <url>
+    <loc>https://svgr.app/vi/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (zh) -->
+  <url>
+    <loc>https://svgr.app/zh/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+  <!-- Terms of Service (zh-hant) -->
+  <url>
+    <loc>https://svgr.app/zh-hant/terms</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
+  </url>
+
+  <!-- Sitemap -->
+  <!-- Sitemap (en) -->
+  <url>
+    <loc>https://svgr.app/en/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (ar) -->
+  <url>
+    <loc>https://svgr.app/ar/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (de) -->
+  <url>
+    <loc>https://svgr.app/de/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (es) -->
+  <url>
+    <loc>https://svgr.app/es/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (fr) -->
+  <url>
+    <loc>https://svgr.app/fr/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (it) -->
+  <url>
+    <loc>https://svgr.app/it/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (ja) -->
+  <url>
+    <loc>https://svgr.app/ja/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (ko) -->
+  <url>
+    <loc>https://svgr.app/ko/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (pt) -->
+  <url>
+    <loc>https://svgr.app/pt/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (ru) -->
+  <url>
+    <loc>https://svgr.app/ru/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (sv) -->
+  <url>
+    <loc>https://svgr.app/sv/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (th) -->
+  <url>
+    <loc>https://svgr.app/th/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (uk) -->
+  <url>
+    <loc>https://svgr.app/uk/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (vi) -->
+  <url>
+    <loc>https://svgr.app/vi/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (zh) -->
+  <url>
+    <loc>https://svgr.app/zh/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+  <!-- Sitemap (zh-hant) -->
+  <url>
+    <loc>https://svgr.app/zh-hant/sitemap</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/sitemap" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/sitemap" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/sitemap" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/sitemap" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/sitemap" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/sitemap" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/sitemap" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/sitemap" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/sitemap" />
+    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/sitemap" />
+    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/sitemap" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/sitemap" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/sitemap" />
+  </url>
+
 </urlset>

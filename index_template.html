@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
 
     <!-- Preconnect hints -->
-    <link rel="preconnect" href="https://api.svgr.app" crossorigin />
+    <link rel="preconnect" href="https://api.{{VITE_APP_DOMAIN}}" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -21,14 +21,23 @@
     <meta name="theme-color" content="#8b5cf6" />
 
     <!-- Static meta tags -->
-    <meta name="description" content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs." />
-    <meta name="keywords" content="SVG converter, image to SVG, raster to vector, PNG to SVG, vectorize image, JPG to SVG, WEBP to SVG, vector graphics, AI vectorization" />
+    <meta
+      name="description"
+      content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs."
+    />
+    <meta
+      name="keywords"
+      content="SVG converter, image to SVG, raster to vector, PNG to SVG, vectorize image, JPG to SVG, WEBP to SVG, vector graphics, AI vectorization"
+    />
     <meta name="author" content="{{VITE_COMPANY_NAME}}" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
     <meta property="og:title" content="{{VITE_APP_NAME}} - Image to SVG Converter" />
-    <meta property="og:description" content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs." />
+    <meta
+      property="og:description"
+      content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://{{VITE_APP_DOMAIN}}" />
     <meta property="og:image" content="https://{{VITE_APP_DOMAIN}}/og-image.png" />
@@ -37,69 +46,85 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{VITE_APP_NAME}} - Image to SVG Converter" />
-    <meta name="twitter:description" content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs." />
+    <meta
+      name="twitter:description"
+      content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs."
+    />
     <meta name="twitter:image" content="https://{{VITE_APP_DOMAIN}}/og-image.png" />
 
     <title>{{VITE_APP_NAME}} - Image to SVG Converter</title>
 
     <!-- Structured Data: SoftwareApplication -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "{{VITE_APP_NAME}}",
-      "url": "https://{{VITE_APP_DOMAIN}}",
-      "description": "Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization.",
-      "applicationCategory": ["DesignApplication", "Image Converter"],
-      "operatingSystem": "Web",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD",
-        "description": "Free conversion preview. Credits required for downloads."
-      },
-      "screenshot": "https://{{VITE_APP_DOMAIN}}/og-image.png",
-      "featureList": [
-        "Drag-and-drop image upload",
-        "AI-powered SVG conversion",
-        "PDF export",
-        "Credit-based download system",
-        "16 language support",
-        "Batch processing"
-      ]
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "{{VITE_APP_NAME}}",
+        "url": "https://{{VITE_APP_DOMAIN}}",
+        "description": "Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization.",
+        "applicationCategory": ["DesignApplication", "Image Converter"],
+        "operatingSystem": "Web",
+        "dateModified": "{{TODAY}}",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free conversion preview. Credits required for downloads."
+        },
+        "screenshot": "https://{{VITE_APP_DOMAIN}}/og-image.png",
+        "featureList": [
+          "Drag-and-drop image upload",
+          "AI-powered SVG conversion",
+          "PDF export",
+          "Credit-based download system",
+          "16 language support",
+          "Batch processing"
+        ]
+      }
     </script>
 
     <!-- Structured Data: Organization -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "{{VITE_COMPANY_NAME}}",
-      "url": "https://{{VITE_APP_DOMAIN}}",
-      "logo": "https://{{VITE_APP_DOMAIN}}/logo.svg",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "{{VITE_SUPPORT_EMAIL}}",
-        "contactType": "customer support"
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "{{VITE_COMPANY_NAME}}",
+        "url": "https://{{VITE_APP_DOMAIN}}",
+        "logo": "https://{{VITE_APP_DOMAIN}}/logo.svg",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "{{VITE_SUPPORT_EMAIL}}",
+          "contactType": "customer support"
+        }
       }
-    }
     </script>
 
     <!-- Structured Data: WebSite -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "{{VITE_APP_NAME}}",
-      "url": "https://{{VITE_APP_DOMAIN}}",
-      "inLanguage": ["en","ar","de","es","fr","it","ja","ko","pt","ru","sv","th","uk","vi","zh-Hans","zh-Hant"],
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": "https://{{VITE_APP_DOMAIN}}/en?q={search_term_string}",
-        "query-input": "required name=search_term_string"
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{VITE_APP_NAME}}",
+        "url": "https://{{VITE_APP_DOMAIN}}",
+        "inLanguage": [
+          "en",
+          "ar",
+          "de",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "ko",
+          "pt",
+          "ru",
+          "sv",
+          "th",
+          "uk",
+          "vi",
+          "zh-Hans",
+          "zh-Hant"
+        ]
       }
-    }
     </script>
   </head>
   <body>

@@ -1,4 +1,34 @@
 {
+  "seo": {
+    "home": {
+      "title": "Image to SVG Converter - PNG, JPG, WEBP to Vector",
+      "description": "Convert raster images to scalable vector graphics online. Upload PNG, JPG, or WEBP and get clean SVG output instantly. Free preview, ideal for AI-generated logos.",
+      "keywords": "image to SVG converter, PNG to SVG, JPG to SVG, WEBP to SVG, raster to vector, online SVG converter, vectorize image"
+    },
+    "useCases": {
+      "title": "Convert AI Logos to SVG - Use Cases",
+      "description": "See how SVGR converts AI-generated logos and legacy raster images to scalable SVG vector files. Works with Looka, Brandmark, and more.",
+      "keywords": "AI logo to vector, convert logo to SVG, vectorize AI logo, raster logo to vector, legacy image to SVG"
+    },
+    "credits": {
+      "title": "Buy SVG Download Credits",
+      "description": "Purchase credits to download your converted SVG and PDF files from SVGR. Affordable credit packs for designers and businesses.",
+      "keywords": "SVGR credits, SVG download credits, buy vector credits, PDF download credits"
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How SVGR handles your data. Uploaded images are processed in memory and immediately deleted. No image data is stored or shared."
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "Terms of service for the SVGR image-to-SVG conversion service. Free to convert for personal and commercial use."
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "description": "Browse all pages on SVGR — the image-to-SVG converter. Find the converter, use cases, credits, and legal pages."
+    }
+  },
+
   "title": "SVGR",
   "subtitle": "Convert raster images to scalable vector graphics",
   "pronunciation": "Pronounced \"Sveeger\"",
@@ -20,6 +50,9 @@
   "svgPlaceholder": "Converted SVG will appear here",
   "loginForFree": "Log in to convert for free without watermark",
   "conversionFailed": "Conversion failed",
+  "product": "Product",
+  "convert": "Convert",
+  "legal": "Legal",
   "privacy": "Privacy",
   "terms": "Terms",
   "lastUpdated": "Last updated: {{date}}",
@@ -154,6 +187,32 @@
       "title": "Ready to Convert?",
       "subtitle": "Upload your raster image and get an SVG in seconds.",
       "button": "Start Converting"
+    }
+  },
+
+  "sitemap": {
+    "title": "Sitemap",
+    "subtitle": "Browse all pages and features available on SVGR.",
+    "languages": "Languages",
+    "languagesDescription": "SVGR is available in 16 languages. Select your preferred language:",
+    "quickLinks": "Quick Links",
+    "sections": {
+      "main": "Main",
+      "legal": "Legal"
+    },
+    "links": {
+      "convert": "Image to SVG Converter",
+      "useCases": "Use Cases",
+      "credits": "Buy Credits",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "descriptions": {
+      "convert": "Upload PNG, JPG, or WEBP images and convert them to scalable SVG vector graphics.",
+      "useCases": "Learn how SVGR helps convert AI-generated logos and legacy raster assets to SVG.",
+      "credits": "Purchase credits to download your converted SVG and PDF files.",
+      "privacy": "How SVGR handles your data and protects your privacy.",
+      "terms": "Terms and conditions for using the SVGR conversion service."
     }
   }
 }

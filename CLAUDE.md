@@ -89,18 +89,18 @@ Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Suppo
 
 ## Environment Variables
 
-| Variable | Description |
-|----------|-------------|
-| `VITE_API_URL` | SVGR API server URL |
-| `VITE_FIREBASE_API_KEY` | Firebase API key |
-| `VITE_FIREBASE_AUTH_DOMAIN` | Firebase auth domain |
-| `VITE_FIREBASE_PROJECT_ID` | Firebase project ID |
-| `VITE_FIREBASE_STORAGE_BUCKET` | Firebase storage bucket |
+| Variable                            | Description                  |
+| ----------------------------------- | ---------------------------- |
+| `VITE_API_URL`                      | SVGR API server URL          |
+| `VITE_FIREBASE_API_KEY`             | Firebase API key             |
+| `VITE_FIREBASE_AUTH_DOMAIN`         | Firebase auth domain         |
+| `VITE_FIREBASE_PROJECT_ID`          | Firebase project ID          |
+| `VITE_FIREBASE_STORAGE_BUCKET`      | Firebase storage bucket      |
 | `VITE_FIREBASE_MESSAGING_SENDER_ID` | Firebase messaging sender ID |
-| `VITE_FIREBASE_APP_ID` | Firebase app ID |
-| `VITE_FIREBASE_MEASUREMENT_ID` | Firebase measurement ID |
-| `VITE_REVENUECAT_API_KEY` | RevenueCat web API key |
-| `VITE_CONSUMABLES_OFFERING_ID` | RevenueCat offering ID |
+| `VITE_FIREBASE_APP_ID`              | Firebase app ID              |
+| `VITE_FIREBASE_MEASUREMENT_ID`      | Firebase measurement ID      |
+| `VITE_REVENUECAT_API_KEY`           | RevenueCat web API key       |
+| `VITE_CONSUMABLES_OFFERING_ID`      | RevenueCat offering ID       |
 
 ## Related Projects
 

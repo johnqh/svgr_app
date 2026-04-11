@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "图像转SVG转换器 - PNG、JPG、WEBP转矢量",
+      "description": "在线将光栅图像转换为可缩放的矢量图形。上传PNG、JPG或WEBP，立即获得干净的SVG输出。免费预览，非常适合AI生成的徽标。",
+      "keywords": "图像转SVG转换器，PNG转SVG，JPG转SVG，WEBP转SVG，光栅转矢量，在线SVG转换器，矢量化图像"
+    },
+    "useCases": {
+      "title": "将AI徽标转换为SVG - 使用案例",
+      "description": "查看SVGR如何将AI生成的徽标和旧版光栅图像转换为可缩放的SVG矢量文件。支持Looka、Brandmark等工具。",
+      "keywords": "AI标志转为矢量图，将标志转换为SVG，矢量化AI标志，将位图转换为矢量图，将旧图像转换为SVG"
+    },
+    "credits": {
+      "title": "购买SVG下载积分",
+      "description": "购买积分以从SVGR下载转换后的SVG和PDF文件。为设计师和企业提供的实惠积分套餐。",
+      "keywords": "SVGR积分，SVG下载积分，购买矢量积分，PDF下载积分"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "description": "SVGR 如何处理您的数据。上传的图片在内存中处理并立即删除。不会存储或共享任何图像数据。"
+    },
+    "terms": {
+      "title": "服务条款",
+      "description": "SVGR图像转SVG服务的使用条款。个人和商业用途均可免费转换。"
+    }
+  },
   "title": "SVGR",
   "subtitle": "将位图转换为可缩放矢量图形",
   "pronunciation": "发音为 \"Sveeger\"",
@@ -20,13 +45,15 @@
   "svgPlaceholder": "转换后的 SVG 将显示在此处",
   "loginForFree": "登录即可免费转换，无水印",
   "conversionFailed": "转换失败",
+  "product": "产品",
+  "convert": "转换",
+  "legal": "法律的",
   "privacy": "隐私政策",
   "terms": "使用条款",
   "lastUpdated": "最后更新：{{date}}",
-
   "privacyTitle": "隐私政策",
   "privacyIntroTitle": "简介",
-  "privacyIntroContent": "Sudobility Inc.（以下简称\u201C我们\u201D）运营 SVGR，一项位图转矢量图的图像转换服务。本隐私政策说明了当您使用我们的服务时，我们如何收集、使用和保护您的信息。",
+  "privacyIntroContent": "Sudobility Inc.（以下简称“我们”）运营 SVGR，一项位图转矢量图的图像转换服务。本隐私政策说明了当您使用我们的服务时，我们如何收集、使用和保护您的信息。",
   "privacyCollectTitle": "我们收集的信息",
   "privacyCollectAutoTitle": "自动收集的信息",
   "privacyCollectAutoItem1": "浏览器类型和版本",
@@ -48,17 +75,16 @@
   "privacyRightsItem2": "请求删除与您相关的任何数据",
   "privacyRightsItem3": "通过使用浏览器隐私设置或广告拦截器选择退出分析跟踪",
   "privacyChangesTitle": "政策变更",
-  "privacyChangesContent": "我们可能会不时更新本隐私政策。如有重大变更，我们将通过更新本页面顶部的\u201C最后更新\u201D日期来通知用户。",
+  "privacyChangesContent": "我们可能会不时更新本隐私政策。如有重大变更，我们将通过更新本页面顶部的“最后更新”日期来通知用户。",
   "privacyContactTitle": "联系我们",
   "privacyContactDescription": "如果您对本隐私政策有任何疑问，请与我们联系。",
   "privacyContactEmailLabel": "邮箱：",
   "privacyContactWebsiteLabel": "网站：",
-
   "termsTitle": "服务条款",
   "termsAcceptanceTitle": "条款接受",
-  "termsAcceptanceContent": "访问或使用由 Sudobility Inc. 运营的 SVGR（以下简称\u201C服务\u201D），即表示您同意受这些服务条款的约束。如果您不同意这些条款，请勿使用本服务。",
+  "termsAcceptanceContent": "访问或使用由 Sudobility Inc. 运营的 SVGR（以下简称“服务”），即表示您同意受这些服务条款的约束。如果您不同意这些条款，请勿使用本服务。",
   "termsServiceTitle": "服务描述",
-  "termsServiceContent": "SVGR 是一款基于网络的工具，可将位图图像（PNG、JPG、WEBP、BMP、GIF）转换为可缩放矢量图形（SVG）。本服务按\u201C原样\u201D提供，旨在为设计师提供进一步优化的起点。",
+  "termsServiceContent": "SVGR 是一款基于网络的工具，可将位图图像（PNG、JPG、WEBP、BMP、GIF）转换为可缩放矢量图形（SVG）。本服务按“原样”提供，旨在为设计师提供进一步优化的起点。",
   "termsUseTitle": "可接受的使用",
   "termsUseItem1": "您可以将本服务用于个人或商业用途",
   "termsUseItem2": "您不得上传非法、有害或侵权的内容",
@@ -69,7 +95,7 @@
   "termsUploadsTitle": "上传内容",
   "termsUploadsContent": "您上传的图片在内存中处理，转换后立即删除。我们不会存储、审查或共享您上传的内容。您全权负责确保您有权上传和转换您提交的任何图片。",
   "termsDisclaimerTitle": "免责声明",
-  "termsDisclaimerContent": "本服务按\u201C原样\u201D提供，不提供任何明示或暗示的担保。我们不保证转换结果完全准确或适合任何特定用途。输出的 SVG 文件是原始位图图像的近似值，可能需要进一步编辑。",
+  "termsDisclaimerContent": "本服务按“原样”提供，不提供任何明示或暗示的担保。我们不保证转换结果完全准确或适合任何特定用途。输出的 SVG 文件是原始位图图像的近似值，可能需要进一步编辑。",
   "termsLiabilityTitle": "责任限制",
   "termsLiabilityContent": "在法律允许的最大范围内，Sudobility Inc. 不对因您使用本服务而产生的任何间接、附带、特殊或后果性损害承担责任，包括但不限于数据丢失、利润损失或业务中断。",
   "termsTerminationTitle": "终止",
@@ -80,15 +106,12 @@
   "termsContactDescription": "如果您对这些服务条款有任何疑问，请与我们联系。",
   "termsContactEmailLabel": "邮箱：",
   "termsContactWebsiteLabel": "网站：",
-
   "navigation": {
     "useCases": "使用场景"
   },
-
   "useCases": {
     "title": "为什么使用 SVGR？",
     "subtitle": "SVGR 将位图（PNG、JPG）转换为可缩放矢量图形（SVG）——为您节省时间和金钱。",
-
     "aiLogos": {
       "title": "将 AI 生成的 Logo 转换为矢量",
       "description": "所有 AI Logo 生成器都会创建位图（PNG/JPG）。这些图片放大后会失真，在大屏幕上看起来模糊，无法在矢量设计工具中干净地编辑。要将 AI 生成的 Logo 用于专业场景——名片、横幅、周边商品或网站——您需要矢量版本。",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "现代化旧有图片资源",
       "description": "许多组织拥有旧有图片资源——Logo、图标、图表和插图——仅以位图文件形式存储。这些资源可能在多年前矢量工具还不普及时创建，或者原始源文件已随时间丢失。",
@@ -149,7 +171,6 @@
       "solution": "SVGR 如何帮助",
       "solutionDescription": "SVGR 让您可以将旧有位图资源转换为干净的 SVG 文件。结果是一个可缩放、可编辑的矢量，在任何屏幕尺寸上都能完美显示——从移动设备到 4K 显示器和打印。"
     },
-
     "cta": {
       "title": "准备好转换了吗？",
       "subtitle": "上传您的位图，几秒钟内即可获得 SVG。",

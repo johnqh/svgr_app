@@ -28,6 +28,7 @@ bun add -d drizzle-kit
 ### 1B. Firebase service (`src/services/firebase.ts`)
 
 Follow shapeshyft_api pattern (`~/shapeshyft/shapeshyft_api/src/services/firebase.ts`):
+
 - Import `initializeAuth`, `createCachedVerifier` from `@sudobility/auth_service`
 - Initialize Firebase Admin SDK with env vars (FIREBASE_PROJECT_ID, FIREBASE_CLIENT_EMAIL, FIREBASE_PRIVATE_KEY)
 - Export `verifyIdToken` using cached verifier (5 min TTL)
@@ -36,14 +37,16 @@ Follow shapeshyft_api pattern (`~/shapeshyft/shapeshyft_api/src/services/firebas
 ### 1C. Optional auth middleware (`src/middleware/optionalAuth.ts`)
 
 Unlike shapeshyft (which requires auth), we need **optional** auth:
+
 - Extract `Authorization: Bearer <token>` header
 - If present and valid → set `c.set('authenticated', true)` and `c.set('userId', uid)`
 - If absent or invalid → set `c.set('authenticated', false)`
 - **Always call `next()`** — never return 401
 
 Declare Hono ContextVariableMap:
+
 ```typescript
-declare module "hono" {
+declare module 'hono' {
   interface ContextVariableMap {
     authenticated: boolean;
     userId: string | null;
@@ -55,6 +58,7 @@ declare module "hono" {
 ### 1D. Database setup (`src/db/`)
 
 Follow shapeshyft_api pattern with drizzle-orm + postgres:
+
 - `src/db/index.ts` — Initialize postgres connection, export `db` and schema
 - `src/db/schema.ts` — Define `users` table (firebase_uid, email, created_at)
 - `src/db/init.ts` — Script to create tables
@@ -62,6 +66,7 @@ Follow shapeshyft_api pattern with drizzle-orm + postgres:
 - Create `svgr` database on 50.118.250.186
 
 User table schema:
+
 ```typescript
 export const users = pgTable('users', {
   id: serial('id').primaryKey(),
@@ -74,6 +79,7 @@ export const users = pgTable('users', {
 ### 1E. Rewrite watermark service (`src/services/watermark.ts`)
 
 Replace existing small-corner watermark with a large, centered, tilted watermark:
+
 - Parse SVG dimensions from width/height or viewBox
 - Create a `<text>` element:
   - Text: "SVGR"
@@ -100,6 +106,7 @@ Replace existing small-corner watermark with a large, centered, tilted watermark
 ### 1H. Environment variables
 
 Add to `.env` and `.env.local`:
+
 ```
 DATABASE_URL=postgres://svgr:PASSWORD@50.118.250.186:5432/svgr
 SITEADMIN_EMAILS=johnqh@yahoo.com,johnqh@sonic.net
@@ -114,6 +121,7 @@ Update `.env.example` with new keys.
 ### 2A. Update SvgrClient (`src/network/SvgrClient.ts`)
 
 Add optional `getToken` callback to config:
+
 ```typescript
 export interface SvgrClientConfig {
   baseUrl: string;
@@ -122,6 +130,7 @@ export interface SvgrClientConfig {
 ```
 
 In `convert()` method:
+
 - If `getToken` is provided, call it and add `Authorization: Bearer <token>` header
 - If not provided or returns null, send without auth header
 
@@ -142,6 +151,7 @@ bun add @sudobility/auth-components @sudobility/auth_lib
 ### 3B. Switch to SudobilityAppWithFirebaseAuth
 
 Update `src/App.tsx`:
+
 - Replace `SudobilityApp` with `SudobilityAppWithFirebaseAuth` from `@sudobility/building_blocks/firebase`
 - Import from `@sudobility/building_blocks/firebase` (not main export)
 - Pass `AuthProviderWrapper`, `apiUrl`, `testMode` props (same pattern as shapeshyft)
@@ -149,6 +159,7 @@ Update `src/App.tsx`:
 ### 3C. Create AuthProviderWrapper (`src/components/providers/AuthProviderWrapper.tsx`)
 
 Follow shapeshyft pattern (`~/shapeshyft/shapeshyft_app/src/components/providers/AuthProviderWrapper.tsx`):
+
 - Use `AuthProvider` from `@sudobility/auth-components`
 - Use `getFirebaseAuth`, `initializeFirebaseAuth` from `@sudobility/auth_lib`
 - Create `auth-config.ts` with `createAuthTexts()` and `createAuthErrorTexts()` using i18n
@@ -157,6 +168,7 @@ Follow shapeshyft pattern (`~/shapeshyft/shapeshyft_app/src/components/providers
 ### 3D. Create LoginPage (`src/pages/LoginPage.tsx`)
 
 Follow shapeshyft pattern (`~/shapeshyft/shapeshyft_app/src/pages/LoginPage.tsx`):
+
 - Use `LoginPage` component from `@sudobility/building_blocks`
 - Use `useAuthStatus` from `@sudobility/auth-components`
 - Redirect to main page (`/${lang}`) if already authenticated
@@ -165,6 +177,7 @@ Follow shapeshyft pattern (`~/shapeshyft/shapeshyft_app/src/pages/LoginPage.tsx`
 ### 3E. Update TopBar — Switch to AppTopBarWithFirebaseAuth
 
 Replace `AppTopBar` in `src/App.tsx` with `AppTopBarWithFirebaseAuth`:
+
 - Import `AuthAction` from `@sudobility/auth-components`
 - Pass `AuthActionComponent={AuthAction}`
 - Pass `onLoginClick={() => navigate(\`/${currentLang}/login\`)}`
@@ -173,6 +186,7 @@ Replace `AppTopBar` in `src/App.tsx` with `AppTopBarWithFirebaseAuth`:
 ### 3F. Update routing
 
 Add login route in `LangRoutes`:
+
 ```tsx
 <Route path="login" element={<LoginPage />} />
 ```
@@ -180,15 +194,13 @@ Add login route in `LangRoutes`:
 ### 3G. Update useSvgrClient hook
 
 Pass Firebase ID token getter to SvgrClient:
+
 ```typescript
 import { useApi } from '@sudobility/building_blocks/firebase';
 
 export function useSvgrClient() {
   const { getToken } = useApi(); // or similar hook from the auth context
-  return useMemo(
-    () => new SvgrClient({ baseUrl: API_URL, getToken }),
-    [getToken]
-  );
+  return useMemo(() => new SvgrClient({ baseUrl: API_URL, getToken }), [getToken]);
 }
 ```
 
@@ -197,6 +209,7 @@ Need to check exactly how `useApi()` exposes the token getter from `SudobilityAp
 ### 3H. Add auth i18n translations
 
 Add auth-related translation keys to `public/locales/en/svgr.json` (or a separate `auth.json` namespace):
+
 - signInTitle, signIn, signUp, continueWithGoogle, continueWithEmail, etc.
 - All ~30 auth text keys needed by AuthProvider
 - Translate to all 16 supported languages
@@ -206,38 +219,41 @@ Add auth-related translation keys to `public/locales/en/svgr.json` (or a separat
 ## File Change Summary
 
 ### svgr_api (~/projects/svgr_api)
-| File | Action |
-|------|--------|
-| `package.json` | Add deps: auth_service, drizzle-orm, postgres, firebase-admin, drizzle-kit |
-| `src/services/firebase.ts` | NEW — Firebase Admin init + token verification |
-| `src/middleware/optionalAuth.ts` | NEW — Optional auth middleware |
-| `src/db/index.ts` | NEW — Database connection + exports |
-| `src/db/schema.ts` | NEW — Users table schema |
-| `src/db/init.ts` | NEW — DB initialization script |
-| `src/services/watermark.ts` | REWRITE — Large centered tilted watermark |
-| `src/services/watermark.test.ts` | UPDATE — Tests for new watermark |
-| `src/routes/convert.ts` | UPDATE — Add auth check, conditional watermark |
-| `src/index.ts` | UPDATE — Add DB init, apply middleware |
-| `.env` | UPDATE — Add DATABASE_URL, SITEADMIN_EMAILS |
-| `.env.local` | UPDATE — Add DATABASE_URL |
-| `.env.example` | UPDATE — Add new env var placeholders |
+
+| File                             | Action                                                                     |
+| -------------------------------- | -------------------------------------------------------------------------- |
+| `package.json`                   | Add deps: auth_service, drizzle-orm, postgres, firebase-admin, drizzle-kit |
+| `src/services/firebase.ts`       | NEW — Firebase Admin init + token verification                             |
+| `src/middleware/optionalAuth.ts` | NEW — Optional auth middleware                                             |
+| `src/db/index.ts`                | NEW — Database connection + exports                                        |
+| `src/db/schema.ts`               | NEW — Users table schema                                                   |
+| `src/db/init.ts`                 | NEW — DB initialization script                                             |
+| `src/services/watermark.ts`      | REWRITE — Large centered tilted watermark                                  |
+| `src/services/watermark.test.ts` | UPDATE — Tests for new watermark                                           |
+| `src/routes/convert.ts`          | UPDATE — Add auth check, conditional watermark                             |
+| `src/index.ts`                   | UPDATE — Add DB init, apply middleware                                     |
+| `.env`                           | UPDATE — Add DATABASE_URL, SITEADMIN_EMAILS                                |
+| `.env.local`                     | UPDATE — Add DATABASE_URL                                                  |
+| `.env.example`                   | UPDATE — Add new env var placeholders                                      |
 
 ### svgr_client (~/projects/svgr_client)
-| File | Action |
-|------|--------|
+
+| File                        | Action                                   |
+| --------------------------- | ---------------------------------------- |
 | `src/network/SvgrClient.ts` | UPDATE — Add optional getToken to config |
-| `package.json` | Bump version |
+| `package.json`              | Bump version                             |
 
 ### svgr_app (~/projects/svgr_app)
-| File | Action |
-|------|--------|
-| `package.json` | Add deps: auth-components, auth_lib |
-| `src/App.tsx` | UPDATE — Use SudobilityAppWithFirebaseAuth, add login route, switch to AppTopBarWithFirebaseAuth |
-| `src/components/providers/AuthProviderWrapper.tsx` | NEW — Auth provider wrapper |
-| `src/config/auth-config.ts` | NEW — Auth text config |
-| `src/pages/LoginPage.tsx` | NEW — Login page |
-| `src/hooks/useSvgrClient.ts` | UPDATE — Pass token getter |
-| `public/locales/*/svgr.json` | UPDATE — Add auth translation keys (16 languages) |
+
+| File                                               | Action                                                                                           |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| `package.json`                                     | Add deps: auth-components, auth_lib                                                              |
+| `src/App.tsx`                                      | UPDATE — Use SudobilityAppWithFirebaseAuth, add login route, switch to AppTopBarWithFirebaseAuth |
+| `src/components/providers/AuthProviderWrapper.tsx` | NEW — Auth provider wrapper                                                                      |
+| `src/config/auth-config.ts`                        | NEW — Auth text config                                                                           |
+| `src/pages/LoginPage.tsx`                          | NEW — Login page                                                                                 |
+| `src/hooks/useSvgrClient.ts`                       | UPDATE — Pass token getter                                                                       |
+| `public/locales/*/svgr.json`                       | UPDATE — Add auth translation keys (16 languages)                                                |
 
 ---
 

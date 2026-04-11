@@ -1,4 +1,29 @@
 {
+  "seo": {
+    "home": {
+      "title": "圖像轉SVG轉換器 - PNG、JPG、WEBP轉向量",
+      "description": "線上將光柵圖像轉換為可縮放的向量圖形。上傳 PNG、JPG 或 WEBP，立即獲得乾淨的 SVG 輸出。免費預覽，適合用於 AI 生成的商標。",
+      "keywords": "圖片轉SVG工具，PNG轉SVG，JPG轉SVG，WEBP轉SVG，光柵轉向量，線上SVG轉換器，圖片向量化"
+    },
+    "useCases": {
+      "title": "將AI徽標轉換為SVG - 使用案例",
+      "description": "看看 SVGR 如何將 AI 生成的商標和舊有的光柵圖像轉換為可縮放的 SVG 向量檔案。支援 Looka、Brandmark 等平台。",
+      "keywords": "AI標誌轉為向量，將標誌轉為SVG，向量化AI標誌，光柵標誌轉為向量，舊有圖像轉為SVG"
+    },
+    "credits": {
+      "title": "購買SVG下載積分",
+      "description": "購買點數以從 SVGR 下載轉換後的 SVG 和 PDF 檔案。為設計師和企業提供的經濟實惠點數套裝。",
+      "keywords": "SVGR積分，SVG下載積分，購買矢量積分，PDF下載積分"
+    },
+    "privacy": {
+      "title": "隱私政策",
+      "description": "SVGR 如何處理您的資料。上傳的圖片會在記憶體中處理，並立即刪除。不會儲存或分享任何圖片資料。"
+    },
+    "terms": {
+      "title": "服務條款",
+      "description": "SVGR圖片轉SVG服務的服務條款。個人和商業用途均可免費轉換。"
+    }
+  },
   "title": "SVGR",
   "subtitle": "將點陣圖轉換為可縮放向量圖形",
   "pronunciation": "發音為 \"Sveeger\"",
@@ -20,10 +45,12 @@
   "svgPlaceholder": "轉換後的 SVG 將顯示在此處",
   "loginForFree": "登入即可免費轉換，無浮水印",
   "conversionFailed": "轉換失敗",
+  "product": "產品",
+  "convert": "轉換",
+  "legal": "法律的",
   "privacy": "隱私權政策",
   "terms": "使用條款",
   "lastUpdated": "最後更新：{{date}}",
-
   "privacyTitle": "隱私權政策",
   "privacyIntroTitle": "簡介",
   "privacyIntroContent": "Sudobility Inc.（以下簡稱「我們」）營運 SVGR，一項點陣圖轉向量圖的影像轉換服務。本隱私權政策說明當您使用我們的服務時，我們如何收集、使用和保護您的資訊。",
@@ -53,7 +80,6 @@
   "privacyContactDescription": "如果您對本隱私權政策有任何疑問，請與我們聯絡。",
   "privacyContactEmailLabel": "電子郵件：",
   "privacyContactWebsiteLabel": "網站：",
-
   "termsTitle": "服務條款",
   "termsAcceptanceTitle": "條款接受",
   "termsAcceptanceContent": "存取或使用由 Sudobility Inc. 營運的 SVGR（以下簡稱「服務」），即表示您同意受這些服務條款的約束。如果您不同意這些條款，請勿使用本服務。",
@@ -80,15 +106,12 @@
   "termsContactDescription": "如果您對這些服務條款有任何疑問，請與我們聯絡。",
   "termsContactEmailLabel": "電子郵件：",
   "termsContactWebsiteLabel": "網站：",
-
   "navigation": {
     "useCases": "使用場景"
   },
-
   "useCases": {
     "title": "為什麼使用 SVGR？",
     "subtitle": "SVGR 將點陣圖（PNG、JPG）轉換為可縮放向量圖形（SVG）——為您節省時間和金錢。",
-
     "aiLogos": {
       "title": "將 AI 生成的 Logo 轉換為向量",
       "description": "所有 AI Logo 生成器都會建立點陣圖（PNG/JPG）。這些圖片放大後會失真，在大螢幕上看起來模糊，無法在向量設計工具中乾淨地編輯。要將 AI 生成的 Logo 用於專業場景——名片、橫幅、周邊商品或網站——您需要向量版本。",
@@ -140,7 +163,6 @@
         }
       }
     },
-
     "legacyAssets": {
       "title": "現代化舊有圖片資源",
       "description": "許多組織擁有舊有圖片資源——Logo、圖示、圖表和插圖——僅以點陣檔案形式儲存。這些資源可能在多年前向量工具還不普及時建立，或者原始來源檔案已隨時間遺失。",
@@ -149,7 +171,6 @@
       "solution": "SVGR 如何幫助",
       "solutionDescription": "SVGR 讓您可以將舊有點陣資源轉換為乾淨的 SVG 檔案。結果是一個可縮放、可編輯的向量，在任何螢幕尺寸上都能完美顯示——從行動裝置到 4K 顯示器和列印。"
     },
-
     "cta": {
       "title": "準備好轉換了嗎？",
       "subtitle": "上傳您的點陣圖，幾秒鐘內即可獲得 SVG。",

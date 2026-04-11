@@ -74,7 +74,11 @@ export default function PrivacyPage() {
 
   return (
     <>
-      <SEO title={t('privacyTitle')} canonical="/privacy" />
+      <SEO
+        title={t('seo.privacy.title')}
+        description={t('seo.privacy.description')}
+        canonical="/privacy"
+      />
       <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>
   );

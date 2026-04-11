@@ -5,6 +5,7 @@
 svgr_app currently allows free unlimited SVG/PDF downloads. We're adding a credits system where users purchase credit packs (e.g., 5 credits/$5, 25 credits/$20) and spend 1 credit per SVG download. This monetizes the service while keeping conversion/preview free.
 
 **Key decisions made:**
+
 - RevenueCat Web Billing for web (wraps Stripe); native IAP for mobile — all via RevenueCat
 - Dynamic offerings from RevenueCat; credit counts in product metadata
 - Credits tied to Firebase user ID (not entity)
@@ -23,6 +24,7 @@ svgr_app currently allows free unlimited SVG/PDF downloads. We're adding a credi
 Backend library. Exports Drizzle schema creators and a `ConsumablesHelper` class with all business logic. No DB connection of its own.
 
 **Structure:**
+
 ```
 consumables_service/
   src/
@@ -43,13 +45,14 @@ consumables_service/
 
 **Schema (`src/schema/index.ts`)** — `createConsumablesSchema(pgSchema)` returns:
 
-| Table | Columns |
-|-------|---------|
-| `consumable_balances` | `user_id` (PK, varchar 128), `balance` (int, default 0), `initial_credits` (int, default 0), `created_at`, `updated_at` |
+| Table                  | Columns                                                                                                                                                              |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `consumable_balances`  | `user_id` (PK, varchar 128), `balance` (int, default 0), `initial_credits` (int, default 0), `created_at`, `updated_at`                                              |
 | `consumable_purchases` | `id` (serial PK), `user_id`, `credits` (int), `source` (varchar: web/apple/google/free), `transaction_ref_id`, `product_id`, `price_cents`, `currency`, `created_at` |
-| `consumable_usages` | `id` (serial PK), `user_id`, `filename` (varchar 500), `created_at` |
+| `consumable_usages`    | `id` (serial PK), `user_id`, `filename` (varchar 500), `created_at`                                                                                                  |
 
 **ConsumablesHelper** — constructed with `(db, tables, config)`:
+
 - `getBalance(userId)` — get-or-create; auto-grants `config.initialFreeCredits` on first access
 - `recordPurchase(userId, request)` — insert purchase record + atomic `balance = balance + credits`
 - `recordUsage(userId, filename?)` — atomic `balance = balance - 1 WHERE balance > 0` + insert usage; returns `{balance, success}`
@@ -68,6 +71,7 @@ consumables_service/
 Frontend client library. Adapter pattern (web/RN), singleton + event listeners, React hooks.
 
 **Structure:**
+
 ```
 consumables_client/
   src/
@@ -100,17 +104,20 @@ consumables_client/
 **Pattern reference:** `~/0xmail/subscription_lib/package.json` — singleton pattern, adapter pattern, optional peer deps for RevenueCat SDKs
 
 **Key types:**
+
 - `CreditPackage` — `{ packageId, productId, title, credits, price, priceString, currencyCode }`
 - `ConsumablesAdapter` — `getOfferings()`, `purchase(params)`, `setUserId?(userId, email?)`
 - `ConsumablesApiClient` — configured with `{ baseUrl, getToken }`, methods mirror API endpoints
 
 **Singleton functions:**
+
 - `initializeConsumables({ adapter, apiClient })`
 - `setConsumablesUserId(userId, email?)` / `getConsumablesUserId()`
 - `refreshConsumablesBalance()` / `onConsumablesBalanceChange(listener)`
 - `onConsumablesUserIdChange(listener)`
 
 **Hooks:**
+
 - `useBalance()` → `{ balance, initialCredits, isLoading, error, refetch }`
 - `useConsumableProducts(offeringId)` → `{ packages: CreditPackage[], isLoading, error }`
 - `usePurchaseCredits()` → `{ purchase(packageId, offeringId), isPurchasing, error }`
@@ -128,6 +135,7 @@ consumables_client/
 Frontend UI library (web only). Page-level components with props-driven labels/formatters.
 
 **Structure:**
+
 ```
 consumables_pages/
   src/
@@ -145,6 +153,7 @@ consumables_pages/
 **Pattern reference:** Building blocks subscription components (`~/0xmail/building_blocks/src/components/subscription/`)
 
 **Components:**
+
 - `CreditStorePage` — balance display + grid of credit packages with buy buttons. Props: `isAuthenticated, balance, packages, isLoading, isPurchasing, onPurchase, onLoginClick, labels, formatters`
 - `PurchaseHistoryPage` — table of purchase records. Props: `purchases, isLoading, onLoadMore, labels, formatters`
 - `UsageHistoryPage` — table of usage records. Props: `usages, isLoading, onLoadMore, labels, formatters`
@@ -159,12 +168,14 @@ consumables_pages/
 ### svgr_api (`./svgr_api`)
 
 **New files:**
+
 - `src/db/consumables.ts` — calls `createConsumablesSchema(svgrSchema)` to create table definitions
 - `src/middleware/requireAuth.ts` — like `optionalAuth.ts` but returns 401 if no valid token
 - `src/services/consumables.ts` — lazy-initialized `ConsumablesHelper` singleton with `{ initialFreeCredits: 3 }`
 - `src/routes/consumables.ts` — Hono routes for all endpoints
 
 **Modified files:**
+
 - `src/db/index.ts` (`initDatabase`) — add 3 CREATE TABLE IF NOT EXISTS statements for consumable tables
 - `src/index.ts` — mount `app.route('/api/v1/consumables', consumablesRoutes)`
 
@@ -185,10 +196,12 @@ consumables_pages/
 ### svgr_app (`./svgr_app`)
 
 **New files:**
+
 - `src/config/consumables.ts` — `initializeConsumablesService(getToken)` configuring web adapter + API client
 - `src/pages/CreditsPage.tsx` — composes `CreditStorePage` with hooks + i18n labels
 
 **Modified files:**
+
 - `src/components/providers/AuthProviderWrapper.tsx` — call `setConsumablesUserId` on auth state change
 - `src/components/SvgPreviewPanel.tsx` — add credit check before download:
   1. `useBalance()` to show balance state
@@ -203,10 +216,12 @@ consumables_pages/
 ### svgr_app_rn (`./svgr_app_rn`)
 
 **New files:**
+
 - `src/config/consumables.ts` — `initializeConsumablesService(getToken)` configuring RN adapter
 - `src/screens/CreditsScreen.tsx` — native UI for credit store (uses hooks from consumables_client directly, not consumables_pages)
 
 **Modified files:**
+
 - `src/context/AuthContext.tsx` — call `setConsumablesUserId` on auth state change
 - `src/components/SvgPreviewPanel.tsx` — same credit gating logic as web
 - `src/navigation/AppNavigator.tsx` — add Credits screen
@@ -217,14 +232,14 @@ consumables_pages/
 
 ## Implementation Order
 
-| Phase | Project | Depends On |
-|-------|---------|------------|
-| 1 | `consumables_service` | Nothing |
-| 2 | `svgr_api` integration | Phase 1 |
-| 3 | `consumables_client` | Phase 2 (needs API to test against) |
-| 4 | `consumables_pages` | Phase 3 |
-| 5 | `svgr_app` integration | Phases 3 + 4 |
-| 6 | `svgr_app_rn` integration | Phase 3 |
+| Phase | Project                   | Depends On                          |
+| ----- | ------------------------- | ----------------------------------- |
+| 1     | `consumables_service`     | Nothing                             |
+| 2     | `svgr_api` integration    | Phase 1                             |
+| 3     | `consumables_client`      | Phase 2 (needs API to test against) |
+| 4     | `consumables_pages`       | Phase 3                             |
+| 5     | `svgr_app` integration    | Phases 3 + 4                        |
+| 6     | `svgr_app_rn` integration | Phase 3                             |
 
 ---
 

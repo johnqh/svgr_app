@@ -138,13 +138,13 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
 
   return (
     <div className="flex flex-col">
-      <h3 className={`${ui.text.uppercase} mb-3`}>
-        {t('convertedSvg')}
-      </h3>
+      <h3 className={`${ui.text.uppercase} mb-3`}>{t('convertedSvg')}</h3>
 
       {/* SVG area -- fixed 4:3 aspect ratio, matches ImageUploadPanel */}
       {svgDataUri ? (
-        <div className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}>
+        <div
+          className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}
+        >
           <img
             src={svgDataUri}
             alt={t('convertedSvg')}
@@ -160,7 +160,9 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
           </div>
         </div>
       ) : (
-        <div className={`aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border-2 border-dashed ${ui.border.default}`}>
+        <div
+          className={`aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border-2 border-dashed ${ui.border.default}`}
+        >
           <p className={ui.text.caption}>{t('svgPlaceholder')}</p>
         </div>
       )}

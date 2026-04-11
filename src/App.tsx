@@ -42,16 +42,13 @@ const LoginPage = lazy(() => import('./pages/LoginPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = lazy(() => import('./pages/TermsPage'));
 const UseCasesPage = lazy(() => import('./pages/UseCasesPage'));
+const SitemapPage = lazy(() => import('./pages/SitemapPage'));
 
 const queryClient = new QueryClient();
 
 const LoadingFallback = () => (
   <div className="min-h-screen flex items-center justify-center bg-theme-bg-primary">
-    <div
-      role="status"
-      aria-label="Loading"
-      className={variants.loading.spinner.large()}
-    />
+    <div role="status" aria-label="Loading" className={variants.loading.spinner.large()} />
   </div>
 );
 
@@ -118,6 +115,7 @@ function LangLayoutInner() {
       links: [
         { label: t('privacy'), href: `/${currentLang}/privacy` },
         { label: t('terms'), href: `/${currentLang}/terms` },
+        { label: t('sitemap.title', { defaultValue: 'Sitemap' }), href: `/${currentLang}/sitemap` },
       ],
     },
   ];
@@ -140,6 +138,7 @@ function LangLayoutInner() {
         links: [
           { label: t('privacy'), href: `/${currentLang}/privacy` },
           { label: t('terms'), href: `/${currentLang}/terms` },
+          { label: t('sitemap.title', { defaultValue: 'Sitemap' }), href: `/${currentLang}/sitemap` },
         ],
         sticky: true,
       };
@@ -213,6 +212,7 @@ function AppRoutes() {
         <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />
         <Route path="terms" element={<TermsPage />} />
+        <Route path="sitemap" element={<SitemapPage />} />
       </Route>
       <Route path="/" element={<Navigate to={`/${i18nInstance.language || 'en'}`} replace />} />
       <Route path="*" element={<Navigate to="/en" replace />} />
