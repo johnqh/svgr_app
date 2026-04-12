@@ -5,9 +5,11 @@
  * for consistent sitemap layout across the Sudobility ecosystem.
  */
 
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { SUPPORTED_LANGUAGES } from '@sudobility/svgr_lib';
+import { trackPageView } from '../analytics';
 import { AppSitemapPage } from '@sudobility/building_blocks';
 import type {
   SitemapPageText,
@@ -64,6 +66,10 @@ function LinkWrapper({
 
 export default function SitemapPage() {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    trackPageView('/sitemap', 'Sitemap');
+  }, []);
 
   const sections: SitemapSection[] = [
     {

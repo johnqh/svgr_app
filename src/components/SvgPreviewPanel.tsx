@@ -26,7 +26,7 @@ import {
   getConsumablesInstance,
   notifyBalanceChange,
 } from '@sudobility/consumables_client';
-import { trackButtonClick } from '../analytics';
+import { trackButtonClick, trackEvent, trackError } from '../analytics';
 import { DownloadIcon } from './icons';
 
 interface SvgPreviewPanelProps {
@@ -73,6 +73,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
     if (balance === null) return true; // Still loading, allow
     if (balance > 0) return true;
     setInsufficientCredits(true);
+    trackEvent('insufficient_credits', { balance });
     return false;
   }, [balance]);
 
@@ -126,6 +127,10 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
       consumeCredit(downloadName);
     } catch (error) {
       console.error('[SvgPreviewPanel] PDF generation failed:', error);
+      trackError(
+        error instanceof Error ? error.message : 'PDF generation failed',
+        'pdf_generation_error'
+      );
     }
   }, [svg, filename, checkBalance, consumeCredit]);
 

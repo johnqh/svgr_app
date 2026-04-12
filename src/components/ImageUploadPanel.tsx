@@ -12,7 +12,7 @@ import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { isValidImageType } from '@sudobility/svgr_lib';
 import { ui } from '@sudobility/design';
-import { trackButtonClick } from '../analytics';
+import { trackButtonClick, trackError } from '../analytics';
 import { ImageUploadIcon } from './icons';
 
 interface ImageUploadPanelProps {
@@ -45,6 +45,7 @@ export default function ImageUploadPanel({
       setError(null);
       if (!isValidImageType(f.type)) {
         setError(t('invalidFileType'));
+        trackError(f.type, 'invalid_file_type');
         return;
       }
       trackButtonClick('image_upload', { file_type: f.type, file_size: f.size });

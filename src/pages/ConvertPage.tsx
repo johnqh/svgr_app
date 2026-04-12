@@ -22,7 +22,7 @@ import {
 } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
-import { trackButtonClick } from '../analytics';
+import { trackButtonClick, trackEvent, trackError, trackPageView } from '../analytics';
 import SEO from '../components/seo/SEO';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
@@ -40,6 +40,10 @@ export default function ConvertPage() {
     height: number;
   } | null>(null);
 
+  useEffect(() => {
+    trackPageView('/convert', 'Convert');
+  }, []);
+
   // Track the current object URL in a ref so the cleanup effect can revoke
   // it on unmount without needing previewUrl in its dependency array.
   const previewUrlRef = useRef<string | null>(null);
@@ -53,6 +57,18 @@ export default function ConvertPage() {
       }
     };
   }, []);
+
+  useEffect(() => {
+    if (converter.svgResult) {
+      trackEvent('conversion_success');
+    }
+  }, [converter.svgResult]);
+
+  useEffect(() => {
+    if (converter.error) {
+      trackError(converter.error, 'conversion_error');
+    }
+  }, [converter.error]);
 
   const handleFileSelect = useCallback(
     (f: File) => {
@@ -98,6 +114,7 @@ export default function ConvertPage() {
     };
     reader.onerror = () => {
       console.error('[ConvertPage] FileReader failed:', reader.error);
+      trackError(reader.error?.message || 'FileReader failed', 'file_read_error');
       converter.reset();
     };
     reader.readAsDataURL(file);

@@ -10,9 +10,11 @@
  * that navigates back to the main conversion page.
  */
 
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { buttonVariant, ui } from '@sudobility/design';
+import { trackButtonClick, trackPageView } from '../analytics';
 import SEO from '../components/seo/SEO';
 
 /** Keys for AI logo designer entries used to generate the designer grid from i18n. */
@@ -32,6 +34,10 @@ export default function UseCasesPage() {
   const { lang } = useParams<{ lang: string }>();
   const navigate = useNavigate();
   const currentLang = lang || 'en';
+
+  useEffect(() => {
+    trackPageView('/use-cases', 'Use Cases');
+  }, []);
 
   return (
     <div className="py-8 px-4 max-w-4xl mx-auto">
@@ -125,7 +131,10 @@ export default function UseCasesPage() {
         <h2 className={`${ui.text.h2} mb-4`}>{t('useCases.cta.title')}</h2>
         <p className={`${ui.text.bodyLarge} mb-8`}>{t('useCases.cta.subtitle')}</p>
         <button
-          onClick={() => navigate(`/${currentLang}`)}
+          onClick={() => {
+            trackButtonClick('use_cases_cta');
+            navigate(`/${currentLang}`);
+          }}
           className={`${buttonVariant('primary')} rounded-lg px-8 py-3 font-semibold`}
         >
           {t('useCases.cta.button')}

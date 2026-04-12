@@ -5,14 +5,20 @@
  * for consistent legal page formatting across the Sudobility ecosystem.
  */
 
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
+import { trackPageView } from '../analytics';
 import SEO from '../components/seo/SEO';
 import { LAST_UPDATED_DATE, LEGAL_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function TermsPage() {
   const { t } = useTranslation();
+
+  useEffect(() => {
+    trackPageView('/terms', 'Terms of Service');
+  }, []);
 
   const text: TextPageContent = {
     title: t('termsTitle'),

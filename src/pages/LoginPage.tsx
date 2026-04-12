@@ -17,6 +17,7 @@ import {
 } from 'firebase/auth';
 import { LoginPage as LoginPageComponent } from '@sudobility/building_blocks';
 import { variants, ui } from '@sudobility/design';
+import { trackButtonClick, trackError, trackPageView } from '../analytics';
 import SEO from '../components/seo/SEO';
 import { APP_NAME } from '../config/constants';
 
@@ -25,6 +26,10 @@ function LoginPage() {
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
   const auth = getFirebaseAuth();
+
+  useEffect(() => {
+    trackPageView('/login', 'Login');
+  }, []);
 
   // Redirect to main page if already authenticated
   useEffect(() => {
@@ -56,13 +61,40 @@ function LoginPage() {
         appName={APP_NAME}
         logo={<img src="/logo.svg" alt={APP_NAME} className="h-12" />}
         onEmailSignIn={async (email, password) => {
-          await signInWithEmailAndPassword(auth, email, password);
+          trackButtonClick('email_sign_in');
+          try {
+            await signInWithEmailAndPassword(auth, email, password);
+          } catch (err) {
+            trackError(
+              err instanceof Error ? err.message : 'Email sign-in failed',
+              'email_sign_in_error'
+            );
+            throw err;
+          }
         }}
         onEmailSignUp={async (email, password) => {
-          await createUserWithEmailAndPassword(auth, email, password);
+          trackButtonClick('email_sign_up');
+          try {
+            await createUserWithEmailAndPassword(auth, email, password);
+          } catch (err) {
+            trackError(
+              err instanceof Error ? err.message : 'Email sign-up failed',
+              'email_sign_up_error'
+            );
+            throw err;
+          }
         }}
         onGoogleSignIn={async () => {
-          await signInWithPopup(auth, new GoogleAuthProvider());
+          trackButtonClick('google_sign_in');
+          try {
+            await signInWithPopup(auth, new GoogleAuthProvider());
+          } catch (err) {
+            trackError(
+              err instanceof Error ? err.message : 'Google sign-in failed',
+              'google_sign_in_error'
+            );
+            throw err;
+          }
         }}
         onSuccess={() => navigate(`/${lang || 'en'}`, { replace: true })}
       />
