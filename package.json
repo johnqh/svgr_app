@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.78",
+  "version": "1.0.79",
   "type": "module",
   "scripts": {
     "dev": "bun run process:static && vite",
@@ -30,8 +30,8 @@
     "@radix-ui/react-tabs": "^1.1.13",
     "@revenuecat/purchases-js": "^1.26.0",
     "@sudobility/auth-components": "^1.0.10",
-    "@sudobility/auth_lib": "^0.0.69",
-    "@sudobility/building_blocks": "^0.0.213",
+    "@sudobility/auth_lib": "^0.0.70",
+    "@sudobility/building_blocks": "^0.0.214",
     "@sudobility/components": "^5.0.58",
     "@sudobility/consumables_client": "^0.0.15",
     "@sudobility/consumables_pages": "^0.0.21",
