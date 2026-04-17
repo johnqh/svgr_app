@@ -160,7 +160,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
             <span className="text-xs text-white font-medium">
               {dimensions && `${dimensions.width}x${dimensions.height}`}
               {dimensions && fileSizeKB && ' · '}
-              {fileSizeKB}
+              {fileSizeKB && `${fileSizeKB} KB`}
             </span>
           </div>
         </div>
