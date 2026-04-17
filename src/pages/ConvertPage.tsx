@@ -19,7 +19,9 @@ import {
   APP_DOMAIN,
   QUALITY_MIN,
   QUALITY_MAX,
+  IMAGE_TYPES,
 } from '@sudobility/svgr_lib';
+import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick, trackEvent, trackError, trackPageView } from '../analytics';
@@ -235,6 +237,27 @@ export default function ConvertPage() {
             />
             <span className={`${ui.text.label} whitespace-nowrap`}>{t('mergePaths')}</span>
           </label>
+
+          {/* Image type selector */}
+          <div className="flex items-center gap-2">
+            <span className={`${ui.text.label} whitespace-nowrap`}>{t('imageType')}</span>
+            <div className="flex rounded-md overflow-hidden border border-gray-300 dark:border-gray-600">
+              {IMAGE_TYPES.map(type => (
+                <button
+                  key={type}
+                  type="button"
+                  onClick={() => converter.setImageType(type as ImageType)}
+                  className={`px-3 py-1 text-xs font-medium transition-colors ${
+                    converter.imageType === type
+                      ? 'bg-blue-600 text-white'
+                      : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                  }`}
+                >
+                  {t(`imageType${type.charAt(0).toUpperCase() + type.slice(1)}`)}
+                </button>
+              ))}
+            </div>
+          </div>
 
           {/* Convert button — full width row */}
           <div className="w-full">
