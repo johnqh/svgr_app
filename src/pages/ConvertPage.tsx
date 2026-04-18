@@ -15,6 +15,7 @@ import { useState, useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   useImageConverter,
+  scaleImageWeb,
   APP_NAME,
   APP_DOMAIN,
   QUALITY_MIN,
@@ -33,7 +34,7 @@ import SvgPreviewPanel from '../components/SvgPreviewPanel';
 export default function ConvertPage() {
   const { t } = useTranslation();
   const client = useSvgrClient();
-  const converter = useImageConverter(client);
+  const converter = useImageConverter(client, scaleImageWeb);
 
   const [file, setFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
