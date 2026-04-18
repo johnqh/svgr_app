@@ -138,7 +138,6 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
     ? `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svg)))}`
     : null;
 
-  const dimensions = svg ? getSvgDimensions(svg) : null;
   const fileSizeKB = svg ? getSvgFileSizeKB(svg) : null;
 
   return (
@@ -158,8 +157,6 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
           {/* Info badge overlay */}
           <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
             <span className="text-xs text-white font-medium">
-              {dimensions && `${dimensions.width}x${dimensions.height}`}
-              {dimensions && fileSizeKB && ' · '}
               {fileSizeKB && `${fileSizeKB} KB`}
             </span>
           </div>
