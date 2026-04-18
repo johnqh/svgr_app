@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.79",
+  "version": "1.0.80",
   "type": "module",
   "scripts": {
     "dev": "bun run process:static && vite",
@@ -43,9 +43,9 @@
     "@sudobility/seo_lib": "^0.0.10",
     "@sudobility/subscription-components": "^1.0.31",
     "@sudobility/subscription_lib": "^0.0.39",
-    "@sudobility/svgr_client": "^1.0.27",
-    "@sudobility/svgr_lib": "^0.0.24",
-    "@sudobility/svgr_types": "^1.0.17",
+    "@sudobility/svgr_client": "^1.0.28",
+    "@sudobility/svgr_lib": "^0.0.25",
+    "@sudobility/svgr_types": "^1.0.18",
     "@sudobility/types": "^1.9.61",
     "@tanstack/react-query": "^5.0.0",
     "class-variance-authority": "^0.7.1",
