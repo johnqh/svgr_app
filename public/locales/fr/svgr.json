@@ -209,5 +209,8 @@
       "privacy": "Comment SVGR gère vos données et protège votre vie privée.",
       "terms": "Conditions générales d'utilisation du service de conversion SVGR."
     }
+  },
+  "appLinks": {
+    "label": "Vectorisation pour"
   }
 }

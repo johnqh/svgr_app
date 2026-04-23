@@ -209,5 +209,8 @@
       "privacy": "Cómo SVGR maneja sus datos y protege su privacidad.",
       "terms": "Términos y condiciones para el uso del servicio de conversión SVGR."
     }
+  },
+  "appLinks": {
+    "label": "Vectorizando para"
   }
 }

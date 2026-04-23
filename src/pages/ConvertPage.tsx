@@ -13,6 +13,7 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import { AppLinks } from '@sudobility/components';
 import {
   useImageConverter,
   scaleImageWeb,
@@ -270,6 +271,18 @@ export default function ConvertPage() {
           </div>
         </div>
       </div>
+
+      <AppLinks
+        label={t('appLinks.label')}
+        links={[
+          { href: 'https://whisperly.dev', logo: '/logos/whisperly.svg', alt: 'Whisperly' },
+          { href: 'https://signic.email', logo: '/logos/signic.png', alt: 'Signic Email' },
+          { href: 'https://shapeshyft.ai', logo: '/logos/shapeshyft.png', alt: 'ShapeShyft' },
+          { href: 'https://genuivo.dev', logo: '/logos/genuivo.svg', alt: 'Genuivo' },
+          { href: 'https://sudojo.com', logo: '/logos/sudojo.svg', alt: 'Sudojo' },
+          { href: 'https://heavymath.com', logo: '/logos/heavymath.png', alt: 'HeavyMath' },
+        ]}
+      />
     </main>
   );
 }

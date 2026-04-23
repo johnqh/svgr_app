@@ -209,5 +209,8 @@
       "privacy": "Hur SVGR hanterar dina data och skyddar din integritet.",
       "terms": "Villkor för användning av SVGR-omvandlingstjänsten."
     }
+  },
+  "appLinks": {
+    "label": "Vektoriserar för"
   }
 }

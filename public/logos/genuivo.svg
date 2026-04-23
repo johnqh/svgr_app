@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g" x1="60" y1="60" x2="460" y2="460" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Side profile - front contour -->
+  <path d="M 240 45
+           C 300 35, 345 75, 352 135
+           C 356 165, 346 185, 350 205
+           C 358 235, 390 268, 378 295
+           C 370 310, 350 308, 356 325
+           C 362 336, 365 344, 356 362
+           C 346 380, 354 405, 332 432
+           C 312 456, 288 466, 278 475"
+        stroke="url(#g)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Side profile - back of head and neck -->
+  <path d="M 240 45
+           C 200 50, 165 95, 160 185
+           C 155 290, 168 395, 215 475"
+        stroke="url(#g)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Eye - almond shape -->
+  <path d="M 295 198 C 308 185, 330 185, 340 198 C 330 210, 308 210, 295 198 Z" fill="url(#g)"/>
+
+  <!-- Pupil -->
+  <circle cx="320" cy="198" r="6" fill="white"/>
+</svg>
