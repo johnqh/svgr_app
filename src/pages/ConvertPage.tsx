@@ -39,6 +39,8 @@ export default function ConvertPage() {
 
   const [file, setFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
+  // Continuous slider value while dragging (null when not dragging)
+  const [sliderValue, setSliderValue] = useState<number | null>(null);
   const [imageDimensions, setImageDimensions] = useState<{
     width: number;
     height: number;
@@ -193,8 +195,11 @@ export default function ConvertPage() {
               type="range"
               min={QUALITY_MIN}
               max={QUALITY_MAX}
-              value={converter.quality}
-              onChange={e => converter.setQuality(Number(e.target.value))}
+              step="any"
+              value={sliderValue ?? converter.quality}
+              onChange={e => setSliderValue(Number(e.target.value))}
+              onMouseUp={e => { converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value))); setSliderValue(null); }}
+              onTouchEnd={e => { converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value))); setSliderValue(null); }}
               aria-label={t('quality')}
               aria-valuemin={QUALITY_MIN}
               aria-valuemax={QUALITY_MAX}
@@ -203,7 +208,7 @@ export default function ConvertPage() {
             />
             <span className={`text-xs ${ui.text.muted}`}>{t('qualityMax')}</span>
             <span className={`text-sm ${ui.text.muted} w-12 text-right`}>
-              {converter.quality}/{QUALITY_MAX}
+              {Math.round(sliderValue ?? converter.quality)}/{QUALITY_MAX}
             </span>
           </div>
 
