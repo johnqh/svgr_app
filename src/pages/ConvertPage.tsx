@@ -198,8 +198,14 @@ export default function ConvertPage() {
               step="any"
               value={sliderValue ?? converter.quality}
               onChange={e => setSliderValue(Number(e.target.value))}
-              onMouseUp={e => { converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value))); setSliderValue(null); }}
-              onTouchEnd={e => { converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value))); setSliderValue(null); }}
+              onMouseUp={e => {
+                converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value)));
+                setSliderValue(null);
+              }}
+              onTouchEnd={e => {
+                converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value)));
+                setSliderValue(null);
+              }}
               aria-label={t('quality')}
               aria-valuemin={QUALITY_MIN}
               aria-valuemax={QUALITY_MAX}
