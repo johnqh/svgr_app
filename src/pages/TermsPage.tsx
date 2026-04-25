@@ -14,7 +14,7 @@ import SEO from '../components/seo/SEO';
 import { LAST_UPDATED_DATE, LEGAL_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function TermsPage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('terms');
 
   useEffect(() => {
     trackPageView('/terms', 'Terms of Service');

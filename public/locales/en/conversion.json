@@ -1,0 +1,23 @@
+{
+  "quality": "Quality",
+  "qualityMin": "Smaller file",
+  "qualityMax": "Higher fidelity",
+  "transparentBg": "Transparent background",
+  "imageType": "Image type",
+  "imageTypeAuto": "Auto",
+  "imageTypePhoto": "Photo",
+  "imageTypeDesign": "Design",
+  "recognizeText": "Recognize text",
+  "mergePaths": "Merge paths",
+  "convertToSvg": "Convert to SVG",
+  "converting": "Converting...",
+  "conversionFailed": "Conversion failed",
+  "dropOrClick": "Drop an image here or click to upload",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "Please select an image file (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "Original Image",
+  "convertedSvg": "Converted SVG",
+  "svgPlaceholder": "Converted SVG will appear here",
+  "clear": "Clear",
+  "loginForFree": "Log in to convert for free without watermark"
+}

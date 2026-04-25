@@ -33,7 +33,8 @@ import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
 
 export default function ConvertPage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('conversion');
+  const { t: tContent } = useTranslation('content');
   const client = useSvgrClient();
   const converter = useImageConverter(client, scaleImageWeb);
 
@@ -129,9 +130,9 @@ export default function ConvertPage() {
   return (
     <main className="flex-1 flex flex-col">
       <SEO
-        title={t('seo.home.title')}
-        description={t('seo.home.description')}
-        keywords={t('seo.home.keywords')}
+        title={tContent('seo.home.title')}
+        description={tContent('seo.home.description')}
+        keywords={tContent('seo.home.keywords')}
         canonical="/"
         structuredData={{
           '@context': 'https://schema.org',
@@ -140,7 +141,7 @@ export default function ConvertPage() {
           url: `https://${APP_DOMAIN}`,
           applicationCategory: 'DesignApplication',
           operatingSystem: 'Any',
-          description: t('subtitle'),
+          description: tContent('subtitle'),
           offers: {
             '@type': 'Offer',
             price: '0',
@@ -150,9 +151,11 @@ export default function ConvertPage() {
       />
       {/* Header -- hidden on mobile to save space */}
       <div className="hidden md:block text-center py-8 px-4">
-        <p className={ui.text.caption}>{t('subtitle')}</p>
-        <p className={`mt-1 ${ui.text.muted} text-xs italic`}>{t('pronunciation')}</p>
-        <p className={`mt-3 ${ui.text.muted} text-xs max-w-xl mx-auto`}>{t('description')}</p>
+        <p className={ui.text.caption}>{tContent('subtitle')}</p>
+        <p className={`mt-1 ${ui.text.muted} text-xs italic`}>{tContent('pronunciation')}</p>
+        <p className={`mt-3 ${ui.text.muted} text-xs max-w-xl mx-auto`}>
+          {tContent('description')}
+        </p>
       </div>
 
       {/* Two-column panels */}
@@ -284,7 +287,7 @@ export default function ConvertPage() {
       </div>
 
       <AppLinks
-        label={t('appLinks.label')}
+        label={tContent('appLinks.label')}
         links={[
           { href: 'https://whisperly.dev', logo: '/logos/whisperly.png', alt: 'Whisperly' },
           { href: 'https://signic.email', logo: '/logos/signic.png', alt: 'Signic Email' },

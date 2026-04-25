@@ -1,0 +1,23 @@
+{
+  "quality": "品質",
+  "qualityMin": "小さいファイル",
+  "qualityMax": "高忠実度",
+  "transparentBg": "透明な背景",
+  "imageType": "画像タイプ",
+  "imageTypeAuto": "自動",
+  "imageTypePhoto": "写真",
+  "imageTypeDesign": "デザイン",
+  "recognizeText": "テキストを認識",
+  "mergePaths": "パスを結合",
+  "convertToSvg": "SVG に変換",
+  "converting": "変換中...",
+  "conversionFailed": "変換に失敗しました",
+  "dropOrClick": "画像をここにドロップまたはクリックしてアップロード",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "画像ファイルを選択してください（PNG, JPG, WEBP, BMP, GIF）",
+  "originalImage": "元の画像",
+  "convertedSvg": "変換された SVG",
+  "svgPlaceholder": "変換された SVG がここに表示されます",
+  "clear": "クリア",
+  "loginForFree": "ログインすると透かしなしで無料変換できます"
+}

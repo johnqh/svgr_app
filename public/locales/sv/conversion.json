@@ -1,0 +1,23 @@
+{
+  "quality": "Kvalitet",
+  "qualityMin": "Mindre fil",
+  "qualityMax": "Högre kvalitet",
+  "transparentBg": "Transparent bakgrund",
+  "imageType": "Bildtyp",
+  "imageTypeAuto": "Automatisk",
+  "imageTypePhoto": "Foto",
+  "imageTypeDesign": "Design",
+  "recognizeText": "Identifiera text",
+  "mergePaths": "Sammanfoga banor",
+  "convertToSvg": "Konvertera till SVG",
+  "converting": "Konverterar...",
+  "conversionFailed": "Konverteringen misslyckades",
+  "dropOrClick": "Dra en bild hit eller klicka för att ladda upp",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "Välj en bildfil (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "Originalbild",
+  "convertedSvg": "Konverterad SVG",
+  "svgPlaceholder": "Konverterad SVG visas här",
+  "clear": "Rensa",
+  "loginForFree": "Logga in för att konvertera gratis utan vattenstämpel"
+}

@@ -1,0 +1,23 @@
+{
+  "quality": "Chất lượng",
+  "qualityMin": "Tệp nhỏ hơn",
+  "qualityMax": "Độ trung thực cao hơn",
+  "transparentBg": "Nền trong suốt",
+  "imageType": "Loại ảnh",
+  "imageTypeAuto": "Tự động",
+  "imageTypePhoto": "Ảnh chụp",
+  "imageTypeDesign": "Thiết kế",
+  "recognizeText": "Nhận dạng văn bản",
+  "mergePaths": "Gộp đường dẫn",
+  "convertToSvg": "Chuyển đổi sang SVG",
+  "converting": "Đang chuyển đổi...",
+  "conversionFailed": "Chuyển đổi thất bại",
+  "dropOrClick": "Kéo thả ảnh vào đây hoặc nhấp để tải lên",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "Vui lòng chọn tệp ảnh (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "Ảnh gốc",
+  "convertedSvg": "SVG đã chuyển đổi",
+  "svgPlaceholder": "SVG đã chuyển đổi sẽ hiển thị tại đây",
+  "clear": "Xóa",
+  "loginForFree": "Đăng nhập để chuyển đổi miễn phí không có hình mờ"
+}

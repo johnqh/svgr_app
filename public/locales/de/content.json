@@ -1,0 +1,141 @@
+{
+  "title": "SVGR",
+  "subtitle": "Rasterbilder in skalierbare Vektorgrafiken umwandeln",
+  "pronunciation": "Ausgesprochen „Sveeger“",
+  "description": "Ideal zum Konvertieren von KI-generierten Logos. Da alle Logo-Generatoren Rasterdateien erzeugen, wird das Skalieren und Bearbeiten schwierig. SVGR wandelt sie in Vektorformat um und gibt Designern einen Ausgangspunkt zur Feinabstimmung — auch wenn das Ergebnis nicht pixelgenau ist.",
+  "product": "Produkt",
+  "convert": "Konvertieren",
+  "legal": "Rechtlich",
+  "privacy": "Datenschutz",
+  "terms": "Nutzungsbedingungen",
+  "navigation": {
+    "useCases": "Anwendungsfälle"
+  },
+  "useCases": {
+    "title": "Warum SVGR nutzen?",
+    "subtitle": "SVGR konvertiert Rasterbilder (PNG, JPG) in skalierbare Vektorgrafiken (SVG) — und spart Ihnen Zeit und Geld.",
+    "aiLogos": {
+      "title": "KI-generierte Logos in Vektoren umwandeln",
+      "description": "Jeder KI-Logo-Generator erstellt Rasterbilder (PNG/JPG). Diese Bilder verlieren beim Skalieren an Qualität, sehen auf großen Bildschirmen unscharf aus und können in Vektor-Design-Tools nicht sauber bearbeitet werden. Um ein KI-generiertes Logo professionell zu nutzen — auf Visitenkarten, Bannern, Merchandise oder Websites — brauchen Sie eine Vektorversion.",
+      "problem": "Das Problem",
+      "problemDescription": "KI-Logo-Generatoren geben nur Rasterdateien aus. Rasterbilder sind nicht skalierbar, nicht für hochauflösenden Druck geeignet und schwer zu bearbeiten. Einen Grafikdesigner zu beauftragen, das Logo manuell als Vektor nachzuerstellen, kostet Geld und Zeit.",
+      "solution": "Wie SVGR hilft",
+      "solutionDescription": "SVGR konvertiert Ihr KI-generiertes Logo sofort in eine SVG-Datei. Selbst bei komplexen Designs erstellt SVGR einen soliden ersten Entwurf, der den manuellen Aufwand erheblich reduziert — und Designern einen sauberen Ausgangspunkt zum Verfeinern bietet, anstatt bei Null anzufangen.",
+      "designersTitle": "Beliebte KI-Logo-Generatoren",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "KI-gestützter Logo-Maker mit Marken-Kit. Erstellt Logos, Visitenkarten und Social-Media-Assets — alles im Rasterformat."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "KI-Logo-Design-Tool, das einzigartige Logos aus Schlüsselwörtern erstellt. Gibt PNG- und JPG-Dateien aus, die für den Druckeinsatz vektorisiert werden müssen."
+        },
+        "hatchful": {
+          "name": "Hatchful von Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Kostenloser Logo-Maker von Shopify. Schnell und einfach, exportiert aber nur Rasterbilder — nicht ideal zum Skalieren oder für professionellen Druck."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "KI-gesteuerter Logo-Generator mit Markenidentitätspaketen. Produziert hochwertige Raster-Logos, die trotzdem für Vektor-Workflows konvertiert werden müssen."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "KI-Design-Suite für Logos, Videos und Mockups. Logo-Ausgabe ist rasterbasiert und erfordert Vektorisierung für skalierbare Nutzung."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "KI-Branding-Plattform für Logos und Marketingmaterialien. Erstellt Raster-Logos, die ohne Qualitätsverlust nicht skaliert werden können."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Online-Logo-Maker mit KI-generierten Design-Optionen. Exportiert Rasterdateien — die Konvertierung in SVG stellt sicher, dass Ihr Logo in jeder Größe scharf bleibt."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "KI-Logo-Generator mit einfacher Benutzeroberfläche. Erstellt professionell aussehende Logos im PNG-Format, die für Druck und Großformate vektorisiert werden müssen."
+        }
+      }
+    },
+    "legacyAssets": {
+      "title": "Ältere Bild-Assets modernisieren",
+      "description": "Viele Unternehmen haben ältere Bild-Assets — Logos, Icons, Diagramme und Illustrationen — die nur als Rasterdateien gespeichert sind. Diese Assets wurden möglicherweise vor Jahren erstellt, als Vektor-Tools weniger zugänglich waren, oder die Original-Quelldateien sind im Laufe der Zeit verloren gegangen.",
+      "problem": "Das Problem",
+      "problemDescription": "Ältere Rasterbilder verschlechtern sich beim Skalieren, sehen auf modernen hochauflösenden Bildschirmen pixelig aus und können nicht einfach bearbeitet oder umgefärbt werden. Sie von Grund auf neu zu erstellen ist zeitaufwändig und teuer.",
+      "solution": "Wie SVGR hilft",
+      "solutionDescription": "Mit SVGR können Sie alte Raster-Assets in saubere SVG-Dateien konvertieren. Das Ergebnis ist ein skalierbarer, bearbeitbarer Vektor, der auf jeder Bildschirmgröße perfekt funktioniert — von Mobilgeräten über 4K-Displays bis hin zum Druck."
+    },
+    "cta": {
+      "title": "Bereit zum Konvertieren?",
+      "subtitle": "Laden Sie Ihr Rasterbild hoch und erhalten Sie in Sekunden eine SVG-Datei.",
+      "button": "Jetzt konvertieren"
+    }
+  },
+  "sitemap": {
+    "title": "Sitemap",
+    "subtitle": "Alle Seiten und Funktionen von SVGR durchsuchen.",
+    "languages": "Sprachen",
+    "languagesDescription": "SVGR ist in 16 Sprachen verfügbar. Wählen Sie Ihre bevorzugte Sprache:",
+    "quickLinks": "Schnellverknüpfungen",
+    "sections": {
+      "main": "Hauptseite",
+      "legal": "Rechtlich"
+    },
+    "links": {
+      "convert": "Bild zu SVG Konverter",
+      "useCases": "Verwendungsbeispiele",
+      "credits": "Kredite kaufen",
+      "privacy": "Datenschutzbestimmungen",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    },
+    "descriptions": {
+      "convert": "Laden Sie PNG-, JPG- oder WEBP-Bilder hoch und konvertieren Sie sie in skalierbare Vektorgrafiken im SVG-Format.",
+      "useCases": "Erfahren Sie, wie SVGR dabei hilft, künstlich generierte Logos und veraltete Raster-Assets in SVG umzuwandeln.",
+      "credits": "Kaufe Credits, um deine konvertierten SVG- und PDF-Dateien herunterzuladen.",
+      "privacy": "Wie SVGR Ihre Daten verarbeitet und Ihren Datenschutz schützt.",
+      "terms": "Allgemeine Geschäftsbedingungen für die Verwendung des SVGR-Konvertierungsdienstes."
+    }
+  },
+  "appLinks": {
+    "label": "Vektorisierung für"
+  },
+  "seo": {
+    "home": {
+      "title": "Bild-zu-SVG-Konverter - PNG, JPG, WEBP in Vektor umwandeln",
+      "description": "Konvertieren Sie Rasterbilder online in skalierbare Vektorgrafiken. Laden Sie PNG, JPG oder WEBP hoch und erhalten Sie sofort saubere SVG-Ausgaben. Kostenlose Vorschau, ideal für künstlich intelligente Logos.",
+      "keywords": "Bild zu SVG Konverter, PNG zu SVG, JPG zu SVG, WEBP zu SVG, Raster zu Vektor, Online-SVG-Konverter, Vektorisieren von Bildern"
+    },
+    "useCases": {
+      "title": "AI-Logos in SVG umwandeln - Verwendungsfälle",
+      "description": "Sehen Sie, wie SVGR AI-generierte Logos und veraltete Rasterbilder in skalierbare SVG-Vektordateien umwandelt. Funktioniert mit Looka, Brandmark und mehr.",
+      "keywords": "AI-Logo in Vektor umwandeln, Logo in SVG umwandeln, AI-Logo vektorisieren, Raster-Logo in Vektor umwandeln, Legacy-Bild in SVG umwandeln"
+    },
+    "credits": {
+      "title": "SVG-Download-Guthaben kaufen",
+      "description": "Kaufen Sie Credits, um Ihre konvertierten SVG- und PDF-Dateien von SVGR herunterzuladen. Günstige Credit-Pakete für Designer und Unternehmen.",
+      "keywords": "SVGR-Guthaben, SVG-Download-Guthaben, Vektor-Guthaben kaufen, PDF-Download-Guthaben"
+    },
+    "privacy": {
+      "title": "Datenschutzbestimmungen",
+      "description": "Wie SVGR Ihre Daten verarbeitet. Hochgeladene Bilder werden im Speicher verarbeitet und sofort gelöscht. Es werden keine Bilddaten gespeichert oder geteilt."
+    },
+    "terms": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "description": "Allgemeine Geschäftsbedingungen für den SVGR-Bild-zu-SVG-Konvertierungsdienst. Kostenlos für persönliche und kommerzielle Nutzung."
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "description": "Alle Seiten von SVGR anzeigen – dem Bild-zu-SVG-Konverter. Finden Sie den Konverter, Einsatzgebiete, Urheberrechte und rechtliche Seiten."
+    }
+  },
+  "footerDescription": "Bilder mit SVGR in SVG umwandeln",
+  "allRightsReserved": "Alle Rechte vorbehalten"
+}

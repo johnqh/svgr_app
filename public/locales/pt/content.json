@@ -1,0 +1,141 @@
+{
+  "title": "SVGR",
+  "subtitle": "Converta imagens rasterizadas em gráficos vetoriais escaláveis",
+  "pronunciation": "Pronuncia-se \"Sveeger\"",
+  "description": "Ideal para converter logotipos gerados por IA. Como todos os geradores de logotipos criam arquivos rasterizados, redimensionar e editar torna-se difícil. O SVGR os converte para formato vetorial, dando aos designers um ponto de partida para refinar — mesmo que o resultado não seja perfeito em cada pixel.",
+  "product": "Produto",
+  "convert": "Converter",
+  "legal": "Legal",
+  "privacy": "Privacidade",
+  "terms": "Termos",
+  "navigation": {
+    "useCases": "Casos de uso"
+  },
+  "useCases": {
+    "title": "Por que usar o SVGR?",
+    "subtitle": "O SVGR converte imagens raster (PNG, JPG) em gráficos vetoriais escaláveis (SVG) — economizando tempo e dinheiro.",
+    "aiLogos": {
+      "title": "Converta logos gerados por IA em vetores",
+      "description": "Todo gerador de logos com IA cria imagens raster (PNG/JPG). Essas imagens perdem qualidade ao serem ampliadas, ficam borradas em telas grandes e não podem ser editadas de forma limpa em ferramentas de design vetorial. Para usar um logo gerado por IA profissionalmente — em cartões de visita, banners, produtos ou sites — você precisa de uma versão vetorial.",
+      "problem": "O problema",
+      "problemDescription": "Geradores de logos com IA só produzem arquivos raster. Imagens raster não são escaláveis, não são adequadas para impressão de alta resolução e são difíceis de editar. Contratar um designer gráfico para recriar manualmente o logo como vetor custa dinheiro e tempo.",
+      "solution": "Como o SVGR ajuda",
+      "solutionDescription": "O SVGR converte seu logo gerado por IA em um arquivo SVG instantaneamente. Mesmo para designs complexos, o SVGR cria um primeiro rascunho sólido que reduz significativamente o trabalho manual — dando aos designers um ponto de partida limpo para refinar em vez de começar do zero.",
+      "designersTitle": "Geradores de logos com IA populares",
+      "designers": {
+        "looka": {
+          "name": "Looka",
+          "url": "https://looka.com",
+          "description": "Criador de logos com IA com kit de marca. Gera logos, cartões de visita e recursos para redes sociais — tudo em formato raster."
+        },
+        "brandmark": {
+          "name": "Brandmark",
+          "url": "https://brandmark.io",
+          "description": "Ferramenta de design de logos com IA que cria logos únicos a partir de palavras-chave. Produz arquivos PNG e JPG que precisam de vetorização para uso em impressão."
+        },
+        "hatchful": {
+          "name": "Hatchful do Shopify",
+          "url": "https://hatchful.shopify.com",
+          "description": "Criador de logos gratuito do Shopify. Rápido e fácil, mas só exporta imagens raster — não ideal para redimensionamento ou impressão profissional."
+        },
+        "logoai": {
+          "name": "LogoAI",
+          "url": "https://logoai.com",
+          "description": "Gerador de logos com IA com pacotes de identidade de marca. Produz logos raster de alta qualidade que ainda precisam de conversão para fluxos de trabalho vetoriais."
+        },
+        "designsai": {
+          "name": "Designs.ai",
+          "url": "https://designs.ai",
+          "description": "Suíte de design com IA que abrange logos, vídeos e mockups. A saída de logo é raster, exigindo vetorização para uso escalável."
+        },
+        "tailorbrands": {
+          "name": "Tailor Brands",
+          "url": "https://tailorbrands.com",
+          "description": "Plataforma de branding com IA para logos e materiais de marketing. Gera logos raster que não podem ser ampliados sem perda de qualidade."
+        },
+        "turbologo": {
+          "name": "Turbologo",
+          "url": "https://turbologo.com",
+          "description": "Criador de logos online com opções de design geradas por IA. Exporta arquivos raster — converter para SVG garante que seu logo fique nítido em qualquer tamanho."
+        },
+        "logocom": {
+          "name": "Logo.com",
+          "url": "https://logo.com",
+          "description": "Gerador de logos com IA com interface simples. Cria logos de aparência profissional em formato PNG, que precisam de vetorização para impressão e uso em grande formato."
+        }
+      }
+    },
+    "legacyAssets": {
+      "title": "Modernize recursos visuais antigos",
+      "description": "Muitas organizações possuem recursos visuais antigos — logos, ícones, diagramas e ilustrações — armazenados apenas como arquivos raster. Esses recursos podem ter sido criados anos atrás quando ferramentas vetoriais eram menos acessíveis, ou os arquivos fonte originais foram perdidos com o tempo.",
+      "problem": "O problema",
+      "problemDescription": "Imagens raster antigas se degradam ao serem redimensionadas, ficam pixeladas em telas modernas de alta resolução e não podem ser facilmente editadas ou recoloridas. Recriá-las do zero é demorado e caro.",
+      "solution": "Como o SVGR ajuda",
+      "solutionDescription": "O SVGR permite converter recursos raster antigos em arquivos SVG limpos. O resultado é um vetor escalável e editável que funciona perfeitamente em qualquer tamanho de tela — de dispositivos móveis a telas 4K e impressão."
+    },
+    "cta": {
+      "title": "Pronto para converter?",
+      "subtitle": "Faça upload da sua imagem raster e obtenha um SVG em segundos.",
+      "button": "Começar a converter"
+    }
+  },
+  "sitemap": {
+    "title": "Mapa do site",
+    "subtitle": "Navegue por todas as páginas e recursos disponíveis no SVGR.",
+    "languages": "Idiomas",
+    "languagesDescription": "O SVGR está disponível em 16 idiomas. Selecione o idioma desejado:",
+    "quickLinks": "Links rápidos",
+    "sections": {
+      "main": "Principal",
+      "legal": "Legal"
+    },
+    "links": {
+      "convert": "Conversor de imagem para SVG",
+      "useCases": "Casos de uso",
+      "credits": "Comprar créditos",
+      "privacy": "Política de Privacidade",
+      "terms": "Termos de Serviço"
+    },
+    "descriptions": {
+      "convert": "Carregue imagens PNG, JPG ou WEBP e converta-as em gráficos vetoriais SVG escaláveis.",
+      "useCases": "Descubra como o SVGR ajuda a converter logotipos gerados por IA e ativos rasterizados herdados para SVG.",
+      "credits": "Compre créditos para baixar seus arquivos SVG e PDF convertidos.",
+      "privacy": "Como o SVGR lida com seus dados e protege sua privacidade.",
+      "terms": "Termos e condições para o uso do serviço de conversão SVGR."
+    }
+  },
+  "appLinks": {
+    "label": "Vetorizando para"
+  },
+  "seo": {
+    "home": {
+      "title": "Conversor de imagem para SVG - PNG, JPG, WEBP para vetor",
+      "description": "Converta imagens raster em gráficos vetoriais escaláveis online. Faça o upload de PNG, JPG ou WEBP e obtenha saída SVG limpa instantaneamente. Pré-visualização gratuita, ideal para logotipos gerados por IA.",
+      "keywords": "conversor de imagem para SVG, PNG para SVG, JPG para SVG, WEBP para SVG, raster para vetor, conversor SVG online, vetorizar imagem"
+    },
+    "useCases": {
+      "title": "Converter logotipos de IA para SVG - Casos de uso",
+      "description": "Veja como o SVGR converte logotipos gerados por IA e imagens raster antigas em arquivos vetoriais SVG escaláveis. Funciona com Looka, Brandmark e mais.",
+      "keywords": "logotipo de IA para vetor, converter logotipo para SVG, vetorizar logotipo de IA, converter logotipo raster para vetor, imagem legada para SVG"
+    },
+    "credits": {
+      "title": "Compre créditos de download SVG",
+      "description": "Compre créditos para baixar seus arquivos SVG e PDF convertidos do SVGR. Pacotes de créditos acessíveis para designers e empresas.",
+      "keywords": "Créditos SVGR, créditos de download SVG, compre créditos vetoriais, créditos de download PDF"
+    },
+    "privacy": {
+      "title": "Política de Privacidade",
+      "description": "Como o SVGR lida com seus dados. As imagens carregadas são processadas na memória e excluídas imediatamente. Nenhum dado de imagem é armazenado ou compartilhado."
+    },
+    "terms": {
+      "title": "Termos de Serviço",
+      "description": "Termos de serviço para o serviço de conversão de imagem para SVG com SVGR. Gratuito para uso pessoal e comercial."
+    },
+    "sitemap": {
+      "title": "Mapa do site",
+      "description": "Navegue por todas as páginas do SVGR - o conversor de imagem para SVG. Encontre o conversor, casos de uso, créditos e páginas legais."
+    }
+  },
+  "footerDescription": "Converta imagens para SVG com SVGR",
+  "allRightsReserved": "Todos os direitos reservados"
+}

@@ -20,7 +20,7 @@ interface ConvertButtonProps {
 }
 
 export default function ConvertButton({ disabled, loading, onClick }: ConvertButtonProps) {
-  const { t } = useTranslation();
+  const { t } = useTranslation('conversion');
 
   return (
     <div className="w-full">

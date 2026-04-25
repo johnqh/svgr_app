@@ -1,0 +1,23 @@
+{
+  "quality": "품질",
+  "qualityMin": "작은 파일",
+  "qualityMax": "높은 충실도",
+  "transparentBg": "투명 배경",
+  "imageType": "이미지 유형",
+  "imageTypeAuto": "자동",
+  "imageTypePhoto": "사진",
+  "imageTypeDesign": "디자인",
+  "recognizeText": "텍스트 인식",
+  "mergePaths": "경로 병합",
+  "convertToSvg": "SVG로 변환",
+  "converting": "변환 중...",
+  "conversionFailed": "변환 실패",
+  "dropOrClick": "이미지를 여기에 놓거나 클릭하여 업로드",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "이미지 파일을 선택해 주세요 (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "원본 이미지",
+  "convertedSvg": "변환된 SVG",
+  "svgPlaceholder": "변환된 SVG가 여기에 표시됩니다",
+  "clear": "지우기",
+  "loginForFree": "로그인하면 워터마크 없이 무료로 변환할 수 있습니다"
+}

@@ -1,0 +1,23 @@
+{
+  "quality": "Якість",
+  "qualityMin": "Менший файл",
+  "qualityMax": "Вища точність",
+  "transparentBg": "Прозорий фон",
+  "imageType": "Тип зображення",
+  "imageTypeAuto": "Авто",
+  "imageTypePhoto": "Фото",
+  "imageTypeDesign": "Дизайн",
+  "recognizeText": "Розпізнати текст",
+  "mergePaths": "Об'єднати контури",
+  "convertToSvg": "Перетворити на SVG",
+  "converting": "Перетворення...",
+  "conversionFailed": "Перетворення не вдалося",
+  "dropOrClick": "Перетягніть зображення сюди або натисніть для завантаження",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "Будь ласка, оберіть файл зображення (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "Оригінальне зображення",
+  "convertedSvg": "Перетворений SVG",
+  "svgPlaceholder": "Перетворений SVG з'явиться тут",
+  "clear": "Очистити",
+  "loginForFree": "Увійдіть, щоб конвертувати безкоштовно без водяного знаку"
+}

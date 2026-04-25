@@ -1,0 +1,23 @@
+{
+  "quality": "品質",
+  "qualityMin": "較小檔案",
+  "qualityMax": "較高保真",
+  "transparentBg": "透明背景",
+  "imageType": "圖像類型",
+  "imageTypeAuto": "自動",
+  "imageTypePhoto": "照片",
+  "imageTypeDesign": "設計",
+  "recognizeText": "辨識文字",
+  "mergePaths": "合併路徑",
+  "convertToSvg": "轉換為 SVG",
+  "converting": "轉換中...",
+  "conversionFailed": "轉換失敗",
+  "dropOrClick": "拖放圖片到此處或點擊上傳",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "請選擇圖片檔案（PNG, JPG, WEBP, BMP, GIF）",
+  "originalImage": "原始圖片",
+  "convertedSvg": "轉換後的 SVG",
+  "svgPlaceholder": "轉換後的 SVG 將顯示在此處",
+  "clear": "清除",
+  "loginForFree": "登入即可免費轉換，無浮水印"
+}

@@ -35,7 +35,7 @@ export default function ImageUploadPanel({
   onFileSelect,
   onClear,
 }: ImageUploadPanelProps) {
-  const { t } = useTranslation();
+  const { t } = useTranslation('conversion');
   const inputRef = useRef<HTMLInputElement>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [error, setError] = useState<string | null>(null);

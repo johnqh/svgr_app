@@ -1,0 +1,23 @@
+{
+  "quality": "Qualità",
+  "qualityMin": "File più piccolo",
+  "qualityMax": "Maggiore fedeltà",
+  "transparentBg": "Sfondo trasparente",
+  "imageType": "Tipo di immagine",
+  "imageTypeAuto": "Automatico",
+  "imageTypePhoto": "Foto",
+  "imageTypeDesign": "Design",
+  "recognizeText": "Riconosci testo",
+  "mergePaths": "Unisci tracciati",
+  "convertToSvg": "Converti in SVG",
+  "converting": "Conversione in corso...",
+  "conversionFailed": "Conversione non riuscita",
+  "dropOrClick": "Trascina un'immagine qui o clicca per caricare",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "Seleziona un file immagine (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "Immagine originale",
+  "convertedSvg": "SVG convertito",
+  "svgPlaceholder": "Il SVG convertito apparirà qui",
+  "clear": "Cancella",
+  "loginForFree": "Accedi per convertire gratuitamente senza filigrana"
+}

@@ -1,0 +1,23 @@
+{
+  "quality": "คุณภาพ",
+  "qualityMin": "ไฟล์เล็กลง",
+  "qualityMax": "ความคมชัดสูง",
+  "transparentBg": "พื้นหลังโปร่งใส",
+  "imageType": "ประเภทภาพ",
+  "imageTypeAuto": "อัตโนมัติ",
+  "imageTypePhoto": "ภาพถ่าย",
+  "imageTypeDesign": "ดีไซน์",
+  "recognizeText": "จดจำข้อความ",
+  "mergePaths": "รวมเส้นทาง",
+  "convertToSvg": "แปลงเป็น SVG",
+  "converting": "กำลังแปลง...",
+  "conversionFailed": "การแปลงล้มเหลว",
+  "dropOrClick": "ลากวางรูปภาพที่นี่หรือคลิกเพื่ออัปโหลด",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "กรุณาเลือกไฟล์รูปภาพ (PNG, JPG, WEBP, BMP, GIF)",
+  "originalImage": "ภาพต้นฉบับ",
+  "convertedSvg": "SVG ที่แปลงแล้ว",
+  "svgPlaceholder": "SVG ที่แปลงแล้วจะแสดงที่นี่",
+  "clear": "ล้าง",
+  "loginForFree": "เข้าสู่ระบบเพื่อแปลงไฟล์ฟรีโดยไม่มีลายน้ำ"
+}

@@ -127,14 +127,14 @@ function LangLayoutInner() {
         linkSections,
         companyName: COMPANY_NAME,
         companyUrl: `https://${APP_DOMAIN}`,
-        description: t('app.description', {
-          defaultValue: `Convert images to SVG with ${APP_NAME}`,
-        }),
+        description: t('footerDescription'),
+        rightsText: t('allRightsReserved'),
       }
     : {
         variant: 'compact',
         companyName: COMPANY_NAME,
         companyUrl: `https://${APP_DOMAIN}`,
+        rightsText: t('allRightsReserved'),
         links: [
           { label: t('privacy'), href: `/${currentLang}/privacy` },
           { label: t('terms'), href: `/${currentLang}/terms` },

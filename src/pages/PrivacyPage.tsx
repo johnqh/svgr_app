@@ -14,7 +14,7 @@ import SEO from '../components/seo/SEO';
 import { LAST_UPDATED_DATE, PRIVACY_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function PrivacyPage() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('privacy');
 
   useEffect(() => {
     trackPageView('/privacy', 'Privacy Policy');

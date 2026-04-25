@@ -1,0 +1,23 @@
+{
+  "quality": "质量",
+  "qualityMin": "更小文件",
+  "qualityMax": "更高保真",
+  "transparentBg": "透明背景",
+  "imageType": "图像类型",
+  "imageTypeAuto": "自动",
+  "imageTypePhoto": "照片",
+  "imageTypeDesign": "设计",
+  "recognizeText": "识别文字",
+  "mergePaths": "合并路径",
+  "convertToSvg": "转换为 SVG",
+  "converting": "转换中...",
+  "conversionFailed": "转换失败",
+  "dropOrClick": "拖放图片到此处或点击上传",
+  "supportedFormats": "PNG, JPG, WEBP, BMP, GIF",
+  "invalidFileType": "请选择图片文件（PNG, JPG, WEBP, BMP, GIF）",
+  "originalImage": "原始图片",
+  "convertedSvg": "转换后的 SVG",
+  "svgPlaceholder": "转换后的 SVG 将显示在此处",
+  "clear": "清除",
+  "loginForFree": "登录即可免费转换，无水印"
+}

@@ -37,7 +37,7 @@ interface SvgPreviewPanelProps {
 }
 
 export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps) {
-  const { t } = useTranslation();
+  const { t } = useTranslation('conversion');
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
   const { balance } = useBalance();
