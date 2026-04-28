@@ -1,7 +1,7 @@
 {
   "name": "@sudobility/svgr_app",
   "private": true,
-  "version": "1.0.90",
+  "version": "1.0.91",
   "type": "module",
   "scripts": {
     "dev": "bun run process:static && vite",
@@ -42,7 +42,7 @@
     "@sudobility/entity_client": "^0.0.34",
     "@sudobility/seo_lib": "^0.0.10",
     "@sudobility/subscription-components": "^1.0.31",
-    "@sudobility/subscription_lib": "^0.0.40",
+    "@sudobility/subscription_lib": "^0.0.41",
     "@sudobility/svgr_client": "^1.0.28",
     "@sudobility/svgr_lib": "^0.0.27",
     "@sudobility/svgr_types": "^1.0.18",
