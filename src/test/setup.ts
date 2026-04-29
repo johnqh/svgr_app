@@ -4,7 +4,6 @@ vi.mock('@sudobility/svgr_lib', () => ({
   APP_NAME: 'SVGR',
   APP_DOMAIN: 'svgr.app',
   COMPANY_NAME: 'Sudobility Inc.',
-  DEFAULT_API_URL: 'https://api.svgr.app',
   QUALITY_MIN: 1,
   QUALITY_MAX: 10,
   QUALITY_DEFAULT: 5,
