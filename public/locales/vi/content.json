@@ -9,7 +9,8 @@
   "privacy": "Quyền riêng tư",
   "terms": "Điều khoản",
   "navigation": {
-    "useCases": "Trường hợp sử dụng"
+    "useCases": "Trường hợp sử dụng",
+    "tutorials": "Hướng dẫn"
   },
   "useCases": {
     "title": "Tại sao sử dụng SVGR?",
@@ -79,6 +80,102 @@
       "button": "Bắt đầu chuyển đổi"
     }
   },
+  "tutorials": {
+    "title": "Hướng dẫn",
+    "subtitle": "Hướng dẫn từng bước để chuyển đổi các loại hình ảnh khác nhau sang SVG.",
+    "backButton": "Hướng dẫn",
+    "items": {
+      "ai-logos-to-svg": {
+        "title": "Chuyển đổi biểu tượng AI thành SVG",
+        "description": "Vector hóa các biểu tượng logo do AI tạo ra để sử dụng ở quy mô lớn",
+        "intro": "Tất cả các trình tạo logo AI — Looka, Brandmark, Hatchful, Logo.com và các công cụ khác — xuất ra ảnh raster (PNG hoặc JPG). Logo raster bị mất chất lượng khi phóng to để dùng cho bảng quảng cáo, sản phẩm lưu niệm hoặc in ấn. Chúng trông mờ trên màn hình độ phân giải cao và không thể chỉnh sửa một cách rõ ràng trong các công cụ thiết kế vector như Illustrator hoặc Figma. Để sử dụng logo do AI tạo ra một cách chuyên nghiệp, bạn cần phiên bản vector có thể mở rộng (SVG).",
+        "steps": {
+          "title": "Làm thế nào để chuyển đổi",
+          "step1": "Tải lên hình ảnh logo do AI tạo (PNG, JPG hoặc WEBP).",
+          "step2": "Thiết lập Loại hình ảnh thành Thiết kế. Điều này cho biết SVGR giữ nguyên các cạnh cứng và các vùng màu phẳng thường thấy trong tác phẩm biểu tượng.",
+          "step3": "Thiết lập mức chất lượng thành 5. Điều này ghi lại chi tiết tinh tế mà không làm phức tạp hóa các đường dẫn SVG. Bạn có thể điều chỉnh tăng hoặc giảm tùy thuộc vào độ phức tạp của biểu tượng của mình.",
+          "step4": "Nhấp vào Chuyển đổi và xem trước kết quả.",
+          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+        },
+        "tips": {
+          "title": "Lời khuyên",
+          "tip1": "Sử dụng hình ảnh biểu tượng với nền trong suốt hoặc nền chắc để đạt kết quả tốt nhất.",
+          "tip2": "Nếu kết quả trông quá đơn giản, hãy tăng mức độ chất lượng. Nếu trông quá phức tạp, hãy giảm nó.",
+          "tip3": "Đầu ra SVG là một điểm khởi đầu tuyệt vời cho các nhà thiết kế để tinh chỉnh trong Illustrator hoặc Figma — ngay cả khi nó không hoàn hảo từng pixel."
+        }
+      },
+      "ai-posters-to-svg": {
+        "title": "Chuyển đổi poster AI thành SVG",
+        "description": "Vector hóa các poster do AI tạo ra để in ấn cỡ lớn",
+        "intro": "Các bộ tạo hình ảnh AI như Midjourney, DALL-E và Stable Diffusion tạo ra nghệ thuật poster ấn tượng — nhưng chúng xuất ra định dạng hình ảnh raster. Hình ảnh raster có độ phân giải pixel cố định và trở nên mờ khi in ở kích thước lớn. Đối với poster, băng rôn và biển hiệu, bạn cần định dạng vector có thể mở rộng đến bất kỳ kích thước nào mà không mất chất lượng.",
+        "steps": {
+          "title": "Làm thế nào để chuyển đổi",
+          "step1": "Tải lên hình ảnh poster do AI tạo (PNG, JPG hoặc WEBP).",
+          "step2": "Thiết lập Loại hình ảnh thành Thiết kế. Chế độ này bảo tồn phong cách đồ họa và các vùng màu của tác phẩm poster.",
+          "step3": "Đặt mức chất lượng thành 4. Nghệ thuật poster thường ít chi tiết hơn biểu tượng, vì vậy mức chất lượng thấp hơn giúp kích thước tập tin duy trì ở mức hợp lý. Điều chỉnh tăng nếu bạn cần thêm chi tiết.",
+          "step4": "Nhấp vào Chuyển đổi và xem trước kết quả.",
+          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+        },
+        "warning": {
+          "title": "Cảnh báo kích thước tệp",
+          "text": "Bức tranh nghệ thuật do AI tạo ra có thể tạo ra các tệp SVG lớn do độ phức tạp và số lượng màu sắc. Việc chuyển đổi một poster thông thường có thể dẫn đến tệp SVG có kích thước vài megabyte. Điều này là bình thường đối với các tác phẩm nghệ thuật chi tiết. Nếu tệp quá lớn, hãy thử giảm mức độ chất lượng."
+        },
+        "tips": {
+          "title": "Lời khuyên",
+          "tip1": "Bắt đầu với mức chất lượng 4 và chỉ tăng nếu bản xem trước thiếu chi tiết quan trọng.",
+          "tip2": "Các thiết kế poster đơn giản hơn (ít màu sắc, hình dạng nổi bật) tạo ra các tệp SVG nhỏ hơn và sạch hơn.",
+          "tip3": "SVG đã chuyển đổi có thể được in ở bất kỳ kích thước nào — từ A4 đến biển quảng cáo — mà không bị mất chất lượng."
+        }
+      },
+      "qr-code-to-svg": {
+        "title": "Chuyển mã QR thành SVG",
+        "description": "Chuyển đổi mã QR thành vector để in ấn chất lượng cao ở quy mô lớn",
+        "intro": "Nhiều trình tạo mã QR xuất ra hình ảnh raster (PNG hoặc JPG). Mã QR raster hoạt động tốt trên màn hình, nhưng trở nên mờ khi in ở kích thước lớn – trên băng rôn, poster, dán xe hoặc biển báo. Điều này đặc biệt gây khó khăn đối với mã QR có đồ họa hoặc biểu tượng tùy chỉnh được nhúng, vì chi tiết bị mất khi độ phân giải thấp. Chuyển đổi sang SVG đảm bảo mã QR của bạn luôn rõ nét và quét được ở bất kỳ kích thước in nào.",
+        "steps": {
+          "title": "Làm thế nào để chuyển đổi",
+          "step1": "Tải lên hình ảnh mã QR của bạn (PNG, JPG hoặc WEBP).",
+          "step2": "Thiết lập Loại hình ảnh thành Thiết kế. Mã QR là các mẫu đồ họa có cạnh sắc, vì vậy chế độ Thiết kế sẽ cho kết quả rõ nét nhất.",
+          "step3": "Thiết lập mức chất lượng thành 5. Điều này thu được các cạnh sắc nét và chi tiết tinh tế của mẫu mã QR. Điều chỉnh nếu cần — thấp hơn cho mã QR đơn giản, cao hơn cho mã QR có nhúng biểu tượng.",
+          "step4": "Nhấp vào Chuyển đổi và xem trước kết quả.",
+          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+        },
+        "tips": {
+          "title": "Lời khuyên",
+          "tip1": "Luôn kiểm tra mã QR đã chuyển đổi bằng cách quét nó trước khi sử dụng trong môi trường sản xuất. Đảm bảo mã vẫn quét đúng sau khi chuyển đổi.",
+          "tip2": "Các mã QR có nhúng biểu tượng hoặc màu sắc tùy chỉnh có thể cần mức chất lượng cao hơn (6-7) để bảo tồn đồ họa nhúng.",
+          "tip3": "Mã QR SVG có thể thay đổi kích thước thành bất kỳ kích thước nào — từ thẻ bài đến bảng quảng cáo — và vẫn có thể quét được."
+        }
+      },
+      "photo-to-svg": {
+        "title": "Chuyển đổi ảnh thành SVG",
+        "description": "Chuyển đổi ảnh thành nghệ thuật vector trừu tượng",
+        "intro": "Chuyển đổi một bức ảnh thành SVG tạo ra hiệu ứng nghệ thuật trang trí, trừu tượng. Khác với biểu tượng hoặc mã QR, ảnh chứa các dải sắc độ liên tục và độ gradient không thể được biểu diễn chính xác dưới dạng vector. Kết quả là một cách diễn giải nghệ thuật – các hình dạng và vùng màu thể hiện tinh thần của bức ảnh theo phong cách sơn dầu hoặc phong cách poster hóa. Điều này rất lý tưởng cho các dự án sáng tạo, tranh treo tường hoặc minh họa phong cách dựa trên ảnh thực tế.",
+        "steps": {
+          "title": "Làm thế nào để chuyển đổi",
+          "step1": "Tải ảnh của bạn lên (PNG, JPG hoặc WEBP)",
+          "step2": "Thiết lập loại hình ảnh thành Ảnh. Chế độ này được tối ưu hóa cho hình ảnh sắc độ liên tục và tạo ra các chuyển đổi màu sắc mượt mà hơn.",
+          "step3": "Vô hiệu hóa Nhận dạng văn bản. Hình ảnh thường không chứa văn bản cần được bảo tồn dưới dạng đường dẫn có thể chỉnh sửa.",
+          "step4": "Nhấp vào Chuyển đổi và xem trước kết quả. Kết quả đầu ra sẽ có chất liệu trừu tượng, nghệ thuật.",
+          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+        },
+        "warning": {
+          "title": "Cảnh báo kích thước tệp",
+          "text": "Chuyển đổi ảnh thành SVG có thể tạo ra các tệp lớn vì ảnh chụp chứa nhiều vùng màu và độ dốc. Một ảnh có độ phân giải cao có thể dẫn đến tệp SVG có kích thước hàng megabyte. Để có tệp nhỏ hơn, hãy sử dụng ảnh nguồn có độ phân giải thấp hơn."
+        },
+        "tips": {
+          "title": "Lời khuyên",
+          "tip1": "Những bức ảnh có độ tương phản mạnh, màu sắc nổi bật và bố cục đơn giản sẽ cho kết quả tốt nhất.",
+          "tip2": "Kết quả không phải là một bản sao chân thực — đó là một bản diễn giải vector nghệ thuật. Hãy đón nhận chất trừu tượng.",
+          "tip3": "Thử các ảnh nguồn khác nhau để xem phong cách nào cho kết quả tốt nhất. Các chủ đề chân dung, phong cảnh và tĩnh vật mỗi loại đều tạo ra kết quả khác nhau."
+        }
+      }
+    },
+    "cta": {
+      "title": "Sẵn sàng thử chưa?",
+      "subtitle": "Tải ảnh của bạn lên và chuyển đổi nó thành SVG trong vài giây.",
+      "button": "Bắt đầu chuyển đổi"
+    }
+  },
   "sitemap": {
     "title": "Sơ đồ trang web",
     "subtitle": "Duyệt tất cả các trang và tính năng có sẵn trên SVGR.",
@@ -92,6 +189,7 @@
     "links": {
       "convert": "Trình chuyển đổi hình ảnh sang SVG",
       "useCases": "Trường hợp sử dụng",
+      "tutorials": "Hướng dẫn",
       "credits": "Mua tín dụng",
       "privacy": "Chính sách bảo mật",
       "terms": "Điều khoản dịch vụ"
@@ -99,6 +197,7 @@
     "descriptions": {
       "convert": "Tải lên hình ảnh PNG, JPG hoặc WEBP và chuyển đổi chúng thành đồ họa vector SVG có thể mở rộng.",
       "useCases": "Học cách SVGR giúp chuyển đổi các biểu tượng do AI tạo ra và các tài sản raster cũ thành SVG.",
+      "tutorials": "Hướng dẫn từng bước để chuyển đổi biểu tượng AI, poster, mã QR và ảnh sang SVG.",
       "credits": "Mua tín dụng để tải xuống các tệp SVG và PDF đã chuyển đổi của bạn.",
       "privacy": "SVGR xử lý dữ liệu của bạn như thế nào và bảo vệ quyền riêng tư của bạn ra sao.",
       "terms": "Điều khoản và điều kiện sử dụng dịch vụ chuyển đổi SVGR."
@@ -117,6 +216,33 @@
       "title": "Chuyển đổi biểu tượng AI thành SVG - Các trường hợp sử dụng",
       "description": "Xem cách SVGR chuyển đổi các biểu tượng do AI tạo ra và các hình ảnh raster cũ thành các tệp SVG vector có thể mở rộng. Hoạt động tốt với Looka, Brandmark và nhiều công cụ khác.",
       "keywords": "logo AI thành vector, chuyển đổi logo thành SVG, chuyển logo thành vector, chuyển ảnh raster thành vector, chuyển ảnh cũ thành SVG"
+    },
+    "tutorials": {
+      "index": {
+        "title": "Hướng dẫn chuyển đổi SVG - Sách hướng dẫn từng bước",
+        "description": "Học cách chuyển đổi biểu tượng AI, poster AI, mã QR và ảnh sang SVG với các hướng dẫn từng bước. Cài đặt tối ưu cho từng trường hợp sử dụng.",
+        "keywords": "Hướng dẫn chuyển đổi SVG, hướng dẫn chuyển ảnh thành SVG, chuyển logo thành SVG, mã QR thành SVG, ảnh thành SVG"
+      },
+      "ai-logos-to-svg": {
+        "title": "Chuyển đổi biểu tượng AI thành SVG - Hướng dẫn từng bước",
+        "description": "Học cách chuyển đổi biểu tượng do AI tạo từ PNG/JPG sang SVG có thể mở rộng. Hướng dẫn từng bước với các cài đặt được khuyến nghị cho Looka, Brandmark và các công cụ tạo biểu tượng AI khác.",
+        "keywords": "chuyển đổi biểu tượng AI thành SVG, chuyển biểu tượng AI thành vector, công cụ tạo biểu tượng AI dạng SVG, chuyển biểu tượng Looka thành vector, chuyển biểu tượng PNG thành SVG"
+      },
+      "ai-posters-to-svg": {
+        "title": "Chuyển đổi ảnh bìa AI thành SVG - Hướng dẫn từng bước",
+        "description": "Học cách chuyển đổi bản đồ do AI tạo thành SVG có thể mở rộng để in kích thước lớn. Hướng dẫn từng bước với các cài đặt chất lượng được khuyến nghị.",
+        "keywords": "chuyển đổi bản đồ AI sang SVG, chuyển bản đồ sang vector, Midjourney sang SVG, bản đồ DALL-E sang vector, SVG in cỡ lớn"
+      },
+      "qr-code-to-svg": {
+        "title": "Chuyển đổi mã QR thành SVG - Hướng dẫn từng bước",
+        "description": "Học cách chuyển mã QR raster thành SVG có thể phóng to để in ấn chất lượng cao. Hướng dẫn từng bước cho mã QR có đồ họa tùy chỉnh.",
+        "keywords": "Mã QR sang SVG, chuyển mã QR thành vector, mã QR có thể thay đổi kích thước, mã QR cho in ấn, mã QR vector"
+      },
+      "photo-to-svg": {
+        "title": "Chuyển đổi ảnh thành SVG - Hướng dẫn từng bước",
+        "description": "Học cách chuyển đổi ảnh thành nghệ thuật vector SVG phong cách. Hướng dẫn từng bước để tạo bản vẽ vector trừu tượng từ ảnh chụp.",
+        "keywords": "chuyển ảnh thành SVG, chuyển đổi ảnh thành vector, nghệ thuật vector ảnh, nghệ thuật ảnh thành SVG, vector hóa ảnh chụp"
+      }
     },
     "credits": {
       "title": "Mua tín dụng tải xuống SVG",

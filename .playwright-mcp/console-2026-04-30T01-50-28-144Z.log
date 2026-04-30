@@ -1,0 +1,8 @@
+[     154ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=2ef9c194:20102
+[     176ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:5175/node_modules/.vite/deps/chunk-C7IJQAY5.js?v=2ef9c194:1772
+[     501ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[     505ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[  632503ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=2ef9c194:20102
+[  632531ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:5175/node_modules/.vite/deps/chunk-C7IJQAY5.js?v=2ef9c194:1772
+[  632867ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[  632872ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12

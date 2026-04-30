@@ -19,6 +19,11 @@ SVGR is a web application that converts raster images (PNG, JPG, WEBP) into clea
 
 - `/:lang` - Homepage with converter
 - `/:lang/use-cases` - Use case examples
+- `/:lang/tutorials` - Step-by-step conversion tutorials
+- `/:lang/tutorials/ai-logos-to-svg` - Convert AI-generated logos to SVG
+- `/:lang/tutorials/ai-posters-to-svg` - Convert AI posters to SVG for large print
+- `/:lang/tutorials/qr-code-to-svg` - Convert QR codes to scalable SVG
+- `/:lang/tutorials/photo-to-svg` - Convert photos to abstract vector art
 - `/:lang/credits` - Credit purchase
 - `/:lang/login` - User login
 - `/:lang/privacy` - Privacy policy

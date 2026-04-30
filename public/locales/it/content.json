@@ -9,7 +9,8 @@
   "privacy": "Privacy",
   "terms": "Termini",
   "navigation": {
-    "useCases": "Casi d'uso"
+    "useCases": "Casi d'uso",
+    "tutorials": "Tutorial"
   },
   "useCases": {
     "title": "Perché usare SVGR?",
@@ -79,6 +80,102 @@
       "button": "Inizia a convertire"
     }
   },
+  "tutorials": {
+    "title": "Tutorial",
+    "subtitle": "Guide passo passo per convertire diversi tipi di immagini in SVG.",
+    "backButton": "Tutorial",
+    "items": {
+      "ai-logos-to-svg": {
+        "title": "Converti i loghi dell'IA in SVG",
+        "description": "Vettorizza i logotipi generati dall'IA per un utilizzo scalabile",
+        "intro": "Tutti i generatori di loghi con IA — Looka, Brandmark, Hatchful, Logo.com e altri — producono immagini raster (PNG o JPG). Le loghi raster perdono qualità quando vengono ingranditi per banner, articoli promozionali o stampa. Appaiono sfocati su schermi ad alta risoluzione e non possono essere modificati in modo pulito in strumenti di progettazione vettoriali come Illustrator o Figma. Per utilizzare un logo generato con IA in modo professionale, è necessaria una versione vettoriale scalabile (SVG).",
+        "steps": {
+          "title": "Come convertire",
+          "step1": "Carica il tuo logo generato dall'IA (PNG, JPG o WEBP).",
+          "step2": "Imposta il tipo di immagine su Disegno. Questo indica a SVGR di preservare i bordi rigidi e le aree di colore piatto tipiche dell'arte del logo.",
+          "step3": "Imposta il livello di qualità a 5. Questo cattura i dettagli fini senza complicare eccessivamente i percorsi SVG. Puoi regolarlo in su o in giù a seconda della complessità del tuo logo.",
+          "step4": "Fai clic su Converti e visualizza l'anteprima del risultato.",
+          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+        },
+        "tips": {
+          "title": "Consigli",
+          "tip1": "Utilizza un'immagine del logo con sfondo trasparente o solido per ottenere il risultato più pulito.",
+          "tip2": "Se il risultato sembra semplificato troppo, aumenta il livello di qualità. Se sembra troppo complesso, riducilo.",
+          "tip3": "L'output SVG è un ottimo punto di partenza per i designer che vogliono affinare in Illustrator o Figma, anche se non è perfetto a livello di pixel."
+        }
+      },
+      "ai-posters-to-svg": {
+        "title": "Converti gli affissi di intelligenza artificiale in SVG",
+        "description": "Vettorizza gli affissi generati dall'IA per stampa in grande formato",
+        "intro": "I generatori di immagini con IA come Midjourney, DALL-E e Stable Diffusion creano opere d'arte per poster straordinarie, ma producono immagini raster. Le immagini raster hanno una risoluzione fissa in pixel e diventano sfocate quando stampate in grandi dimensioni. Per poster, banner e segnaletica, è necessario un formato vettoriale che si possa scalare a qualsiasi dimensione senza perdita di qualità.",
+        "steps": {
+          "title": "Come convertire",
+          "step1": "Carica il tuo poster generato dall'IA (PNG, JPG o WEBP).",
+          "step2": "Imposta il tipo di immagine su Design. Questo modo preserva lo stile grafico e le regioni di colore dell'arte poster.",
+          "step3": "Imposta il livello di qualità a 4. L'arte del poster è di solito meno dettagliata rispetto ai loghi, quindi un livello di qualità più basso mantiene le dimensioni del file gestibili. Aumentalo se hai bisogno di più dettagli.",
+          "step4": "Fai clic su Converti e visualizza l'anteprima del risultato.",
+          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+        },
+        "warning": {
+          "title": "Avviso dimensione file",
+          "text": "L'arte poster generata dall'IA può produrre file SVG di grandi dimensioni a causa della complessità e del numero di colori. Una conversione tipica di un poster può generare un file SVG di diversi megabyte. Questo è normale per opere dettagliate. Se il file è troppo grande, prova a ridurre il livello di qualità."
+        },
+        "tips": {
+          "title": "Consigli",
+          "tip1": "Inizia con il livello di qualità 4 e aumentalo solo se l'anteprima manca dettagli importanti.",
+          "tip2": "I design dei manifesti più semplici (meno colori, forme audaci) producono SVG più piccoli e più puliti.",
+          "tip3": "L'SVG convertito può essere stampato in qualsiasi formato - da A4 a cartellone pubblicitario - senza perdita di qualità."
+        }
+      },
+      "qr-code-to-svg": {
+        "title": "Converti il codice QR in SVG",
+        "description": "Vettorizza i codici QR per una stampa nitida in grande formato",
+        "intro": "Molti generatori di codici QR producono immagini raster (PNG o JPG). Un codice QR raster funziona bene su schermi, ma diventa pixelato quando viene stampato in grandezza naturale – su banner, manifesti, rivestimenti per veicoli o segnaletica. Questo è particolarmente problematico per i codici QR con grafica personalizzata o loghi incorporati, dove i dettagli si perdono a bassa risoluzione. Convertire in SVG garantisce che il tuo codice QR rimanga nitido e scansionabile a qualsiasi dimensione di stampa.",
+        "steps": {
+          "title": "Come convertire",
+          "step1": "Carica il tuo codice QR (PNG, JPG o WEBP).",
+          "step2": "Imposta il tipo di immagine su Disegno. I codici QR sono pattern grafici con bordi netti, quindi la modalità Disegno produce il risultato più pulito.",
+          "step3": "Imposta il livello di qualità a 5. Questo cattura i bordi netti e i dettagli fini dei pattern QR. Modifica se necessario - più basso per codici QR semplici, più alto per codici QR con loghi incorporati.",
+          "step4": "Fai clic su Converti e visualizza l'anteprima del risultato.",
+          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+        },
+        "tips": {
+          "title": "Consigli",
+          "tip1": "Testa sempre il codice QR convertito scansionandolo prima di utilizzarlo in produzione. Assicurati che funzioni ancora correttamente dopo la conversione.",
+          "tip2": "I codici QR con loghi incorporati o colori personalizzati potrebbero richiedere un livello di qualità più elevato (6-7) per preservare il grafico incorporato.",
+          "tip3": "Il codice QR SVG può essere ridimensionato a qualsiasi dimensione - da schede da business a cartelloni pubblicitari - e rimarrà scansionabile."
+        }
+      },
+      "photo-to-svg": {
+        "title": "Converti immagine in SVG",
+        "description": "Trasforma le foto in arte vettoriale astratta",
+        "intro": "Convertire una foto in SVG produce un effetto artistico stilizzato e astratto. A differenza di loghi o codici QR, le foto contengono toni continui e gradienti che non possono essere rappresentati esattamente in formato vettoriale. Il risultato è un'interpretazione artistica: forme e regioni di colore che catturano l'essenza della foto in uno stile pittorico o posterizzato. Questo è ideale per progetti creativi, arte murale o illustrazioni stilizzate basate su foto reali.",
+        "steps": {
+          "title": "Come convertire",
+          "step1": "Carica la tua foto (PNG, JPG o WEBP).",
+          "step2": "Imposta il tipo di immagine su Foto. Questa modalità è ottimizzata per le immagini con toni continui e produce transizioni di colore più lisce.",
+          "step3": "Disabilita riconoscimento testo. Le foto di solito non contengono testo che deve essere conservato come percorsi modificabili.",
+          "step4": "Fai clic su Converti e visualizza l'anteprima del risultato. L'output avrà un aspetto astratto e artistico.",
+          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+        },
+        "warning": {
+          "title": "Avviso dimensione file",
+          "text": "La conversione da foto a SVG può produrre file di grandi dimensioni perché le fotografie contengono molte regioni di colore e gradienti. Una foto ad alta risoluzione potrebbe generare un file SVG di diversi megabyte. Per ottenere file più piccoli, utilizza un'immagine sorgente a risoluzione più bassa."
+        },
+        "tips": {
+          "title": "Consigli",
+          "tip1": "Le foto con un forte contrasto, colori vivaci e composizioni semplici producono i migliori risultati.",
+          "tip2": "Il risultato non è una riproduzione fotorealistica, ma un'interpretazione artistica vettoriale. Abbraccia la qualità astratta.",
+          "tip3": "Prova diverse foto di origine per vedere quali stili funzionano meglio. Ritratti, paesaggi e soggetti still life producono ciascuno risultati distinti."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto per provare?",
+      "subtitle": "Carica la tua immagine e convertila in SVG in pochi secondi.",
+      "button": "Inizia la conversione"
+    }
+  },
   "sitemap": {
     "title": "Mappa del sito",
     "subtitle": "Sfoglia tutte le pagine e le funzionalità disponibili su SVGR.",
@@ -92,6 +189,7 @@
     "links": {
       "convert": "Convertitore da immagine a SVG",
       "useCases": "Casi d'uso",
+      "tutorials": "Tutorial",
       "credits": "Acquista crediti",
       "privacy": "Informativa sulla privacy",
       "terms": "Termini di servizio"
@@ -99,6 +197,7 @@
     "descriptions": {
       "convert": "Carica immagini PNG, JPG o WEBP e convertile in grafica vettoriale SVG scalabile.",
       "useCases": "Scopri come SVGR aiuta a convertire loghi generati dall'IA e risorse raster legacy in SVG.",
+      "tutorials": "Guide passo passo per convertire loghi di intelligenza artificiale, poster, codici QR e foto in SVG.",
       "credits": "Acquista crediti per scaricare i tuoi file SVG e PDF convertiti.",
       "privacy": "Come SVGR gestisce i tuoi dati e protegge la tua privacy.",
       "terms": "Termini e condizioni per l'utilizzo del servizio di conversione SVGR."
@@ -117,6 +216,33 @@
       "title": "Converti i loghi dell'IA in SVG - Casi d'uso",
       "description": "Vedi come SVGR converte loghi generati dall'IA e immagini raster legacy in file vettoriali SVG scalabili. Funziona con Looka, Brandmark e altri.",
       "keywords": "Logo AI in vettore, converti logo in SVG, vettorizza logo AI, logo raster in vettore, immagine legacy in SVG"
+    },
+    "tutorials": {
+      "index": {
+        "title": "Tutorial di conversione SVG - Guide passo passo",
+        "description": "Scopri come convertire loghi AI, poster AI, codici QR e foto in SVG con tutorial passo passo. Impostazioni ottimizzate per ogni caso d'uso.",
+        "keywords": "Tutorial di conversione SVG, guida da immagine a SVG, converti un logo in SVG, codice QR in SVG, foto in SVG"
+      },
+      "ai-logos-to-svg": {
+        "title": "Converti i loghi di intelligenza artificiale in SVG - Tutorial passo dopo passo",
+        "description": "Scopri come convertire loghi generati dall'IA da PNG/JPG in SVG scalabili. Guida passo passo con impostazioni consigliate per Looka, Brandmark e altri generatori di loghi basati sull'IA.",
+        "keywords": "converti il logo AI in SVG, vettorizza il logo AI, generatore di logo AI in SVG, logo Looka in vettore, logo PNG in SVG"
+      },
+      "ai-posters-to-svg": {
+        "title": "Converti gli affissi di intelligenza artificiale in SVG - Tutorial passo dopo passo",
+        "description": "Scopri come convertire poster generati con l'IA in SVG scalabili per la stampa su larga scala. Guida passo passo con impostazioni raccomandate per la qualità.",
+        "keywords": "converti l'illustrazione AI in SVG, vettorizza l'illustrazione, Midjourney in SVG, illustrazione DALL-E in vettoriale, SVG per stampa grande formato"
+      },
+      "qr-code-to-svg": {
+        "title": "Converti il codice QR in SVG - Tutorial passo dopo passo",
+        "description": "Scopri come convertire i codici QR raster in SVG scalabili per una stampa ad alta risoluzione nitida. Guida passo passo per codici QR con grafica personalizzata.",
+        "keywords": "Codice QR in SVG, vettorizza il codice QR, codice QR scalabile, codice QR per la stampa, codice QR vettoriale"
+      },
+      "photo-to-svg": {
+        "title": "Converti un'immagine in SVG - Guida passo passo",
+        "description": "Scopri come convertire le foto in arte vettoriale SVG stilizzata. Guida passo passo per creare illustrazioni vettoriali astratte da fotografie.",
+        "keywords": "foto in SVG, converte foto in vettoriale, arte vettoriale foto, arte immagine in SVG, vettorizza fotografia"
+      }
     },
     "credits": {
       "title": "Acquista crediti per il download SVG",

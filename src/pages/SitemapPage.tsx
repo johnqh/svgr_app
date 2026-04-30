@@ -87,6 +87,11 @@ export default function SitemapPage() {
           description: t('sitemap.descriptions.useCases'),
         },
         {
+          path: '/tutorials',
+          label: t('sitemap.links.tutorials'),
+          description: t('sitemap.descriptions.tutorials'),
+        },
+        {
           path: '/credits',
           label: t('sitemap.links.credits'),
           description: t('sitemap.descriptions.credits'),

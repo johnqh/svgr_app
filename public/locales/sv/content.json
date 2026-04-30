@@ -9,7 +9,8 @@
   "privacy": "Integritet",
   "terms": "Villkor",
   "navigation": {
-    "useCases": "Användningsfall"
+    "useCases": "Användningsfall",
+    "tutorials": "Självstudier"
   },
   "useCases": {
     "title": "Varför använda SVGR?",
@@ -79,6 +80,102 @@
       "button": "Börja konvertera"
     }
   },
+  "tutorials": {
+    "title": "Självstudier",
+    "subtitle": "Steg-för-steg guider för att omvandla olika typer av bilder till SVG.",
+    "backButton": "Självstudier",
+    "items": {
+      "ai-logos-to-svg": {
+        "title": "Konvertera AI-logotyper till SVG",
+        "description": "Vektorisera AI-genererade logotyper för skalbar användning",
+        "intro": "Alla AI-logotypsgenererare — Looka, Brandmark, Hatchful, Logo.com och andra — genererar rasterbilder (PNG eller JPG). Rasterlogotyper förlorar kvalitet när de skalas upp till plakat, varumärkesvaror eller tryck. De ser oskära ut på skärmar med hög DPI och kan inte redigeras rent i vektorgrafikverktyg som Illustrator eller Figma. För att använda en AI-genererad logotyp professionellt behöver du en skalbar vektorversion (SVG).",
+        "steps": {
+          "title": "Hur man konverterar",
+          "step1": "Ladda upp ditt AI-genererade logotypbild (PNG, JPG eller WEBP).",
+          "step2": "Ange bildtyp till Design. Detta meddelar SVGR att bevara hårda kanter och plana färgområden som är typiska för logotypskapande.",
+          "step3": "Ställ kvalitetsnivå till 5. Detta fångar fina detaljer utan att överkomplisera SVG-ben. Du kan justera upp eller ner beroende på komplexiteten i ditt logotyp.",
+          "step4": "Klicka på Konvertera och förhandsgranska resultatet.",
+          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+        },
+        "tips": {
+          "title": "Tips",
+          "tip1": "Använd ett logotypbild med en genomskinlig eller fast bakgrund för bästa resultat.",
+          "tip2": "Om resultatet verkar för enkelt, öka kvalitetsnivån. Om det verkar för komplicerat, minska den.",
+          "tip3": "SVG-utdata är ett utmärkt utgångsläge för designrar att finjustera i Illustrator eller Figma – även om den inte är pixelgenomgående."
+        }
+      },
+      "ai-posters-to-svg": {
+        "title": "Konvertera AI-plakat till SVG",
+        "description": "Vektorisera AI-genererade affischer för storskala tryck",
+        "intro": "AI-bildgenererare som Midjourney, DALL-E och Stable Diffusion skapar imponerande plakatkonst – men de ger ut rastervisade bilder. Rastervisade bilder har en fast pixeldelning och blir suddiga när de skrivs ut i stora storlekar. För plakat, banner och tecken behöver du en vektorformat som kan skala till vilken storlek som helst utan kvalitetsförlust.",
+        "steps": {
+          "title": "Hur man konverterar",
+          "step1": "Ladda upp ditt AI-genererade plakatbild (PNG, JPG eller WEBP).",
+          "step2": "Ställ in bildtypen till Design. Denna läge bevarar det grafiska stil och färgområdena i plakatkonst.",
+          "step3": "Ange kvalitetsnivå till 4. Plakatkonst är vanligtvis mindre detaljerad än logotyper, så en lägre kvalitetsnivå håller filstorleken hanterbar. Justera uppåt om du behöver mer detalj.",
+          "step4": "Klicka på Konvertera och förhandsgranska resultatet.",
+          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+        },
+        "warning": {
+          "title": "Varning för filstorlek",
+          "text": "AI-genererad plakatkonst kan resultera i stora SVG-filer på grund av komplexiteten och antalet färger. En typisk konvertering av ett plakat kan resultera i en SVG-fil på flera megabyte. Detta är normalt för detaljerad konst. Om filen är för stor, försök minska kvalitetsnivån."
+        },
+        "tips": {
+          "title": "Tips",
+          "tip1": "Börja med kvalitetsnivå 4 och öka endast om förhandsgranskningen saknar viktiga detaljer.",
+          "tip2": "Enklare plakatdesign (färre färger, starka former) ger mindre och renare SVG:er.",
+          "tip3": "Den konverterade SVG:n kan skrivas ut i valfri storlek — från A4 till affisch — utan kvalitetsförlust."
+        }
+      },
+      "qr-code-to-svg": {
+        "title": "Konvertera QR-kod till SVG",
+        "description": "Vektorisera QR-koder för skarp storskala utskrift",
+        "intro": "Många QR-kodgenererare producerar rasterbilder (PNG eller JPG). En raster-QR-kod fungerar bra på skärmar, men blir pixlad när den skrivs ut stor – på banner, affischer, fordonstapeter eller tecken. Detta är särskilt problematiskt för QR-koder med inbäddade anpassade grafik eller logotyper, där detaljerna förloras vid låg upplösning. Att konvertera till SVG säkerställer att din QR-kod förblir skarp och skannbar vid valfri utskriftsstorlek.",
+        "steps": {
+          "title": "Hur man konverterar",
+          "step1": "Ladda upp din QR-kodbild (PNG, JPG eller WEBP).",
+          "step2": "Ställ in bildtypen till Design. QR-koder är grafiska mönster med hårda kanter, så Designläge ger den renaste resultat.",
+          "step3": "Ställ kvalitetsnivå till 5. Detta fångar de skarpa kanterna och de fina detaljerna i QR-mönstren. Justera om det behövs – lägre för enkla QR-koder, högre för QR-koder med inbäddade logotyper.",
+          "step4": "Klicka på Konvertera och förhandsgranska resultatet.",
+          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+        },
+        "tips": {
+          "title": "Tips",
+          "tip1": "Testa alltid din konverterade QR-kod genom att skanna den innan du använder den i produktion. Se till att den fortfarande skannas korrekt efter konvertering.",
+          "tip2": "QR-koder med inbäddade logotyper eller anpassade färger kan behöva ett högre kvalitetsnivå (6-7) för att bevara den inbäddade grafiken.",
+          "tip3": "SVG:ns QR-kod kan skalas till valfri storlek – från visitkort till affischplakat – och förblir skannbar."
+        }
+      },
+      "photo-to-svg": {
+        "title": "Konvertera bild till SVG",
+        "description": "Förvandla bilder till abstrakt vektorkonst",
+        "intro": "Att omvandla en bild till SVG skapar en stiliserad, abstrakt konsteffekt. Till skillnad från logotyper eller QR-koder innehåller bilder kontinuerliga toner och gradienter som inte kan återges exakt i vektorformat. Resultatet blir en konstnärlig tolkning – former och färgområden som fångar essensen av bilden i ett målarskiktat eller posteriserat stil. Detta är idealiskt för kreativa projekt, väggkonst eller stiliserade illustrationer baserade på verkliga foton.",
+        "steps": {
+          "title": "Hur man konverterar",
+          "step1": "Ladda upp din bild (PNG, JPG eller WEBP).",
+          "step2": "Ställ in bildtypen till Foto. Detta läge är optimerat för kontinuerliga tonbilder och ger smidigare färgövergångar.",
+          "step3": "Inaktivera textigenkänning. Bilder innehåller vanligtvis ingen text som behöver sparas som redigerbara banor.",
+          "step4": "Klicka på Konvertera och förhandsgranska resultatet. Utdata kommer att ha ett abstrakt, konstnärligt uttryck.",
+          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+        },
+        "warning": {
+          "title": "Varning för filstorlek",
+          "text": "Omvandling av foto till SVG kan resultera i stora filer eftersom foton innehåller många färgområden och gradienter. En högupplöst foto kan ge en SVG-fil på flera megabyte. För mindre filer, använd en bild med lägre upplösning."
+        },
+        "tips": {
+          "title": "Tips",
+          "tip1": "Foton med stark kontrast, kraftfulla färger och enkla sammansättningar ger bästa resultat.",
+          "tip2": "Resultatet är inte en fotorealistisk avbildning – det är en konstnärlig vektoruppfattning. Ta till vara abstrakta kvaliteten.",
+          "tip3": "Prova olika källbilder för att se vilka stilar som fungerar bäst. Porträtt, landskap och still life ger varje sin unik effekt."
+        }
+      }
+    },
+    "cta": {
+      "title": "Klar att prova?",
+      "subtitle": "Ladda upp ditt bild och konvertera den till SVG på några sekunder.",
+      "button": "Börja konvertera"
+    }
+  },
   "sitemap": {
     "title": "Webbplatskarta",
     "subtitle": "Bläddra bland alla sidor och funktioner som finns tillgängliga på SVGR.",
@@ -92,6 +189,7 @@
     "links": {
       "convert": "Bild till SVG-omvandlare",
       "useCases": "Användningsområden",
+      "tutorials": "Självstudier",
       "credits": "Köp kredit",
       "privacy": "Integritetspolicy",
       "terms": "Villkor för tjänsten"
@@ -99,6 +197,7 @@
     "descriptions": {
       "convert": "Ladda upp PNG-, JPG- eller WEBP-bilder och konvertera dem till skalbara vektorgrafik i SVG.",
       "useCases": "Lär dig hur SVGR hjälper till att omvandla AI-genererade logotyper och äldre rasterbilder till SVG.",
+      "tutorials": "Steg-för-steg-guide för att omvandla AI-logotyper, affischer, QR-koder och foton till SVG.",
       "credits": "Köp kredit för att ladda ner dina konverterade SVG- och PDF-filer.",
       "privacy": "Hur SVGR hanterar dina data och skyddar din integritet.",
       "terms": "Villkor för användning av SVGR-omvandlingstjänsten."
@@ -117,6 +216,33 @@
       "title": "Konvertera AI-logotyper till SVG - Användningsområden",
       "description": "Se hur SVGR omvandlar AI-genererade logotyper och gamla rasterbilder till skalbara SVG-vektorfiler. Fungerar med Looka, Brandmark och fler.",
       "keywords": "AI-logotyp till vektor, konvertera logotyp till SVG, vektorisera AI-logotyp, rasterlogotyp till vektor, äldre bild till SVG"
+    },
+    "tutorials": {
+      "index": {
+        "title": "SVG-omvandlingsguider - Steg-för-steg-handbok",
+        "description": "Lär dig hur du konverterar AI-logotyper, AI-poster, QR-koder och bilder till SVG med steg-för-steg-guide. Optimerade inställningar för varje användningsområde.",
+        "keywords": "SVG-omvandlingstutorial, bild till SVG-guide, konvertera logotyp till SVG, QR-kod till SVG, foto till SVG"
+      },
+      "ai-logos-to-svg": {
+        "title": "Konvertera AI-logotyper till SVG - Steg-för-steg-guide",
+        "description": "Lär dig hur du konverterar AI-genererade logotyper från PNG/JPG till skalbara SVG. Steg-för-steg-guide med rekommenderade inställningar för Looka, Brandmark och andra AI-logogenererare.",
+        "keywords": "konvertera AI-logotyp till SVG, vektorisera AI-logotyp, AI-logotypsgenerering i SVG, Looka-logotyp till vektor, PNG-logotyp till SVG"
+      },
+      "ai-posters-to-svg": {
+        "title": "Konvertera AI-plakat till SVG - Steg-för-steg-guide",
+        "description": "Lär dig hur du konverterar AI-genererade plakat till skalbara SVG-filer för storskalig tryckning. Steg-för-steg-guide med rekommenderade kvalitetsinställningar.",
+        "keywords": "omvandla AI-poster till SVG, vektorisera postern, Midjourney till SVG, DALL-E-poster till vektor, SVG för storformat tryck"
+      },
+      "qr-code-to-svg": {
+        "title": "Konvertera QR-kod till SVG - Steg-för-steg-guide",
+        "description": "Lär dig hur du konverterar raster QR-koder till skalbara SVG-filer för skarpa stora utskrifter. Steg-för-steg-guide för QR-koder med anpassade grafikobjekt.",
+        "keywords": "QR-kod till SVG, vektorisera QR-kod, skalbar QR-kod, QR-kod till tryck, vektor-QR-kod"
+      },
+      "photo-to-svg": {
+        "title": "Konvertera bild till SVG - Steg-för-steg-guide",
+        "description": "Lär dig hur du omvandlar foton till stylade vektorbilder i SVG-format. Steg-för-steg-guide för att skapa abstrakta vektorillustrationer från foton.",
+        "keywords": "foto till SVG, konvertera foto till vektor, vektoriserad fotokonst, bild till SVG-konst, vektorisera foto"
+      }
     },
     "credits": {
       "title": "Köp SVG-nedladdningskrediter",

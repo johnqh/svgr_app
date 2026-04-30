@@ -27,7 +27,7 @@ import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
 import { trackButtonClick } from './analytics';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
-import { LightBulbIcon } from './components/icons';
+import { LightBulbIcon, BookOpenIcon } from './components/icons';
 import { PageConfigProvider } from './context/PageConfigProvider';
 import { usePageConfig } from './hooks/usePageConfig';
 import ConvertPage from './pages/ConvertPage';
@@ -41,6 +41,7 @@ const CreditsPage = lazy(() => import('./pages/CreditsPage'));
 const LoginPage = lazy(() => import('./pages/LoginPage'));
 const PrivacyPage = lazy(() => import('./pages/PrivacyPage'));
 const TermsPage = lazy(() => import('./pages/TermsPage'));
+const TutorialsPage = lazy(() => import('./pages/TutorialsPage'));
 const UseCasesPage = lazy(() => import('./pages/UseCasesPage'));
 const SitemapPage = lazy(() => import('./pages/SitemapPage'));
 
@@ -80,6 +81,12 @@ function LangLayoutInner() {
         icon: LightBulbIcon,
         href: `/${currentLang}/use-cases`,
       },
+      {
+        id: 'tutorials',
+        label: t('navigation.tutorials'),
+        icon: BookOpenIcon,
+        href: `/${currentLang}/tutorials`,
+      },
     ],
     [t, currentLang]
   );
@@ -107,6 +114,10 @@ function LangLayoutInner() {
         {
           label: t('navigation.useCases', { defaultValue: 'Use Cases' }),
           href: `/${currentLang}/use-cases`,
+        },
+        {
+          label: t('navigation.tutorials', { defaultValue: 'Tutorials' }),
+          href: `/${currentLang}/tutorials`,
         },
       ],
     },
@@ -211,6 +222,8 @@ function AppRoutes() {
       <Route path="/:lang" element={<LangLayout />}>
         <Route index element={<ConvertPage />} />
         <Route path="use-cases" element={<UseCasesPage />} />
+        <Route path="tutorials" element={<TutorialsPage />} />
+        <Route path="tutorials/:slug" element={<TutorialsPage />} />
         <Route path="credits" element={<CreditsPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />

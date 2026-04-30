@@ -1,0 +1,83 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - banner "Main navigation" [ref=e5]:
+      - link "Skip to main content" [ref=e6] [cursor=pointer]:
+        - /url: "#main-content"
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Go to Logo" [ref=e9] [cursor=pointer]:
+            - generic [ref=e10]:
+              - img "SVGR" [ref=e11]
+              - generic [ref=e12]: SVGR
+          - navigation "Main navigation" [ref=e13]:
+            - link "使用场景" [ref=e14] [cursor=pointer]:
+              - /url: /zh/use-cases
+              - img [ref=e15]
+              - text: 使用场景
+            - link "教程" [ref=e17] [cursor=pointer]:
+              - /url: /zh/tutorials
+              - img [ref=e18]
+              - text: 教程
+        - generic [ref=e21]:
+          - button "Select language" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: 🇨🇳
+            - generic [ref=e25]: 简体中文
+            - img [ref=e26]
+          - button "登录" [ref=e29] [cursor=pointer]
+  - main [ref=e30]:
+    - generic [ref=e35]:
+      - complementary [ref=e36]:
+        - heading "教程" [level=2] [ref=e37]
+        - generic [ref=e39]:
+          - generic [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: 将AI徽标转换为SVG
+            - generic [ref=e44]: 将AI生成的徽标矢量化以实现可扩展使用
+          - generic [ref=e47] [cursor=pointer]:
+            - generic [ref=e48]: 将AI海报转换为SVG
+            - generic [ref=e49]: 将AI生成的海报进行矢量化以用于大幅面打印
+          - generic [ref=e52] [cursor=pointer]:
+            - generic [ref=e53]: 将二维码转换为SVG
+            - generic [ref=e54]: 将二维码矢量化以实现清晰的大尺寸打印
+          - generic [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]: 将照片转换为SVG
+            - generic [ref=e59]: 将照片转换为抽象矢量艺术
+      - generic [ref=e62]:
+        - heading "将AI海报转换为SVG" [level=1] [ref=e99]
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: 像Midjourney、DALL-E和Stable Diffusion这样的AI图像生成器可以创建令人惊叹的海报艺术作品——但它们输出的是位图图像。位图图像具有固定的像素分辨率，当放大打印时会变得模糊。对于海报、横幅和标识牌，您需要一种可缩放到任意尺寸而不会损失质量的矢量格式。
+          - generic [ref=e66]:
+            - heading "如何转换" [level=2] [ref=e67]
+            - list [ref=e68]:
+              - listitem [ref=e69]: 上传您的AI生成的海报图像（PNG、JPG或WEBP）。
+              - listitem [ref=e70]: 将图像类型设置为设计。此模式会保留海报艺术的图形风格和颜色区域。
+              - listitem [ref=e71]: 将质量等级设为4。海报艺术通常比徽标细节少，因此较低的质量等级可保持文件大小可控。如果需要更多细节，请向上调整。
+              - listitem [ref=e72]: 点击转换并预览结果。
+              - listitem [ref=e73]: 下载SVG。每次下载消耗1个积分。
+          - generic [ref=e96]:
+            - heading "文件大小警告" [level=3] [ref=e97]
+            - paragraph [ref=e98]: AI生成的海报艺术作品由于复杂性和颜色数量，可能会生成较大的SVG文件。典型的海报转换可能会产生几兆字节的SVG文件，这是详细艺术作品的正常现象。如果文件过大，可以尝试降低质量等级。
+          - generic [ref=e74]:
+            - heading "提示" [level=2] [ref=e75]
+            - list [ref=e76]:
+              - listitem [ref=e77]: 从质量等级4开始，仅在预览缺少重要细节时才提高。
+              - listitem [ref=e78]: 更简单的海报设计（颜色更少，形状更鲜明）会产生更小、更清晰的SVG文件。
+              - listitem [ref=e79]: 转换后的SVG可以以任何尺寸打印——从A4到广告牌——而不会损失质量。
+          - generic [ref=e80]:
+            - heading "准备好了吗？" [level=2] [ref=e81]
+            - paragraph [ref=e82]: 上传您的图片，几秒钟内即可转换为SVG。
+            - button "开始转换" [ref=e83] [cursor=pointer]
+  - contentinfo [ref=e84]:
+    - contentinfo [ref=e85]:
+      - generic [ref=e87]:
+        - generic [ref=e89]:
+          - text: © 2025-2026
+          - link "Sudobility" [ref=e90] [cursor=pointer]:
+            - /url: https://svgr.app
+          - text: . 保留所有权利
+        - generic [ref=e91]:
+          - link "隐私政策" [ref=e92] [cursor=pointer]:
+            - /url: /zh/privacy
+          - link "使用条款" [ref=e93] [cursor=pointer]:
+            - /url: /zh/terms
+          - link "网站地图" [ref=e94] [cursor=pointer]:
+            - /url: /zh/sitemap
