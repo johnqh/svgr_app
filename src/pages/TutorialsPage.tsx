@@ -10,7 +10,9 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { MasterDetailLayout, MasterListItem } from '@sudobility/components/layout';
+import { useSEOUpdate } from '@sudobility/seo_lib';
 import { ui, buttonVariant } from '@sudobility/design';
+import { APP_NAME } from '@sudobility/svgr_lib';
 import { trackButtonClick, trackPageView } from '../analytics';
 import SEO from '../components/seo/SEO';
 import { useSetPageConfig } from '../hooks/usePageConfig';
@@ -71,27 +73,13 @@ export default function TutorialsPage() {
 
   const canonicalPath = hasSlug ? `/tutorials/${selectedSlug}` : '/tutorials';
 
-  // React 19 + react-helmet-async workaround: force-update document.title and meta tags
-  useEffect(() => {
-    const fullTitle = `${seoTitle} | SVGR`;
-    document.title = fullTitle;
-
-    const setMeta = (attr: string, key: string, content: string) => {
-      let el = document.querySelector(`meta[${attr}="${key}"]`) as HTMLMetaElement | null;
-      if (!el) {
-        el = document.createElement('meta');
-        el.setAttribute(attr, key);
-        document.head.appendChild(el);
-      }
-      el.setAttribute('content', content);
-      el.setAttribute('data-rh', 'true');
-    };
-
-    setMeta('name', 'description', seoDescription);
-    setMeta('name', 'keywords', seoKeywords);
-    setMeta('property', 'og:title', fullTitle);
-    setMeta('property', 'og:description', seoDescription);
-  }, [seoTitle, seoDescription, seoKeywords]);
+  // React 19 + react-helmet-async workaround
+  useSEOUpdate({
+    title: seoTitle,
+    description: seoDescription,
+    appName: APP_NAME,
+    keywords: seoKeywords,
+  });
 
   // Build structured data for the selected tutorial
   const structuredData = useMemo(() => {

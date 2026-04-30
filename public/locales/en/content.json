@@ -95,7 +95,7 @@
           "step2": "Set Image Type to Design. This tells SVGR to preserve hard edges and flat color regions typical of logo artwork.",
           "step3": "Set Quality Level to 5. This captures fine detail without over-complicating the SVG paths. You can adjust up or down depending on the complexity of your logo.",
           "step4": "Click Convert and preview the result.",
-          "step5": "Download the SVG. Each download costs 1 credit."
+          "step5": "Download the SVG."
         },
         "tips": {
           "title": "Tips",
@@ -114,7 +114,7 @@
           "step2": "Set Image Type to Design. This mode preserves the graphic style and color regions of poster artwork.",
           "step3": "Set Quality Level to 4. Poster artwork is typically less detailed than logos, so a lower quality level keeps file size manageable. Adjust upward if you need more detail.",
           "step4": "Click Convert and preview the result.",
-          "step5": "Download the SVG. Each download costs 1 credit."
+          "step5": "Download the SVG."
         },
         "warning": {
           "title": "File Size Warning",
@@ -137,7 +137,7 @@
           "step2": "Set Image Type to Design. QR codes are graphic patterns with hard edges, so the Design mode produces the cleanest result.",
           "step3": "Set Quality Level to 5. This captures the sharp edges and fine detail of QR patterns. Adjust if needed — lower for simple QR codes, higher for QR codes with embedded logos.",
           "step4": "Click Convert and preview the result.",
-          "step5": "Download the SVG. Each download costs 1 credit."
+          "step5": "Download the SVG."
         },
         "tips": {
           "title": "Tips",
@@ -156,7 +156,7 @@
           "step2": "Set Image Type to Photo. This mode is optimized for continuous-tone images and produces smoother color transitions.",
           "step3": "Disable Recognize Text. Photos typically don't contain text that needs to be preserved as editable paths.",
           "step4": "Click Convert and preview the result. The output will have an abstract, artistic quality.",
-          "step5": "Download the SVG. Each download costs 1 credit."
+          "step5": "Download the SVG."
         },
         "warning": {
           "title": "File Size Warning",

@@ -95,7 +95,7 @@
           "step2": "Thiết lập Loại hình ảnh thành Thiết kế. Điều này cho biết SVGR giữ nguyên các cạnh cứng và các vùng màu phẳng thường thấy trong tác phẩm biểu tượng.",
           "step3": "Thiết lập mức chất lượng thành 5. Điều này ghi lại chi tiết tinh tế mà không làm phức tạp hóa các đường dẫn SVG. Bạn có thể điều chỉnh tăng hoặc giảm tùy thuộc vào độ phức tạp của biểu tượng của mình.",
           "step4": "Nhấp vào Chuyển đổi và xem trước kết quả.",
-          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+          "step5": "Tải xuống SVG."
         },
         "tips": {
           "title": "Lời khuyên",
@@ -114,7 +114,7 @@
           "step2": "Thiết lập Loại hình ảnh thành Thiết kế. Chế độ này bảo tồn phong cách đồ họa và các vùng màu của tác phẩm poster.",
           "step3": "Đặt mức chất lượng thành 4. Nghệ thuật poster thường ít chi tiết hơn biểu tượng, vì vậy mức chất lượng thấp hơn giúp kích thước tập tin duy trì ở mức hợp lý. Điều chỉnh tăng nếu bạn cần thêm chi tiết.",
           "step4": "Nhấp vào Chuyển đổi và xem trước kết quả.",
-          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+          "step5": "Tải xuống SVG."
         },
         "warning": {
           "title": "Cảnh báo kích thước tệp",
@@ -137,7 +137,7 @@
           "step2": "Thiết lập Loại hình ảnh thành Thiết kế. Mã QR là các mẫu đồ họa có cạnh sắc, vì vậy chế độ Thiết kế sẽ cho kết quả rõ nét nhất.",
           "step3": "Thiết lập mức chất lượng thành 5. Điều này thu được các cạnh sắc nét và chi tiết tinh tế của mẫu mã QR. Điều chỉnh nếu cần — thấp hơn cho mã QR đơn giản, cao hơn cho mã QR có nhúng biểu tượng.",
           "step4": "Nhấp vào Chuyển đổi và xem trước kết quả.",
-          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+          "step5": "Tải xuống SVG."
         },
         "tips": {
           "title": "Lời khuyên",
@@ -156,7 +156,7 @@
           "step2": "Thiết lập loại hình ảnh thành Ảnh. Chế độ này được tối ưu hóa cho hình ảnh sắc độ liên tục và tạo ra các chuyển đổi màu sắc mượt mà hơn.",
           "step3": "Vô hiệu hóa Nhận dạng văn bản. Hình ảnh thường không chứa văn bản cần được bảo tồn dưới dạng đường dẫn có thể chỉnh sửa.",
           "step4": "Nhấp vào Chuyển đổi và xem trước kết quả. Kết quả đầu ra sẽ có chất liệu trừu tượng, nghệ thuật.",
-          "step5": "Tải xuống SVG. Mỗi lần tải xuống sẽ mất 1 điểm tín dụng."
+          "step5": "Tải xuống SVG."
         },
         "warning": {
           "title": "Cảnh báo kích thước tệp",

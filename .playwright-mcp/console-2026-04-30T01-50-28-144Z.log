@@ -10,3 +10,26 @@
 [ 1673729ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:5175/node_modules/.vite/deps/chunk-C7IJQAY5.js?v=2ef9c194:1772
 [ 1674070ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
 [ 1674074ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[ 1722397ms] [ERROR] [vite] SyntaxError: The requested module '/node_modules/.vite/deps/@sudobility_seo_lib.js?v=2ef9c194' does not provide an export named 'useSEOUpdate' @ http://localhost:5175/@vite/client:881
+[ 1722400ms] [ERROR] [vite] Failed to reload /src/pages/TutorialsPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5175/@vite/client:881
+[ 1729344ms] [ERROR] [vite] SyntaxError: The requested module '/node_modules/.vite/deps/@sudobility_seo_lib.js?v=2ef9c194' does not provide an export named 'useSEOUpdate' @ http://localhost:5175/@vite/client:881
+[ 1729344ms] [ERROR] [vite] Failed to reload /src/pages/TutorialsPage.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5175/@vite/client:881
+[ 1738366ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=2ef9c194:20102
+[ 1738393ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:5175/node_modules/.vite/deps/chunk-C7IJQAY5.js?v=2ef9c194:1772
+[ 1738729ms] The requested module '/node_modules/.vite/deps/@sudobility_seo_lib.js?v=2ef9c194' does not provide an export named 'useSEOUpdate'
+[ 1738714ms] [WARNING] %s
+
+%s
+ An error occurred in one of your React components. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=2ef9c194:6965
+[ 1822321ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5175/@vite/client:963
+[ 1822326ms] [ERROR] WebSocket connection to 'ws://localhost:5175/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5175/@vite/client:1034
+[ 1823328ms] [ERROR] WebSocket connection to 'ws://localhost:5175/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ http://localhost:5175/@vite/client:1034
+[ 1826539ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=da72ed0b:20102
+[ 1826585ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:5175/node_modules/.vite/deps/chunk-C7IJQAY5.js?v=d7b7a67e:1772
+[ 1826945ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[ 1826950ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[12525349ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5175/node_modules/.vite/deps/react-dom_client.js?v=da72ed0b:20102
+[12525409ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:5175/node_modules/.vite/deps/chunk-C7IJQAY5.js?v=d7b7a67e:1772
+[12525880ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12
+[12525884ms] [WARNING] [consumables] VITE_REVENUECAT_API_KEY not set, consumables disabled @ http://localhost:5175/src/config/consumables.ts:12

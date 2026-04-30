@@ -95,7 +95,7 @@
           "step2": "Définissez le type d'image sur Conception. Cela indique à SVGR de préserver les bords rigides et les zones de couleur plane typiques des illustrations de logo.",
           "step3": "Définissez le niveau de qualité sur 5. Cela capte les détails fins sans compliquer inutilement les chemins SVG. Vous pouvez ajuster vers le haut ou le bas selon la complexité de votre logo.",
           "step4": "Cliquez sur Convertir et prévisualisez le résultat.",
-          "step5": "Téléchargez le SVG. Chaque téléchargement coûte 1 crédit."
+          "step5": "Téléchargez le SVG."
         },
         "tips": {
           "title": "Conseils",
@@ -114,7 +114,7 @@
           "step2": "Définissez le type d'image sur Conception. Ce mode préserve le style graphique et les régions de couleur de l'art affiché.",
           "step3": "Définir le niveau de qualité sur 4. Les affiches sont généralement moins détaillées que les logos, donc un niveau de qualité plus bas permet de maintenir la taille du fichier raisonnable. Ajustez vers le haut si vous avez besoin de plus de détails.",
           "step4": "Cliquez sur Convertir et prévisualisez le résultat.",
-          "step5": "Téléchargez le SVG. Chaque téléchargement coûte 1 crédit."
+          "step5": "Téléchargez le SVG."
         },
         "warning": {
           "title": "Avertissement de taille de fichier",
@@ -137,7 +137,7 @@
           "step2": "Définir le type d'image sur Conception. Les codes QR sont des motifs graphiques aux bords rigides, donc le mode Conception produit le meilleur résultat.",
           "step3": "Définir le niveau de qualité à 5. Cela capte les bords nets et les détails fins des motifs QR. Ajustez si nécessaire — plus bas pour les codes QR simples, plus haut pour les codes QR avec logos intégrés.",
           "step4": "Cliquez sur Convertir et prévisualisez le résultat.",
-          "step5": "Téléchargez le SVG. Chaque téléchargement coûte 1 crédit."
+          "step5": "Téléchargez le SVG."
         },
         "tips": {
           "title": "Conseils",
@@ -156,7 +156,7 @@
           "step2": "Définissez le type d'image sur Photo. Ce mode est optimisé pour les images à tons continus et produit des transitions de couleur plus douces.",
           "step3": "Désactiver la reconnaissance de texte. Les photos ne contiennent généralement pas de texte qui doit être conservé sous forme de chemins éditables.",
           "step4": "Cliquez sur Convertir et prévisualisez le résultat. La sortie aura une qualité abstraite et artistique.",
-          "step5": "Téléchargez le SVG. Chaque téléchargement coûte 1 crédit."
+          "step5": "Téléchargez le SVG."
         },
         "warning": {
           "title": "Avertissement de taille de fichier",

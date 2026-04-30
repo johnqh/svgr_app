@@ -95,7 +95,7 @@
           "step2": "Imposta il tipo di immagine su Disegno. Questo indica a SVGR di preservare i bordi rigidi e le aree di colore piatto tipiche dell'arte del logo.",
           "step3": "Imposta il livello di qualità a 5. Questo cattura i dettagli fini senza complicare eccessivamente i percorsi SVG. Puoi regolarlo in su o in giù a seconda della complessità del tuo logo.",
           "step4": "Fai clic su Converti e visualizza l'anteprima del risultato.",
-          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+          "step5": "Scarica il file SVG."
         },
         "tips": {
           "title": "Consigli",
@@ -114,7 +114,7 @@
           "step2": "Imposta il tipo di immagine su Design. Questo modo preserva lo stile grafico e le regioni di colore dell'arte poster.",
           "step3": "Imposta il livello di qualità a 4. L'arte del poster è di solito meno dettagliata rispetto ai loghi, quindi un livello di qualità più basso mantiene le dimensioni del file gestibili. Aumentalo se hai bisogno di più dettagli.",
           "step4": "Fai clic su Converti e visualizza l'anteprima del risultato.",
-          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+          "step5": "Scarica il file SVG."
         },
         "warning": {
           "title": "Avviso dimensione file",
@@ -137,7 +137,7 @@
           "step2": "Imposta il tipo di immagine su Disegno. I codici QR sono pattern grafici con bordi netti, quindi la modalità Disegno produce il risultato più pulito.",
           "step3": "Imposta il livello di qualità a 5. Questo cattura i bordi netti e i dettagli fini dei pattern QR. Modifica se necessario - più basso per codici QR semplici, più alto per codici QR con loghi incorporati.",
           "step4": "Fai clic su Converti e visualizza l'anteprima del risultato.",
-          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+          "step5": "Scarica il file SVG."
         },
         "tips": {
           "title": "Consigli",
@@ -156,7 +156,7 @@
           "step2": "Imposta il tipo di immagine su Foto. Questa modalità è ottimizzata per le immagini con toni continui e produce transizioni di colore più lisce.",
           "step3": "Disabilita riconoscimento testo. Le foto di solito non contengono testo che deve essere conservato come percorsi modificabili.",
           "step4": "Fai clic su Converti e visualizza l'anteprima del risultato. L'output avrà un aspetto astratto e artistico.",
-          "step5": "Scarica il file SVG. Ogni download costa 1 credito."
+          "step5": "Scarica il file SVG."
         },
         "warning": {
           "title": "Avviso dimensione file",

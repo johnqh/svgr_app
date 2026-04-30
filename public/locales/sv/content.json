@@ -95,7 +95,7 @@
           "step2": "Ange bildtyp till Design. Detta meddelar SVGR att bevara hårda kanter och plana färgområden som är typiska för logotypskapande.",
           "step3": "Ställ kvalitetsnivå till 5. Detta fångar fina detaljer utan att överkomplisera SVG-ben. Du kan justera upp eller ner beroende på komplexiteten i ditt logotyp.",
           "step4": "Klicka på Konvertera och förhandsgranska resultatet.",
-          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+          "step5": "Ladda ner SVG."
         },
         "tips": {
           "title": "Tips",
@@ -114,7 +114,7 @@
           "step2": "Ställ in bildtypen till Design. Denna läge bevarar det grafiska stil och färgområdena i plakatkonst.",
           "step3": "Ange kvalitetsnivå till 4. Plakatkonst är vanligtvis mindre detaljerad än logotyper, så en lägre kvalitetsnivå håller filstorleken hanterbar. Justera uppåt om du behöver mer detalj.",
           "step4": "Klicka på Konvertera och förhandsgranska resultatet.",
-          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+          "step5": "Ladda ner SVG."
         },
         "warning": {
           "title": "Varning för filstorlek",
@@ -137,7 +137,7 @@
           "step2": "Ställ in bildtypen till Design. QR-koder är grafiska mönster med hårda kanter, så Designläge ger den renaste resultat.",
           "step3": "Ställ kvalitetsnivå till 5. Detta fångar de skarpa kanterna och de fina detaljerna i QR-mönstren. Justera om det behövs – lägre för enkla QR-koder, högre för QR-koder med inbäddade logotyper.",
           "step4": "Klicka på Konvertera och förhandsgranska resultatet.",
-          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+          "step5": "Ladda ner SVG."
         },
         "tips": {
           "title": "Tips",
@@ -156,7 +156,7 @@
           "step2": "Ställ in bildtypen till Foto. Detta läge är optimerat för kontinuerliga tonbilder och ger smidigare färgövergångar.",
           "step3": "Inaktivera textigenkänning. Bilder innehåller vanligtvis ingen text som behöver sparas som redigerbara banor.",
           "step4": "Klicka på Konvertera och förhandsgranska resultatet. Utdata kommer att ha ett abstrakt, konstnärligt uttryck.",
-          "step5": "Ladda ner SVG. Varje nedladdning kostar 1 poäng."
+          "step5": "Ladda ner SVG."
         },
         "warning": {
           "title": "Varning för filstorlek",

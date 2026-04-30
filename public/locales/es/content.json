@@ -95,7 +95,7 @@
           "step2": "Establezca el tipo de imagen en Diseño. Esto indica a SVGR que preserve los bordes duros y las regiones de color plano típicas del arte de logotipos.",
           "step3": "Establezca el nivel de calidad en 5. Esto captura los detalles finos sin complicar excesivamente los caminos SVG. Puede ajustarlo hacia arriba o hacia abajo según la complejidad de su logotipo.",
           "step4": "Haga clic en Convertir y vea el resultado.",
-          "step5": "Descargue el SVG. Cada descarga cuesta 1 crédito."
+          "step5": "Descargue el SVG."
         },
         "tips": {
           "title": "Consejos",
@@ -114,7 +114,7 @@
           "step2": "Establezca el tipo de imagen en Diseño. Este modo preserva el estilo gráfico y las regiones de color del arte de cartel.",
           "step3": "Establezca el nivel de calidad en 4. Las obras de arte de póster suelen ser menos detalladas que los logotipos, por lo que un nivel de calidad más bajo mantiene el tamaño de archivo manejable. Ajuste hacia arriba si necesita más detalle.",
           "step4": "Haga clic en Convertir y vea el resultado.",
-          "step5": "Descargue el SVG. Cada descarga cuesta 1 crédito."
+          "step5": "Descargue el SVG."
         },
         "warning": {
           "title": "Advertencia de tamaño de archivo",
@@ -137,7 +137,7 @@
           "step2": "Establezca el tipo de imagen en Diseño. Los códigos QR son patrones gráficos con bordes definidos, por lo que el modo Diseño produce el resultado más limpio.",
           "step3": "Establezca el nivel de calidad en 5. Esto captura los bordes nítidos y los detalles finos de los patrones QR. Ajuste si es necesario: más bajo para códigos QR simples, más alto para códigos QR con logotipos integrados.",
           "step4": "Haga clic en Convertir y vea el resultado.",
-          "step5": "Descargue el SVG. Cada descarga cuesta 1 crédito."
+          "step5": "Descargue el SVG."
         },
         "tips": {
           "title": "Consejos",
@@ -156,7 +156,7 @@
           "step2": "Establezca el tipo de imagen en Foto. Este modo está optimizado para imágenes de tonos continuos y produce transiciones de color más suaves.",
           "step3": "Desactive reconocer texto. Las fotos normalmente no contienen texto que deba conservarse como caminos editables.",
           "step4": "Haga clic en Convertir y previa el resultado. La salida tendrá una calidad abstracta y artística.",
-          "step5": "Descargue el SVG. Cada descarga cuesta 1 crédito."
+          "step5": "Descargue el SVG."
         },
         "warning": {
           "title": "Advertencia de tamaño de archivo",

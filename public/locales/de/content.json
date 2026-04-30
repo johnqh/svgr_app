@@ -95,7 +95,7 @@
           "step2": "Stellen Sie den Bildtyp auf Design ein. Dadurch behält SVGR scharfe Kanten und flache Farbflächen bei, wie sie typischerweise bei Logo-Arbeiten vorkommen.",
           "step3": "Stellen Sie die Qualitätsstufe auf 5. Dies erfasst feine Details, ohne die SVG-Pfade unnötig zu komplizieren. Sie können die Einstellung je nach Komplexität Ihres Logos nach oben oder unten anpassen.",
           "step4": "Klicken Sie auf Konvertieren und prüfen Sie das Ergebnis.",
-          "step5": "Laden Sie das SVG herunter. Jeder Download kostet 1 Punkt."
+          "step5": "Laden Sie das SVG herunter."
         },
         "tips": {
           "title": "Tipps",
@@ -114,7 +114,7 @@
           "step2": "Stellen Sie den Bildtyp auf Design ein. Dieser Modus bewahrt den grafischen Stil und die Farbgebiete von Plakatkunst.",
           "step3": "Stellen Sie die Qualitätsebene auf 4 ein. Posterkunst ist typischerweise weniger detailliert als Logos, daher hält eine niedrigere Qualitätsebene die Dateigröße im Rahmen. Erhöhen Sie die Einstellung, wenn Sie mehr Detail benötigen.",
           "step4": "Klicken Sie auf Konvertieren und prüfen Sie das Ergebnis.",
-          "step5": "Laden Sie das SVG herunter. Jeder Download kostet 1 Punkt."
+          "step5": "Laden Sie das SVG herunter."
         },
         "warning": {
           "title": "Dateigrößen-Warnung",
@@ -137,7 +137,7 @@
           "step2": "Stellen Sie den Bildtyp auf Design ein. QR-Codes sind grafische Muster mit scharfen Kanten, weshalb der Design-Modus das sauberste Ergebnis liefert.",
           "step3": "Stellen Sie die Qualitätsstufe auf 5. Dies erfasst die scharfen Kanten und feinen Details der QR-Muster. Passen Sie ggf. an – niedriger für einfache QR-Codes, höher für QR-Codes mit eingebetteten Logos.",
           "step4": "Klicken Sie auf Konvertieren und prüfen Sie das Ergebnis.",
-          "step5": "Laden Sie das SVG herunter. Jeder Download kostet 1 Punkt."
+          "step5": "Laden Sie das SVG herunter."
         },
         "tips": {
           "title": "Tipps",
@@ -156,7 +156,7 @@
           "step2": "Stellen Sie den Bildtyp auf Foto ein. Dieser Modus ist für kontinuierliche Tonbilder optimiert und erzeugt fließendere Farbübergänge.",
           "step3": "Erkennung von Text deaktivieren. Fotos enthalten normalerweise keinen Text, der als bearbeitbare Pfade erhalten werden muss.",
           "step4": "Klicken Sie auf Konvertieren und prüfen Sie das Ergebnis. Das Ergebnis hat einen abstrakten, künstlerischen Charakter.",
-          "step5": "Laden Sie das SVG herunter. Jeder Download kostet 1 Punkt."
+          "step5": "Laden Sie das SVG herunter."
         },
         "warning": {
           "title": "Dateigrößen-Warnung",

@@ -95,7 +95,7 @@
           "step2": "Defina o tipo de imagem como Design. Isso faz com que o SVGR preserve bordas duras e regiões de cor plana típicas de arte de logotipo.",
           "step3": "Defina o nível de qualidade para 5. Isso captura detalhes finos sem complicar excessivamente os caminhos SVG. Você pode ajustar para cima ou para baixo dependendo da complexidade do seu logotipo.",
           "step4": "Clique em Converter e visualize o resultado.",
-          "step5": "Baixe o SVG. Cada download custa 1 crédito."
+          "step5": "Baixe o SVG."
         },
         "tips": {
           "title": "Dicas",
@@ -114,7 +114,7 @@
           "step2": "Defina o tipo de imagem como Design. Este modo preserva o estilo gráfico e as regiões de cor da arte de pôster.",
           "step3": "Defina o nível de qualidade como 4. As obras de arte de pôster geralmente são menos detalhadas que os logotipos, por isso um nível de qualidade mais baixo mantém o tamanho do arquivo gerenciável. Ajuste para cima se precisar de mais detalhes.",
           "step4": "Clique em Converter e visualize o resultado.",
-          "step5": "Baixe o SVG. Cada download custa 1 crédito."
+          "step5": "Baixe o SVG."
         },
         "warning": {
           "title": "Aviso de tamanho de arquivo",
@@ -137,7 +137,7 @@
           "step2": "Defina o tipo de imagem como Design. Os códigos QR são padrões gráficos com bordas definidas, por isso o modo Design produz o melhor resultado.",
           "step3": "Defina o nível de qualidade como 5. Isso captura as bordas nítidas e os detalhes finos dos padrões QR. Ajuste conforme necessário — mais baixo para códigos QR simples, mais alto para códigos QR com logotipos incorporados.",
           "step4": "Clique em Converter e visualize o resultado.",
-          "step5": "Baixe o SVG. Cada download custa 1 crédito."
+          "step5": "Baixe o SVG."
         },
         "tips": {
           "title": "Dicas",
@@ -156,7 +156,7 @@
           "step2": "Defina o tipo de imagem como Foto. Este modo é otimizado para imagens de tonalidade contínua e produz transições de cor mais suaves.",
           "step3": "Desative o reconhecimento de texto. As fotos geralmente não contêm texto que precise ser preservado como caminhos editáveis.",
           "step4": "Clique em Converter e visualize o resultado. A saída terá uma qualidade abstrata e artística.",
-          "step5": "Baixe o SVG. Cada download custa 1 crédito."
+          "step5": "Baixe o SVG."
         },
         "warning": {
           "title": "Aviso de tamanho de arquivo",
