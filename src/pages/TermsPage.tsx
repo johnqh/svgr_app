@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
 import { trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 import { LAST_UPDATED_DATE, LEGAL_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function TermsPage() {
@@ -75,10 +75,9 @@ export default function TermsPage() {
 
   return (
     <>
-      <SEO
+      <SEOHead
         title={t('seo.terms.title')}
         description={t('seo.terms.description')}
-        canonical="/terms"
       />
       <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>

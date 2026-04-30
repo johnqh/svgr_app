@@ -18,7 +18,7 @@ import {
 import { LoginPage as LoginPageComponent } from '@sudobility/building_blocks';
 import { variants, ui } from '@sudobility/design';
 import { trackButtonClick, trackError, trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 import { APP_NAME } from '../config/constants';
 
 function LoginPage() {
@@ -56,7 +56,7 @@ function LoginPage() {
 
   return (
     <>
-      <SEO noIndex />
+      <SEOHead title="Login" description="Sign in to your SVGR account" noIndex />
       <LoginPageComponent
         appName={APP_NAME}
         logo={<img src="/logo.svg" alt={APP_NAME} className="h-12" />}

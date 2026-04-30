@@ -17,7 +17,7 @@ import type {
   LanguageOption,
   LinkComponentProps,
 } from '@sudobility/building_blocks';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 
 /** Flag emoji for each language code. */
 const LANGUAGE_FLAGS: Record<string, string> = {
@@ -132,10 +132,9 @@ export default function SitemapPage() {
 
   return (
     <>
-      <SEO
+      <SEOHead
         title={t('seo.sitemap.title')}
         description={t('seo.sitemap.description')}
-        canonical="/sitemap"
       />
       <AppSitemapPage
         text={text}

@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
 import { trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 import { LAST_UPDATED_DATE, PRIVACY_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function PrivacyPage() {
@@ -80,10 +80,9 @@ export default function PrivacyPage() {
 
   return (
     <>
-      <SEO
+      <SEOHead
         title={t('seo.privacy.title')}
         description={t('seo.privacy.description')}
-        canonical="/privacy"
       />
       <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>

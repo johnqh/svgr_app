@@ -4,7 +4,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import Backend from 'i18next-http-backend';
 import { SUPPORTED_LANGUAGE_CODES, DEFAULT_LANGUAGE } from '@sudobility/svgr_lib';
 
-const NAMESPACES = ['auth', 'content', 'conversion', 'privacy', 'terms'] as const;
+const NAMESPACES = ['auth', 'content', 'conversion', 'howto', 'privacy', 'terms'] as const;
 const DEFAULT_NAMESPACE = 'content';
 
 export const supportedLanguages = SUPPORTED_LANGUAGE_CODES;

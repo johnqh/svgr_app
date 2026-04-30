@@ -18,7 +18,7 @@ import { CreditStorePage } from '@sudobility/consumables_pages';
 import { useAuthStatus } from '@sudobility/auth-components';
 import { CONSUMABLES_OFFERING_ID } from '../config/consumables';
 import { trackButtonClick, trackError, trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 
 export default function CreditsPage() {
   const { t } = useTranslation();
@@ -56,11 +56,10 @@ export default function CreditsPage() {
 
   return (
     <>
-      <SEO
+      <SEOHead
         title={t('seo.credits.title')}
         description={t('seo.credits.description')}
-        keywords={t('seo.credits.keywords')}
-        canonical="/credits"
+        keywords={t('seo.credits.keywords', { returnObjects: true }) as string[]}
       />
       <CreditStorePage
         isAuthenticated={isAuthenticated}

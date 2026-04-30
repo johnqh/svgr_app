@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { buttonVariant, ui } from '@sudobility/design';
 import { trackButtonClick, trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 
 /** Keys for AI logo designer entries used to generate the designer grid from i18n. */
 const AI_DESIGNER_KEYS = [
@@ -41,11 +41,10 @@ export default function UseCasesPage() {
 
   return (
     <div className="py-8 px-4 max-w-4xl mx-auto">
-      <SEO
+      <SEOHead
         title={t('seo.useCases.title')}
         description={t('seo.useCases.description')}
-        keywords={t('seo.useCases.keywords')}
-        canonical="/use-cases"
+        keywords={t('seo.useCases.keywords', { returnObjects: true }) as string[]}
       />
 
       {/* Hero */}

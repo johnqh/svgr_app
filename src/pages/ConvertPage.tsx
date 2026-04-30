@@ -17,8 +17,6 @@ import { AppLinks } from '@sudobility/components';
 import {
   useImageConverter,
   scaleImageWeb,
-  APP_NAME,
-  APP_DOMAIN,
   QUALITY_MIN,
   QUALITY_MAX,
   IMAGE_TYPES,
@@ -27,7 +25,8 @@ import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick, trackEvent, trackError, trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
+import { buildHowToSchema } from '../components/buildHowToSchema';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
@@ -35,6 +34,7 @@ import SvgPreviewPanel from '../components/SvgPreviewPanel';
 export default function ConvertPage() {
   const { t } = useTranslation('conversion');
   const { t: tContent } = useTranslation('content');
+  const { t: tHowTo } = useTranslation('howto');
   const client = useSvgrClient();
   const converter = useImageConverter(client, scaleImageWeb);
 
@@ -127,27 +127,23 @@ export default function ConvertPage() {
     reader.readAsDataURL(file);
   }, [file, converter]);
 
+  const seoTitle = tContent('seo.home.title');
+  const seoDescription = tContent('seo.home.description');
+  const seoKeywords = tContent('seo.home.keywords', { returnObjects: true }) as string[];
+
+  const howToSchema = buildHowToSchema(
+    tHowTo('home.name'),
+    tHowTo('home.description'),
+    tHowTo('home.steps', { returnObjects: true }) as { name: string; text: string }[]
+  );
+
   return (
     <main className="flex-1 flex flex-col">
-      <SEO
-        title={tContent('seo.home.title')}
-        description={tContent('seo.home.description')}
-        keywords={tContent('seo.home.keywords')}
-        canonical="/"
-        structuredData={{
-          '@context': 'https://schema.org',
-          '@type': 'WebApplication',
-          name: APP_NAME,
-          url: `https://${APP_DOMAIN}`,
-          applicationCategory: 'DesignApplication',
-          operatingSystem: 'Any',
-          description: tContent('subtitle'),
-          offers: {
-            '@type': 'Offer',
-            price: '0',
-            priceCurrency: 'USD',
-          },
-        }}
+      <SEOHead
+        title={seoTitle}
+        description={seoDescription}
+        keywords={seoKeywords}
+        structuredData={howToSchema}
       />
       {/* Header -- hidden on mobile to save space */}
       <div className="hidden md:block text-center py-8 px-4">

@@ -10,11 +10,9 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { MasterDetailLayout, MasterListItem } from '@sudobility/components/layout';
-import { useSEOUpdate } from '@sudobility/seo_lib';
 import { ui, buttonVariant } from '@sudobility/design';
-import { APP_NAME } from '@sudobility/svgr_lib';
 import { trackButtonClick, trackPageView } from '../analytics';
-import SEO from '../components/seo/SEO';
+import SEOHead from '../components/SEOHead';
 import { useSetPageConfig } from '../hooks/usePageConfig';
 
 /** Tutorial slug identifiers — order defines master list order. */
@@ -69,17 +67,7 @@ export default function TutorialsPage() {
   const seoKey = hasSlug ? `seo.tutorials.${selectedSlug}` : 'seo.tutorials.index';
   const seoTitle = t(`${seoKey}.title`);
   const seoDescription = t(`${seoKey}.description`);
-  const seoKeywords = t(`${seoKey}.keywords`);
-
-  const canonicalPath = hasSlug ? `/tutorials/${selectedSlug}` : '/tutorials';
-
-  // React 19 + react-helmet-async workaround
-  useSEOUpdate({
-    title: seoTitle,
-    description: seoDescription,
-    appName: APP_NAME,
-    keywords: seoKeywords,
-  });
+  const seoKeywords = t(`${seoKey}.keywords`, { returnObjects: true }) as string[];
 
   // Build structured data for the selected tutorial
   const structuredData = useMemo(() => {
@@ -173,11 +161,10 @@ export default function TutorialsPage() {
 
   return (
     <div className="w-full min-w-0 overflow-x-hidden flex-1 flex flex-col min-h-0">
-      <SEO
+      <SEOHead
         title={seoTitle}
         description={seoDescription}
         keywords={seoKeywords}
-        canonical={canonicalPath}
         ogType={hasSlug ? 'article' : 'website'}
         structuredData={structuredData}
       />
