@@ -210,44 +210,44 @@
     "home": {
       "title": "Bild-zu-SVG-Konverter - PNG, JPG, WEBP in Vektor umwandeln",
       "description": "Konvertieren Sie Rasterbilder online in skalierbare Vektorgrafiken. Laden Sie PNG, JPG oder WEBP hoch und erhalten Sie sofort saubere SVG-Ausgaben. Kostenlose Vorschau, ideal für künstlich intelligente Logos.",
-      "keywords": "Bild zu SVG Konverter, PNG zu SVG, JPG zu SVG, WEBP zu SVG, Raster zu Vektor, Online-SVG-Konverter, Vektorisieren von Bildern"
+      "keywords": ["B", "i", "l", "d", "Raster zu Vektor", "z", "u"]
     },
     "useCases": {
       "title": "AI-Logos in SVG umwandeln - Verwendungsfälle",
       "description": "Sehen Sie, wie SVGR AI-generierte Logos und veraltete Rasterbilder in skalierbare SVG-Vektordateien umwandelt. Funktioniert mit Looka, Brandmark und mehr.",
-      "keywords": "AI-Logo in Vektor umwandeln, Logo in SVG umwandeln, AI-Logo vektorisieren, Raster-Logo in Vektor umwandeln, Legacy-Bild in SVG umwandeln"
+      "keywords": ["A", "I", "-", "L", "o"]
     },
     "tutorials": {
       "index": {
         "title": "SVG-Konvertierungs-Tutorials - Schritt-für-Schritt-Anleitungen",
         "description": "Erfahren Sie, wie Sie AI-Logos, AI-Plakate, QR-Codes und Fotos in SVG mit Schritt-für-Schritt-Anleitungen umwandeln können. Optimierte Einstellungen für jeden Anwendungsfall.",
-        "keywords": "SVG-Konvertierungsanleitung, Bild zu SVG-Anleitung, Logo in SVG umwandeln, QR-Code in SVG umwandeln, Foto in SVG umwandeln"
+        "keywords": ["S", "V", "G", "-", "K"]
       },
       "ai-logos-to-svg": {
         "title": "AI-Logos in SVG umwandeln - Schritt-für-Schritt-Anleitung",
         "description": "Erfahren Sie, wie Sie AI-generierte Logos aus PNG/JPG in skalierbares SVG umwandeln. Schritt-für-Schritt-Anleitung mit empfohlenen Einstellungen für Looka, Brandmark und andere AI-Logo-Generatoren.",
-        "keywords": "AI-Logo in SVG umwandeln, AI-Logo vektorisieren, AI-Logo-Generator SVG, Logo von Looka in Vektor umwandeln, PNG-Logo in SVG umwandeln"
+        "keywords": ["A", "I", "-", "L", "o"]
       },
       "ai-posters-to-svg": {
         "title": "AI-Plakate in SVG umwandeln – Schritt-für-Schritt-Anleitung",
         "description": "Erfahren Sie, wie Sie AI-generierte Plakate in skalierbare SVG-Dateien für die Großformatdrucke umwandeln können. Schritt-für-Schritt-Anleitung mit empfohlenen Qualitäts-Einstellungen.",
-        "keywords": "AI-Plakat in SVG umwandeln, Plakat vektorisieren, Midjourney in SVG, DALL-E-Plakat in Vektor umwandeln, großformatiges Druck-SVG"
+        "keywords": ["A", "I", "-", "P", "l"]
       },
       "qr-code-to-svg": {
         "title": "QR-Code in SVG umwandeln – Schritt-für-Schritt-Anleitung",
         "description": "Erfahren Sie, wie Sie Raster-QR-Codes in skalierbares SVG für scharfe Großformatdrucke umwandeln. Schritt-für-Schritt-Anleitung für QR-Codes mit benutzerdefinierten Grafiken.",
-        "keywords": "QR-Code zu SVG, QR-Code vektorisieren, skalierbarer QR-Code, QR-Code für die Druckversion, QR-Code-Vektor"
+        "keywords": ["Q", "R", "-", "C", "o"]
       },
       "photo-to-svg": {
         "title": "Foto in SVG umwandeln - Schritt-für-Schritt-Anleitung",
         "description": "Erfahren Sie, wie Sie Fotos in stilisierte SVG-Vektorgrafiken umwandeln können. Schritt-für-Schritt-Anleitung zur Erstellung abstrakter Vektorgrafiken aus Fotos.",
-        "keywords": "Foto zu SVG, Foto in Vektor umwandeln, Fotovektor-Kunst, Bild zu SVG-Kunst, Foto vektorisieren"
+        "keywords": ["F", "o", "t", "o", "Fotografie vektorisieren"]
       }
     },
     "credits": {
       "title": "SVG-Download-Guthaben kaufen",
       "description": "Kaufen Sie Credits, um Ihre konvertierten SVG- und PDF-Dateien von SVGR herunterzuladen. Günstige Credit-Pakete für Designer und Unternehmen.",
-      "keywords": "SVGR-Guthaben, SVG-Download-Guthaben, Vektor-Guthaben kaufen, PDF-Download-Guthaben"
+      "keywords": ["S", "V", "G", "R"]
     },
     "privacy": {
       "title": "Datenschutzbestimmungen",

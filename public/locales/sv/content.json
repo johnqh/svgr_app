@@ -210,44 +210,44 @@
     "home": {
       "title": "Bild till SVG-omvandlare - PNG, JPG, WEBP till vektor",
       "description": "Konvertera rasterbilder till skalbara vektorgrafik online. Ladda upp PNG, JPG eller WEBP och få ren SVG-utdata omedelbart. Gratis förhandsgranskning, idealisk för AI-genererade logotyper.",
-      "keywords": "omvandlare av bild till SVG, PNG till SVG, JPG till SVG, WEBP till SVG, raster till vektor, online-omvandlare till SVG, vektorisera bild"
+      "keywords": ["o", "m", "v", "a", "n", "d", "l"]
     },
     "useCases": {
       "title": "Konvertera AI-logotyper till SVG - Användningsområden",
       "description": "Se hur SVGR omvandlar AI-genererade logotyper och gamla rasterbilder till skalbara SVG-vektorfiler. Fungerar med Looka, Brandmark och fler.",
-      "keywords": "AI-logotyp till vektor, konvertera logotyp till SVG, vektorisera AI-logotyp, rasterlogotyp till vektor, äldre bild till SVG"
+      "keywords": ["A", "I", "-", "l", "o"]
     },
     "tutorials": {
       "index": {
         "title": "SVG-omvandlingsguider - Steg-för-steg-handbok",
         "description": "Lär dig hur du konverterar AI-logotyper, AI-poster, QR-koder och bilder till SVG med steg-för-steg-guide. Optimerade inställningar för varje användningsområde.",
-        "keywords": "SVG-omvandlingstutorial, bild till SVG-guide, konvertera logotyp till SVG, QR-kod till SVG, foto till SVG"
+        "keywords": ["S", "V", "G", "-", "o"]
       },
       "ai-logos-to-svg": {
         "title": "Konvertera AI-logotyper till SVG - Steg-för-steg-guide",
         "description": "Lär dig hur du konverterar AI-genererade logotyper från PNG/JPG till skalbara SVG. Steg-för-steg-guide med rekommenderade inställningar för Looka, Brandmark och andra AI-logogenererare.",
-        "keywords": "konvertera AI-logotyp till SVG, vektorisera AI-logotyp, AI-logotypsgenerering i SVG, Looka-logotyp till vektor, PNG-logotyp till SVG"
+        "keywords": ["k", "o", "n", "v", "e"]
       },
       "ai-posters-to-svg": {
         "title": "Konvertera AI-plakat till SVG - Steg-för-steg-guide",
         "description": "Lär dig hur du konverterar AI-genererade plakat till skalbara SVG-filer för storskalig tryckning. Steg-för-steg-guide med rekommenderade kvalitetsinställningar.",
-        "keywords": "omvandla AI-poster till SVG, vektorisera postern, Midjourney till SVG, DALL-E-poster till vektor, SVG för storformat tryck"
+        "keywords": ["o", "m", "v", "a", "n"]
       },
       "qr-code-to-svg": {
         "title": "Konvertera QR-kod till SVG - Steg-för-steg-guide",
         "description": "Lär dig hur du konverterar raster QR-koder till skalbara SVG-filer för skarpa stora utskrifter. Steg-för-steg-guide för QR-koder med anpassade grafikobjekt.",
-        "keywords": "QR-kod till SVG, vektorisera QR-kod, skalbar QR-kod, QR-kod till tryck, vektor-QR-kod"
+        "keywords": ["Q", "R", "-", "k", "o"]
       },
       "photo-to-svg": {
         "title": "Konvertera bild till SVG - Steg-för-steg-guide",
         "description": "Lär dig hur du omvandlar foton till stylade vektorbilder i SVG-format. Steg-för-steg-guide för att skapa abstrakta vektorillustrationer från foton.",
-        "keywords": "foto till SVG, konvertera foto till vektor, vektoriserad fotokonst, bild till SVG-konst, vektorisera foto"
+        "keywords": ["f", "o", "t", "o", "vektorisera foto"]
       }
     },
     "credits": {
       "title": "Köp SVG-nedladdningskrediter",
       "description": "Köp kredit för att ladda ner dina konverterade SVG- och PDF-filer från SVGR. Ekonomiska kreditpaket för designrar och företag.",
-      "keywords": "SVGR-kredit, SVG-nedladdningskredit, köp vektor-kredit, PDF-nedladdningskredit"
+      "keywords": ["S", "V", "G", "R"]
     },
     "privacy": {
       "title": "Integritetspolicy",

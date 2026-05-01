@@ -1,0 +1,42 @@
+{
+  "webApp": {
+    "description": "Konvertera rasterbilder (PNG, JPG, WEBP) till skalbara vektorgrafik (SVG). Perfekt för AI-genererade logotyper och designar.",
+    "features": [
+      "PNG till SVG-konvertering",
+      "JPG till SVG-konvertering",
+      "WEBP till SVG-konvertering",
+      "Inställningsbara kvalitetsinställningar",
+      "Stöd för transparent bakgrund",
+      "Textigenkänning (OCR)",
+      "Optimering av vägslagning",
+      "PDF-export",
+      "Fritt förhandsgranskning innan nedladdning"
+    ]
+  },
+  "home": {
+    "name": "Så här konverterar du bilder till SVG med SVGR",
+    "description": "Konvertera rasterbilder som PNG, JPG och WEBP till skalbara vektorgrafik med SVGR.",
+    "steps": [
+      {
+        "name": "Ladda upp din bild",
+        "text": "Dra och släpp eller välj en PNG-, JPG- eller WEBP-fil för att ladda upp."
+      },
+      {
+        "name": "Justera inställningar",
+        "text": "Ställ in kvalitetsnivån, bildtypen och aktivera genomskinlig bakgrund eller textigenkänning som behövs."
+      },
+      {
+        "name": "Konvertera till SVG",
+        "text": "Klicka på knappen Konvertera för att bearbeta ditt bild. Konverteringen är gratis och kräver ingen konto."
+      },
+      {
+        "name": "Förhandsgranska resultatet",
+        "text": "Granska SVG-utdata i förhandsgransningspanelen. Justera kvalitet och omkonvertera om det behövs."
+      },
+      {
+        "name": "Ladda ner",
+        "text": "Ladda ner SVG- eller PDF-filen. Nedladdningar kostar 1 poäng var."
+      }
+    ]
+  }
+}

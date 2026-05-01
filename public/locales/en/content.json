@@ -210,44 +210,93 @@
     "home": {
       "title": "Image to SVG Converter - PNG, JPG, WEBP to Vector",
       "description": "Convert raster images to scalable vector graphics online. Upload PNG, JPG, or WEBP and get clean SVG output instantly. Free preview, ideal for AI-generated logos.",
-      "keywords": ["image to SVG converter", "PNG to SVG", "JPG to SVG", "WEBP to SVG", "raster to vector", "online SVG converter", "vectorize image"]
+      "keywords": [
+        "image to SVG converter",
+        "PNG to SVG",
+        "JPG to SVG",
+        "WEBP to SVG",
+        "raster to vector",
+        "online SVG converter",
+        "vectorize image"
+      ]
     },
     "useCases": {
       "title": "Convert AI Logos to SVG - Use Cases",
       "description": "See how SVGR converts AI-generated logos and legacy raster images to scalable SVG vector files. Works with Looka, Brandmark, and more.",
-      "keywords": ["AI logo to vector", "convert logo to SVG", "vectorize AI logo", "raster logo to vector", "legacy image to SVG"]
+      "keywords": [
+        "AI logo to vector",
+        "convert logo to SVG",
+        "vectorize AI logo",
+        "raster logo to vector",
+        "legacy image to SVG"
+      ]
     },
     "tutorials": {
       "index": {
         "title": "SVG Conversion Tutorials - Step-by-Step Guides",
         "description": "Learn how to convert AI logos, AI posters, QR codes, and photos to SVG with step-by-step tutorials. Optimized settings for each use case.",
-        "keywords": ["SVG conversion tutorial", "image to SVG guide", "convert logo to SVG", "QR code to SVG", "photo to SVG"]
+        "keywords": [
+          "SVG conversion tutorial",
+          "image to SVG guide",
+          "convert logo to SVG",
+          "QR code to SVG",
+          "photo to SVG"
+        ]
       },
       "ai-logos-to-svg": {
         "title": "Convert AI Logos to SVG - Step-by-Step Tutorial",
         "description": "Learn how to convert AI-generated logos from PNG/JPG to scalable SVG. Step-by-step guide with recommended settings for Looka, Brandmark, and other AI logo generators.",
-        "keywords": ["convert AI logo to SVG", "vectorize AI logo", "AI logo generator SVG", "Looka logo to vector", "PNG logo to SVG"]
+        "keywords": [
+          "convert AI logo to SVG",
+          "vectorize AI logo",
+          "AI logo generator SVG",
+          "Looka logo to vector",
+          "PNG logo to SVG"
+        ]
       },
       "ai-posters-to-svg": {
         "title": "Convert AI Posters to SVG - Step-by-Step Tutorial",
         "description": "Learn how to convert AI-generated posters to scalable SVG for large-format printing. Step-by-step guide with recommended quality settings.",
-        "keywords": ["convert AI poster to SVG", "vectorize poster", "Midjourney to SVG", "DALL-E poster to vector", "large format print SVG"]
+        "keywords": [
+          "convert AI poster to SVG",
+          "vectorize poster",
+          "Midjourney to SVG",
+          "DALL-E poster to vector",
+          "large format print SVG"
+        ]
       },
       "qr-code-to-svg": {
         "title": "Convert QR Code to SVG - Step-by-Step Tutorial",
         "description": "Learn how to convert raster QR codes to scalable SVG for crisp large-format printing. Step-by-step guide for QR codes with custom graphics.",
-        "keywords": ["QR code to SVG", "vectorize QR code", "scalable QR code", "QR code for print", "QR code vector"]
+        "keywords": [
+          "QR code to SVG",
+          "vectorize QR code",
+          "scalable QR code",
+          "QR code for print",
+          "QR code vector"
+        ]
       },
       "photo-to-svg": {
         "title": "Convert Photo to SVG - Step-by-Step Tutorial",
         "description": "Learn how to convert photos to stylized SVG vector art. Step-by-step guide for creating abstract vector illustrations from photographs.",
-        "keywords": ["photo to SVG", "convert photo to vector", "photo vector art", "image to SVG art", "vectorize photograph"]
+        "keywords": [
+          "photo to SVG",
+          "convert photo to vector",
+          "photo vector art",
+          "image to SVG art",
+          "vectorize photograph"
+        ]
       }
     },
     "credits": {
       "title": "Buy SVG Download Credits",
       "description": "Purchase credits to download your converted SVG and PDF files from SVGR. Affordable credit packs for designers and businesses.",
-      "keywords": ["SVGR credits", "SVG download credits", "buy vector credits", "PDF download credits"]
+      "keywords": [
+        "SVGR credits",
+        "SVG download credits",
+        "buy vector credits",
+        "PDF download credits"
+      ]
     },
     "privacy": {
       "title": "Privacy Policy",

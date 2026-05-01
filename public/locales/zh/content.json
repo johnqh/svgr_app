@@ -210,44 +210,44 @@
     "home": {
       "title": "图像转SVG转换器 - PNG、JPG、WEBP转矢量",
       "description": "在线将光栅图像转换为可缩放的矢量图形。上传PNG、JPG或WEBP，立即获得干净的SVG输出。免费预览，非常适合AI生成的徽标。",
-      "keywords": "图像转SVG转换器，PNG转SVG，JPG转SVG，WEBP转SVG，光栅转矢量，在线SVG转换器，矢量化图像"
+      "keywords": ["图", "像", "转", "S", "V", "G", "转"]
     },
     "useCases": {
       "title": "将AI徽标转换为SVG - 使用案例",
       "description": "查看SVGR如何将AI生成的徽标和旧版光栅图像转换为可缩放的SVG矢量文件。支持Looka、Brandmark等工具。",
-      "keywords": "AI标志转为矢量图，将标志转换为SVG，矢量化AI标志，将位图转换为矢量图，将旧图像转换为SVG"
+      "keywords": ["A", "I", "标", "志", "转"]
     },
     "tutorials": {
       "index": {
         "title": "SVG转换教程 - 逐步指南",
         "description": "学习如何将AI标志、AI海报、二维码和照片转换为SVG格式，附有逐步教程。每种使用场景均有优化设置。",
-        "keywords": "SVG转换教程，图像转SVG指南，将徽标转换为SVG，二维码转SVG，照片转SVG"
+        "keywords": ["S", "V", "G", "转", "换"]
       },
       "ai-logos-to-svg": {
         "title": "将AI徽标转换为SVG - 逐步教程",
         "description": "学习如何将AI生成的徽标从PNG/JPG转换为可缩放的SVG。逐步指南，包含Looka、Brandmark及其他AI徽标生成器的推荐设置。",
-        "keywords": "将AI标志转换为SVG，将AI标志矢量化，AI标志生成器SVG，Looka标志转为矢量，PNG标志转为SVG"
+        "keywords": ["将", "A", "I", "标", "志"]
       },
       "ai-posters-to-svg": {
         "title": "将AI海报转换为SVG - 逐步教程",
         "description": "学习如何将AI生成的海报转换为可缩放的SVG，用于大幅面打印。逐步指南，包含推荐的质量设置。",
-        "keywords": "将AI海报转换为SVG，矢量化海报，Midjourney转SVG，DALL-E海报转为矢量图，大尺寸打印SVG"
+        "keywords": ["将", "A", "I", "海", "报"]
       },
       "qr-code-to-svg": {
         "title": "将二维码转换为SVG - 逐步教程",
         "description": "学习如何将光栅QR码转换为可缩放的SVG，以实现清晰的大尺寸打印。包含自定义图形的QR码的逐步指南。",
-        "keywords": "二维码转SVG，矢量化二维码，可缩放二维码，用于打印的二维码，矢量二维码"
+        "keywords": ["二", "维", "码", "转", "S"]
       },
       "photo-to-svg": {
         "title": "将照片转换为SVG - 逐步教程",
         "description": "学习如何将照片转换为风格化的SVG矢量艺术。从照片创建抽象矢量插图的逐步指南。",
-        "keywords": "将照片转换为SVG，将照片转换为矢量图，照片矢量艺术，图像转SVG艺术，矢量化照片"
+        "keywords": ["将", "照", "片", "转", "换"]
       }
     },
     "credits": {
       "title": "购买SVG下载积分",
       "description": "购买积分以从SVGR下载转换后的SVG和PDF文件。为设计师和企业提供的实惠积分套餐。",
-      "keywords": "SVGR积分，SVG下载积分，购买矢量积分，PDF下载积分"
+      "keywords": ["S", "V", "G", "R"]
     },
     "privacy": {
       "title": "隐私政策",

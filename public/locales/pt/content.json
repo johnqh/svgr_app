@@ -210,44 +210,44 @@
     "home": {
       "title": "Conversor de imagem para SVG - PNG, JPG, WEBP para vetor",
       "description": "Converta imagens raster em gráficos vetoriais escaláveis online. Faça o upload de PNG, JPG ou WEBP e obtenha saída SVG limpa instantaneamente. Pré-visualização gratuita, ideal para logotipos gerados por IA.",
-      "keywords": "conversor de imagem para SVG, PNG para SVG, JPG para SVG, WEBP para SVG, raster para vetor, conversor SVG online, vetorizar imagem"
+      "keywords": ["c", "o", "n", "v", "e", "r", "s"]
     },
     "useCases": {
       "title": "Converter logotipos de IA para SVG - Casos de uso",
       "description": "Veja como o SVGR converte logotipos gerados por IA e imagens raster antigas em arquivos vetoriais SVG escaláveis. Funciona com Looka, Brandmark e mais.",
-      "keywords": "logotipo de IA para vetor, converter logotipo para SVG, vetorizar logotipo de IA, converter logotipo raster para vetor, imagem legada para SVG"
+      "keywords": ["l", "o", "g", "o", "t"]
     },
     "tutorials": {
       "index": {
         "title": "Tutoriais de Conversão SVG - Guias Passo a Passo",
         "description": "Aprenda como converter logotipos de IA, pôsteres de IA, códigos QR e fotos em SVG com tutoriais passo a passo. Configurações otimizadas para cada caso de uso.",
-        "keywords": "Guia de conversão para SVG, conversão de imagem para SVG, converter logotipo para SVG, código QR para SVG, foto para SVG"
+        "keywords": ["G", "u", "i", "a", "foto para SVG"]
       },
       "ai-logos-to-svg": {
         "title": "Converter logotipos de IA para SVG - Tutorial passo a passo",
         "description": "Aprenda como converter logotipos gerados por IA de PNG/JPG para SVG escalável. Guia passo a passo com configurações recomendadas para Looka, Brandmark e outros geradores de logotipos por IA.",
-        "keywords": "converter logo de IA para SVG, vetorizar logo de IA, gerador de logo de IA SVG, converter logo Looka para vetor, converter logo PNG para SVG"
+        "keywords": ["c", "o", "n", "v", "e"]
       },
       "ai-posters-to-svg": {
         "title": "Converter Posters de IA para SVG - Tutorial Passo a Passo",
         "description": "Aprenda como converter pôsteres gerados por IA em SVG escaláveis para impressão em grande formato. Guia passo a passo com configurações recomendadas de qualidade.",
-        "keywords": "converter pôster de IA para SVG, vetorizar pôster, Midjourney para SVG, pôster do DALL-E para vetor, SVG para impressão em grande formato"
+        "keywords": ["c", "o", "n", "v", "e"]
       },
       "qr-code-to-svg": {
         "title": "Converter código QR para SVG - Tutorial passo a passo",
         "description": "Aprenda como converter códigos QR raster para SVG escaláveis para impressão nítida em grande formato. Guia passo a passo para códigos QR com gráficos personalizados.",
-        "keywords": "Código QR para SVG, vetorizar código QR, código QR escalável, código QR para impressão, código QR vetorial"
+        "keywords": ["C", "ó", "d", "i", "g"]
       },
       "photo-to-svg": {
         "title": "Converter foto para SVG - Tutorial passo a passo",
         "description": "Aprenda como converter fotos em arte vetorial SVG estilizada. Guia passo a passo para criar ilustrações vetoriais abstratas a partir de fotos.",
-        "keywords": "foto para SVG, converter foto para vetor, arte vetorial de foto, imagem para arte SVG, vetorizar fotografia"
+        "keywords": ["f", "o", "t", "o", "vetorizar fotografia"]
       }
     },
     "credits": {
       "title": "Compre créditos de download SVG",
       "description": "Compre créditos para baixar seus arquivos SVG e PDF convertidos do SVGR. Pacotes de créditos acessíveis para designers e empresas.",
-      "keywords": "Créditos SVGR, créditos de download SVG, compre créditos vetoriais, créditos de download PDF"
+      "keywords": ["C", "r", "é", "d"]
     },
     "privacy": {
       "title": "Política de Privacidade",

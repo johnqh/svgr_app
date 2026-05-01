@@ -75,10 +75,7 @@ export default function TermsPage() {
 
   return (
     <>
-      <SEOHead
-        title={t('seo.terms.title')}
-        description={t('seo.terms.description')}
-      />
+      <SEOHead title={t('seo.terms.title')} description={t('seo.terms.description')} />
       <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>
   );

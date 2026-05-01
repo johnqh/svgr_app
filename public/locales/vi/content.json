@@ -210,44 +210,44 @@
     "home": {
       "title": "Trình chuyển đổi hình ảnh sang SVG - PNG, JPG, WEBP sang vector",
       "description": "Chuyển đổi hình ảnh raster thành đồ họa vector có thể mở rộng trực tuyến. Tải lên PNG, JPG hoặc WEBP và nhận đầu ra SVG sạch sẽ ngay lập tức. Xem trước miễn phí, lý tưởng cho logo được tạo bởi AI.",
-      "keywords": "chuyển đổi hình ảnh sang SVG, chuyển đổi PNG sang SVG, chuyển đổi JPG sang SVG, chuyển đổi WEBP sang SVG, chuyển đổi từ raster sang vector, công cụ chuyển đổi SVG trực tuyến, chuyển đổi hình ảnh sang vector"
+      "keywords": ["c", "h", "u", "y", "ể", "n", "chuyển đổi hình ảnh thành vector"]
     },
     "useCases": {
       "title": "Chuyển đổi biểu tượng AI thành SVG - Các trường hợp sử dụng",
       "description": "Xem cách SVGR chuyển đổi các biểu tượng do AI tạo ra và các hình ảnh raster cũ thành các tệp SVG vector có thể mở rộng. Hoạt động tốt với Looka, Brandmark và nhiều công cụ khác.",
-      "keywords": "logo AI thành vector, chuyển đổi logo thành SVG, chuyển logo thành vector, chuyển ảnh raster thành vector, chuyển ảnh cũ thành SVG"
+      "keywords": ["l", "o", "g", "o", "hình ảnh cũ sang SVG"]
     },
     "tutorials": {
       "index": {
         "title": "Hướng dẫn chuyển đổi SVG - Sách hướng dẫn từng bước",
         "description": "Học cách chuyển đổi biểu tượng AI, poster AI, mã QR và ảnh sang SVG với các hướng dẫn từng bước. Cài đặt tối ưu cho từng trường hợp sử dụng.",
-        "keywords": "Hướng dẫn chuyển đổi SVG, hướng dẫn chuyển ảnh thành SVG, chuyển logo thành SVG, mã QR thành SVG, ảnh thành SVG"
+        "keywords": ["H", "ư", "ớ", "n", "g"]
       },
       "ai-logos-to-svg": {
         "title": "Chuyển đổi biểu tượng AI thành SVG - Hướng dẫn từng bước",
         "description": "Học cách chuyển đổi biểu tượng do AI tạo từ PNG/JPG sang SVG có thể mở rộng. Hướng dẫn từng bước với các cài đặt được khuyến nghị cho Looka, Brandmark và các công cụ tạo biểu tượng AI khác.",
-        "keywords": "chuyển đổi biểu tượng AI thành SVG, chuyển biểu tượng AI thành vector, công cụ tạo biểu tượng AI dạng SVG, chuyển biểu tượng Looka thành vector, chuyển biểu tượng PNG thành SVG"
+        "keywords": ["c", "h", "u", "y", "ể"]
       },
       "ai-posters-to-svg": {
         "title": "Chuyển đổi ảnh bìa AI thành SVG - Hướng dẫn từng bước",
         "description": "Học cách chuyển đổi bản đồ do AI tạo thành SVG có thể mở rộng để in kích thước lớn. Hướng dẫn từng bước với các cài đặt chất lượng được khuyến nghị.",
-        "keywords": "chuyển đổi bản đồ AI sang SVG, chuyển bản đồ sang vector, Midjourney sang SVG, bản đồ DALL-E sang vector, SVG in cỡ lớn"
+        "keywords": ["c", "h", "u", "y", "ể"]
       },
       "qr-code-to-svg": {
         "title": "Chuyển đổi mã QR thành SVG - Hướng dẫn từng bước",
         "description": "Học cách chuyển mã QR raster thành SVG có thể phóng to để in ấn chất lượng cao. Hướng dẫn từng bước cho mã QR có đồ họa tùy chỉnh.",
-        "keywords": "Mã QR sang SVG, chuyển mã QR thành vector, mã QR có thể thay đổi kích thước, mã QR cho in ấn, mã QR vector"
+        "keywords": ["M", "ã", "mã QR có thể mở rộng", "Q", "R"]
       },
       "photo-to-svg": {
         "title": "Chuyển đổi ảnh thành SVG - Hướng dẫn từng bước",
         "description": "Học cách chuyển đổi ảnh thành nghệ thuật vector SVG phong cách. Hướng dẫn từng bước để tạo bản vẽ vector trừu tượng từ ảnh chụp.",
-        "keywords": "chuyển ảnh thành SVG, chuyển đổi ảnh thành vector, nghệ thuật vector ảnh, nghệ thuật ảnh thành SVG, vector hóa ảnh chụp"
+        "keywords": ["c", "h", "u", "y", "ể"]
       }
     },
     "credits": {
       "title": "Mua tín dụng tải xuống SVG",
       "description": "Mua tín chỉ để tải xuống các tệp SVG và PDF đã chuyển đổi từ SVGR. Gói tín chỉ giá cả phải chăng cho các nhà thiết kế và doanh nghiệp.",
-      "keywords": "SVGR tín dụng, tín dụng tải SVG, mua tín dụng vector, tín dụng tải PDF"
+      "keywords": ["S", "V", "G", "R"]
     },
     "privacy": {
       "title": "Chính sách bảo mật",

@@ -1,0 +1,42 @@
+{
+  "webApp": {
+    "description": "Converti immagini raster (PNG, JPG, WEBP) in grafica vettoriale scalabile (SVG). Ideale per loghi e design generati con IA.",
+    "features": [
+      "Conversione da PNG a SVG",
+      "Conversione da JPG a SVG",
+      "Conversione da WEBP a SVG",
+      "Impostazioni di qualità regolabili",
+      "Supporto sfondo trasparente",
+      "Riconoscimento del testo (OCR)",
+      "Ottimizzazione dell'unione dei percorsi",
+      "Esporta PDF",
+      "Anteprima gratuita prima del download"
+    ]
+  },
+  "home": {
+    "name": "Come convertire immagini in SVG con SVGR",
+    "description": "Converti immagini raster come PNG, JPG e WEBP in grafica vettoriale scalabile utilizzando SVGR.",
+    "steps": [
+      {
+        "name": "Carica la tua immagine",
+        "text": "Trascina e rilascia o seleziona un'immagine PNG, JPG o WEBP da caricare."
+      },
+      {
+        "name": "Modifica impostazioni",
+        "text": "Imposta il livello di qualità, il tipo di immagine e attiva/disattiva lo sfondo trasparente o il riconoscimento del testo secondo necessità."
+      },
+      {
+        "name": "Converti in SVG",
+        "text": "Fai clic sul pulsante Converti per elaborare la tua immagine. La conversione è gratuita e non richiede alcun account."
+      },
+      {
+        "name": "Anteprima del risultato",
+        "text": "Controlla l'output SVG nel pannello anteprima. Modifica la qualità e converti nuovamente se necessario."
+      },
+      {
+        "name": "Scarica",
+        "text": "Scarica il file SVG o PDF. I download costano 1 credito ciascuno."
+      }
+    ]
+  }
+}

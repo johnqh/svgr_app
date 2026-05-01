@@ -1,80 +1,80 @@
 - generic [ref=e3]:
-  - banner [ref=e4]:
-    - banner "Main navigation" [ref=e5]:
-      - link "Skip to main content" [ref=e6] [cursor=pointer]:
-        - /url: "#main-content"
-      - generic [ref=e7]:
-        - generic [ref=e8]:
-          - button "Go to Logo" [ref=e9] [cursor=pointer]:
-            - generic [ref=e10]:
-              - img "SVGR" [ref=e11]
-              - generic [ref=e12]: SVGR
-          - navigation "Main navigation" [ref=e13]:
-            - link "使用场景" [ref=e14] [cursor=pointer]:
-              - /url: /zh/use-cases
-              - img [ref=e15]
-              - text: 使用场景
-            - link "教程" [ref=e17] [cursor=pointer]:
-              - /url: /zh/tutorials
-              - img [ref=e18]
-              - text: 教程
-        - generic [ref=e21]:
-          - button "Select language" [ref=e23] [cursor=pointer]:
-            - generic [ref=e24]: 🇨🇳
-            - generic [ref=e25]: 简体中文
-            - img [ref=e26]
-          - button "登录" [ref=e29] [cursor=pointer]
-  - main [ref=e30]:
-    - generic [ref=e35]:
-      - complementary [ref=e36]:
-        - heading "教程" [level=2] [ref=e37]
-        - generic [ref=e39]:
-          - generic [ref=e42] [cursor=pointer]:
-            - generic [ref=e43]: 将AI徽标转换为SVG
-            - generic [ref=e44]: 将AI生成的徽标矢量化以实现可扩展使用
-          - generic [ref=e47] [cursor=pointer]:
-            - generic [ref=e48]: 将AI海报转换为SVG
-            - generic [ref=e49]: 将AI生成的海报进行矢量化以用于大幅面打印
-          - generic [ref=e52] [cursor=pointer]:
-            - generic [ref=e53]: 将二维码转换为SVG
-            - generic [ref=e54]: 将二维码矢量化以实现清晰的大尺寸打印
-          - generic [ref=e57] [cursor=pointer]:
-            - generic [ref=e58]: 将照片转换为SVG
-            - generic [ref=e59]: 将照片转换为抽象矢量艺术
-      - generic [ref=e62]:
-        - heading "将AI徽标转换为SVG" [level=1] [ref=e95]
-        - generic [ref=e64]:
-          - paragraph [ref=e65]: 所有AI徽标生成器——Looka、Brandmark、Hatchful、Logo.com以及其他——输出光栅图像（PNG或JPG）。当将光栅徽标放大用于横幅、商品或印刷时，其质量会下降。它们在高DPI屏幕上看起来模糊，并且无法在Illustrator或Figma等矢量设计工具中干净地编辑。要专业地使用AI生成的徽标，您需要一个可缩放的矢量（SVG）版本。
-          - generic [ref=e66]:
-            - heading "如何转换" [level=2] [ref=e67]
-            - list [ref=e68]:
-              - listitem [ref=e69]: 上传您的AI生成的徽标图像（PNG、JPG或WEBP）。
-              - listitem [ref=e70]: 将图像类型设置为设计。这会告诉SVGR保留标志艺术中常见的硬边和纯色区域。
-              - listitem [ref=e71]: 将质量等级设为5。这可以在不使SVG路径过于复杂的情况下捕捉精细细节。您可以根据logo的复杂程度向上或向下调整。
-              - listitem [ref=e72]: 点击转换并预览结果。
-              - listitem [ref=e73]: 下载SVG。每次下载消耗1个积分。
-          - generic [ref=e74]:
-            - heading "提示" [level=2] [ref=e75]
-            - list [ref=e76]:
-              - listitem [ref=e77]: 使用带有透明或实心背景的徽标图像，以获得最佳效果。
-              - listitem [ref=e78]: 如果结果看起来过于简化，请提高质量等级。如果看起来过于复杂，请降低它。
-              - listitem [ref=e79]: SVG 输出是设计师在 Illustrator 或 Figma 中进行微调的绝佳起点——即使它不是像素级精确的。
-          - generic [ref=e80]:
-            - heading "准备好了吗？" [level=2] [ref=e81]
-            - paragraph [ref=e82]: 上传您的图片，几秒钟内即可转换为SVG。
-            - button "开始转换" [ref=e83] [cursor=pointer]
-  - contentinfo [ref=e84]:
-    - contentinfo [ref=e85]:
-      - generic [ref=e87]:
-        - generic [ref=e89]:
-          - text: © 2025-2026
-          - link "Sudobility" [ref=e90] [cursor=pointer]:
-            - /url: https://svgr.app
-          - text: . 保留所有权利
-        - generic [ref=e91]:
-          - link "隐私政策" [ref=e92] [cursor=pointer]:
-            - /url: /zh/privacy
-          - link "使用条款" [ref=e93] [cursor=pointer]:
-            - /url: /zh/terms
-          - link "网站地图" [ref=e94] [cursor=pointer]:
-            - /url: /zh/sitemap
+    - banner [ref=e4]:
+        - banner "Main navigation" [ref=e5]:
+            - link "Skip to main content" [ref=e6] [cursor=pointer]:
+                - /url: '#main-content'
+            - generic [ref=e7]:
+                - generic [ref=e8]:
+                    - button "Go to Logo" [ref=e9] [cursor=pointer]:
+                        - generic [ref=e10]:
+                            - img "SVGR" [ref=e11]
+                            - generic [ref=e12]: SVGR
+                    - navigation "Main navigation" [ref=e13]:
+                        - link "使用场景" [ref=e14] [cursor=pointer]:
+                            - /url: /zh/use-cases
+                            - img [ref=e15]
+                            - text: 使用场景
+                        - link "教程" [ref=e17] [cursor=pointer]:
+                            - /url: /zh/tutorials
+                            - img [ref=e18]
+                            - text: 教程
+                - generic [ref=e21]:
+                    - button "Select language" [ref=e23] [cursor=pointer]:
+                        - generic [ref=e24]: 🇨🇳
+                        - generic [ref=e25]: 简体中文
+                        - img [ref=e26]
+                    - button "登录" [ref=e29] [cursor=pointer]
+    - main [ref=e30]:
+        - generic [ref=e35]:
+            - complementary [ref=e36]:
+                - heading "教程" [level=2] [ref=e37]
+                - generic [ref=e39]:
+                    - generic [ref=e42] [cursor=pointer]:
+                        - generic [ref=e43]: 将AI徽标转换为SVG
+                        - generic [ref=e44]: 将AI生成的徽标矢量化以实现可扩展使用
+                    - generic [ref=e47] [cursor=pointer]:
+                        - generic [ref=e48]: 将AI海报转换为SVG
+                        - generic [ref=e49]: 将AI生成的海报进行矢量化以用于大幅面打印
+                    - generic [ref=e52] [cursor=pointer]:
+                        - generic [ref=e53]: 将二维码转换为SVG
+                        - generic [ref=e54]: 将二维码矢量化以实现清晰的大尺寸打印
+                    - generic [ref=e57] [cursor=pointer]:
+                        - generic [ref=e58]: 将照片转换为SVG
+                        - generic [ref=e59]: 将照片转换为抽象矢量艺术
+            - generic [ref=e62]:
+                - heading "将AI徽标转换为SVG" [level=1] [ref=e95]
+                - generic [ref=e64]:
+                    - paragraph [ref=e65]: 所有AI徽标生成器——Looka、Brandmark、Hatchful、Logo.com以及其他——输出光栅图像（PNG或JPG）。当将光栅徽标放大用于横幅、商品或印刷时，其质量会下降。它们在高DPI屏幕上看起来模糊，并且无法在Illustrator或Figma等矢量设计工具中干净地编辑。要专业地使用AI生成的徽标，您需要一个可缩放的矢量（SVG）版本。
+                    - generic [ref=e66]:
+                        - heading "如何转换" [level=2] [ref=e67]
+                        - list [ref=e68]:
+                            - listitem [ref=e69]: 上传您的AI生成的徽标图像（PNG、JPG或WEBP）。
+                            - listitem [ref=e70]: 将图像类型设置为设计。这会告诉SVGR保留标志艺术中常见的硬边和纯色区域。
+                            - listitem [ref=e71]: 将质量等级设为5。这可以在不使SVG路径过于复杂的情况下捕捉精细细节。您可以根据logo的复杂程度向上或向下调整。
+                            - listitem [ref=e72]: 点击转换并预览结果。
+                            - listitem [ref=e73]: 下载SVG。每次下载消耗1个积分。
+                    - generic [ref=e74]:
+                        - heading "提示" [level=2] [ref=e75]
+                        - list [ref=e76]:
+                            - listitem [ref=e77]: 使用带有透明或实心背景的徽标图像，以获得最佳效果。
+                            - listitem [ref=e78]: 如果结果看起来过于简化，请提高质量等级。如果看起来过于复杂，请降低它。
+                            - listitem [ref=e79]: SVG 输出是设计师在 Illustrator 或 Figma 中进行微调的绝佳起点——即使它不是像素级精确的。
+                    - generic [ref=e80]:
+                        - heading "准备好了吗？" [level=2] [ref=e81]
+                        - paragraph [ref=e82]: 上传您的图片，几秒钟内即可转换为SVG。
+                        - button "开始转换" [ref=e83] [cursor=pointer]
+    - contentinfo [ref=e84]:
+        - contentinfo [ref=e85]:
+            - generic [ref=e87]:
+                - generic [ref=e89]:
+                    - text: © 2025-2026
+                    - link "Sudobility" [ref=e90] [cursor=pointer]:
+                        - /url: https://svgr.app
+                    - text: . 保留所有权利
+                - generic [ref=e91]:
+                    - link "隐私政策" [ref=e92] [cursor=pointer]:
+                        - /url: /zh/privacy
+                    - link "使用条款" [ref=e93] [cursor=pointer]:
+                        - /url: /zh/terms
+                    - link "网站地图" [ref=e94] [cursor=pointer]:
+                        - /url: /zh/sitemap

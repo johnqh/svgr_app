@@ -80,10 +80,7 @@ export default function PrivacyPage() {
 
   return (
     <>
-      <SEOHead
-        title={t('seo.privacy.title')}
-        description={t('seo.privacy.description')}
-      />
+      <SEOHead title={t('seo.privacy.title')} description={t('seo.privacy.description')} />
       <AppTextPage text={text} lastUpdatedDate={LAST_UPDATED_DATE} />
     </>
   );

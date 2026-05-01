@@ -132,10 +132,7 @@ export default function SitemapPage() {
 
   return (
     <>
-      <SEOHead
-        title={t('seo.sitemap.title')}
-        description={t('seo.sitemap.description')}
-      />
+      <SEOHead title={t('seo.sitemap.title')} description={t('seo.sitemap.description')} />
       <AppSitemapPage
         text={text}
         sections={sections}

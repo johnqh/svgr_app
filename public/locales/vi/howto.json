@@ -1,0 +1,42 @@
+{
+  "webApp": {
+    "description": "Chuyển đổi hình ảnh raster (PNG, JPG, WEBP) thành đồ họa vector có thể mở rộng (SVG). Lý tưởng cho logo và thiết kế được tạo bởi AI.",
+    "features": [
+      "Chuyển đổi PNG sang SVG",
+      "Chuyển đổi JPG sang SVG",
+      "Chuyển đổi WEBP sang SVG",
+      "Cài đặt chất lượng điều chỉnh được",
+      "Hỗ trợ nền trong suốt",
+      "Nhận dạng văn bản (OCR)",
+      "Tối ưu hóa hợp nhất đường đi",
+      "Xuất PDF",
+      "Xem trước miễn phí trước khi tải xuống"
+    ]
+  },
+  "home": {
+    "name": "Làm thế nào để chuyển đổi hình ảnh thành SVG bằng SVGR",
+    "description": "Chuyển đổi hình ảnh raster như PNG, JPG và WEBP thành đồ họa vector có thể mở rộng bằng SVGR.",
+    "steps": [
+      {
+        "name": "Tải ảnh của bạn lên",
+        "text": "Kéo và thả hoặc chọn một hình ảnh PNG, JPG hoặc WEBP để tải lên."
+      },
+      {
+        "name": "Điều chỉnh cài đặt",
+        "text": "Thiết lập mức chất lượng, loại hình ảnh và bật/tắt nền trong suốt hoặc nhận dạng văn bản khi cần."
+      },
+      {
+        "name": "Chuyển đổi sang SVG",
+        "text": "Nhấn nút Chuyển đổi để xử lý hình ảnh của bạn. Việc chuyển đổi là miễn phí và không yêu cầu tài khoản."
+      },
+      {
+        "name": "Xem trước kết quả",
+        "text": "Xem xét đầu ra SVG trong bảng xem trước. Điều chỉnh chất lượng và chuyển đổi lại nếu cần."
+      },
+      {
+        "name": "Tải xuống",
+        "text": "Tải tệp SVG hoặc PDF. Mỗi lần tải tệp tốn 1 tín chỉ."
+      }
+    ]
+  }
+}

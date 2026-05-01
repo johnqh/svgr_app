@@ -210,44 +210,44 @@
     "home": {
       "title": "Convertisseur d'image en SVG - PNG, JPG, WEBP vers vectoriel",
       "description": "Transformez les images raster en graphiques vectoriels évolutifs en ligne. Téléchargez des fichiers PNG, JPG ou WEBP et obtenez une sortie SVG propre instantanément. Aperçu gratuit, idéal pour les logos générés par IA.",
-      "keywords": "convertisseur d'image en SVG, PNG vers SVG, JPG vers SVG, WEBP vers SVG, raster vers vectoriel, convertisseur SVG en ligne, vectorisation d'image"
+      "keywords": ["c", "o", "n", "v", "e", "r", "t"]
     },
     "useCases": {
       "title": "Convertir les logos d'IA en SVG - Cas d'utilisation",
       "description": "Voyez comment SVGR convertit les logos générés par IA et les images rasters héritées en fichiers vectoriels SVG évolutifs. Fonctionne avec Looka, Brandmark et bien d'autres.",
-      "keywords": "logo IA en vectoriel, convertir logo en SVG, vectoriser logo IA, image raster en vector, image héritée en SVG"
+      "keywords": ["l", "o", "g", "o", "image héritée vers SVG"]
     },
     "tutorials": {
       "index": {
         "title": "Tutoriels de conversion SVG - Guides pas à pas",
         "description": "Découvrez comment convertir des logos IA, des affiches IA, des codes QR et des photos en SVG avec des tutoriels pas à pas. Paramètres optimisés pour chaque cas d'utilisation.",
-        "keywords": "tutoriel de conversion SVG, guide image vers SVG, convertir logo en SVG, code QR en SVG, photo en SVG"
+        "keywords": ["t", "u", "t", "o", "r"]
       },
       "ai-logos-to-svg": {
         "title": "Transformez les logos d'IA en SVG - Tutoriel pas à pas",
         "description": "Découvrez comment convertir des logos générés par IA à partir de PNG/JPG en SVG vectoriel. Guide pas à pas avec les paramètres recommandés pour Looka, Brandmark et d'autres générateurs de logos par IA.",
-        "keywords": "convertir le logo IA en SVG, vectoriser le logo IA, générateur de logo IA en SVG, convertir le logo Looka en vecteur, logo PNG en SVG"
+        "keywords": ["c", "o", "n", "v", "e"]
       },
       "ai-posters-to-svg": {
         "title": "Transformez les affiches d'IA en SVG - Tutoriel pas à pas",
         "description": "Apprenez à convertir des affiches générées par IA en SVG évolutifs pour impression grand format. Guide pas à pas avec les paramètres de qualité recommandés.",
-        "keywords": "convertir le poster IA en SVG, vectoriser le poster, Midjourney en SVG, poster DALL-E en vector, SVG pour impression grand format"
+        "keywords": ["c", "o", "n", "v", "e"]
       },
       "qr-code-to-svg": {
         "title": "Convertir le code QR en SVG - Tutoriel pas à pas",
         "description": "Apprenez à convertir les codes QR raster en SVG vectorielles pour une impression nette en grand format. Guide pas à pas pour les codes QR avec graphismes personnalisés.",
-        "keywords": "code QR vers SVG, vectoriser le code QR, code QR scalable, code QR pour impression, code QR vectoriel"
+        "keywords": ["c", "o", "d", "e", "code QR vectoriel"]
       },
       "photo-to-svg": {
         "title": "Convertir une photo en SVG - Tutoriel pas à pas",
         "description": "Apprenez à convertir des photos en illustrations vectorielles SVG stylisées. Guide étape par étape pour créer des illustrations vectorielles abstraites à partir de photos.",
-        "keywords": "photo en SVG, convertir photo en vector, art photo vector, image en art SVG vector, vectoriser photographie"
+        "keywords": ["p", "h", "o", "t", "o"]
       }
     },
     "credits": {
       "title": "Acheter des crédits de téléchargement SVG",
       "description": "Achetez des crédits pour télécharger vos fichiers SVG et PDF convertis depuis SVGR. Des forfaits de crédits abordables pour les designers et les entreprises.",
-      "keywords": "Crédits SVGR, crédits de téléchargement SVG, crédits d'achat vectoriels, crédits de téléchargement PDF"
+      "keywords": ["C", "r", "é", "d"]
     },
     "privacy": {
       "title": "Politique de confidentialité",
