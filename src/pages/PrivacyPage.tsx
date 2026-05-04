@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 import { AppTextPage } from '@sudobility/building_blocks';
 import type { TextPageContent } from '@sudobility/building_blocks';
 import { trackPageView } from '../analytics';
-import SEOHead from '../components/SEOHead';
+import { SEOHead } from '@sudobility/seo_lib';
 import { LAST_UPDATED_DATE, PRIVACY_EMAIL, COMPANY_URL } from '../config/constants';
 
 export default function PrivacyPage() {

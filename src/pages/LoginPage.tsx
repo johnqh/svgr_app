@@ -18,7 +18,7 @@ import {
 import { LoginPage as LoginPageComponent } from '@sudobility/building_blocks';
 import { variants, ui } from '@sudobility/design';
 import { trackButtonClick, trackError, trackPageView } from '../analytics';
-import SEOHead from '../components/SEOHead';
+import { SEOHead } from '@sudobility/seo_lib';
 import { APP_NAME } from '../config/constants';
 
 function LoginPage() {

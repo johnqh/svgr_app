@@ -18,7 +18,7 @@ import { CreditStorePage } from '@sudobility/consumables_pages';
 import { useAuthStatus } from '@sudobility/auth-components';
 import { CONSUMABLES_OFFERING_ID } from '../config/consumables';
 import { trackButtonClick, trackError, trackPageView } from '../analytics';
-import SEOHead from '../components/SEOHead';
+import { SEOHead } from '@sudobility/seo_lib';
 
 export default function CreditsPage() {
   const { t } = useTranslation();

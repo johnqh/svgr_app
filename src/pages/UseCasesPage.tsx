@@ -15,7 +15,7 @@ import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { buttonVariant, ui } from '@sudobility/design';
 import { trackButtonClick, trackPageView } from '../analytics';
-import SEOHead from '../components/SEOHead';
+import { SEOHead } from '@sudobility/seo_lib';
 
 /** Keys for AI logo designer entries used to generate the designer grid from i18n. */
 const AI_DESIGNER_KEYS = [

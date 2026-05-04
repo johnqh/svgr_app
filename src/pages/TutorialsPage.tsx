@@ -12,7 +12,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { MasterDetailLayout, MasterListItem } from '@sudobility/components/layout';
 import { ui, buttonVariant } from '@sudobility/design';
 import { trackButtonClick, trackPageView } from '../analytics';
-import SEOHead from '../components/SEOHead';
+import { SEOHead } from '@sudobility/seo_lib';
 import { useSetPageConfig } from '../hooks/usePageConfig';
 
 /** Tutorial slug identifiers — order defines master list order. */

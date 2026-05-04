@@ -25,8 +25,7 @@ import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick, trackEvent, trackError, trackPageView } from '../analytics';
-import SEOHead from '../components/SEOHead';
-import { buildHowToSchema } from '../components/buildHowToSchema';
+import { SEOHead, buildHowToSchema } from '@sudobility/seo_lib';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
@@ -129,13 +128,17 @@ export default function ConvertPage() {
 
   const seoTitle = tContent('seo.home.title');
   const seoDescription = tContent('seo.home.description');
-  const seoKeywords = tContent('seo.home.keywords', { returnObjects: true }) as string[];
+  const rawKeywords = tContent('seo.home.keywords', { returnObjects: true });
+  const seoKeywords = Array.isArray(rawKeywords) ? rawKeywords : undefined;
 
-  const howToSchema = buildHowToSchema(
-    tHowTo('home.name'),
-    tHowTo('home.description'),
-    tHowTo('home.steps', { returnObjects: true }) as { name: string; text: string }[]
-  );
+  const rawSteps = tHowTo('home.steps', { returnObjects: true });
+  const howToSchema = Array.isArray(rawSteps)
+    ? buildHowToSchema(
+        tHowTo('home.name'),
+        tHowTo('home.description'),
+        rawSteps as { name: string; text: string }[]
+      )
+    : undefined;
 
   return (
     <main className="flex-1 flex flex-col">

@@ -17,7 +17,7 @@ import type {
   LanguageOption,
   LinkComponentProps,
 } from '@sudobility/building_blocks';
-import SEOHead from '../components/SEOHead';
+import { SEOHead } from '@sudobility/seo_lib';
 
 /** Flag emoji for each language code. */
 const LANGUAGE_FLAGS: Record<string, string> = {

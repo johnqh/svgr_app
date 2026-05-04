@@ -28,6 +28,8 @@ import { trackButtonClick } from './analytics';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { LightBulbIcon, BookOpenIcon } from './components/icons';
+import { SEOHeadProvider } from '@sudobility/seo_lib';
+import { seoHeadConfig } from './config/seo';
 import { PageConfigProvider } from './context/PageConfigProvider';
 import { usePageConfig } from './hooks/usePageConfig';
 import ConvertPage from './pages/ConvertPage';
@@ -245,7 +247,9 @@ function App() {
         baseUrl={API_URL}
         AuthProviderWrapper={AuthProviderWrapper}
       >
-        <AppRoutes />
+        <SEOHeadProvider config={seoHeadConfig}>
+          <AppRoutes />
+        </SEOHeadProvider>
       </SudobilityAppWithFirebaseAuth>
     </QueryClientProvider>
   );
