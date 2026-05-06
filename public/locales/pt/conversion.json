@@ -19,5 +19,6 @@
   "convertedSvg": "SVG convertido",
   "svgPlaceholder": "O SVG convertido aparecerá aqui",
   "clear": "Limpar",
-  "loginForFree": "Faça login para converter gratuitamente sem marca d'água"
+  "loginForFree": "Faça login para converter gratuitamente sem marca d'água",
+  "selectFromAlbum": "Selecione uma imagem da sua galeria de fotos"
 }

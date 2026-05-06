@@ -19,5 +19,6 @@
   "convertedSvg": "Konverterad SVG",
   "svgPlaceholder": "Konverterad SVG visas här",
   "clear": "Rensa",
-  "loginForFree": "Logga in för att konvertera gratis utan vattenstämpel"
+  "loginForFree": "Logga in för att konvertera gratis utan vattenstämpel",
+  "selectFromAlbum": "Välj en bild från din bildgalleri"
 }

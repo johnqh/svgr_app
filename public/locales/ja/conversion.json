@@ -19,5 +19,6 @@
   "convertedSvg": "変換された SVG",
   "svgPlaceholder": "変換された SVG がここに表示されます",
   "clear": "クリア",
-  "loginForFree": "ログインすると透かしなしで無料変換できます"
+  "loginForFree": "ログインすると透かしなしで無料変換できます",
+  "selectFromAlbum": "フォトアルバムから画像を選択してください"
 }

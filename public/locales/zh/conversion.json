@@ -19,5 +19,6 @@
   "convertedSvg": "转换后的 SVG",
   "svgPlaceholder": "转换后的 SVG 将显示在此处",
   "clear": "清除",
-  "loginForFree": "登录即可免费转换，无水印"
+  "loginForFree": "登录即可免费转换，无水印",
+  "selectFromAlbum": "从您的相册中选择一张图片"
 }

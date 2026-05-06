@@ -19,5 +19,6 @@
   "convertedSvg": "SVG convertito",
   "svgPlaceholder": "Il SVG convertito apparirà qui",
   "clear": "Cancella",
-  "loginForFree": "Accedi per convertire gratuitamente senza filigrana"
+  "loginForFree": "Accedi per convertire gratuitamente senza filigrana",
+  "selectFromAlbum": "Seleziona un'immagine dal tuo album fotografico"
 }
