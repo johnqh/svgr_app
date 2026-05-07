@@ -18,13 +18,10 @@ import {
   type FooterConfig,
   type FooterLinkSection,
 } from '@sudobility/building_blocks';
-import type { MenuItemConfig, AuthActionProps } from '@sudobility/building_blocks';
-import { AuthAction } from '@sudobility/auth-components';
+import type { MenuItemConfig } from '@sudobility/building_blocks';
 import { CreditBalanceBadge } from '@sudobility/consumables_pages';
 import { useBalance } from '@sudobility/consumables_client';
-import type { ComponentType } from 'react';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
-import { trackButtonClick } from './analytics';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { LightBulbIcon, BookOpenIcon } from './components/icons';
@@ -160,7 +157,7 @@ function LangLayoutInner() {
       };
 
   const topBarConfig: TopBarConfig = {
-    variant: 'firebase',
+    variant: 'base',
     logo: {
       src: '/logo.svg',
       appName: APP_NAME,
@@ -169,7 +166,6 @@ function LangLayoutInner() {
     menuItems,
     currentLanguage: currentLang,
     onLanguageChange: handleLanguageChange,
-    AuthActionComponent: AuthAction as ComponentType<AuthActionProps>,
     renderCenterSection: () => (
       <CreditBalanceBadge
         balance={balance}
@@ -177,10 +173,6 @@ function LangLayoutInner() {
         onClick={() => navigate(`/${currentLang}/credits`)}
       />
     ),
-    onLoginClick: () => {
-      trackButtonClick('topbar_login');
-      navigate(`/${currentLang}/login`);
-    },
     sticky: true,
   };
 
