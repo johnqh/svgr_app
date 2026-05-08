@@ -13,7 +13,7 @@
  *   to avoid blocking the user during the initial balance fetch.
  */
 
-import { useCallback, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ui } from '@sudobility/design';
@@ -42,6 +42,29 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
   const { lang } = useParams<{ lang: string }>();
   const { balance } = useBalance();
   const [insufficientCredits, setInsufficientCredits] = useState(false);
+  const [errorUrl, setErrorUrl] = useState<string | null>(null);
+
+  const { previewUrl, previewError } = useMemo(() => {
+    if (!svg) return { previewUrl: null, previewError: null };
+    try {
+      const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
+      return { previewUrl: url, previewError: null };
+    } catch (error) {
+      trackError(
+        error instanceof Error ? error.message : 'SVG preview generation failed',
+        'svg_preview_error'
+      );
+      return { previewUrl: null, previewError: 'preview_generation_failed' as const };
+    }
+  }, [svg]);
+
+  const renderError = errorUrl != null && errorUrl === previewUrl;
+
+  useEffect(() => {
+    return () => {
+      if (previewUrl) URL.revokeObjectURL(previewUrl);
+    };
+  }, [previewUrl]);
 
   /**
    * Records a credit usage for a download. Returns true if the download
@@ -134,10 +157,6 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
     }
   }, [svg, filename, checkBalance, consumeCredit]);
 
-  const svgDataUri = svg
-    ? `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svg)))}`
-    : null;
-
   const fileSizeKB = svg ? getSvgFileSizeKB(svg) : null;
 
   return (
@@ -145,14 +164,18 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
       <h3 className={`${ui.text.uppercase} mb-3`}>{t('convertedSvg')}</h3>
 
       {/* SVG area -- fixed 4:3 aspect ratio, matches ImageUploadPanel */}
-      {svgDataUri ? (
+      {previewUrl && !renderError ? (
         <div
           className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}
         >
           <img
-            src={svgDataUri}
+            src={previewUrl}
             alt={t('convertedSvg')}
             className="max-w-full max-h-full object-contain"
+            onError={() => {
+              setErrorUrl(previewUrl);
+              trackError('SVG preview image failed to render', 'svg_preview_render_error');
+            }}
           />
           {/* Info badge overlay */}
           <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
@@ -165,7 +188,9 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
         <div
           className={`aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border-2 border-dashed ${ui.border.default}`}
         >
-          <p className={ui.text.caption}>{t('svgPlaceholder')}</p>
+          <p className={ui.text.caption}>
+            {previewError || renderError ? t('svgPlaceholder') : t('svgPlaceholder')}
+          </p>
         </div>
       )}
 
