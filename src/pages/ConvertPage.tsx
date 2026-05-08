@@ -13,8 +13,21 @@
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import { AppLinks } from '@sudobility/components';
-import { useImageConverter, scaleImageWeb, QUALITY_MIN, QUALITY_MAX } from '@sudobility/svgr_lib';
+import {
+  AppLinks,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@sudobility/components';
+import {
+  useImageConverter,
+  scaleImageWeb,
+  QUALITY_MIN,
+  QUALITY_MAX,
+  IMAGE_TYPES,
+} from '@sudobility/svgr_lib';
 import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
@@ -24,7 +37,17 @@ import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
 
-const SELECTABLE_IMAGE_TYPES: ImageType[] = ['auto', 'photo', 'design'];
+function getImageTypeLabel(
+  t: (key: string, options?: Record<string, unknown>) => string,
+  type: ImageType
+) {
+  const key = `imageType${type.charAt(0).toUpperCase()}${type.slice(1)}`;
+  const fallback = type
+    .split('_')
+    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ');
+  return t(key, { defaultValue: fallback });
+}
 
 export default function ConvertPage() {
   const { t } = useTranslation('conversion');
@@ -122,9 +145,6 @@ export default function ConvertPage() {
     reader.readAsDataURL(file);
   }, [file, converter]);
 
-  const supportsInputProcessingOptions =
-    converter.imageType === 'auto' || converter.imageType === 'design';
-
   const seoTitle = tContent('seo.home.title');
   const seoDescription = tContent('seo.home.description');
   const rawKeywords = tContent('seo.home.keywords', { returnObjects: true });
@@ -193,53 +213,52 @@ export default function ConvertPage() {
                 {t('inputSettings', { defaultValue: 'Input' })}
               </div>
 
-              <div className="space-y-3">
-                <div className="flex items-center gap-2 flex-wrap">
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                <div className="flex min-w-[260px] flex-1 items-center gap-2">
                   <span className={`${ui.text.label} whitespace-nowrap`}>{t('imageType')}</span>
-                  <div className="flex rounded-md overflow-hidden border border-gray-300 dark:border-gray-600">
-                    {SELECTABLE_IMAGE_TYPES.map(type => (
-                      <button
-                        key={type}
-                        type="button"
-                        onClick={() => converter.setImageType(type)}
-                        className={`px-3 py-1 text-xs font-medium transition-colors ${
-                          converter.imageType === type
-                            ? 'bg-blue-600 text-white'
-                            : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-                        }`}
-                      >
-                        {t(`imageType${type.charAt(0).toUpperCase() + type.slice(1)}`)}
-                      </button>
-                    ))}
-                  </div>
+                  <Select
+                    value={converter.imageType}
+                    onValueChange={value => converter.setImageType(value as ImageType)}
+                  >
+                    <SelectTrigger className="w-full md:max-w-sm">
+                      <SelectValue placeholder={t('imageTypeAuto')} />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {IMAGE_TYPES.map(type => (
+                        <SelectItem key={type} value={type}>
+                          {getImageTypeLabel(t, type as ImageType)}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
                 </div>
 
-                {supportsInputProcessingOptions && (
-                  <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
-                    <label className="flex items-center gap-2 cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked={converter.ocr}
-                        onChange={e => converter.setOcr(e.target.checked)}
-                        className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
-                      />
-                      <span className={`${ui.text.label} whitespace-nowrap`}>
-                        {t('recognizeText')}
-                      </span>
-                    </label>
+                {converter.supportsOcr && (
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={converter.ocr}
+                      onChange={e => converter.setOcr(e.target.checked)}
+                      className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
+                    />
+                    <span className={`${ui.text.label} whitespace-nowrap`}>
+                      {t('recognizeText')}
+                    </span>
+                  </label>
+                )}
 
-                    <label className="flex items-center gap-2 cursor-pointer">
-                      <input
-                        type="checkbox"
-                        checked={converter.transparentBg}
-                        onChange={e => converter.setTransparentBg(e.target.checked)}
-                        className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-                      />
-                      <span className={`${ui.text.label} whitespace-nowrap`}>
-                        {t('transparentBg')}
-                      </span>
-                    </label>
-                  </div>
+                {converter.supportsTransparentBg && (
+                  <label className="flex items-center gap-2 cursor-pointer">
+                    <input
+                      type="checkbox"
+                      checked={converter.transparentBg}
+                      onChange={e => converter.setTransparentBg(e.target.checked)}
+                      className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                    />
+                    <span className={`${ui.text.label} whitespace-nowrap`}>
+                      {t('transparentBg')}
+                    </span>
+                  </label>
                 )}
               </div>
             </section>
@@ -251,8 +270,8 @@ export default function ConvertPage() {
                 {t('outputSettings', { defaultValue: 'Output' })}
               </div>
 
-              <div className="space-y-3">
-                <div className="flex items-center gap-3">
+              <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                <div className="flex min-w-[320px] flex-1 items-center gap-3">
                   <label htmlFor="quality-slider" className={`${ui.text.label} whitespace-nowrap`}>
                     {t('quality')}
                   </label>
