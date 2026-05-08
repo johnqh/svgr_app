@@ -14,13 +14,7 @@
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { AppLinks } from '@sudobility/components';
-import {
-  useImageConverter,
-  scaleImageWeb,
-  QUALITY_MIN,
-  QUALITY_MAX,
-  IMAGE_TYPES,
-} from '@sudobility/svgr_lib';
+import { useImageConverter, scaleImageWeb, QUALITY_MIN, QUALITY_MAX } from '@sudobility/svgr_lib';
 import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
@@ -29,6 +23,8 @@ import { SEOHead, buildHowToSchema } from '@sudobility/seo_lib';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import ConvertButton from '../components/ConvertButton';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
+
+const SELECTABLE_IMAGE_TYPES: ImageType[] = ['auto', 'photo', 'design'];
 
 export default function ConvertPage() {
   const { t } = useTranslation('conversion');
@@ -126,6 +122,9 @@ export default function ConvertPage() {
     reader.readAsDataURL(file);
   }, [file, converter]);
 
+  const supportsInputProcessingOptions =
+    converter.imageType === 'auto' || converter.imageType === 'design';
+
   const seoTitle = tContent('seo.home.title');
   const seoDescription = tContent('seo.home.description');
   const rawKeywords = tContent('seo.home.keywords', { returnObjects: true });
@@ -186,95 +185,123 @@ export default function ConvertPage() {
         className={`mt-auto sticky bottom-0 z-10 border-t ${ui.border.default} ${ui.background.subtle} px-4 py-3`}
       >
         <div className="max-w-6xl mx-auto flex flex-wrap items-center gap-x-6 gap-y-3">
-          {/* Quality slider */}
-          <div className="w-full md:w-auto md:flex-1 flex items-center gap-3">
-            <label htmlFor="quality-slider" className={`${ui.text.label} whitespace-nowrap`}>
-              {t('quality')}
-            </label>
-            <span className={`text-xs ${ui.text.muted}`}>{t('qualityMin')}</span>
-            <input
-              id="quality-slider"
-              type="range"
-              min={QUALITY_MIN}
-              max={QUALITY_MAX}
-              step="any"
-              value={sliderValue ?? converter.quality}
-              onChange={e => setSliderValue(Number(e.target.value))}
-              onMouseUp={e => {
-                converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value)));
-                setSliderValue(null);
-              }}
-              onTouchEnd={e => {
-                converter.setQuality(Math.round(Number((e.target as HTMLInputElement).value)));
-                setSliderValue(null);
-              }}
-              aria-label={t('quality')}
-              aria-valuemin={QUALITY_MIN}
-              aria-valuemax={QUALITY_MAX}
-              aria-valuenow={converter.quality}
-              className="flex-1"
-            />
-            <span className={`text-xs ${ui.text.muted}`}>{t('qualityMax')}</span>
-            <span className={`text-sm ${ui.text.muted} w-12 text-right`}>
-              {Math.round(sliderValue ?? converter.quality)}/{QUALITY_MAX}
-            </span>
+          <div className="w-full grid grid-cols-1 xl:grid-cols-2 gap-4">
+            <section
+              className={`rounded-lg border ${ui.border.default} ${ui.background.surface} p-4 space-y-4`}
+            >
+              <div className={`${ui.text.label}`}>
+                {t('inputSettings', { defaultValue: 'Input' })}
+              </div>
+
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className={`${ui.text.label} whitespace-nowrap`}>{t('imageType')}</span>
+                  <div className="flex rounded-md overflow-hidden border border-gray-300 dark:border-gray-600">
+                    {SELECTABLE_IMAGE_TYPES.map(type => (
+                      <button
+                        key={type}
+                        type="button"
+                        onClick={() => converter.setImageType(type)}
+                        className={`px-3 py-1 text-xs font-medium transition-colors ${
+                          converter.imageType === type
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
+                        }`}
+                      >
+                        {t(`imageType${type.charAt(0).toUpperCase() + type.slice(1)}`)}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {supportsInputProcessingOptions && (
+                  <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+                    <label className="flex items-center gap-2 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={converter.ocr}
+                        onChange={e => converter.setOcr(e.target.checked)}
+                        className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
+                      />
+                      <span className={`${ui.text.label} whitespace-nowrap`}>
+                        {t('recognizeText')}
+                      </span>
+                    </label>
+
+                    <label className="flex items-center gap-2 cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={converter.transparentBg}
+                        onChange={e => converter.setTransparentBg(e.target.checked)}
+                        className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                      />
+                      <span className={`${ui.text.label} whitespace-nowrap`}>
+                        {t('transparentBg')}
+                      </span>
+                    </label>
+                  </div>
+                )}
+              </div>
+            </section>
+
+            <section
+              className={`rounded-lg border ${ui.border.default} ${ui.background.surface} p-4 space-y-4`}
+            >
+              <div className={`${ui.text.label}`}>
+                {t('outputSettings', { defaultValue: 'Output' })}
+              </div>
+
+              <div className="space-y-3">
+                <div className="flex items-center gap-3">
+                  <label htmlFor="quality-slider" className={`${ui.text.label} whitespace-nowrap`}>
+                    {t('quality')}
+                  </label>
+                  <span className={`text-xs ${ui.text.muted}`}>{t('qualityMin')}</span>
+                  <input
+                    id="quality-slider"
+                    type="range"
+                    min={QUALITY_MIN}
+                    max={QUALITY_MAX}
+                    step="any"
+                    value={sliderValue ?? converter.quality}
+                    onChange={e => setSliderValue(Number(e.target.value))}
+                    onMouseUp={e => {
+                      converter.setQuality(
+                        Math.round(Number((e.target as HTMLInputElement).value))
+                      );
+                      setSliderValue(null);
+                    }}
+                    onTouchEnd={e => {
+                      converter.setQuality(
+                        Math.round(Number((e.target as HTMLInputElement).value))
+                      );
+                      setSliderValue(null);
+                    }}
+                    aria-label={t('quality')}
+                    aria-valuemin={QUALITY_MIN}
+                    aria-valuemax={QUALITY_MAX}
+                    aria-valuenow={converter.quality}
+                    className="flex-1"
+                  />
+                  <span className={`text-xs ${ui.text.muted}`}>{t('qualityMax')}</span>
+                  <span className={`text-sm ${ui.text.muted} w-12 text-right`}>
+                    {Math.round(sliderValue ?? converter.quality)}/{QUALITY_MAX}
+                  </span>
+                </div>
+
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={converter.mergePaths}
+                    onChange={e => converter.setMergePaths(e.target.checked)}
+                    className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
+                  />
+                  <span className={`${ui.text.label} whitespace-nowrap`}>{t('mergePaths')}</span>
+                </label>
+              </div>
+            </section>
           </div>
 
-          {/* Transparent background toggle */}
-          <label className="flex items-center gap-2 cursor-pointer">
-            <input
-              type="checkbox"
-              checked={converter.transparentBg}
-              onChange={e => converter.setTransparentBg(e.target.checked)}
-              className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-            />
-            <span className={`${ui.text.label} whitespace-nowrap`}>{t('transparentBg')}</span>
-          </label>
-
-          {/* Recognize text toggle */}
-          <label className="flex items-center gap-2 cursor-pointer">
-            <input
-              type="checkbox"
-              checked={converter.ocr}
-              onChange={e => converter.setOcr(e.target.checked)}
-              className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
-            />
-            <span className={`${ui.text.label} whitespace-nowrap`}>{t('recognizeText')}</span>
-          </label>
-
-          {/* Merge paths toggle */}
-          <label className="flex items-center gap-2 cursor-pointer">
-            <input
-              type="checkbox"
-              checked={converter.mergePaths}
-              onChange={e => converter.setMergePaths(e.target.checked)}
-              className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
-            />
-            <span className={`${ui.text.label} whitespace-nowrap`}>{t('mergePaths')}</span>
-          </label>
-
-          {/* Image type selector */}
-          <div className="flex items-center gap-2">
-            <span className={`${ui.text.label} whitespace-nowrap`}>{t('imageType')}</span>
-            <div className="flex rounded-md overflow-hidden border border-gray-300 dark:border-gray-600">
-              {IMAGE_TYPES.map(type => (
-                <button
-                  key={type}
-                  type="button"
-                  onClick={() => converter.setImageType(type as ImageType)}
-                  className={`px-3 py-1 text-xs font-medium transition-colors ${
-                    converter.imageType === type
-                      ? 'bg-blue-600 text-white'
-                      : 'bg-white dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'
-                  }`}
-                >
-                  {t(`imageType${type.charAt(0).toUpperCase() + type.slice(1)}`)}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Convert button — full width row */}
           <div className="w-full">
             <ConvertButton
               disabled={!file}
