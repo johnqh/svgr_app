@@ -104,6 +104,21 @@ export function BookOpenIcon({ className }: IconProps) {
   );
 }
 
+/** Chevron down icon used for collapsible section toggles. */
+export function ChevronDownIcon({ className }: IconProps) {
+  return (
+    <svg
+      className={className}
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 9l6 6 6-6" />
+    </svg>
+  );
+}
+
 /** Image upload icon displayed in the drop zone placeholder. */
 export function ImageUploadIcon({ className }: IconProps) {
   return (

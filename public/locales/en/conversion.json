@@ -20,5 +20,6 @@
   "svgPlaceholder": "Converted SVG will appear here",
   "clear": "Clear",
   "loginForFree": "Log in to convert for free without watermark",
-  "selectFromAlbum": "Select an image from your photo album"
+  "selectFromAlbum": "Select an image from your photo album",
+  "settings": "Settings"
 }
