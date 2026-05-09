@@ -27,7 +27,7 @@ import {
   notifyBalanceChange,
 } from '@sudobility/consumables_client';
 import { trackButtonClick, trackEvent, trackError } from '../analytics';
-import { DownloadIcon } from './icons';
+import { DownloadIcon, SpinnerIcon } from './icons';
 
 interface SvgPreviewPanelProps {
   /** The converted SVG markup string, or null if no conversion has been done. */
@@ -43,6 +43,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
   const { balance } = useBalance();
   const [insufficientCredits, setInsufficientCredits] = useState(false);
   const [errorUrl, setErrorUrl] = useState<string | null>(null);
+  const [loadedUrl, setLoadedUrl] = useState<string | null>(null);
 
   const { previewUrl, previewError } = useMemo(() => {
     if (!svg) return { previewUrl: null, previewError: null };
@@ -59,6 +60,7 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
   }, [svg]);
 
   const renderError = errorUrl != null && errorUrl === previewUrl;
+  const svgLoading = !!previewUrl && previewUrl !== loadedUrl && !renderError;
 
   useEffect(() => {
     return () => {
@@ -172,11 +174,18 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
             src={previewUrl}
             alt={t('convertedSvg')}
             className="max-w-full max-h-full object-contain"
+            onLoad={() => setLoadedUrl(previewUrl)}
             onError={() => {
+              setLoadedUrl(previewUrl);
               setErrorUrl(previewUrl);
               trackError('SVG preview image failed to render', 'svg_preview_render_error');
             }}
           />
+          {svgLoading && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <SpinnerIcon className="animate-spin h-8 w-8 text-gray-400" />
+            </div>
+          )}
           {/* Info badge overlay */}
           <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
             <span className="text-xs text-white font-medium">
