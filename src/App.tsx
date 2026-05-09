@@ -30,6 +30,7 @@ import { seoHeadConfig } from './config/seo';
 import { PageConfigProvider } from './context/PageConfigProvider';
 import { usePageConfig } from './hooks/usePageConfig';
 import ConvertPage from './pages/ConvertPage';
+import SplitPage from './pages/SplitPage';
 
 /*
  * Lazy-loaded page components for route-level code splitting.
@@ -215,6 +216,7 @@ function AppRoutes() {
     <Routes>
       <Route path="/:lang" element={<LangLayout />}>
         <Route index element={<ConvertPage />} />
+        <Route path="split" element={<SplitPage />} />
         <Route path="use-cases" element={<UseCasesPage />} />
         <Route path="tutorials" element={<TutorialsPage />} />
         <Route path="tutorials/:slug" element={<TutorialsPage />} />

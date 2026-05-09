@@ -1,8 +1,3 @@
-/**
- * Main conversion page using the classic two-panel layout:
- * original image on the left, converted SVG on the right.
- */
-
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
@@ -26,8 +21,7 @@ import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick, trackEvent, trackError, trackPageView } from '../analytics';
 import { SEOHead, buildHowToSchema } from '@sudobility/seo_lib';
 import ConvertButton from '../components/ConvertButton';
-import ImageUploadPanel from '../components/ImageUploadPanel';
-import SvgPreviewPanel from '../components/SvgPreviewPanel';
+import ImageCompareViewer from '../components/ImageCompareViewer';
 
 function getImageTypeLabel(
   t: (key: string, options?: Record<string, unknown>) => string,
@@ -41,7 +35,7 @@ function getImageTypeLabel(
   return t(key, { defaultValue: fallback });
 }
 
-export default function ConvertPage() {
+export default function SplitPage() {
   const { t } = useTranslation('conversion');
   const { t: tContent } = useTranslation('content');
   const { t: tHowTo } = useTranslation('howto');
@@ -57,7 +51,7 @@ export default function ConvertPage() {
   } | null>(null);
 
   useEffect(() => {
-    trackPageView('/convert', 'Convert');
+    trackPageView('/split', 'Split Compare');
   }, []);
 
   const previewUrlRef = useRef<string | null>(null);
@@ -124,14 +118,14 @@ export default function ConvertPage() {
       converter.convert(base64, file.name);
     };
     reader.onerror = () => {
-      console.error('[ConvertPage] FileReader failed:', reader.error);
+      console.error('[SplitPage] FileReader failed:', reader.error);
       trackError(reader.error?.message || 'FileReader failed', 'file_read_error');
       converter.reset();
     };
     reader.readAsDataURL(file);
   }, [file, converter]);
 
-  const seoTitle = tContent('seo.home.title');
+  const seoTitle = `${tContent('seo.home.title')} Split`;
   const seoDescription = tContent('seo.home.description');
   const rawKeywords = tContent('seo.home.keywords', { returnObjects: true });
   const seoKeywords = Array.isArray(rawKeywords) ? rawKeywords : undefined;
@@ -153,7 +147,6 @@ export default function ConvertPage() {
         keywords={seoKeywords}
         structuredData={howToSchema}
       />
-
       <div className="hidden md:block text-center py-8 px-4">
         <p className={ui.text.caption}>{tContent('subtitle')}</p>
         <p className={`mt-1 ${ui.text.muted} text-xs italic`}>{tContent('pronunciation')}</p>
@@ -163,17 +156,16 @@ export default function ConvertPage() {
       </div>
 
       <div className="flex-1 min-h-0 w-full">
-        <div className="mx-auto max-w-6xl px-4 pb-4">
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-            <ImageUploadPanel
-              file={file}
-              previewUrl={previewUrl}
-              imageDimensions={imageDimensions}
-              onFileSelect={handleFileSelect}
-              onClear={handleClear}
-            />
-            <SvgPreviewPanel svg={converter.svgResult} filename={file?.name} />
-          </div>
+        <div className="mx-auto flex h-full max-w-6xl min-h-0 w-full flex-col px-4 pb-4">
+          <ImageCompareViewer
+            file={file}
+            previewUrl={previewUrl}
+            imageDimensions={imageDimensions}
+            svg={converter.svgResult}
+            filename={file?.name}
+            onFileSelect={handleFileSelect}
+            onClear={handleClear}
+          />
         </div>
       </div>
 
@@ -258,12 +250,15 @@ export default function ConvertPage() {
 
               <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
                 <div className="flex min-w-[320px] flex-1 items-center gap-3">
-                  <label htmlFor="quality-slider" className={`${ui.text.label} whitespace-nowrap`}>
+                  <label
+                    htmlFor="split-quality-slider"
+                    className={`${ui.text.label} whitespace-nowrap`}
+                  >
                     {t('quality')}
                   </label>
                   <span className={`text-xs ${ui.text.muted}`}>{t('qualityMin')}</span>
                   <input
-                    id="quality-slider"
+                    id="split-quality-slider"
                     type="range"
                     min={QUALITY_MIN}
                     max={QUALITY_MAX}
