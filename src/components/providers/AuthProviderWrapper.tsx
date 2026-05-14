@@ -59,7 +59,7 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
       firebaseConfig={{ type: 'instance', auth: auth }}
       providerConfig={{
         providers: ['google', 'email'],
-        enableAnonymous: false,
+        enableAnonymous: true,
       }}
       texts={texts}
       errorTexts={errorTexts}
