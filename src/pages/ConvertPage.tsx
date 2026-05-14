@@ -15,7 +15,6 @@ import {
 } from '@sudobility/components';
 import {
   useImageConverter,
-  scaleImageWeb,
   QUALITY_MIN,
   QUALITY_MAX,
   IMAGE_TYPES,
@@ -28,6 +27,7 @@ import { SEOHead, buildHowToSchema } from '@sudobility/seo_lib';
 import ConvertButton from '../components/ConvertButton';
 import ImageUploadPanel from '../components/ImageUploadPanel';
 import SvgPreviewPanel from '../components/SvgPreviewPanel';
+import { JobHistoryList } from '../components/JobHistoryList';
 import { ChevronDownIcon } from '../components/icons';
 
 function getImageTypeLabel(
@@ -47,7 +47,7 @@ export default function ConvertPage() {
   const { t: tContent } = useTranslation('content');
   const { t: tHowTo } = useTranslation('howto');
   const client = useSvgrClient();
-  const converter = useImageConverter(client, scaleImageWeb);
+  const converter = useImageConverter(client);
 
   const [file, setFile] = useState<File | null>(null);
   const [previewUrl, setPreviewUrl] = useState<string | null>(null);
@@ -73,10 +73,10 @@ export default function ConvertPage() {
   }, []);
 
   useEffect(() => {
-    if (converter.svgResult) {
+    if (converter.previewUrl) {
       trackEvent('conversion_success');
     }
-  }, [converter.svgResult]);
+  }, [converter.previewUrl]);
 
   useEffect(() => {
     if (converter.error) {
@@ -96,6 +96,9 @@ export default function ConvertPage() {
       setImageDimensions(null);
       setSettingsExpanded(true);
       converter.reset();
+
+      // Upload to server for persistent storage
+      converter.upload(f);
 
       const img = new Image();
       img.onload = () => {
@@ -117,22 +120,11 @@ export default function ConvertPage() {
     converter.reset();
   }, [converter]);
 
-  const handleConvert = useCallback(async () => {
-    if (!file) return;
+  const handleConvert = useCallback(() => {
+    if (!file || !converter.imageId) return;
     trackButtonClick('convert_to_svg', { file_type: file.type, file_size: file.size });
     setSettingsExpanded(false);
-
-    const reader = new FileReader();
-    reader.onload = () => {
-      const base64 = (reader.result as string).split(',')[1];
-      converter.convert(base64, file.name);
-    };
-    reader.onerror = () => {
-      console.error('[ConvertPage] FileReader failed:', reader.error);
-      trackError(reader.error?.message || 'FileReader failed', 'file_read_error');
-      converter.reset();
-    };
-    reader.readAsDataURL(file);
+    converter.convert();
   }, [file, converter]);
 
   const seoTitle = tContent('seo.home.title');
@@ -173,11 +165,26 @@ export default function ConvertPage() {
               file={file}
               previewUrl={previewUrl}
               imageDimensions={imageDimensions}
+              isUploading={converter.isUploading}
               onFileSelect={handleFileSelect}
               onClear={handleClear}
             />
-            <SvgPreviewPanel svg={converter.svgResult} filename={file?.name} />
+            <SvgPreviewPanel
+              previewUrl={converter.previewUrl}
+              svgFilename={converter.svgFilename}
+              filename={file?.name ?? null}
+              isConverting={converter.isConverting}
+              onFetchSvg={converter.fetchSvg}
+            />
           </div>
+
+          {converter.imageId && converter.jobs.length > 0 && (
+            <JobHistoryList
+              jobs={converter.jobs}
+              currentJobId={converter.currentJobId}
+              onSelectJob={converter.selectJob}
+            />
+          )}
         </div>
       </div>
 
@@ -335,8 +342,9 @@ export default function ConvertPage() {
           </div>
 
           <ConvertButton
-            disabled={!file}
+            disabled={!file || !converter.imageId}
             loading={converter.isConverting}
+            uploading={converter.isUploading}
             onClick={handleConvert}
           />
         </div>

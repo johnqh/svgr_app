@@ -22,6 +22,8 @@ interface ImageUploadPanelProps {
   previewUrl: string | null;
   /** Natural dimensions of the selected image, or null while loading. */
   imageDimensions: { width: number; height: number } | null;
+  /** Whether the image is being uploaded to the server. */
+  isUploading?: boolean;
   /** Called when the user selects a valid image file. */
   onFileSelect: (file: File) => void;
   /** Called when the user clears the current selection. */
@@ -32,6 +34,7 @@ export default function ImageUploadPanel({
   file,
   previewUrl,
   imageDimensions,
+  isUploading,
   onFileSelect,
   onClear,
 }: ImageUploadPanelProps) {
@@ -127,6 +130,20 @@ export default function ImageUploadPanel({
           >
             <span className="text-white text-sm font-semibold leading-none">&#x2715;</span>
           </button>
+          {/* Upload progress overlay */}
+          {isUploading && (
+            <div className="absolute inset-0 flex items-center justify-center bg-white/60">
+              <div className="flex items-center gap-2 rounded-md bg-black/70 px-3 py-1.5">
+                <svg className="h-4 w-4 animate-spin text-white" viewBox="0 0 24 24" fill="none">
+                  <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                  <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                </svg>
+                <span className="text-xs font-medium text-white">
+                  {t('uploading', { defaultValue: 'Uploading...' })}
+                </span>
+              </div>
+            </div>
+          )}
         </div>
       ) : (
         <div

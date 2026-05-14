@@ -24,6 +24,8 @@ interface ImageCompareViewerProps {
   previewUrl: string | null;
   imageDimensions: { width: number; height: number } | null;
   svg: string | null;
+  /** JPEG preview URL from job system (takes priority over svg rasterization). */
+  jobPreviewUrl?: string | null;
   filename?: string;
   onFileSelect: (file: File) => void;
   onClear: () => void;
@@ -91,6 +93,7 @@ export default function ImageCompareViewer({
   previewUrl,
   imageDimensions,
   svg,
+  jobPreviewUrl,
   filename,
   onFileSelect,
   onClear,
@@ -218,6 +221,12 @@ export default function ImageCompareViewer({
     let cancelled = false;
     let nextUrl: string | null = null;
 
+    // If we have a server-provided JPEG preview, use it directly
+    if (jobPreviewUrl) {
+      setPreviewState({ svg: svg ?? '', url: jobPreviewUrl, error: null });
+      return;
+    }
+
     if (!svg) {
       return;
     }
@@ -245,7 +254,7 @@ export default function ImageCompareViewer({
       cancelled = true;
       if (nextUrl) URL.revokeObjectURL(nextUrl);
     };
-  }, [imageDimensions, svg]);
+  }, [imageDimensions, svg, jobPreviewUrl]);
 
   useEffect(() => {
     const stage = stageRef.current;

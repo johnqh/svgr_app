@@ -1,25 +1,20 @@
 /**
- * SVG preview panel displaying the conversion result with download options.
+ * Preview panel displaying the conversion result with download options.
  *
- * Renders the converted SVG as an image with dimension/size metadata overlay.
- * Download buttons (SVG and PDF) are credit-gated: the user must have at least
- * 1 credit to download. Each download costs 1 credit.
+ * Shows a JPEG preview of the converted SVG. The actual SVG is only fetched
+ * from the server when the user clicks Download SVG or Download PDF.
  *
- * Credit-gating design decisions:
- * - `consumeCredit` silently returns `true` on API errors so that transient
- *   network issues do not block the user from downloading. Usage recording
- *   is treated as "best effort" (fire-and-forget).
- * - `checkBalance` allows downloads when `balance === null` (still loading)
- *   to avoid blocking the user during the initial balance fetch.
+ * Downloads are credit-gated: the user must have at least 1 credit.
+ * Each download costs 1 credit.
  */
 
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ui } from '@sudobility/design';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
-import { getBaseName, getSvgDimensions, getSvgFileSizeKB } from '@sudobility/svgr_lib';
+import { getBaseName, getSvgDimensions } from '@sudobility/svgr_lib';
 import {
   useBalance,
   isConsumablesInitialized,
@@ -30,114 +25,100 @@ import { trackButtonClick, trackEvent, trackError } from '../analytics';
 import { DownloadIcon, SpinnerIcon } from './icons';
 
 interface SvgPreviewPanelProps {
-  /** The converted SVG markup string, or null if no conversion has been done. */
-  svg: string | null;
+  /** JPEG preview object URL, or null if no conversion has completed. */
+  previewUrl: string | null;
+  /** SVG filename on the server for download. */
+  svgFilename: string | null;
   /** Original filename used to derive the download filename. */
-  filename?: string;
+  filename: string | null;
+  /** Whether a conversion is currently in progress. */
+  isConverting: boolean;
+  /** Callback to fetch SVG blob from server. */
+  onFetchSvg: () => Promise<Blob | null>;
 }
 
-export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps) {
+export default function SvgPreviewPanel({
+  previewUrl,
+  svgFilename,
+  filename,
+  isConverting,
+  onFetchSvg,
+}: SvgPreviewPanelProps) {
   const { t } = useTranslation('conversion');
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
   const { balance } = useBalance();
   const [insufficientCredits, setInsufficientCredits] = useState(false);
-  const [errorUrl, setErrorUrl] = useState<string | null>(null);
-  const [loadedUrl, setLoadedUrl] = useState<string | null>(null);
+  const [isDownloading, setIsDownloading] = useState(false);
 
-  const { previewUrl, previewError } = useMemo(() => {
-    if (!svg) return { previewUrl: null, previewError: null };
-    try {
-      const url = URL.createObjectURL(new Blob([svg], { type: 'image/svg+xml' }));
-      return { previewUrl: url, previewError: null };
-    } catch (error) {
-      trackError(
-        error instanceof Error ? error.message : 'SVG preview generation failed',
-        'svg_preview_error'
-      );
-      return { previewUrl: null, previewError: 'preview_generation_failed' as const };
-    }
-  }, [svg]);
-
-  const renderError = errorUrl != null && errorUrl === previewUrl;
-  const svgLoading = !!previewUrl && previewUrl !== loadedUrl && !renderError;
-
-  useEffect(() => {
-    return () => {
-      if (previewUrl) URL.revokeObjectURL(previewUrl);
-    };
-  }, [previewUrl]);
-
-  /**
-   * Records a credit usage for a download. Returns true if the download
-   * should proceed. Silently returns true on error so transient failures
-   * do not block the user -- usage is recorded asynchronously (best effort).
-   */
   const consumeCredit = useCallback(async (downloadFilename: string) => {
-    if (!isConsumablesInitialized()) return true; // No consumables = free
+    if (!isConsumablesInitialized()) return true;
     try {
       const instance = getConsumablesInstance();
       const result = await instance.recordUsage(downloadFilename);
       notifyBalanceChange();
       return result.success;
     } catch {
-      return true; // Allow download on error (async recording)
+      return true;
     }
   }, []);
 
-  /**
-   * Checks whether the user has sufficient credits for a download.
-   * Returns true if the download should proceed.
-   *
-   * Allows downloads when balance is null (still loading) or when
-   * consumables are not initialized (free mode).
-   */
   const checkBalance = useCallback(() => {
-    // If consumables not initialized, allow download
     if (!isConsumablesInitialized()) return true;
-    if (balance === null) return true; // Still loading, allow
+    if (balance === null) return true;
     if (balance > 0) return true;
     setInsufficientCredits(true);
     trackEvent('insufficient_credits', { balance });
     return false;
   }, [balance]);
 
-  /** Triggers an SVG file download after checking the credit balance. */
-  const handleDownloadSvg = useCallback(() => {
-    if (!svg) return;
+  const handleDownloadSvg = useCallback(async () => {
+    if (!svgFilename) return;
     trackButtonClick('download_svg');
 
     if (!checkBalance()) return;
 
-    const downloadName = `${getBaseName(filename)}.svg`;
-    const blob = new Blob([svg], { type: 'image/svg+xml' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = downloadName;
-    a.click();
-    URL.revokeObjectURL(url);
+    setIsDownloading(true);
+    try {
+      const blob = await onFetchSvg();
+      if (!blob) return;
 
-    // Record usage asynchronously
-    consumeCredit(downloadName);
-  }, [svg, filename, checkBalance, consumeCredit]);
+      const downloadName = `${getBaseName(filename ?? undefined)}.svg`;
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = downloadName;
+      a.click();
+      URL.revokeObjectURL(url);
 
-  /**
-   * Converts the SVG to PDF using jsPDF + svg2pdf.js and triggers a download.
-   * Wrapped in try/catch to handle malformed SVG dimensions or parsing failures
-   * gracefully rather than crashing silently.
-   */
+      consumeCredit(downloadName);
+    } catch (error) {
+      console.error('[SvgPreviewPanel] SVG download failed:', error);
+      trackError(
+        error instanceof Error ? error.message : 'SVG download failed',
+        'svg_download_error'
+      );
+    } finally {
+      setIsDownloading(false);
+    }
+  }, [svgFilename, filename, checkBalance, consumeCredit, onFetchSvg]);
+
   const handleDownloadPdf = useCallback(async () => {
-    if (!svg) return;
+    if (!svgFilename) return;
     trackButtonClick('download_pdf');
 
     if (!checkBalance()) return;
 
+    setIsDownloading(true);
     try {
-      const { width, height } = getSvgDimensions(svg);
+      const blob = await onFetchSvg();
+      if (!blob) return;
+
+      const svgText = await blob.text();
+      const { width, height } = getSvgDimensions(svgText);
 
       const parser = new DOMParser();
-      const svgDoc = parser.parseFromString(svg, 'image/svg+xml');
+      const svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
       const svgElement = svgDoc.documentElement;
 
       const orientation = width >= height ? 'landscape' : 'portrait';
@@ -145,10 +126,9 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
 
       await svg2pdf(svgElement, doc, { x: 0, y: 0, width, height });
 
-      const downloadName = `${getBaseName(filename)}.pdf`;
+      const downloadName = `${getBaseName(filename ?? undefined)}.pdf`;
       doc.save(downloadName);
 
-      // Record usage asynchronously
       consumeCredit(downloadName);
     } catch (error) {
       console.error('[SvgPreviewPanel] PDF generation failed:', error);
@@ -156,17 +136,17 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
         error instanceof Error ? error.message : 'PDF generation failed',
         'pdf_generation_error'
       );
+    } finally {
+      setIsDownloading(false);
     }
-  }, [svg, filename, checkBalance, consumeCredit]);
-
-  const fileSizeKB = svg ? getSvgFileSizeKB(svg) : null;
+  }, [svgFilename, filename, checkBalance, consumeCredit, onFetchSvg]);
 
   return (
     <div className="flex flex-col">
       <h3 className={`${ui.text.uppercase} mb-3`}>{t('convertedSvg')}</h3>
 
-      {/* SVG area -- fixed 4:3 aspect ratio, matches ImageUploadPanel */}
-      {previewUrl && !renderError ? (
+      {/* Preview area -- fixed 4:3 aspect ratio */}
+      {previewUrl ? (
         <div
           className={`relative aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border ${ui.border.default} overflow-hidden`}
         >
@@ -174,32 +154,20 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
             src={previewUrl}
             alt={t('convertedSvg')}
             className="max-w-full max-h-full object-contain"
-            onLoad={() => setLoadedUrl(previewUrl)}
-            onError={() => {
-              setLoadedUrl(previewUrl);
-              setErrorUrl(previewUrl);
-              trackError('SVG preview image failed to render', 'svg_preview_render_error');
-            }}
           />
-          {svgLoading && (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <SpinnerIcon className="animate-spin h-8 w-8 text-gray-400" />
-            </div>
-          )}
-          {/* Info badge overlay */}
-          <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
-            <span className="text-xs text-white font-medium">
-              {fileSizeKB && `${fileSizeKB} KB`}
-            </span>
-          </div>
         </div>
       ) : (
         <div
           className={`aspect-[4/3] flex items-center justify-center ${ui.background.subtle} rounded-lg border-2 border-dashed ${ui.border.default}`}
         >
-          <p className={ui.text.caption}>
-            {previewError || renderError ? t('svgPlaceholder') : t('svgPlaceholder')}
-          </p>
+          {isConverting ? (
+            <div className="flex flex-col items-center gap-2">
+              <SpinnerIcon className="animate-spin h-8 w-8 text-gray-400" />
+              <p className={`${ui.text.caption} text-sm`}>{t('converting')}</p>
+            </div>
+          ) : (
+            <p className={ui.text.caption}>{t('svgPlaceholder')}</p>
+          )}
         </div>
       )}
 
@@ -224,24 +192,34 @@ export default function SvgPreviewPanel({ svg, filename }: SvgPreviewPanelProps)
         </div>
       )}
 
-      {/* Bottom bar -- fixed height, matches ImageUploadPanel */}
+      {/* Download buttons */}
       <div className="h-10 flex items-center justify-end mt-2">
-        {svg && (
+        {svgFilename && (
           <div className="flex items-center gap-3">
             <button
               onClick={handleDownloadSvg}
+              disabled={isDownloading}
               aria-label={t('downloadSvg', 'Download SVG')}
-              className={`flex items-center gap-1.5 text-sm font-medium ${ui.text.linkSubtle}`}
+              className={`flex items-center gap-1.5 text-sm font-medium ${ui.text.linkSubtle} ${isDownloading ? 'opacity-50' : ''}`}
             >
-              <DownloadIcon className="w-4 h-4" />
+              {isDownloading ? (
+                <SpinnerIcon className="animate-spin w-4 h-4" />
+              ) : (
+                <DownloadIcon className="w-4 h-4" />
+              )}
               SVG
             </button>
             <button
               onClick={handleDownloadPdf}
+              disabled={isDownloading}
               aria-label={t('downloadPdf', 'Download PDF')}
-              className={`flex items-center gap-1.5 text-sm font-medium ${ui.text.linkSubtle}`}
+              className={`flex items-center gap-1.5 text-sm font-medium ${ui.text.linkSubtle} ${isDownloading ? 'opacity-50' : ''}`}
             >
-              <DownloadIcon className="w-4 h-4" />
+              {isDownloading ? (
+                <SpinnerIcon className="animate-spin w-4 h-4" />
+              ) : (
+                <DownloadIcon className="w-4 h-4" />
+              )}
               PDF
             </button>
           </div>

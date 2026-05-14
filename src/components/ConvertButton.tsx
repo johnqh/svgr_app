@@ -15,11 +15,13 @@ interface ConvertButtonProps {
   disabled: boolean;
   /** Whether a conversion is currently in progress. */
   loading: boolean;
+  /** Whether an image upload is in progress. */
+  uploading?: boolean;
   /** Called when the user clicks the button. */
   onClick: () => void;
 }
 
-export default function ConvertButton({ disabled, loading, onClick }: ConvertButtonProps) {
+export default function ConvertButton({ disabled, loading, uploading, onClick }: ConvertButtonProps) {
   const { t } = useTranslation('conversion');
 
   return (
@@ -33,7 +35,12 @@ export default function ConvertButton({ disabled, loading, onClick }: ConvertBut
             : `${buttonVariant('primary')} shadow-md hover:shadow-lg`
         }`}
       >
-        {loading ? (
+        {uploading ? (
+          <>
+            <SpinnerIcon className="animate-spin h-4 w-4" />
+            {t('uploading', { defaultValue: 'Uploading...' })}
+          </>
+        ) : loading ? (
           <>
             <SpinnerIcon className="animate-spin h-4 w-4" />
             {t('converting')}

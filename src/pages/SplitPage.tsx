@@ -67,10 +67,10 @@ export default function SplitPage() {
   }, []);
 
   useEffect(() => {
-    if (converter.svgResult) {
+    if (converter.previewUrl) {
       trackEvent('conversion_success');
     }
-  }, [converter.svgResult]);
+  }, [converter.previewUrl]);
 
   useEffect(() => {
     if (converter.error) {
@@ -90,6 +90,7 @@ export default function SplitPage() {
       setImageDimensions(null);
       setSettingsExpanded(true);
       converter.reset();
+      converter.upload(f);
 
       const img = new Image();
       img.onload = () => {
@@ -111,22 +112,11 @@ export default function SplitPage() {
     converter.reset();
   }, [converter]);
 
-  const handleConvert = useCallback(async () => {
-    if (!file) return;
+  const handleConvert = useCallback(() => {
+    if (!file || !converter.imageId) return;
     trackButtonClick('convert_to_svg', { file_type: file.type, file_size: file.size });
     setSettingsExpanded(false);
-
-    const reader = new FileReader();
-    reader.onload = () => {
-      const base64 = (reader.result as string).split(',')[1];
-      converter.convert(base64, file.name);
-    };
-    reader.onerror = () => {
-      console.error('[SplitPage] FileReader failed:', reader.error);
-      trackError(reader.error?.message || 'FileReader failed', 'file_read_error');
-      converter.reset();
-    };
-    reader.readAsDataURL(file);
+    converter.convert();
   }, [file, converter]);
 
   const seoTitle = `${tContent('seo.home.title')} Split`;
@@ -165,7 +155,8 @@ export default function SplitPage() {
             file={file}
             previewUrl={previewUrl}
             imageDimensions={imageDimensions}
-            svg={converter.svgResult}
+            svg={null}
+            jobPreviewUrl={converter.previewUrl}
             filename={file?.name}
             onFileSelect={handleFileSelect}
             onClear={handleClear}
