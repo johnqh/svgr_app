@@ -24,7 +24,8 @@ import { useBalance } from '@sudobility/consumables_client';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
-import { LightBulbIcon, BookOpenIcon } from './components/icons';
+import { useAuthStatus } from '@sudobility/auth-components';
+import { LightBulbIcon, BookOpenIcon, ClockIcon } from './components/icons';
 import { SEOHeadProvider } from '@sudobility/seo_lib';
 import { seoHeadConfig } from './config/seo';
 import { PageConfigProvider } from './context/PageConfigProvider';
@@ -44,6 +45,7 @@ const TermsPage = lazy(() => import('./pages/TermsPage'));
 const TutorialsPage = lazy(() => import('./pages/TutorialsPage'));
 const UseCasesPage = lazy(() => import('./pages/UseCasesPage'));
 const SitemapPage = lazy(() => import('./pages/SitemapPage'));
+const HistoryPage = lazy(() => import('./pages/HistoryPage'));
 
 const queryClient = new QueryClient();
 
@@ -60,6 +62,8 @@ function LangLayoutInner() {
   const location = useLocation();
   const { balance, isLoading: balanceLoading } = useBalance();
   const { pageConfig } = usePageConfig();
+  const { user } = useAuthStatus();
+  const isRegistered = !!user && !user.isAnonymous;
 
   useEffect(() => {
     if (lang && supportedLanguages.includes(lang as SupportedLanguage)) {
@@ -74,21 +78,32 @@ function LangLayoutInner() {
   const currentLang = (lang || i18nInstance.language || 'en') as string;
 
   const menuItems: MenuItemConfig[] = useMemo(
-    () => [
-      {
-        id: 'use-cases',
-        label: t('navigation.useCases'),
-        icon: LightBulbIcon,
-        href: `/${currentLang}/use-cases`,
-      },
-      {
-        id: 'tutorials',
-        label: t('navigation.tutorials'),
-        icon: BookOpenIcon,
-        href: `/${currentLang}/tutorials`,
-      },
-    ],
-    [t, currentLang]
+    () => {
+      const items: MenuItemConfig[] = [
+        {
+          id: 'use-cases',
+          label: t('navigation.useCases'),
+          icon: LightBulbIcon,
+          href: `/${currentLang}/use-cases`,
+        },
+        {
+          id: 'tutorials',
+          label: t('navigation.tutorials'),
+          icon: BookOpenIcon,
+          href: `/${currentLang}/tutorials`,
+        },
+      ];
+      if (isRegistered) {
+        items.push({
+          id: 'history',
+          label: t('navigation.history', { defaultValue: 'History' }),
+          icon: ClockIcon,
+          href: `/${currentLang}/history`,
+        });
+      }
+      return items;
+    },
+    [t, currentLang, isRegistered]
   );
 
   const handleLanguageChange = useCallback(
@@ -220,6 +235,7 @@ function AppRoutes() {
         <Route path="use-cases" element={<UseCasesPage />} />
         <Route path="tutorials" element={<TutorialsPage />} />
         <Route path="tutorials/:slug" element={<TutorialsPage />} />
+        <Route path="history" element={<HistoryPage />} />
         <Route path="credits" element={<CreditsPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />
