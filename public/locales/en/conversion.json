@@ -6,6 +6,7 @@
   "imageType": "Image type",
   "imageTypeAuto": "Auto",
   "imageTypePhoto": "Photo",
+  "imageTypeGray_scale": "Gray Scale",
   "imageTypeDesign": "Design",
   "recognizeText": "Recognize text",
   "mergePaths": "Merge paths",
