@@ -27,7 +27,7 @@ import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants'
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { AuthAction, useAuthStatus } from '@sudobility/auth-components';
 import { deleteAccount, useFirebaseAuthNetworkClient } from '@sudobility/auth_lib';
-import { LightBulbIcon, BookOpenIcon, ClockIcon } from './components/icons';
+import { LightBulbIcon, BookOpenIcon, ClockIcon, GearIcon } from './components/icons';
 import { SEOHeadProvider } from '@sudobility/seo_lib';
 import { seoHeadConfig } from './config/seo';
 import { PageConfigProvider } from './context/PageConfigProvider';
@@ -48,6 +48,7 @@ const TutorialsPage = lazy(() => import('./pages/TutorialsPage'));
 const UseCasesPage = lazy(() => import('./pages/UseCasesPage'));
 const SitemapPage = lazy(() => import('./pages/SitemapPage'));
 const HistoryPage = lazy(() => import('./pages/HistoryPage'));
+const SettingsPage = lazy(() => import('./pages/SettingsPage'));
 
 const queryClient = new QueryClient();
 
@@ -103,6 +104,12 @@ function LangLayoutInner() {
         href: `/${currentLang}/history`,
       });
     }
+    items.push({
+      id: 'settings',
+      label: t('navigation.settings', { defaultValue: 'Settings' }),
+      icon: GearIcon,
+      href: `/${currentLang}/settings`,
+    });
     return items;
   }, [t, currentLang, isRegistered]);
 
@@ -269,6 +276,7 @@ function AppRoutes() {
         <Route path="tutorials" element={<TutorialsPage />} />
         <Route path="tutorials/:slug" element={<TutorialsPage />} />
         <Route path="history" element={<HistoryPage />} />
+        <Route path="settings" element={<SettingsPage />} />
         <Route path="credits" element={<CreditsPage />} />
         <Route path="login" element={<LoginPage />} />
         <Route path="privacy" element={<PrivacyPage />} />
