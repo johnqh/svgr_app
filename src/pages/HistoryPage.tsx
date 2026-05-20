@@ -18,22 +18,6 @@ function formatSettings(job: JobResult): string {
   return parts.join(', ');
 }
 
-function StatusBadge({ status }: { status: string }) {
-  const colors: Record<string, string> = {
-    done: 'bg-green-100 text-green-700',
-    error: 'bg-red-100 text-red-700',
-    processing: 'bg-yellow-100 text-yellow-700',
-    pending: 'bg-gray-100 text-gray-600',
-  };
-  return (
-    <span
-      className={`inline-block rounded px-1.5 py-0.5 text-xs font-medium ${colors[status] ?? colors.pending}`}
-    >
-      {status}
-    </span>
-  );
-}
-
 function ImageCard({
   image,
   client,
@@ -75,7 +59,9 @@ function ImageCard({
   const doneJobs = image.jobs.filter(j => j.status === 'done' && j.svgFilename);
 
   return (
-    <div className={`rounded-lg border ${ui.border.default} ${ui.background.surface} overflow-hidden`}>
+    <div
+      className={`rounded-lg border ${ui.border.default} ${ui.background.surface} overflow-hidden`}
+    >
       <button
         type="button"
         onClick={() => setExpanded(prev => !prev)}
@@ -107,24 +93,23 @@ function ImageCard({
         </div>
       </button>
 
-      {expanded && image.jobs.length > 0 && (
+      {expanded && doneJobs.length > 0 && (
         <div className="border-t border-gray-100 px-4 pb-3">
           <div className="space-y-1 pt-2">
-            {image.jobs.map(job => (
+            {doneJobs.map(job => (
               <div
                 key={job.jobId}
                 className="flex items-center justify-between rounded-md px-3 py-2 text-sm bg-gray-50"
               >
                 <div className="flex items-center gap-2 min-w-0">
-                  <StatusBadge status={job.status} />
                   <span className={`${ui.text.muted} truncate`}>{formatSettings(job)}</span>
                   <span className={`text-xs ${ui.text.muted}`}>
                     {new Date(job.createdAt).toLocaleTimeString()}
                   </span>
                 </div>
-                {job.status === 'done' && job.svgFilename && (
+                {job.svgFilename && (
                   <button
-                    onClick={(e) => {
+                    onClick={e => {
                       e.stopPropagation();
                       handleDownloadSvg(job);
                     }}
@@ -145,7 +130,7 @@ function ImageCard({
         </div>
       )}
 
-      {expanded && image.jobs.length === 0 && (
+      {expanded && doneJobs.length === 0 && (
         <div className="border-t border-gray-100 px-4 py-3">
           <p className={`text-sm ${ui.text.muted}`}>
             {t('noConversions', { defaultValue: 'No conversions yet' })}
@@ -201,7 +186,9 @@ export default function HistoryPage() {
       ) : images.length === 0 ? (
         <div className="text-center py-16">
           <p className={`${ui.text.muted} text-sm`}>
-            {t('noHistory', { defaultValue: 'No images uploaded yet. Start by converting an image!' })}
+            {t('noHistory', {
+              defaultValue: 'No images uploaded yet. Start by converting an image!',
+            })}
           </p>
         </div>
       ) : (
