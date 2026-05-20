@@ -223,8 +223,12 @@ export default function ImageCompareViewer({
 
     // If we have a server-provided JPEG preview, use it directly
     if (jobPreviewUrl) {
-      setPreviewState({ svg: svg ?? '', url: jobPreviewUrl, error: null });
-      return;
+      Promise.resolve().then(() => {
+        if (!cancelled) {
+          setPreviewState({ svg: svg ?? '', url: jobPreviewUrl, error: null });
+        }
+      });
+      return () => { cancelled = true; };
     }
 
     if (!svg) {
