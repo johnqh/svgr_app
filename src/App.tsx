@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useEffect, useMemo } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, type ComponentType } from 'react';
 import { useTranslation } from 'react-i18next';
 import {
   Routes,
@@ -17,6 +17,7 @@ import {
   type TopBarConfig,
   type FooterConfig,
   type FooterLinkSection,
+  type AuthActionProps,
 } from '@sudobility/building_blocks';
 import type { MenuItemConfig } from '@sudobility/building_blocks';
 import { CreditBalanceBadge } from '@sudobility/consumables_pages';
@@ -24,7 +25,7 @@ import { useBalance } from '@sudobility/consumables_client';
 import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
-import { useAuthStatus } from '@sudobility/auth-components';
+import { AuthAction, useAuthStatus } from '@sudobility/auth-components';
 import { LightBulbIcon, BookOpenIcon, ClockIcon } from './components/icons';
 import { SEOHeadProvider } from '@sudobility/seo_lib';
 import { seoHeadConfig } from './config/seo';
@@ -77,34 +78,31 @@ function LangLayoutInner() {
 
   const currentLang = (lang || i18nInstance.language || 'en') as string;
 
-  const menuItems: MenuItemConfig[] = useMemo(
-    () => {
-      const items: MenuItemConfig[] = [
-        {
-          id: 'use-cases',
-          label: t('navigation.useCases'),
-          icon: LightBulbIcon,
-          href: `/${currentLang}/use-cases`,
-        },
-        {
-          id: 'tutorials',
-          label: t('navigation.tutorials'),
-          icon: BookOpenIcon,
-          href: `/${currentLang}/tutorials`,
-        },
-      ];
-      if (isRegistered) {
-        items.push({
-          id: 'history',
-          label: t('navigation.history', { defaultValue: 'History' }),
-          icon: ClockIcon,
-          href: `/${currentLang}/history`,
-        });
-      }
-      return items;
-    },
-    [t, currentLang, isRegistered]
-  );
+  const menuItems: MenuItemConfig[] = useMemo(() => {
+    const items: MenuItemConfig[] = [
+      {
+        id: 'use-cases',
+        label: t('navigation.useCases'),
+        icon: LightBulbIcon,
+        href: `/${currentLang}/use-cases`,
+      },
+      {
+        id: 'tutorials',
+        label: t('navigation.tutorials'),
+        icon: BookOpenIcon,
+        href: `/${currentLang}/tutorials`,
+      },
+    ];
+    if (isRegistered) {
+      items.push({
+        id: 'history',
+        label: t('navigation.history', { defaultValue: 'History' }),
+        icon: ClockIcon,
+        href: `/${currentLang}/history`,
+      });
+    }
+    return items;
+  }, [t, currentLang, isRegistered]);
 
   const handleLanguageChange = useCallback(
     (newLang: string) => {
@@ -173,7 +171,7 @@ function LangLayoutInner() {
       };
 
   const topBarConfig: TopBarConfig = {
-    variant: 'base',
+    variant: 'firebase',
     logo: {
       src: '/logo.svg',
       appName: APP_NAME,
@@ -189,6 +187,8 @@ function LangLayoutInner() {
         onClick={() => navigate(`/${currentLang}/credits`)}
       />
     ),
+    AuthActionComponent: AuthAction as ComponentType<AuthActionProps>,
+    onLoginClick: () => navigate(`/${currentLang}/login`),
     sticky: true,
   };
 

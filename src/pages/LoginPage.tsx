@@ -31,9 +31,9 @@ function LoginPage() {
     trackPageView('/login', 'Login');
   }, []);
 
-  // Redirect to main page if already authenticated
+  // Redirect to main page if already authenticated (non-anonymous)
   useEffect(() => {
-    if (!loading && user) {
+    if (!loading && user && !user.isAnonymous) {
       navigate(`/${lang || 'en'}`, { replace: true });
     }
   }, [user, loading, navigate, lang]);
