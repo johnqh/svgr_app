@@ -1,9 +1,10 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { ui } from '@sudobility/design';
 import { useAuthStatus } from '@sudobility/auth-components';
 import { useUserImages, type ImageWithJobs, type JobResult } from '@sudobility/svgr_client';
+import type { SvgrClient } from '@sudobility/svgr_client';
 import { getBaseName } from '@sudobility/svgr_lib';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick, trackError } from '../analytics';
@@ -18,12 +19,57 @@ function formatSettings(job: JobResult): string {
   return parts.join(', ');
 }
 
+/** Fetches a file via the API and displays it as a thumbnail image. */
+function Thumbnail({
+  filename,
+  alt,
+  client,
+}: {
+  filename: string | undefined;
+  alt: string;
+  client: SvgrClient;
+}) {
+  const [url, setUrl] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!filename) return;
+    let revoke: string | null = null;
+    client
+      .fetchFile(filename)
+      .then(blob => {
+        const objectUrl = URL.createObjectURL(blob);
+        revoke = objectUrl;
+        setUrl(objectUrl);
+      })
+      .catch(() => setUrl(null));
+    return () => {
+      if (revoke) URL.revokeObjectURL(revoke);
+    };
+  }, [filename, client]);
+
+  if (!url) {
+    return (
+      <div className="w-16 h-16 rounded bg-gray-100 flex items-center justify-center flex-shrink-0">
+        <span className="text-gray-300 text-xs">--</span>
+      </div>
+    );
+  }
+
+  return (
+    <img
+      src={url}
+      alt={alt}
+      className="w-16 h-16 rounded object-cover flex-shrink-0 bg-gray-100"
+    />
+  );
+}
+
 function ImageCard({
   image,
   client,
 }: {
   image: ImageWithJobs;
-  client: ReturnType<typeof useSvgrClient>;
+  client: SvgrClient;
 }) {
   const { t } = useTranslation('conversion');
   const [expanded, setExpanded] = useState(false);
@@ -57,6 +103,7 @@ function ImageCard({
   );
 
   const doneJobs = image.jobs.filter(j => j.status === 'done' && j.svgFilename);
+  const latestDoneJob = doneJobs[0];
 
   return (
     <div
@@ -65,20 +112,35 @@ function ImageCard({
       <button
         type="button"
         onClick={() => setExpanded(prev => !prev)}
-        className="flex w-full items-center justify-between p-4 text-left hover:bg-gray-50 transition-colors"
+        className="flex w-full items-center gap-3 p-3 text-left hover:bg-gray-50 transition-colors"
       >
-        <div className="flex items-center gap-3 min-w-0">
-          <div className="min-w-0 flex-1">
-            <p className={`${ui.text.label} truncate`}>
-              {image.originalFilename || t('untitled', { defaultValue: 'Untitled' })}
-            </p>
-            <p className={`text-xs ${ui.text.muted}`}>
-              {image.width}x{image.height} &middot; {(image.fileSizeBytes / 1024).toFixed(1)} KB
-              &middot; {new Date(image.createdAt).toLocaleDateString()}
-            </p>
-          </div>
+        {/* Original thumbnail */}
+        <Thumbnail
+          filename={image.storageFilename}
+          alt={image.originalFilename || 'Original'}
+          client={client}
+        />
+
+        {/* Converted thumbnail (latest done job) */}
+        <Thumbnail
+          filename={latestDoneJob?.previewFilename}
+          alt="Converted"
+          client={client}
+        />
+
+        {/* Info */}
+        <div className="min-w-0 flex-1">
+          <p className={`${ui.text.label} truncate`}>
+            {image.originalFilename || t('untitled', { defaultValue: 'Untitled' })}
+          </p>
+          <p className={`text-xs ${ui.text.muted}`}>
+            {image.width}x{image.height} &middot;{' '}
+            {(image.fileSizeBytes / 1024).toFixed(1)} KB &middot;{' '}
+            {new Date(image.createdAt).toLocaleDateString()}
+          </p>
         </div>
-        <div className="flex items-center gap-2">
+
+        <div className="flex items-center gap-2 flex-shrink-0">
           <span className={`text-xs ${ui.text.muted}`}>
             {doneJobs.length} {doneJobs.length === 1 ? 'conversion' : 'conversions'}
           </span>
@@ -88,7 +150,12 @@ function ImageCard({
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 9l-7 7-7-7"
+            />
           </svg>
         </div>
       </button>
@@ -101,11 +168,21 @@ function ImageCard({
                 key={job.jobId}
                 className="flex items-center justify-between rounded-md px-3 py-2 text-sm bg-gray-50"
               >
-                <div className="flex items-center gap-2 min-w-0">
-                  <span className={`${ui.text.muted} truncate`}>{formatSettings(job)}</span>
-                  <span className={`text-xs ${ui.text.muted}`}>
-                    {new Date(job.createdAt).toLocaleTimeString()}
-                  </span>
+                <div className="flex items-center gap-3 min-w-0">
+                  {/* Per-job converted thumbnail */}
+                  <Thumbnail
+                    filename={job.previewFilename}
+                    alt={formatSettings(job)}
+                    client={client}
+                  />
+                  <div className="min-w-0">
+                    <span className="text-gray-700 truncate block">
+                      {formatSettings(job)}
+                    </span>
+                    <span className={`text-xs ${ui.text.muted}`}>
+                      {new Date(job.createdAt).toLocaleTimeString()}
+                    </span>
+                  </div>
                 </div>
                 {job.svgFilename && (
                   <button
@@ -165,7 +242,7 @@ export default function HistoryPage() {
         </p>
         <button
           onClick={() => navigate(`/${lang || 'en'}/login`)}
-          className={`px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors`}
+          className="px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
         >
           {t('signIn', { defaultValue: 'Sign In' })}
         </button>
