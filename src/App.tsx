@@ -26,6 +26,7 @@ import i18n, { supportedLanguages, type SupportedLanguage } from './i18n';
 import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants';
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { AuthAction, useAuthStatus } from '@sudobility/auth-components';
+import { deleteAccount, useFirebaseAuthNetworkClient } from '@sudobility/auth_lib';
 import { LightBulbIcon, BookOpenIcon, ClockIcon } from './components/icons';
 import { SEOHeadProvider } from '@sudobility/seo_lib';
 import { seoHeadConfig } from './config/seo';
@@ -65,6 +66,7 @@ function LangLayoutInner() {
   const { pageConfig } = usePageConfig();
   const { user } = useAuthStatus();
   const isRegistered = !!user && !user.isAnonymous;
+  const networkClient = useFirebaseAuthNetworkClient();
 
   useEffect(() => {
     if (lang && supportedLanguages.includes(lang as SupportedLanguage)) {
@@ -103,6 +105,36 @@ function LangLayoutInner() {
     }
     return items;
   }, [t, currentLang, isRegistered]);
+
+  const handleDeleteAccount = useCallback(async () => {
+    if (!user || user.isAnonymous) return;
+    const confirmed = window.confirm(
+      t('auth.deleteAccountConfirm', 'Are you sure you want to permanently delete your account? This cannot be undone.')
+    );
+    if (!confirmed) return;
+    try {
+      await deleteAccount({
+        networkClient,
+        baseUrl: API_URL,
+        userId: user.uid,
+      });
+      navigate(`/${currentLang}`, { replace: true });
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Failed to delete account';
+      window.alert(message);
+    }
+  }, [user, networkClient, currentLang, navigate, t]);
+
+  const authenticatedMenuItems = useMemo(
+    () => [
+      {
+        id: 'delete-account',
+        label: t('auth.deleteAccount', { defaultValue: 'Delete Account' }),
+        onClick: handleDeleteAccount,
+      },
+    ],
+    [t, handleDeleteAccount]
+  );
 
   const handleLanguageChange = useCallback(
     (newLang: string) => {
@@ -188,6 +220,7 @@ function LangLayoutInner() {
       />
     ),
     AuthActionComponent: AuthAction as ComponentType<AuthActionProps>,
+    authenticatedMenuItems,
     onLoginClick: () => navigate(`/${currentLang}/login`),
     sticky: true,
   };
