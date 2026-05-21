@@ -13,12 +13,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@sudobility/components';
-import {
-  useImageConverter,
-  QUALITY_MIN,
-  QUALITY_MAX,
-  IMAGE_TYPES,
-} from '@sudobility/svgr_lib';
+import { useImageConverter, QUALITY_MIN, QUALITY_MAX, IMAGE_TYPES } from '@sudobility/svgr_lib';
 import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';

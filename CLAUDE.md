@@ -129,6 +129,7 @@ Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Suppo
 - **`resolve.alias` for svgr_client** -- Vite config includes an alias to resolve svgr_client correctly. If you add new shared packages, you may need similar aliases.
 - **Deployed to Cloudflare Pages** -- the build output must be compatible with Cloudflare's static hosting. No server-side rendering.
 - **SEO is important** -- language-prefixed routes, hreflang tags, and meta tags are generated for all 16 languages. Changes to routing must preserve SEO structure.
+- **`seo.config.mjs`** -- SEO route configuration used by `generate-seo-assets.mjs` at build time to produce per-route localized `index.html` files, `sitemap.xml`, and `robots.txt`. When adding or changing routes, update this file.
 - Environment variables must be prefixed with `VITE_` to be available in client code.
 
 ## Testing Notes

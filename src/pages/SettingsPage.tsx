@@ -1,7 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import {
-  GlobalSettingsPage,
-} from '@sudobility/building_blocks';
+import { GlobalSettingsPage } from '@sudobility/building_blocks';
 import { useTheme, Theme, FontSize } from '@sudobility/components';
 import { SEOHead } from '@sudobility/seo_lib';
 import { useSetPageConfig } from '../hooks/usePageConfig';
@@ -32,9 +30,7 @@ export default function SettingsPage() {
         onThemeChange={value => setTheme(value as Theme)}
         onFontSizeChange={value => setFontSize(value as FontSize)}
         t={(key, fallback) => t(key, { defaultValue: fallback })}
-        appearanceT={(key, fallback) =>
-          tSettings(`appearance.${key}`, { defaultValue: fallback })
-        }
+        appearanceT={(key, fallback) => tSettings(`appearance.${key}`, { defaultValue: fallback })}
       />
     </>
   );

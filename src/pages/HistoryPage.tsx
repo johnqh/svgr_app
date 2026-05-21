@@ -56,21 +56,11 @@ function Thumbnail({
   }
 
   return (
-    <img
-      src={url}
-      alt={alt}
-      className="w-16 h-16 rounded object-cover flex-shrink-0 bg-gray-100"
-    />
+    <img src={url} alt={alt} className="w-16 h-16 rounded object-cover flex-shrink-0 bg-gray-100" />
   );
 }
 
-function ImageCard({
-  image,
-  client,
-}: {
-  image: ImageWithJobs;
-  client: SvgrClient;
-}) {
+function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient }) {
   const { t } = useTranslation('conversion');
   const [expanded, setExpanded] = useState(false);
   const [downloadingJob, setDownloadingJob] = useState<string | null>(null);
@@ -122,11 +112,7 @@ function ImageCard({
         />
 
         {/* Converted thumbnail (latest done job) */}
-        <Thumbnail
-          filename={latestDoneJob?.previewFilename}
-          alt="Converted"
-          client={client}
-        />
+        <Thumbnail filename={latestDoneJob?.previewFilename} alt="Converted" client={client} />
 
         {/* Info */}
         <div className="min-w-0 flex-1">
@@ -134,9 +120,8 @@ function ImageCard({
             {image.originalFilename || t('untitled', { defaultValue: 'Untitled' })}
           </p>
           <p className={`text-xs ${ui.text.muted}`}>
-            {image.width}x{image.height} &middot;{' '}
-            {(image.fileSizeBytes / 1024).toFixed(1)} KB &middot;{' '}
-            {new Date(image.createdAt).toLocaleDateString()}
+            {image.width}x{image.height} &middot; {(image.fileSizeBytes / 1024).toFixed(1)} KB
+            &middot; {new Date(image.createdAt).toLocaleDateString()}
           </p>
         </div>
 
@@ -150,12 +135,7 @@ function ImageCard({
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M19 9l-7 7-7-7"
-            />
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </div>
       </button>
@@ -176,9 +156,7 @@ function ImageCard({
                     client={client}
                   />
                   <div className="min-w-0">
-                    <span className="text-gray-700 truncate block">
-                      {formatSettings(job)}
-                    </span>
+                    <span className="text-gray-700 truncate block">{formatSettings(job)}</span>
                     <span className={`text-xs ${ui.text.muted}`}>
                       {new Date(job.createdAt).toLocaleTimeString()}
                     </span>

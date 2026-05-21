@@ -116,7 +116,10 @@ function LangLayoutInner() {
   const handleDeleteAccount = useCallback(async () => {
     if (!user || user.isAnonymous) return;
     const confirmed = window.confirm(
-      t('auth.deleteAccountConfirm', 'Are you sure you want to permanently delete your account? This cannot be undone.')
+      t(
+        'auth.deleteAccountConfirm',
+        'Are you sure you want to permanently delete your account? This cannot be undone.'
+      )
     );
     if (!confirmed) return;
     try {

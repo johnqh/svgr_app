@@ -228,7 +228,9 @@ export default function ImageCompareViewer({
           setPreviewState({ svg: svg ?? '', url: jobPreviewUrl, error: null });
         }
       });
-      return () => { cancelled = true; };
+      return () => {
+        cancelled = true;
+      };
     }
 
     if (!svg) {
