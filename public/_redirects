@@ -1,0 +1,13 @@
+# Serve pre-rendered HTML for SEO routes (takes priority over SPA fallback)
+/:lang/split /:lang/split/index.html 200
+/:lang/use-cases /:lang/use-cases/index.html 200
+/:lang/tutorials /:lang/tutorials/index.html 200
+/:lang/tutorials/ai-logos-to-svg /:lang/tutorials/ai-logos-to-svg/index.html 200
+/:lang/tutorials/ai-posters-to-svg /:lang/tutorials/ai-posters-to-svg/index.html 200
+/:lang/tutorials/qr-code-to-svg /:lang/tutorials/qr-code-to-svg/index.html 200
+/:lang/tutorials/photo-to-svg /:lang/tutorials/photo-to-svg/index.html 200
+/:lang/privacy /:lang/privacy/index.html 200
+/:lang/terms /:lang/terms/index.html 200
+
+# SPA fallback for all other routes
+/* /index.html 200
