@@ -92,7 +92,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
     [client, image.originalFilename]
   );
 
-  const doneJobs = image.jobs.filter(j => j.status === 'done' && j.svgFilename);
+  const doneJobs = image.jobs.filter((j: JobResult) => j.status === 'done' && j.svgFilename);
   const latestDoneJob = doneJobs[0];
 
   return (
@@ -143,7 +143,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
       {expanded && doneJobs.length > 0 && (
         <div className="border-t border-gray-100 px-4 pb-3">
           <div className="space-y-1 pt-2">
-            {doneJobs.map(job => (
+            {doneJobs.map((job: JobResult) => (
               <div
                 key={job.jobId}
                 className="flex items-center justify-between rounded-md px-3 py-2 text-sm bg-gray-50"
