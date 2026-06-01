@@ -4,34 +4,10 @@
 
   <url>
     <loc>https://svgr.app/en</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -50,11 +26,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -73,11 +48,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -96,11 +70,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -119,11 +92,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -142,11 +114,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -165,11 +136,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -188,11 +158,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -211,11 +180,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -234,11 +202,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -257,11 +224,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -280,11 +246,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -303,11 +268,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -326,11 +290,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -349,11 +312,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr" />
@@ -372,34 +334,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/split" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/split" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/split" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/split" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/split" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/split" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/split" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/split" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/split" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/split" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/split" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/split" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/split</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -418,11 +356,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -441,11 +378,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -464,11 +400,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -487,11 +422,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -510,11 +444,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -533,11 +466,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -556,11 +488,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -579,11 +510,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -602,11 +532,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -625,11 +554,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -648,11 +576,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -671,11 +598,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -694,11 +620,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -717,11 +642,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/split</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/split" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/split" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/split" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/split" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/split" />
@@ -740,34 +664,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/use-cases" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/use-cases" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/use-cases" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/use-cases" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/use-cases" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/use-cases" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/use-cases" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/use-cases" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/use-cases" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -786,11 +686,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -809,11 +708,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -832,11 +730,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -855,11 +752,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -878,11 +774,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -901,11 +796,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -924,11 +818,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -947,11 +840,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -970,11 +862,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -993,11 +884,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -1016,11 +906,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -1039,11 +928,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -1062,11 +950,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -1085,11 +972,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/use-cases</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/use-cases" />
@@ -1108,34 +994,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/tutorials" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/tutorials" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/tutorials" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/tutorials" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/tutorials" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/tutorials" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/tutorials" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/tutorials" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/tutorials" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1154,11 +1016,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1177,11 +1038,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1200,11 +1060,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1223,11 +1082,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1246,11 +1104,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1269,11 +1126,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1292,11 +1148,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1315,11 +1170,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1338,11 +1192,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1361,11 +1214,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1384,11 +1236,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1407,11 +1258,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1430,11 +1280,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1453,11 +1302,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/tutorials</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials" />
@@ -1476,34 +1324,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1522,11 +1346,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1545,11 +1368,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1568,11 +1390,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1591,11 +1412,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1614,11 +1434,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1637,11 +1456,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1660,11 +1478,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1683,11 +1500,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1706,11 +1522,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1729,11 +1544,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1752,11 +1566,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1775,11 +1588,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1798,11 +1610,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1821,11 +1632,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/tutorials/ai-logos-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-logos-to-svg" />
@@ -1844,34 +1654,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -1890,11 +1676,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -1913,11 +1698,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -1936,11 +1720,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -1959,11 +1742,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -1982,11 +1764,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2005,11 +1786,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2028,11 +1808,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2051,11 +1830,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2074,11 +1852,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2097,11 +1874,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2120,11 +1896,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2143,11 +1918,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2166,11 +1940,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2189,11 +1962,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/tutorials/ai-posters-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/ai-posters-to-svg" />
@@ -2212,34 +1984,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2258,11 +2006,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2281,11 +2028,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2304,11 +2050,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2327,11 +2072,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2350,11 +2094,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2373,11 +2116,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2396,11 +2138,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2419,11 +2160,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2442,11 +2182,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2465,11 +2204,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2488,11 +2226,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2511,11 +2248,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2534,11 +2270,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2557,11 +2292,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/tutorials/qr-code-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/qr-code-to-svg" />
@@ -2580,34 +2314,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/tutorials/photo-to-svg" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2626,11 +2336,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2649,11 +2358,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2672,11 +2380,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2695,11 +2402,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2718,11 +2424,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2741,11 +2446,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2764,11 +2468,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2787,11 +2490,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2810,11 +2512,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2833,11 +2534,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2856,11 +2556,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2879,11 +2578,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2902,11 +2600,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2925,11 +2622,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/tutorials/photo-to-svg</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/tutorials/photo-to-svg" />
@@ -2948,34 +2644,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/privacy" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/privacy" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/privacy" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/privacy" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -2994,11 +2666,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3017,11 +2688,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3040,11 +2710,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3063,11 +2732,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3086,11 +2754,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3109,11 +2776,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3132,11 +2798,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3155,11 +2820,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3178,11 +2842,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3201,11 +2864,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3224,11 +2886,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3247,11 +2908,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3270,11 +2930,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3293,11 +2952,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/privacy</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/privacy" />
@@ -3316,34 +2974,10 @@
   </url>
   <url>
     <loc>https://svgr.app/en/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://svgr.app/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://svgr.app/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://svgr.app/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://svgr.app/pt/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://svgr.app/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://svgr.app/sv/terms" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://svgr.app/th/terms" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://svgr.app/uk/terms" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://svgr.app/vi/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://svgr.app/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://svgr.app/zh-hant/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://svgr.app/en/terms" />
-  </url>
-  <url>
-    <loc>https://svgr.app/ar/terms</loc>
-    <lastmod>2026-05-29</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3362,11 +2996,10 @@
   </url>
   <url>
     <loc>https://svgr.app/de/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3385,11 +3018,10 @@
   </url>
   <url>
     <loc>https://svgr.app/es/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3408,11 +3040,10 @@
   </url>
   <url>
     <loc>https://svgr.app/fr/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3431,11 +3062,10 @@
   </url>
   <url>
     <loc>https://svgr.app/it/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3454,11 +3084,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ja/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3477,11 +3106,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ko/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3500,11 +3128,10 @@
   </url>
   <url>
     <loc>https://svgr.app/pt/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3523,11 +3150,10 @@
   </url>
   <url>
     <loc>https://svgr.app/ru/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3546,11 +3172,10 @@
   </url>
   <url>
     <loc>https://svgr.app/sv/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3569,11 +3194,10 @@
   </url>
   <url>
     <loc>https://svgr.app/th/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3592,11 +3216,10 @@
   </url>
   <url>
     <loc>https://svgr.app/uk/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3615,11 +3238,10 @@
   </url>
   <url>
     <loc>https://svgr.app/vi/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3638,11 +3260,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />
@@ -3661,11 +3282,10 @@
   </url>
   <url>
     <loc>https://svgr.app/zh-hant/terms</loc>
-    <lastmod>2026-05-29</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://svgr.app/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://svgr.app/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://svgr.app/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://svgr.app/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://svgr.app/fr/terms" />

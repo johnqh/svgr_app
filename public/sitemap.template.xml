@@ -9,31 +9,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en" />
-  </url>
-  <!-- Homepage (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -57,7 +32,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -81,7 +55,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -105,7 +78,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -129,7 +101,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -153,7 +124,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -177,7 +147,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -201,7 +170,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -225,7 +193,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -249,7 +216,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -273,7 +239,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -297,7 +262,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -321,7 +285,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -345,7 +308,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -369,7 +331,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr" />
@@ -395,31 +356,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/use-cases" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/use-cases" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/use-cases" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/use-cases" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/use-cases" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/use-cases" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/use-cases" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/use-cases" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-  </url>
-  <!-- Use Cases (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/use-cases</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -443,7 +379,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -467,7 +402,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -491,7 +425,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -515,7 +448,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -539,7 +471,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -563,7 +494,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -587,7 +517,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -611,7 +540,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -635,7 +563,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -659,7 +586,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -683,7 +609,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -707,7 +632,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -731,7 +655,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -755,7 +678,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/use-cases" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/use-cases" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/use-cases" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/use-cases" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/use-cases" />
@@ -781,31 +703,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/credits" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/credits" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/credits" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/credits" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/credits" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/credits" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/credits" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/credits" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/credits" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/credits" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/credits" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-  </url>
-  <!-- Credits (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/credits</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -829,7 +726,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -853,7 +749,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -877,7 +772,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -901,7 +795,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -925,7 +818,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -949,7 +841,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -973,7 +864,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -997,7 +887,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1021,7 +910,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1045,7 +933,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1069,7 +956,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1093,7 +979,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1117,7 +1002,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1141,7 +1025,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/credits" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/credits" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/credits" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/credits" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/credits" />
@@ -1167,31 +1050,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/privacy" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/privacy" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/privacy" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/privacy" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/privacy" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/privacy" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/privacy" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-  </url>
-  <!-- Privacy Policy (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/privacy</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1215,7 +1073,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1239,7 +1096,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1263,7 +1119,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1287,7 +1142,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1311,7 +1165,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1335,7 +1188,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1359,7 +1211,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1383,7 +1234,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1407,7 +1257,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1431,7 +1280,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1455,7 +1303,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1479,7 +1326,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1503,7 +1349,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1527,7 +1372,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/privacy" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/privacy" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/privacy" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/privacy" />
@@ -1553,31 +1397,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/terms" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/terms" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/terms" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/terms" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/terms" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/terms" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/terms" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-  </url>
-  <!-- Terms of Service (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/terms</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1601,7 +1420,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1625,7 +1443,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1649,7 +1466,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1673,7 +1489,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1697,7 +1512,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1721,7 +1535,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1745,7 +1558,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1769,7 +1581,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1793,7 +1604,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1817,7 +1627,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1841,7 +1650,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1865,7 +1673,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1889,7 +1696,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1913,7 +1719,6 @@
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/terms" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/terms" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/terms" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/terms" />
@@ -1939,31 +1744,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/sitemap" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/sitemap" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/sitemap" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/sitemap" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/sitemap" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/sitemap" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/sitemap" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/sitemap" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-  </url>
-  <!-- Sitemap (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/sitemap</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -1987,7 +1767,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2011,7 +1790,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2035,7 +1813,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2059,7 +1836,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2083,7 +1859,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2107,7 +1882,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2131,7 +1905,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2155,7 +1928,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2179,7 +1951,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2203,7 +1974,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2227,7 +1997,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2251,7 +2020,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2275,7 +2043,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2299,7 +2066,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/sitemap" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/sitemap" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/sitemap" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/sitemap" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/sitemap" />
@@ -2326,31 +2092,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/tutorials" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/tutorials" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/tutorials" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/tutorials" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/tutorials" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/tutorials" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/tutorials" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/tutorials" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-  </url>
-  <!-- Tutorials Index (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/tutorials</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2374,7 +2115,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2398,7 +2138,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2422,7 +2161,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2446,7 +2184,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2470,7 +2207,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2494,7 +2230,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2518,7 +2253,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2542,7 +2276,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2566,7 +2299,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2590,7 +2322,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2614,7 +2345,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2638,7 +2368,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2662,7 +2391,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2686,7 +2414,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials" />
@@ -2712,31 +2439,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-  </url>
-  <!-- AI Logos to SVG (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2760,7 +2462,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2784,7 +2485,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2808,7 +2508,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2832,7 +2531,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2856,7 +2554,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2880,7 +2577,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2904,7 +2600,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2928,7 +2623,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2952,7 +2646,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -2976,7 +2669,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -3000,7 +2692,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -3024,7 +2715,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -3048,7 +2738,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -3072,7 +2761,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-logos-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-logos-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-logos-to-svg" />
@@ -3098,31 +2786,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-  </url>
-  <!-- AI Posters to SVG (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3146,7 +2809,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3170,7 +2832,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3194,7 +2855,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3218,7 +2878,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3242,7 +2901,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3266,7 +2924,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3290,7 +2947,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3314,7 +2970,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3338,7 +2993,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3362,7 +3016,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3386,7 +3039,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3410,7 +3062,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3434,7 +3085,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3458,7 +3108,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/ai-posters-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/ai-posters-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/ai-posters-to-svg" />
@@ -3484,31 +3133,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-  </url>
-  <!-- QR Code to SVG (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3532,7 +3156,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3556,7 +3179,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3580,7 +3202,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3604,7 +3225,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3628,7 +3248,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3652,7 +3271,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3676,7 +3294,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3700,7 +3317,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3724,7 +3340,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3748,7 +3363,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3772,7 +3386,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3796,7 +3409,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3820,7 +3432,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3844,7 +3455,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/qr-code-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/qr-code-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/qr-code-to-svg" />
@@ -3870,31 +3480,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="it" href="https://{{VITE_APP_DOMAIN}}/it/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ja" href="https://{{VITE_APP_DOMAIN}}/ja/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ko" href="https://{{VITE_APP_DOMAIN}}/ko/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="pt" href="https://{{VITE_APP_DOMAIN}}/pt/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://{{VITE_APP_DOMAIN}}/ru/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="sv" href="https://{{VITE_APP_DOMAIN}}/sv/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="th" href="https://{{VITE_APP_DOMAIN}}/th/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="uk" href="https://{{VITE_APP_DOMAIN}}/uk/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="vi" href="https://{{VITE_APP_DOMAIN}}/vi/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://{{VITE_APP_DOMAIN}}/zh/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://{{VITE_APP_DOMAIN}}/zh-hant/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-  </url>
-  <!-- Photo to SVG (ar) -->
-  <url>
-    <loc>https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg</loc>
-    <lastmod>{{TODAY}}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -3918,7 +3503,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -3942,7 +3526,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -3966,7 +3549,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -3990,7 +3572,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4014,7 +3595,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4038,7 +3618,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4062,7 +3641,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4086,7 +3664,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4110,7 +3687,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4134,7 +3710,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4158,7 +3733,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4182,7 +3756,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4206,7 +3779,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />
@@ -4230,7 +3802,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://{{VITE_APP_DOMAIN}}/en/tutorials/photo-to-svg" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://{{VITE_APP_DOMAIN}}/ar/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="de" href="https://{{VITE_APP_DOMAIN}}/de/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="es" href="https://{{VITE_APP_DOMAIN}}/es/tutorials/photo-to-svg" />
     <xhtml:link rel="alternate" hreflang="fr" href="https://{{VITE_APP_DOMAIN}}/fr/tutorials/photo-to-svg" />

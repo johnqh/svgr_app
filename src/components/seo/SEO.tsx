@@ -3,7 +3,7 @@
  * Open Graph metadata for all language-prefixed routes.
  *
  * Automatically prepends the current language prefix to canonical URLs
- * and generates hreflang alternate links for all 16 supported languages
+ * and generates hreflang alternate links for all 15 supported languages
  * plus an `x-default` entry pointing to `/en`.
  *
  * Delegates actual `<head>` rendering to `@sudobility/seo_lib`.

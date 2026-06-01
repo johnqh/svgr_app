@@ -12,7 +12,7 @@ Web app for SVGR image-to-SVG conversion.
 - **Framework**: React 19, React Router v7
 - **Build**: Vite 6
 - **Styling**: Tailwind CSS 3
-- **i18n**: i18next (16 languages)
+- **i18n**: i18next (15 languages)
 - **Auth**: Firebase Auth
 - **Payments**: RevenueCat (web)
 - **Test**: Vitest
@@ -74,7 +74,7 @@ bun run verify       # All checks + build (use before commit)
 
 ### Routing
 
-Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Supports 16 languages.
+Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Supports 15 languages.
 
 ### Sudobility Ecosystem Dependencies
 
@@ -114,7 +114,7 @@ Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Suppo
 
 ## Coding Patterns
 
-- **Language-prefixed routes**: all routes follow `/:lang/*` pattern (e.g., `/en/convert`, `/ja/credits`). 16 languages supported.
+- **Language-prefixed routes**: all routes follow `/:lang/*` pattern (e.g., `/en/convert`, `/ja/credits`). 15 languages supported.
 - **`ConvertPage`** is the main feature page -- image upload, conversion, preview, and download
 - **RevenueCat** for credit purchases -- web SDK integrated for in-app purchases
 - **PDF export** uses `jspdf` + `svg2pdf.js` to convert SVG results to downloadable PDFs
@@ -128,7 +128,7 @@ Language-prefixed routes: `/:lang/*` (e.g., `/en/convert`, `/ja/credits`). Suppo
 - **Vite dedupes React and shared packages** -- check `vite.config.ts` for `resolve.dedupe` settings. Duplicate React instances cause hook errors.
 - **`resolve.alias` for svgr_client** -- Vite config includes an alias to resolve svgr_client correctly. If you add new shared packages, you may need similar aliases.
 - **Deployed to Cloudflare Pages** -- the build output must be compatible with Cloudflare's static hosting. No server-side rendering.
-- **SEO is important** -- language-prefixed routes, hreflang tags, and meta tags are generated for all 16 languages. Changes to routing must preserve SEO structure.
+- **SEO is important** -- language-prefixed routes, hreflang tags, and meta tags are generated for all 15 languages. Changes to routing must preserve SEO structure.
 - **`seo.config.mjs`** -- SEO route configuration used by `generate-seo-assets.mjs` at build time to produce per-route localized `index.html` files, `sitemap.xml`, and `robots.txt`. When adding or changing routes, update this file.
 - Environment variables must be prefixed with `VITE_` to be available in client code.
 

@@ -212,7 +212,7 @@ Add auth-related translation keys to `public/locales/en/svgr.json` (or a separat
 
 - signInTitle, signIn, signUp, continueWithGoogle, continueWithEmail, etc.
 - All ~30 auth text keys needed by AuthProvider
-- Translate to all 16 supported languages
+- Translate to all 15 supported languages
 
 ---
 
@@ -253,7 +253,7 @@ Add auth-related translation keys to `public/locales/en/svgr.json` (or a separat
 | `src/config/auth-config.ts`                        | NEW — Auth text config                                                                           |
 | `src/pages/LoginPage.tsx`                          | NEW — Login page                                                                                 |
 | `src/hooks/useSvgrClient.ts`                       | UPDATE — Pass token getter                                                                       |
-| `public/locales/*/svgr.json`                       | UPDATE — Add auth translation keys (16 languages)                                                |
+| `public/locales/*/svgr.json`                       | UPDATE — Add auth translation keys (15 languages)                                                |
 
 ---
 

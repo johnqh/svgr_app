@@ -22,7 +22,6 @@ import { SEOHead } from '@sudobility/seo_lib';
 /** Flag emoji for each language code. */
 const LANGUAGE_FLAGS: Record<string, string> = {
   en: '\u{1F1FA}\u{1F1F8}',
-  ar: '\u{1F1F8}\u{1F1E6}',
   de: '\u{1F1E9}\u{1F1EA}',
   es: '\u{1F1EA}\u{1F1F8}',
   fr: '\u{1F1EB}\u{1F1F7}',

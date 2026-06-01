@@ -33,7 +33,7 @@ SVGR is a web application that converts raster images (PNG, JPG, WEBP) into clea
 ## Technical Details
 
 - React + TypeScript frontend
-- Multi-language support (16 languages)
+- Multi-language support (15 languages)
 - Credit-based usage system
 
 ## Contact
@@ -50,4 +50,4 @@ When helping users with SVGR:
 3. Especially useful for AI-generated images that need vectorization
 4. Supports SVG and PDF output formats
 5. No account needed to convert, but login required to purchase credits
-6. Available in 16 languages with language-prefixed routes (e.g., /en/, /ja/, /zh/)
+6. Available in 15 languages with language-prefixed routes (e.g., /en/, /ja/, /zh/)
