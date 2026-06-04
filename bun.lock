@@ -28,9 +28,9 @@
         "@sudobility/seo_lib": "^0.0.25",
         "@sudobility/subscription-components": "^1.0.31",
         "@sudobility/subscription_lib": "^0.0.44",
-        "@sudobility/svgr_client": "^1.0.33",
-        "@sudobility/svgr_lib": "^0.0.39",
-        "@sudobility/svgr_types": "^1.0.22",
+        "@sudobility/svgr_client": "^1.0.36",
+        "@sudobility/svgr_lib": "^0.0.42",
+        "@sudobility/svgr_types": "^1.0.24",
         "@sudobility/types": "^1.9.62",
         "@tanstack/react-query": "^5.0.0",
         "class-variance-authority": "^0.7.1",
@@ -510,11 +510,11 @@
 
     "@sudobility/subscription_lib": ["@sudobility/subscription_lib@0.0.44", "", { "peerDependencies": { "@revenuecat/purchases-js": "^1.0.0", "@sudobility/types": "^1.9.62", "@tanstack/react-query": "^5.0.0", "react": "^18.0.0 || ^19.0.0", "react-native-purchases": ">=7.0.0" }, "optionalPeers": ["@revenuecat/purchases-js", "@tanstack/react-query", "react-native-purchases"] }, "sha512-2bS5QjnYMg9Ehd/6RyfVoK0npOnXcTZ3oq1MGB7BmxismYVPb+jcyiewsh7fRwloLucWtNxrDNIZvjTz3JM4fw=="],
 
-    "@sudobility/svgr_client": ["@sudobility/svgr_client@1.0.33", "", { "dependencies": { "@sudobility/svgr_types": "^1.0.21" }, "peerDependencies": { "@sudobility/types": "^1.9.62", "@tanstack/react-query": "^5.0.0", "react": "^18.0.0 || ^19.0.0" } }, "sha512-wbnWQ103FlUhiDHl0GoKd2YIo9bd7M05/1dF7nv0SN7PGkqzMc/VLXfPogsrRupVtrJJG4pruQermASwpy+y3w=="],
+    "@sudobility/svgr_client": ["@sudobility/svgr_client@1.0.36", "", { "dependencies": { "@sudobility/svgr_types": "^1.0.24" }, "peerDependencies": { "@sudobility/types": "^1.9.62", "@tanstack/react-query": "^5.0.0", "react": "^18.0.0 || ^19.0.0" } }, "sha512-4aMJMN/tY4Bp38GRoN/MtsAjP9LBTRrpNrJLd7yRe5tGBzQBOF03pcTVeqiuYHndFEckykHQcENLVv03LQb31w=="],
 
-    "@sudobility/svgr_lib": ["@sudobility/svgr_lib@0.0.39", "", { "peerDependencies": { "@sudobility/svgr_client": "^1.0.33", "@sudobility/svgr_types": "^1.0.21", "@sudobility/types": "^1.9.62", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-yKbDRLAmH0srTByLIk6jYqsbMW+H0Jy3ma8Ezhf6SIQpyH4gySwVykRFG8J2XQaocNTtcGCEj+Yz+iMgEMbJSg=="],
+    "@sudobility/svgr_lib": ["@sudobility/svgr_lib@0.0.42", "", { "peerDependencies": { "@sudobility/svgr_client": "^1.0.36", "@sudobility/svgr_types": "^1.0.24", "@sudobility/types": "^1.9.62", "@tanstack/react-query": ">=5.0.0", "react": ">=18.0.0" } }, "sha512-t776EP+OHsdpScLezP/uKzV3vTNON/K/LPeq2yCFKUZRM5iwIELu1lyYTORmM66uTOxb968TDxl+4Xzkx2s7Sg=="],
 
-    "@sudobility/svgr_types": ["@sudobility/svgr_types@1.0.22", "", { "peerDependencies": { "@sudobility/types": "^1.9.62" } }, "sha512-Nd3ofKHfo4eOtXpLp1UU1PMtOdA6s0ZvT/vhORWBgxS3jBORVW6eXUi2NpyZ0GTInOprGvF78RUpDLNHYxem1w=="],
+    "@sudobility/svgr_types": ["@sudobility/svgr_types@1.0.24", "", { "peerDependencies": { "@sudobility/types": "^1.9.62" } }, "sha512-p6e6jAM+ZAs7kOkXpp/fXhLN9lWk4V0ymJsIeEJ0A/sR4l/v6ypsWqneUNvFKDx/J0jOxNvMB+R6DA4Li4qZbw=="],
 
     "@sudobility/types": ["@sudobility/types@1.9.62", "", {}, "sha512-GOkz5oE7Fmlolba2aemBF2fKPtH4I2lHAjVta+fqZAoAV72DQaWYzVEjTwKZs/ACY/g9Z262IDa7lEh+IOrn7w=="],
 
@@ -1211,8 +1211,6 @@
     "@radix-ui/react-primitive/@radix-ui/react-slot": ["@radix-ui/react-slot@1.2.3", "", { "dependencies": { "@radix-ui/react-compose-refs": "1.1.2" }, "peerDependencies": { "@types/react": "*", "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" }, "optionalPeers": ["@types/react"] }, "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A=="],
 
     "@radix-ui/react-select/@radix-ui/react-slot": ["@radix-ui/react-slot@1.2.3", "", { "dependencies": { "@radix-ui/react-compose-refs": "1.1.2" }, "peerDependencies": { "@types/react": "*", "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc" }, "optionalPeers": ["@types/react"] }, "sha512-aeNmHnBxbi2St0au6VBVC7JXFlhLlOnvIIlePNniyUNAClzmtAUEY8/pBiK3iHjufOlwA+c20/8jngo7xcrg8A=="],
-
-    "@sudobility/svgr_client/@sudobility/svgr_types": ["@sudobility/svgr_types@1.0.21", "", { "peerDependencies": { "@sudobility/types": "^1.9.62" } }, "sha512-LnWWXDZTL1XuZo+hrzUBBooogBaLHfj7i2K5Yv6DmNvNDOvJCs98xuEA0sDrg3zuU/FB7EWvbiorp8CJ5qH8MA=="],
 
     "@testing-library/dom/aria-query": ["aria-query@5.3.0", "", { "dependencies": { "dequal": "^2.0.3" } }, "sha512-b0P0sZPKtyu8HkeRAfCq0IfURZK+SuwMjY1UXGBU27wpAiTwQAIlq56IbIO+ytk/JjS1fMR14ee5WBBfKi5J6A=="],
 
