@@ -10,7 +10,9 @@
   "terms": "使用條款",
   "navigation": {
     "useCases": "使用場景",
-    "tutorials": "教學"
+    "tutorials": "教學",
+    "history": "歷史",
+    "settings": "設定"
   },
   "useCases": {
     "title": "為什麼使用 SVGR？",
@@ -210,44 +212,93 @@
     "home": {
       "title": "圖像轉SVG轉換器 - PNG、JPG、WEBP轉向量",
       "description": "線上將光柵圖像轉換為可縮放的向量圖形。上傳 PNG、JPG 或 WEBP，立即獲得乾淨的 SVG 輸出。免費預覽，適合用於 AI 生成的商標。",
-      "keywords": ["圖", "片", "轉", "S", "V", "G", "工"]
+      "keywords": [
+        "圖",
+        "片",
+        "轉",
+        "S",
+        "V",
+        "G",
+        "工"
+      ]
     },
     "useCases": {
       "title": "將AI徽標轉換為SVG - 使用案例",
       "description": "看看 SVGR 如何將 AI 生成的商標和舊有的光柵圖像轉換為可縮放的 SVG 向量檔案。支援 Looka、Brandmark 等平台。",
-      "keywords": ["A", "I", "標", "誌", "轉"]
+      "keywords": [
+        "A",
+        "I",
+        "標",
+        "誌",
+        "轉"
+      ]
     },
     "tutorials": {
       "index": {
         "title": "SVG轉換教程 - 逐步指南",
         "description": "學習如何將 AI 標誌、AI 海報、QR 碼和照片轉換為 SVG，並透過逐步教程掌握技巧。針對每種使用情境的最佳化設定。",
-        "keywords": ["S", "V", "G", "轉", "換"]
+        "keywords": [
+          "S",
+          "V",
+          "G",
+          "轉",
+          "換"
+        ]
       },
       "ai-logos-to-svg": {
         "title": "將AI徽標轉換為SVG - 分步教程",
         "description": "學習如何將 AI 生成的徽標從 PNG/JPG 轉換為可縮放的 SVG。逐步指南，並提供 Looka、Brandmark 及其他 AI 徽標生成工具的推薦設定。",
-        "keywords": ["將", "A", "I", "標", "誌"]
+        "keywords": [
+          "將",
+          "A",
+          "I",
+          "標",
+          "誌"
+        ]
       },
       "ai-posters-to-svg": {
         "title": "將AI海報轉換為SVG - 分步教程",
         "description": "學習如何將 AI 生成的海報轉換為可縮放的 SVG 格式，以適用於大型印刷。逐步指南，並提供推薦的品質設定。",
-        "keywords": ["將", "向量化海報", "A", "I", "大尺寸格式印製 SVG"]
+        "keywords": [
+          "將",
+          "向量化海報",
+          "A",
+          "I",
+          "大尺寸格式印製 SVG"
+        ]
       },
       "qr-code-to-svg": {
         "title": "將QR碼轉換為SVG - 分步教程",
         "description": "學習如何將光柵QR碼轉換為可縮放的SVG，以實現清晰的大幅面打印。帶有自訂圖形的QR碼逐步指南。",
-        "keywords": ["Q", "R", "碼", "轉", "S"]
+        "keywords": [
+          "Q",
+          "R",
+          "碼",
+          "轉",
+          "S"
+        ]
       },
       "photo-to-svg": {
         "title": "將照片轉換為SVG - 分步教程",
         "description": "學習如何將照片轉換為風格化的SVG向量藝術。從照片創建抽象向量插圖的逐步指南。",
-        "keywords": ["照", "片", "轉", "S", "V"]
+        "keywords": [
+          "照",
+          "片",
+          "轉",
+          "S",
+          "V"
+        ]
       }
     },
     "credits": {
       "title": "購買SVG下載積分",
       "description": "購買點數以從 SVGR 下載轉換後的 SVG 和 PDF 檔案。為設計師和企業提供的經濟實惠點數套裝。",
-      "keywords": ["S", "V", "G", "R"]
+      "keywords": [
+        "S",
+        "V",
+        "G",
+        "R"
+      ]
     },
     "privacy": {
       "title": "隱私政策",

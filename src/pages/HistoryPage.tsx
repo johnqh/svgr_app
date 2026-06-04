@@ -10,11 +10,14 @@ import { useSvgrClient } from '../hooks/useSvgrClient';
 import { trackButtonClick, trackError } from '../analytics';
 import { DownloadIcon, SpinnerIcon } from '../components/icons';
 
-function formatSettings(job: JobResult): string {
+function formatSettings(
+  job: JobResult,
+  t: (key: string, options?: Record<string, unknown>) => string
+): string {
   const parts = [`Q${job.quality}`];
   if (job.imageType !== 'auto') parts.push(job.imageType);
-  if (job.transparentBg) parts.push('transparent');
-  if (!job.ocr) parts.push('no-ocr');
+  if (job.transparentBg) parts.push(t('settingTransparent'));
+  if (!job.ocr) parts.push(t('settingNoOcr'));
   if (job.smooth > 0) parts.push(`smooth=${job.smooth}`);
   return parts.join(', ');
 }
@@ -107,12 +110,16 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
         {/* Original thumbnail */}
         <Thumbnail
           filename={image.storageFilename}
-          alt={image.originalFilename || 'Original'}
+          alt={image.originalFilename || t('originalImage')}
           client={client}
         />
 
         {/* Converted thumbnail (latest done job) */}
-        <Thumbnail filename={latestDoneJob?.previewFilename} alt="Converted" client={client} />
+        <Thumbnail
+          filename={latestDoneJob?.previewFilename}
+          alt={t('convertedSvg')}
+          client={client}
+        />
 
         {/* Info */}
         <div className="min-w-0 flex-1">
@@ -127,7 +134,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
 
         <div className="flex items-center gap-2 flex-shrink-0">
           <span className={`text-xs ${ui.text.muted}`}>
-            {doneJobs.length} {doneJobs.length === 1 ? 'conversion' : 'conversions'}
+            {doneJobs.length} {doneJobs.length === 1 ? t('conversion') : t('conversions')}
           </span>
           <svg
             className={`w-4 h-4 text-gray-400 transition-transform ${expanded ? 'rotate-180' : ''}`}
@@ -152,11 +159,11 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
                   {/* Per-job converted thumbnail */}
                   <Thumbnail
                     filename={job.previewFilename}
-                    alt={formatSettings(job)}
+                    alt={formatSettings(job, t)}
                     client={client}
                   />
                   <div className="min-w-0">
-                    <span className="text-gray-700 truncate block">{formatSettings(job)}</span>
+                    <span className="text-gray-700 truncate block">{formatSettings(job, t)}</span>
                     <span className={`text-xs ${ui.text.muted}`}>
                       {new Date(job.createdAt).toLocaleTimeString()}
                     </span>

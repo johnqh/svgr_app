@@ -10,7 +10,9 @@
   "terms": "Terms",
   "navigation": {
     "useCases": "Use Cases",
-    "tutorials": "Tutorials"
+    "tutorials": "Tutorials",
+    "history": "History",
+    "settings": "Settings"
   },
   "useCases": {
     "title": "Why Use SVGR?",
@@ -207,6 +209,9 @@
     "label": "Vectorizing for"
   },
   "seo": {
+    "split": {
+      "title": "Split Compare - Image to SVG Converter"
+    },
     "home": {
       "title": "Image to SVG Converter - PNG, JPG, WEBP to Vector",
       "description": "Convert raster images to scalable vector graphics online. Upload PNG, JPG, or WEBP and get clean SVG output instantly. Free preview, ideal for AI-generated logos.",

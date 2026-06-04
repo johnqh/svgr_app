@@ -119,7 +119,7 @@ export default function SplitPage() {
     converter.convert();
   }, [file, converter]);
 
-  const seoTitle = `${tContent('seo.home.title')} Split`;
+  const seoTitle = tContent('seo.split.title');
   const seoDescription = tContent('seo.home.description');
   const rawKeywords = tContent('seo.home.keywords', { returnObjects: true });
   const seoKeywords = Array.isArray(rawKeywords) ? rawKeywords : undefined;

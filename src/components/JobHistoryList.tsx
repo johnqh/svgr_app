@@ -7,11 +7,14 @@ interface JobHistoryListProps {
   onSelectJob: (jobId: string) => void;
 }
 
-function formatSettings(job: JobResult): string {
+function formatSettings(
+  job: JobResult,
+  t: (key: string, options?: Record<string, unknown>) => string
+): string {
   const parts = [`Q${job.quality}`];
   if (job.imageType !== 'auto') parts.push(job.imageType);
-  if (job.transparentBg) parts.push('transparent');
-  if (!job.ocr) parts.push('no-ocr');
+  if (job.transparentBg) parts.push(t('settingTransparent'));
+  if (!job.ocr) parts.push(t('settingNoOcr'));
   if (job.smooth > 0) parts.push(`smooth=${job.smooth}`);
   return parts.join(', ');
 }
@@ -40,7 +43,7 @@ export function JobHistoryList({ jobs, currentJobId, onSelectJob }: JobHistoryLi
             }`}
           >
             <div className="flex items-center gap-2">
-              <span className="text-gray-700">{formatSettings(job)}</span>
+              <span className="text-gray-700">{formatSettings(job, t)}</span>
             </div>
             <span className="text-xs text-gray-400">
               {new Date(job.createdAt).toLocaleTimeString()}

@@ -130,7 +130,7 @@ function LangLayoutInner() {
       });
       navigate(`/${currentLang}`, { replace: true });
     } catch (err) {
-      const message = err instanceof Error ? err.message : 'Failed to delete account';
+      const message = err instanceof Error ? err.message : t('auth.deleteAccountFailed');
       window.alert(message);
     }
   }, [user, networkClient, currentLang, navigate, t]);

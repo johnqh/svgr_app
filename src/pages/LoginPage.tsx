@@ -15,6 +15,7 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
 } from 'firebase/auth';
+import { useTranslation } from 'react-i18next';
 import { LoginPage as LoginPageComponent } from '@sudobility/building_blocks';
 import { variants, ui } from '@sudobility/design';
 import { trackButtonClick, trackError, trackPageView } from '../analytics';
@@ -22,6 +23,7 @@ import { SEOHead } from '@sudobility/seo_lib';
 import { APP_NAME } from '../config/constants';
 
 function LoginPage() {
+  const { t } = useTranslation('auth');
   const { user, loading } = useAuthStatus();
   const navigate = useNavigate();
   const { lang } = useParams<{ lang: string }>();
@@ -49,14 +51,14 @@ function LoginPage() {
   if (!auth) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-theme-bg-primary">
-        <p className={ui.text.error}>Firebase not configured</p>
+        <p className={ui.text.error}>{t('firebaseNotConfigured')}</p>
       </div>
     );
   }
 
   return (
     <>
-      <SEOHead title="Login" description="Sign in to your SVGR account" noIndex />
+      <SEOHead title={t('loginTitle')} description={t('loginDescription')} noIndex />
       <LoginPageComponent
         appName={APP_NAME}
         logo={<img src="/logo.svg" alt={APP_NAME} className="h-12" />}
