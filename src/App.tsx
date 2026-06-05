@@ -66,7 +66,6 @@ function LangLayoutInner() {
   const { balance, isLoading: balanceLoading } = useBalance();
   const { pageConfig } = usePageConfig();
   const { user } = useAuthStatus();
-  const isRegistered = !!user && !user.isAnonymous;
   const networkClient = useFirebaseAuthNetworkClient();
 
   useEffect(() => {
@@ -96,14 +95,12 @@ function LangLayoutInner() {
         href: `/${currentLang}/tutorials`,
       },
     ];
-    if (isRegistered) {
-      items.push({
-        id: 'history',
-        label: t('navigation.history', { defaultValue: 'History' }),
-        icon: ClockIcon,
-        href: `/${currentLang}/history`,
-      });
-    }
+    items.push({
+      id: 'history',
+      label: t('navigation.history', { defaultValue: 'History' }),
+      icon: ClockIcon,
+      href: `/${currentLang}/history`,
+    });
     items.push({
       id: 'settings',
       label: t('navigation.settings', { defaultValue: 'Settings' }),
@@ -111,7 +108,7 @@ function LangLayoutInner() {
       href: `/${currentLang}/settings`,
     });
     return items;
-  }, [t, currentLang, isRegistered]);
+  }, [t, currentLang]);
 
   const handleDeleteAccount = useCallback(async () => {
     if (!user || user.isAnonymous) return;

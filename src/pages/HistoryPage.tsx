@@ -218,7 +218,7 @@ export default function HistoryPage() {
     return (
       <div className="flex flex-1 flex-col items-center justify-center px-4 py-16">
         <h2 className={`${ui.text.label} text-lg mb-2`}>
-          {t('historyLoginRequired', { defaultValue: 'Sign in to view your history' })}
+          {t('historyLoginRequired', { defaultValue: 'Log in to record your history' })}
         </h2>
         <p className={`${ui.text.muted} text-sm mb-4`}>
           {t('historyLoginDescription', {
@@ -229,7 +229,7 @@ export default function HistoryPage() {
           onClick={() => navigate(`/${lang || 'en'}/login`)}
           className="px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
         >
-          {t('signIn', { defaultValue: 'Sign In' })}
+          {t('loginAction', { defaultValue: 'Log In' })}
         </button>
       </div>
     );

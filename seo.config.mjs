@@ -9,8 +9,21 @@ const APP_NAME = process.env.VITE_APP_NAME || 'SVGR';
 
 export default {
   supportedLanguages: [
-    'en', 'de', 'es', 'fr', 'it', 'ja', 'ko',
-    'pt', 'ru', 'sv', 'th', 'uk', 'vi', 'zh', 'zh-hant',
+    'en',
+    'de',
+    'es',
+    'fr',
+    'it',
+    'ja',
+    'ko',
+    'pt',
+    'ru',
+    'sv',
+    'th',
+    'uk',
+    'vi',
+    'zh',
+    'zh-hant',
   ],
 
   languageHreflangMap: {

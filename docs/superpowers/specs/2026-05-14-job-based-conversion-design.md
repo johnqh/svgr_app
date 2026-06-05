@@ -2,23 +2,23 @@
 
 ## Context
 
-The current SVGR conversion is synchronous: the frontend sends a base64 image, waits 10-30+ seconds for the backend to finish, then gets back a cache ID to fetch the SVG. This blocks the user on the page and breaks on mobile (network drops when app is backgrounded). 
+The current SVGR conversion is synchronous: the frontend sends a base64 image, waits 10-30+ seconds for the backend to finish, then gets back a cache ID to fetch the SVG. This blocks the user on the page and breaks on mobile (network drops when app is backgrounded).
 
 This refactoring introduces persistent job tracking: upload image → create job → conversion runs async → frontend polls for completion → preview JPEG shown → SVG fetched only on download. All five projects in the SVGR ecosystem are modified.
 
 ## Decision Summary
 
-| Decision | Choice |
-|----------|--------|
-| File storage | Local filesystem |
-| Database | Same PostgreSQL (svgr schema) |
-| Frontend polling | Simple interval (2-3s) |
-| Auth | Firebase anonymous auth required |
-| File access | Through API endpoint (auth-gated) |
-| Retention | No limits now, timestamps for future cleanup |
-| Job history UI | List all jobs per image |
-| Dedup | Backend handles it |
-| SVG cache | Kept for legacy `/convert` endpoint; new jobs use persistent storage |
+| Decision         | Choice                                                               |
+| ---------------- | -------------------------------------------------------------------- |
+| File storage     | Local filesystem                                                     |
+| Database         | Same PostgreSQL (svgr schema)                                        |
+| Frontend polling | Simple interval (2-3s)                                               |
+| Auth             | Firebase anonymous auth required                                     |
+| File access      | Through API endpoint (auth-gated)                                    |
+| Retention        | No limits now, timestamps for future cleanup                         |
+| Job history UI   | List all jobs per image                                              |
+| Dedup            | Backend handles it                                                   |
+| SVG cache        | Kept for legacy `/convert` endpoint; new jobs use persistent storage |
 
 ---
 
@@ -44,12 +44,12 @@ export type JobStatus = 'pending' | 'processing' | 'done' | 'error';
 
 export interface CreateJobRequest {
   imageId: string;
-  quality?: number;        // 1-10, default 5
+  quality?: number; // 1-10, default 5
   transparentBg?: boolean; // default false
-  ocr?: boolean;           // default true
-  mergePaths?: boolean;    // default true
-  smooth?: number;         // 0-3, default 0
-  imageType?: ImageType;   // default 'auto'
+  ocr?: boolean; // default true
+  mergePaths?: boolean; // default true
+  smooth?: number; // 0-3, default 0
+  imageType?: ImageType; // default 'auto'
 }
 
 export interface JobResult {
@@ -158,17 +158,18 @@ Extract lines 119-533 from `/Users/johnhuang/projects/svgr_api/src/routes/conver
 
 ```typescript
 export async function runConversionPipeline(params: {
-  imagePath: string;       // path to uploaded image on disk
+  imagePath: string; // path to uploaded image on disk
   quality: number;
   smooth: number;
   transparentBg: boolean;
   ocr: boolean;
   mergePaths: boolean;
-  imageType: ImageType;    // 'auto' or specific type
-}): Promise<{ svg: string; width: number; height: number }>
+  imageType: ImageType; // 'auto' or specific type
+}): Promise<{ svg: string; width: number; height: number }>;
 ```
 
 This function contains the existing 7 stages verbatim:
+
 1. Load image with sharp, classify type
 2. OCR detection + verification
 3. Text inpainting
@@ -182,9 +183,11 @@ Temp file cleanup stays in a `finally` block inside this function.
 ### 2d. Supporting Services
 
 **New file**: `/Users/johnhuang/projects/svgr_api/src/services/settings-hash.ts`
+
 - `computeSettingsHash(settings)` — canonical JSON (sorted keys, normalized defaults) → SHA-256 hex
 
 **New file**: `/Users/johnhuang/projects/svgr_api/src/services/api-version.ts`
+
 - `getApiVersion()` — reads + caches `version` from package.json
 
 ### 2e. New API Routes
@@ -192,6 +195,7 @@ Temp file cleanup stays in a `finally` block inside this function.
 **New file**: `/Users/johnhuang/projects/svgr_api/src/routes/images.ts`
 
 `POST /api/v1/images/upload` (requireAuth)
+
 - Accepts `multipart/form-data` with field `image`
 - Validates image type (magic bytes, same as current `detectExtension`)
 - Extracts dimensions with sharp
@@ -203,6 +207,7 @@ Temp file cleanup stays in a `finally` block inside this function.
 **New file**: `/Users/johnhuang/projects/svgr_api/src/routes/jobs.ts`
 
 `POST /api/v1/jobs` (requireAuth)
+
 - Validates request body with Zod schema
 - Verifies image belongs to requesting user
 - Computes `settings_hash` and reads `api_version`
@@ -212,16 +217,19 @@ Temp file cleanup stays in a `finally` block inside this function.
 - Returns `CreateJobResponse`
 
 `GET /api/v1/jobs/:jobId` (requireAuth)
+
 - Returns job status + all fields
 - Verifies job belongs to requesting user
 
 `GET /api/v1/jobs?imageId=<uuid>` (requireAuth)
+
 - Returns all jobs for an image, ordered by `created_at DESC`
 - Verifies image belongs to requesting user
 
 **New file**: `/Users/johnhuang/projects/svgr_api/src/routes/files.ts`
 
 `GET /api/v1/files/:filename` (requireAuth)
+
 - Determines file type from extension (`.svg` → `svg/`, `.jpg` → `preview/`, others → `uploads/`)
 - Validates user ownership (queries images/jobs table)
 - Serves file with correct Content-Type
@@ -232,7 +240,7 @@ Temp file cleanup stays in a `finally` block inside this function.
 **New file**: `/Users/johnhuang/projects/svgr_api/src/services/job-processor.ts`
 
 ```typescript
-export async function processJob(jobId: string): Promise<void>
+export async function processJob(jobId: string): Promise<void>;
 ```
 
 1. Update job: `status = 'processing'`, `started_at = NOW()`
@@ -247,16 +255,19 @@ export async function processJob(jobId: string): Promise<void>
 ### 2g. Mount Routes & Cleanup
 
 **File**: `/Users/johnhuang/projects/svgr_api/src/index.ts`
+
 - Mount new routes: `images`, `jobs`, `files`
 - Remove old `convert` and `svg` route mounts
 - Call `ensureDataDirs()` during startup
 
 **Remove**:
+
 - `/Users/johnhuang/projects/svgr_api/src/services/svg-cache.ts`
 - `/Users/johnhuang/projects/svgr_api/src/routes/svg.ts`
 - `/Users/johnhuang/projects/svgr_api/src/routes/convert.ts` (after extraction)
 
 **File**: `/Users/johnhuang/projects/svgr_api/src/schemas/index.ts`
+
 - Add `createJobRequestSchema` (Zod)
 
 **Verification**: `bun test`, then manually test endpoints with curl/httpie.
@@ -297,11 +308,11 @@ Note: `uploadImage` accepts both web `File` and a React Native-compatible object
 
 ```typescript
 export const svgrKeys = {
-  all: ["svgr"] as const,
-  convert: () => [...svgrKeys.all, "convert"] as const,
-  jobs: () => [...svgrKeys.all, "jobs"] as const,
+  all: ['svgr'] as const,
+  convert: () => [...svgrKeys.all, 'convert'] as const,
+  jobs: () => [...svgrKeys.all, 'jobs'] as const,
   job: (jobId: string) => [...svgrKeys.jobs(), jobId] as const,
-  imageJobs: (imageId: string) => [...svgrKeys.jobs(), "image", imageId] as const,
+  imageJobs: (imageId: string) => [...svgrKeys.jobs(), 'image', imageId] as const,
 };
 ```
 
@@ -312,10 +323,12 @@ export const svgrKeys = {
 `src/hooks/useCreateJob.ts` — `useMutation` wrapping `client.createJob()`
 
 `src/hooks/useJobStatus.ts` — `useQuery` wrapping `client.getJobStatus()` with:
+
 - `refetchInterval: (query) => query.state.data?.data?.status === 'done' || query.state.data?.data?.status === 'error' ? false : 2500`
 - `enabled: !!jobId`
 
 `src/hooks/useImageJobs.ts` — `useQuery` wrapping `client.getJobsForImage()`
+
 - `enabled: !!imageId`
 
 **Update exports** in `src/index.ts`.
@@ -350,11 +363,11 @@ interface ImageConverterState {
   // Job state (replaces svgResult/isConverting)
   currentJobId: string | null;
   currentJob: JobResult | null;
-  isConverting: boolean;  // pending or processing
+  isConverting: boolean; // pending or processing
 
   // Results (changed)
-  previewUrl: string | null;   // JPEG object URL
-  svgFilename: string | null;  // for download only
+  previewUrl: string | null; // JPEG object URL
+  svgFilename: string | null; // for download only
 
   // History (new)
   jobs: JobResult[];
@@ -364,6 +377,7 @@ interface ImageConverterState {
 ```
 
 New actions:
+
 - `upload(file: File): Promise<void>` — calls `uploadImage`, sets `imageId`
 - `convert(): void` — calls `createJob` with current settings + `imageId`, sets `currentJobId`, polling begins
 - `reset(): void` — clears all state
@@ -405,10 +419,12 @@ The page flow changes:
 ### 5c. Component Changes
 
 **ImageUploadPanel.tsx** — minimal changes:
+
 - Add upload progress indicator (spinner/overlay while `isUploading`)
 - Show upload error if it fails
 
 **SvgPreviewPanel.tsx** — significant changes:
+
 - Props change: receives `previewUrl: string | null` (JPEG) instead of `svg: string | null`
 - Preview area renders `<img src={previewUrl}>` (JPEG) instead of SVG blob URL
 - Download SVG: calls `onDownloadSvg` prop → fetches SVG blob from server → triggers download
@@ -416,10 +432,12 @@ The page flow changes:
 - Shows job metadata (status, settings, dimensions)
 
 **ConvertButton.tsx** — minor changes:
+
 - Disabled when `isUploading` too (not just when no file)
 - Shows "Uploading..." state when applicable
 
 **New component**: `JobHistoryList.tsx`
+
 - Receives `jobs: JobResult[]`, `currentJobId: string | null`, `onSelectJob: (id) => void`
 - Each row: timestamp, settings summary (quality, imageType), status badge
 - Clicking a row calls `onSelectJob` to switch preview
@@ -437,63 +455,68 @@ The page flow changes:
 ## File Change Summary
 
 ### svgr_types
-| File | Action |
-|------|--------|
+
+| File           | Action               |
+| -------------- | -------------------- |
 | `src/index.ts` | Edit — add new types |
 
 ### svgr_api
-| File | Action |
-|------|--------|
-| `src/db/index.ts` | Edit — add images + jobs tables |
-| `src/db/schema.ts` | Edit — add Drizzle schemas |
-| `src/services/file-storage.ts` | **New** — filesystem storage |
-| `src/services/conversion-pipeline.ts` | **New** — extracted pipeline |
-| `src/services/job-processor.ts` | **New** — async job runner |
-| `src/services/settings-hash.ts` | **New** — dedup hash |
-| `src/services/api-version.ts` | **New** — version reader |
-| `src/routes/images.ts` | **New** — image upload endpoint |
-| `src/routes/jobs.ts` | **New** — job CRUD endpoints |
-| `src/routes/files.ts` | **New** — file serving endpoint |
-| `src/routes/convert.ts` | **Remove** — replaced by pipeline + jobs |
-| `src/routes/convert-utils.ts` | Keep — used by conversion-pipeline |
-| `src/routes/svg.ts` | **Remove** — replaced by files route |
-| `src/services/svg-cache.ts` | **Remove** — replaced by persistent storage |
-| `src/schemas/index.ts` | Edit — add job schema |
-| `src/index.ts` | Edit — mount new routes, remove old |
+
+| File                                  | Action                                      |
+| ------------------------------------- | ------------------------------------------- |
+| `src/db/index.ts`                     | Edit — add images + jobs tables             |
+| `src/db/schema.ts`                    | Edit — add Drizzle schemas                  |
+| `src/services/file-storage.ts`        | **New** — filesystem storage                |
+| `src/services/conversion-pipeline.ts` | **New** — extracted pipeline                |
+| `src/services/job-processor.ts`       | **New** — async job runner                  |
+| `src/services/settings-hash.ts`       | **New** — dedup hash                        |
+| `src/services/api-version.ts`         | **New** — version reader                    |
+| `src/routes/images.ts`                | **New** — image upload endpoint             |
+| `src/routes/jobs.ts`                  | **New** — job CRUD endpoints                |
+| `src/routes/files.ts`                 | **New** — file serving endpoint             |
+| `src/routes/convert.ts`               | **Remove** — replaced by pipeline + jobs    |
+| `src/routes/convert-utils.ts`         | Keep — used by conversion-pipeline          |
+| `src/routes/svg.ts`                   | **Remove** — replaced by files route        |
+| `src/services/svg-cache.ts`           | **Remove** — replaced by persistent storage |
+| `src/schemas/index.ts`                | Edit — add job schema                       |
+| `src/index.ts`                        | Edit — mount new routes, remove old         |
 
 ### svgr_client
-| File | Action |
-|------|--------|
-| `src/network/SvgrClient.ts` | Edit — add new methods |
-| `src/hooks/query-keys.ts` | Edit — add job keys |
-| `src/hooks/useUploadImage.ts` | **New** |
-| `src/hooks/useCreateJob.ts` | **New** |
-| `src/hooks/useJobStatus.ts` | **New** |
-| `src/hooks/useImageJobs.ts` | **New** |
-| `src/index.ts` | Edit — export new hooks |
+
+| File                          | Action                  |
+| ----------------------------- | ----------------------- |
+| `src/network/SvgrClient.ts`   | Edit — add new methods  |
+| `src/hooks/query-keys.ts`     | Edit — add job keys     |
+| `src/hooks/useUploadImage.ts` | **New**                 |
+| `src/hooks/useCreateJob.ts`   | **New**                 |
+| `src/hooks/useJobStatus.ts`   | **New**                 |
+| `src/hooks/useImageJobs.ts`   | **New**                 |
+| `src/index.ts`                | Edit — export new hooks |
 
 ### svgr_lib
-| File | Action |
-|------|--------|
-| `src/hooks/useImageConverter.ts` | Edit — major rework |
-| `src/index.ts` | Edit — export new types |
+
+| File                             | Action                  |
+| -------------------------------- | ----------------------- |
+| `src/hooks/useImageConverter.ts` | Edit — major rework     |
+| `src/index.ts`                   | Edit — export new types |
 
 ### svgr_app
-| File | Action |
-|------|--------|
+
+| File                                               | Action                         |
+| -------------------------------------------------- | ------------------------------ |
 | `src/components/providers/AuthProviderWrapper.tsx` | Edit — `enableAnonymous: true` |
-| `src/pages/ConvertPage.tsx` | Edit — new flow |
-| `src/components/SvgPreviewPanel.tsx` | Edit — JPEG preview |
-| `src/components/ConvertButton.tsx` | Edit — upload state |
-| `src/components/ImageUploadPanel.tsx` | Edit — upload indicator |
-| `src/components/JobHistoryList.tsx` | **New** — job history list |
+| `src/pages/ConvertPage.tsx`                        | Edit — new flow                |
+| `src/components/SvgPreviewPanel.tsx`               | Edit — JPEG preview            |
+| `src/components/ConvertButton.tsx`                 | Edit — upload state            |
+| `src/components/ImageUploadPanel.tsx`              | Edit — upload indicator        |
+| `src/components/JobHistoryList.tsx`                | **New** — job history list     |
 
 ---
 
 ## Verification Plan
 
 1. **svgr_types**: `bun test` — types compile, existing tests pass
-2. **svgr_api**: 
+2. **svgr_api**:
    - `bun test` — existing + new tests pass
    - Manual: upload image via curl, create job, poll until done, fetch preview JPEG, fetch SVG
    - Manual: test dedup (same settings + version = immediate done)
