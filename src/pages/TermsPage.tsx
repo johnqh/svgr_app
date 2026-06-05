@@ -45,6 +45,10 @@ export default function TermsPage() {
         content: t('termsUploadsContent'),
       },
       {
+        title: t('termsHistoryTitle'),
+        content: t('termsHistoryContent'),
+      },
+      {
         title: t('termsDisclaimerTitle'),
         content: t('termsDisclaimerContent'),
       },
