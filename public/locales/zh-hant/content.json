@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "使用場景",
     "tutorials": "教學",
+    "communities": "社區",
     "history": "歷史",
     "settings": "設定"
+  },
+  "communities": {
+    "title": "設計師社群",
+    "subtitle": "與設計師連接，並獲得向量圖形、SVG轉換和商標設計方面的協助。",
+    "visitButton": "訪問",
+    "emptyState": "此語言未找到相關社群。"
   },
   "useCases": {
     "title": "為什麼使用 SVGR？",
@@ -248,6 +255,11 @@
         "description": "學習如何將照片轉換為風格化的SVG向量藝術。從照片創建抽象向量插圖的逐步指南。",
         "keywords": ["照", "片", "轉", "S", "V"]
       }
+    },
+    "communities": {
+      "title": "設計師社群 - SVGR",
+      "description": "尋找專為向量圖形、SVG轉換和商標設計而設的設計師社群。論壇、Discord伺服器、Reddit社群等。",
+      "keywords": ["設計師社群", "SVG 社群", "向量圖形論壇", "圖形設計 Discord"]
     },
     "credits": {
       "title": "購買SVG下載積分",

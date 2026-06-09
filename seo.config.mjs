@@ -90,6 +90,19 @@ export default {
       }),
     },
     {
+      key: 'communities',
+      path: '/communities',
+      namespace: 'content',
+      priority: '0.7',
+      changefreq: 'weekly',
+      indexable: true,
+      meta: locale => ({
+        title: locale.content.seo.communities.title,
+        description: locale.content.seo.communities.description,
+        keywords: locale.content.seo.communities.keywords,
+      }),
+    },
+    {
       key: 'tutorials',
       path: '/tutorials',
       namespace: 'content',

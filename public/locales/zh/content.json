@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "使用场景",
     "tutorials": "教程",
+    "communities": "社区",
     "history": "历史",
     "settings": "设置"
+  },
+  "communities": {
+    "title": "设计师社区",
+    "subtitle": "与设计师联系，获取矢量图形、SVG转换和标志设计方面的帮助。",
+    "visitButton": "访问",
+    "emptyState": "此语言未找到相关社区。"
   },
   "useCases": {
     "title": "为什么使用 SVGR？",
@@ -248,6 +255,11 @@
         "description": "学习如何将照片转换为风格化的SVG矢量艺术。从照片创建抽象矢量插图的逐步指南。",
         "keywords": ["将", "照", "片", "转", "换"]
       }
+    },
+    "communities": {
+      "title": "设计师社区 - SVGR",
+      "description": "寻找矢量图形、SVG转换和标志设计方面的设计师社区。论坛、Discord服务器、Reddit社区等。",
+      "keywords": ["设计师社区", "SVG 社区", "矢量图形论坛", "图形设计 Discord"]
     },
     "credits": {
       "title": "购买SVG下载积分",

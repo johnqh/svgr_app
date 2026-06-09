@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "Casos de uso",
     "tutorials": "Tutoriais",
+    "communities": "Comunidades",
     "history": "História",
     "settings": "Configurações"
+  },
+  "communities": {
+    "title": "Comunidades de designers",
+    "subtitle": "Ligue-se com designers e obtenha ajuda com gráficos vetoriais, conversão SVG e design de logotipos.",
+    "visitButton": "Visita",
+    "emptyState": "Nenhuma comunidade encontrada para este idioma."
   },
   "useCases": {
     "title": "Por que usar o SVGR?",
@@ -248,6 +255,16 @@
         "description": "Aprenda como converter fotos em arte vetorial SVG estilizada. Guia passo a passo para criar ilustrações vetoriais abstratas a partir de fotos.",
         "keywords": ["f", "o", "t", "o", "vetorizar fotografia"]
       }
+    },
+    "communities": {
+      "title": "Comunidades de designers - SVGR",
+      "description": "Encontre comunidades de designers para gráficos vetoriais, conversão SVG e design de logotipos. Fóruns, servidores do Discord, comunidades do Reddit e mais.",
+      "keywords": [
+        "comunidades de designers",
+        "Comunidades SVG",
+        "fórum de gráficos vetoriais",
+        "design gráfico discord"
+      ]
     },
     "credits": {
       "title": "Compre créditos de download SVG",

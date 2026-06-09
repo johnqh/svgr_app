@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "ユースケース",
     "tutorials": "チュートリアル",
+    "communities": "コミュニティ",
     "history": "歴史",
     "settings": "設定"
+  },
+  "communities": {
+    "title": "デザイナーのコミュニティ",
+    "subtitle": "デザイナーとつながり、ベクターグラフィック、SVG変換、ロゴデザインに関するサポートを受けてください。",
+    "visitButton": "訪問",
+    "emptyState": "この言語のコミュニティが見つかりませんでした。"
   },
   "useCases": {
     "title": "なぜSVGRを使うのか？",
@@ -248,6 +255,16 @@
         "description": "写真をスタイリッシュなSVGベクターアートに変換する方法を学びましょう。写真から抽象的なベクターアートを作成するためのステップバイステップガイド。",
         "keywords": ["写", "真", "を", "S", "V"]
       }
+    },
+    "communities": {
+      "title": "デザイナー コミュニティ - SVGR",
+      "description": "ベクターグラフィック、SVG変換、ロゴデザイン向けのデザイナー向けコミュニティを検索。フォーラム、Discordサーバー、Redditコミュニティなど。",
+      "keywords": [
+        "デザイナーのコミュニティ",
+        "SVGコミュニティ",
+        "ベクターグラフィックスフォーラム",
+        "グラフィックデザイン Discord"
+      ]
     },
     "credits": {
       "title": "SVGダウンロードクレジットを購入",

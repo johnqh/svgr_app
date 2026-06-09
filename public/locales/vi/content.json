@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "Trường hợp sử dụng",
     "tutorials": "Hướng dẫn",
+    "communities": "Cộng đồng",
     "history": "Lịch sử",
     "settings": "Cài đặt"
+  },
+  "communities": {
+    "title": "Cộng đồng nhà thiết kế",
+    "subtitle": "Kết nối với các nhà thiết kế và nhận trợ giúp về đồ họa vector, chuyển đổi SVG và thiết kế biểu tượng.",
+    "visitButton": "Thăm",
+    "emptyState": "Không tìm thấy cộng đồng nào cho ngôn ngữ này."
   },
   "useCases": {
     "title": "Tại sao sử dụng SVGR?",
@@ -248,6 +255,16 @@
         "description": "Học cách chuyển đổi ảnh thành nghệ thuật vector SVG phong cách. Hướng dẫn từng bước để tạo bản vẽ vector trừu tượng từ ảnh chụp.",
         "keywords": ["c", "h", "u", "y", "ể"]
       }
+    },
+    "communities": {
+      "title": "Cộng đồng nhà thiết kế - SVGR",
+      "description": "Tìm kiếm các cộng đồng thiết kế về đồ họa vector, chuyển đổi SVG và thiết kế biểu tượng. Các diễn đàn, máy chủ Discord, cộng đồng Reddit và hơn thế nữa.",
+      "keywords": [
+        "cộng đồng nhà thiết kế",
+        "Cộng đồng SVG",
+        "diễn đàn đồ họa vector",
+        "thiết kế đồ họa discord"
+      ]
     },
     "credits": {
       "title": "Mua tín dụng tải xuống SVG",

@@ -27,7 +27,13 @@ import { API_URL, APP_NAME, APP_DOMAIN, COMPANY_NAME } from './config/constants'
 import { AuthProviderWrapper } from './components/providers/AuthProviderWrapper';
 import { AuthAction, useAuthStatus } from '@sudobility/auth-components';
 import { deleteAccount, useFirebaseAuthNetworkClient } from '@sudobility/auth_lib';
-import { LightBulbIcon, BookOpenIcon, ClockIcon, GearIcon } from './components/icons';
+import {
+  LightBulbIcon,
+  BookOpenIcon,
+  ClockIcon,
+  GearIcon,
+  UsersGroupIcon,
+} from './components/icons';
 import { SEOHeadProvider } from '@sudobility/seo_lib';
 import { seoHeadConfig } from './config/seo';
 import { PageConfigProvider } from './context/PageConfigProvider';
@@ -49,6 +55,7 @@ const UseCasesPage = lazy(() => import('./pages/UseCasesPage'));
 const SitemapPage = lazy(() => import('./pages/SitemapPage'));
 const HistoryPage = lazy(() => import('./pages/HistoryPage'));
 const SettingsPage = lazy(() => import('./pages/SettingsPage'));
+const CommunitiesPage = lazy(() => import('./pages/CommunitiesPage'));
 
 const queryClient = new QueryClient();
 
@@ -93,6 +100,12 @@ function LangLayoutInner() {
         label: t('navigation.tutorials'),
         icon: BookOpenIcon,
         href: `/${currentLang}/tutorials`,
+      },
+      {
+        id: 'communities',
+        label: t('navigation.communities', { defaultValue: 'Communities' }),
+        icon: UsersGroupIcon,
+        href: `/${currentLang}/communities`,
       },
     ];
     items.push({
@@ -275,6 +288,7 @@ function AppRoutes() {
         <Route path="use-cases" element={<UseCasesPage />} />
         <Route path="tutorials" element={<TutorialsPage />} />
         <Route path="tutorials/:slug" element={<TutorialsPage />} />
+        <Route path="communities" element={<CommunitiesPage />} />
         <Route path="history" element={<HistoryPage />} />
         <Route path="settings" element={<SettingsPage />} />
         <Route path="credits" element={<CreditsPage />} />

@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "Use Cases",
     "tutorials": "Tutorials",
+    "communities": "Communities",
     "history": "History",
     "settings": "Settings"
+  },
+  "communities": {
+    "title": "Designer Communities",
+    "subtitle": "Connect with designers and get help with vector graphics, SVG conversion, and logo design.",
+    "visitButton": "Visit",
+    "emptyState": "No communities found for this language."
   },
   "useCases": {
     "title": "Why Use SVGR?",
@@ -292,6 +299,16 @@
           "vectorize photograph"
         ]
       }
+    },
+    "communities": {
+      "title": "Designer Communities - SVGR",
+      "description": "Find designer communities for vector graphics, SVG conversion, and logo design. Forums, Discord servers, Reddit communities, and more.",
+      "keywords": [
+        "designer communities",
+        "SVG communities",
+        "vector graphics forum",
+        "graphic design discord"
+      ]
     },
     "credits": {
       "title": "Buy SVG Download Credits",

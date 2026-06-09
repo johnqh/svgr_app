@@ -11,8 +11,15 @@
   "navigation": {
     "useCases": "Användningsfall",
     "tutorials": "Självstudier",
+    "communities": "Kommuner",
     "history": "Historia",
     "settings": "Inställningar"
+  },
+  "communities": {
+    "title": "Designercommunity",
+    "subtitle": "Anslut dig till designrar och få hjälp med vektorgrafik, SVG-omvandling och logotypsdesign.",
+    "visitButton": "Besök",
+    "emptyState": "Inga community funna för detta språk."
   },
   "useCases": {
     "title": "Varför använda SVGR?",
@@ -248,6 +255,16 @@
         "description": "Lär dig hur du omvandlar foton till stylade vektorbilder i SVG-format. Steg-för-steg-guide för att skapa abstrakta vektorillustrationer från foton.",
         "keywords": ["f", "o", "t", "o", "vektorisera foto"]
       }
+    },
+    "communities": {
+      "title": "Designergemenskaper - SVGR",
+      "description": "Hitta designcommunityer för vektorgrafik, SVG-omvandling och logodesign. Forum, Discord-servrar, Reddit-communityer och mer.",
+      "keywords": [
+        "designercommunityer",
+        "SVG-kommunen",
+        "vektorgrafikforum",
+        "grafisk design discord"
+      ]
     },
     "credits": {
       "title": "Köp SVG-nedladdningskrediter",
