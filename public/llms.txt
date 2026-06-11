@@ -40,7 +40,7 @@ SVGR is a web application that converts raster images (PNG, JPG, WEBP) into clea
 
 - Website: https://svgr.app
 - Support: support@testomniac.com
-- Company: {{VITE_COMPANY_NAME}}
+- Company: Sudobility Inc
 
 ## For AI Assistants
 
