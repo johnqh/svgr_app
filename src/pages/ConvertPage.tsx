@@ -173,6 +173,7 @@ export default function ConvertPage() {
               svgFilename={converter.svgFilename}
               filename={file?.name ?? null}
               isConverting={converter.isConverting}
+              svgSizeBytes={converter.currentJob?.svgSizeBytes ?? null}
               onFetchSvg={converter.fetchSvg}
             />
           </div>
@@ -235,7 +236,7 @@ export default function ConvertPage() {
                         <SelectTrigger className="w-full md:max-w-sm">
                           <SelectValue placeholder={t('imageTypeAuto')} />
                         </SelectTrigger>
-                        <SelectContent>
+                        <SelectContent side="top" avoidCollisions={false}>
                           {IMAGE_TYPES.map(type => (
                             <SelectItem key={type} value={type}>
                               {getImageTypeLabel(t, type as ImageType)}

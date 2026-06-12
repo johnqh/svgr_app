@@ -46,7 +46,11 @@ export function JobHistoryList({ jobs, currentJobId, onSelectJob }: JobHistoryLi
               <span className="text-gray-700">{formatSettings(job, t)}</span>
             </div>
             <span className="text-xs text-gray-400">
-              {new Date(job.createdAt).toLocaleTimeString()}
+              {new Date(
+                /[Z+-]\d/.test(job.createdAt) || job.createdAt.endsWith('Z')
+                  ? job.createdAt
+                  : job.createdAt + 'Z'
+              ).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}
             </span>
           </button>
         ))}

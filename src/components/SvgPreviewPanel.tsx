@@ -33,6 +33,8 @@ interface SvgPreviewPanelProps {
   filename: string | null;
   /** Whether a conversion is currently in progress. */
   isConverting: boolean;
+  /** SVG file size in bytes, if available. */
+  svgSizeBytes: number | null;
   /** Callback to fetch SVG blob from server. */
   onFetchSvg: () => Promise<Blob | null>;
 }
@@ -42,6 +44,7 @@ export default function SvgPreviewPanel({
   svgFilename,
   filename,
   isConverting,
+  svgSizeBytes,
   onFetchSvg,
 }: SvgPreviewPanelProps) {
   const { t } = useTranslation('conversion');
@@ -155,6 +158,13 @@ export default function SvgPreviewPanel({
             alt={t('convertedSvg')}
             className="max-w-full max-h-full object-contain"
           />
+          {svgSizeBytes != null && (
+            <div className="absolute bottom-2 left-2 bg-black/60 rounded-md px-2 py-1 shadow">
+              <span className="text-xs text-white font-medium">
+                {(svgSizeBytes / 1024).toFixed(1)} KB
+              </span>
+            </div>
+          )}
         </div>
       ) : (
         <div
