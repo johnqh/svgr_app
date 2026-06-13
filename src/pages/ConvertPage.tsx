@@ -94,7 +94,6 @@ export default function ConvertPage() {
       setSettingsExpanded(true);
       converter.reset();
 
-      // Upload to server for persistent storage (requires auth)
       if (api?.isReady) {
         converter.upload(f);
       }
@@ -107,6 +106,13 @@ export default function ConvertPage() {
     },
     [converter, api?.isReady]
   );
+
+  // Retry upload when API becomes ready (e.g. anonymous auth completing after file selection)
+  useEffect(() => {
+    if (file && api?.isReady && !converter.imageId && !converter.isUploading) {
+      converter.upload(file);
+    }
+  }, [api?.isReady, file, converter.imageId, converter.isUploading, converter]);
 
   const handleClear = useCallback(() => {
     if (previewUrlRef.current) {

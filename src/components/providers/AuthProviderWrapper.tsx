@@ -1,6 +1,6 @@
 import { type ReactNode, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { onAuthStateChanged } from 'firebase/auth';
+import { onAuthStateChanged, signInAnonymously } from 'firebase/auth';
 import { AuthProvider } from '@sudobility/auth-components';
 import {
   getFirebaseAuth,
@@ -31,6 +31,17 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
   const errorTexts = useMemo(() => createAuthErrorTexts(), []);
 
   const auth = getFirebaseAuth();
+  const authCallbacks = useMemo(
+    () => ({
+      onSignOut: () => {
+        if (!auth) return;
+        void signInAnonymously(auth).catch(err => {
+          console.error('[AuthProviderWrapper] Anonymous sign-in after logout failed:', err);
+        });
+      },
+    }),
+    [auth]
+  );
 
   // Initialize the consumables (credit) service once Firebase Auth is ready.
   // Also subscribes to auth state changes to sync the consumables user ID,
@@ -61,6 +72,7 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
         providers: ['google', 'email'],
         enableAnonymous: true,
       }}
+      callbacks={authCallbacks}
       texts={texts}
       errorTexts={errorTexts}
       resolveErrorMessage={getFirebaseErrorMessage}
