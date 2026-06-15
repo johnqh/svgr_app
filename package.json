@@ -49,7 +49,7 @@
     "@sudobility/subscription-components": "^1.0.31",
     "@sudobility/subscription_lib": "^0.0.44",
     "@sudobility/svgr_client": "^1.0.40",
-    "@sudobility/svgr_lib": "^0.0.46",
+    "@sudobility/svgr_lib": "^0.0.47",
     "@sudobility/svgr_types": "^1.0.26",
     "@sudobility/types": "^1.9.62",
     "@tanstack/react-query": "^5.0.0",
