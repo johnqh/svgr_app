@@ -47,6 +47,13 @@ export default {
   primaryDomain: 'svgr.app',
   appName: APP_NAME,
   appDomain: process.env.VITE_APP_DOMAIN || 'svgr.app',
+  // Canonical URLs have NO trailing slash (source of truth), including the
+  // language root (https://svgr.app/en, https://svgr.app/en/use-cases). The
+  // shared generate-seo-assets.mjs already emits no-slash by default; this flag
+  // pins that intent (and is honored if a future generator adds the option). It
+  // must match seo_lib's runtime canonical, LocalizedLink hrefs, and the
+  // functions/_middleware.js 301 — see sudobility/docs/SEO.md.
+  trailingSlashUrls: false,
   robotsDisallowPaths: ['/*/history', '/*/credits', '/*/login'],
 
   routes: [

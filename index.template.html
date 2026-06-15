@@ -39,7 +39,10 @@
       content="Convert raster images (PNG, JPG, WEBP) to scalable vector graphics (SVG) with AI-powered vectorization. Ideal for logos, icons, and AI-generated designs."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://{{VITE_APP_DOMAIN}}" />
+    <!-- No og:url / canonical / hreflang here: those are PAGE-SPECIFIC, but this
+         shell is shared by every route. They are supplied per-route by
+         seo:generate (build) and by functions/_middleware.js (request-time
+         snapshot injection). Hardcoding one URL would mislabel every page. -->
     <meta property="og:image" content="https://{{VITE_APP_DOMAIN}}/og-image.png" />
     <meta property="og:site_name" content="{{VITE_APP_NAME}}" />
 
