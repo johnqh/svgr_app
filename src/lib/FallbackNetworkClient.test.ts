@@ -15,7 +15,9 @@ describe('createFallbackNetworkClient', () => {
   afterEach(() => vi.restoreAllMocks());
 
   it('attaches the fallback bearer token on GET and parses JSON', async () => {
-    const fetchSpy = vi.spyOn(globalThis, 'fetch').mockResolvedValue(jsonResponse({ hello: 'world' }));
+    const fetchSpy = vi
+      .spyOn(globalThis, 'fetch')
+      .mockResolvedValue(jsonResponse({ hello: 'world' }));
     const client = createFallbackNetworkClient(() => UID);
 
     const res = await client.get('https://api.example/x');

@@ -7,11 +7,7 @@
  * SVG/PDF previews.
  */
 
-import type {
-  NetworkClient,
-  NetworkRequestOptions,
-  NetworkResponse,
-} from '@sudobility/types';
+import type { NetworkClient, NetworkRequestOptions, NetworkResponse } from '@sudobility/types';
 
 export function createFallbackNetworkClient(getUid: () => string): NetworkClient {
   const withAuth = (extra?: Record<string, string> | null): Record<string, string> => ({
@@ -51,10 +47,7 @@ export function createFallbackNetworkClient(getUid: () => string): NetworkClient
     return parse<T>(response);
   }
 
-  function buildBody(
-    body: unknown,
-    headers: Record<string, string>
-  ): BodyInit | undefined {
+  function buildBody(body: unknown, headers: Record<string, string>): BodyInit | undefined {
     if (body == null) return undefined;
     if (typeof FormData !== 'undefined' && body instanceof FormData) {
       return body; // let the browser set the multipart boundary
@@ -85,7 +78,11 @@ export function createFallbackNetworkClient(getUid: () => string): NetworkClient
         signal: options?.signal ?? undefined,
       });
     },
-    post<T = unknown>(url: string, body?: unknown, options?: Omit<NetworkRequestOptions, 'method'> | null) {
+    post<T = unknown>(
+      url: string,
+      body?: unknown,
+      options?: Omit<NetworkRequestOptions, 'method'> | null
+    ) {
       const headers = withAuth(options?.headers);
       return exec<T>(url, {
         method: 'POST',
@@ -94,7 +91,11 @@ export function createFallbackNetworkClient(getUid: () => string): NetworkClient
         signal: options?.signal ?? undefined,
       });
     },
-    put<T = unknown>(url: string, body?: unknown, options?: Omit<NetworkRequestOptions, 'method'> | null) {
+    put<T = unknown>(
+      url: string,
+      body?: unknown,
+      options?: Omit<NetworkRequestOptions, 'method'> | null
+    ) {
       const headers = withAuth(options?.headers);
       return exec<T>(url, {
         method: 'PUT',
@@ -103,7 +104,10 @@ export function createFallbackNetworkClient(getUid: () => string): NetworkClient
         signal: options?.signal ?? undefined,
       });
     },
-    delete<T = unknown>(url: string, options?: Omit<NetworkRequestOptions, 'method' | 'body'> | null) {
+    delete<T = unknown>(
+      url: string,
+      options?: Omit<NetworkRequestOptions, 'method' | 'body'> | null
+    ) {
       return exec<T>(url, {
         method: 'DELETE',
         headers: withAuth(options?.headers),

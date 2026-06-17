@@ -40,10 +40,7 @@ export function FallbackAuthProvider({ children }: { children: ReactNode }) {
   }, [user, firebaseUnconfigured]);
 
   const isFallback = firebaseUnconfigured || (!user && graceElapsed);
-  const fallbackUid = useMemo(
-    () => (isFallback ? getOrCreateFallbackUid() : null),
-    [isFallback]
-  );
+  const fallbackUid = useMemo(() => (isFallback ? getOrCreateFallbackUid() : null), [isFallback]);
 
   const value = useMemo<FallbackIdentity>(
     () => ({ isFallback, fallbackUid }),
@@ -51,9 +48,7 @@ export function FallbackAuthProvider({ children }: { children: ReactNode }) {
   );
 
   return (
-    <FallbackIdentityContext.Provider value={value}>
-      {children}
-    </FallbackIdentityContext.Provider>
+    <FallbackIdentityContext.Provider value={value}>{children}</FallbackIdentityContext.Provider>
   );
 }
 
@@ -64,13 +59,8 @@ export function FallbackAuthProvider({ children }: { children: ReactNode }) {
  */
 export function ForcedFallbackProvider({ children }: { children: ReactNode }) {
   const [fallbackUid] = useState(getOrCreateFallbackUid);
-  const value = useMemo<FallbackIdentity>(
-    () => ({ isFallback: true, fallbackUid }),
-    [fallbackUid]
-  );
+  const value = useMemo<FallbackIdentity>(() => ({ isFallback: true, fallbackUid }), [fallbackUid]);
   return (
-    <FallbackIdentityContext.Provider value={value}>
-      {children}
-    </FallbackIdentityContext.Provider>
+    <FallbackIdentityContext.Provider value={value}>{children}</FallbackIdentityContext.Provider>
   );
 }
