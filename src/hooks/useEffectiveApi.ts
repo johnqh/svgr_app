@@ -8,7 +8,7 @@
 
 import { useMemo } from 'react';
 import { useApiSafe, type ApiContextValue } from '@sudobility/building_blocks/firebase';
-import { useFallbackIdentity } from '../components/providers/FallbackAuthProvider';
+import { useFallbackIdentity } from '../components/providers/fallback-identity-context';
 import { createFallbackNetworkClient } from '../lib/FallbackNetworkClient';
 import { API_URL } from '../config/constants';
 

@@ -11,7 +11,8 @@ vi.mock('@sudobility/auth_lib', () => ({
   getFirebaseAuth: () => mockGetFirebaseAuth(),
 }));
 
-import { FallbackAuthProvider, useFallbackIdentity } from './FallbackAuthProvider';
+import { FallbackAuthProvider } from './FallbackAuthProvider';
+import { useFallbackIdentity } from './fallback-identity-context';
 
 function Probe() {
   const { isFallback, fallbackUid } = useFallbackIdentity();

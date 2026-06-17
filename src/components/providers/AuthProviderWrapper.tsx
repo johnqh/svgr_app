@@ -11,6 +11,7 @@ import {
 import { setConsumablesUserId } from '@sudobility/consumables_client';
 import { createAuthTexts, createAuthErrorTexts } from '../../config/auth-config';
 import { initializeConsumablesService } from '../../config/consumables';
+import { FallbackAuthProvider, ForcedFallbackProvider } from './FallbackAuthProvider';
 
 interface AuthProviderWrapperProps {
   children: ReactNode;
@@ -51,10 +52,13 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
   useEffect(() => {
     if (!auth) return;
 
-    initializeConsumablesService(new FirebaseAuthNetworkService());
-
     const unsubscribe = onAuthStateChanged(auth, user => {
-      setConsumablesUserId(user?.uid, user?.email ?? undefined);
+      // In fallback mode (Firebase blocked) there is no user; leave consumables
+      // uninitialized so downloads are free and no Firebase-authed credit calls
+      // are attempted.
+      if (!user) return;
+      initializeConsumablesService(new FirebaseAuthNetworkService());
+      setConsumablesUserId(user.uid, user.email ?? undefined);
     });
     return unsubscribe;
   }, [auth]);
@@ -62,7 +66,7 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
   // If Firebase is not configured, render children without auth
   if (!auth) {
     console.warn('[AuthProviderWrapper] No auth instance - Firebase not configured');
-    return <>{children}</>;
+    return <ForcedFallbackProvider>{children}</ForcedFallbackProvider>;
   }
 
   return (
@@ -77,7 +81,7 @@ export function AuthProviderWrapper({ children }: AuthProviderWrapperProps) {
       errorTexts={errorTexts}
       resolveErrorMessage={getFirebaseErrorMessage}
     >
-      {children}
+      <FallbackAuthProvider>{children}</FallbackAuthProvider>
     </AuthProvider>
   );
 }

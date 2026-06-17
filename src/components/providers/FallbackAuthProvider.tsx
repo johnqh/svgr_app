@@ -5,75 +5,69 @@
  * API calls with an unverified bearer token instead of a Firebase ID token.
  */
 
-import {
-  createContext,
-  useContext,
-  useEffect,
-  useMemo,
-  useRef,
-  useState,
-  type ReactNode,
-} from 'react';
+import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { useAuthStatus } from '@sudobility/auth-components';
 import { getFirebaseAuth } from '@sudobility/auth_lib';
 import { getOrCreateFallbackUid } from '../../lib/fallback-uid';
+import {
+  FallbackIdentityContext,
+  FALLBACK_GRACE_MS,
+  type FallbackIdentity,
+} from './fallback-identity-context';
 
-/** How long to wait for Firebase (incl. anonymous sign-in) before giving up. */
-export const FALLBACK_GRACE_MS = 8000;
-
-interface FallbackIdentity {
-  isFallback: boolean;
-  fallbackUid: string | null;
-}
-
-const FallbackIdentityContext = createContext<FallbackIdentity>({
-  isFallback: false,
-  fallbackUid: null,
-});
-
-export function useFallbackIdentity(): FallbackIdentity {
-  return useContext(FallbackIdentityContext);
-}
-
+/**
+ * Watches Firebase auth state and engages fallback mode when no Firebase user
+ * can be established. MUST be mounted under an `AuthProvider` (it calls
+ * `useAuthStatus`). For the Firebase-unconfigured case use
+ * {@link ForcedFallbackProvider} instead.
+ *
+ * Fallback is derived (not imperatively set in effects): it engages when
+ * Firebase is unconfigured, or when no user has appeared by the time the grace
+ * period elapses. Only the grace timer touches state, and it does so
+ * asynchronously.
+ */
 export function FallbackAuthProvider({ children }: { children: ReactNode }) {
   const { user } = useAuthStatus();
-  const [isFallback, setIsFallback] = useState(false);
-  const [fallbackUid, setFallbackUid] = useState<string | null>(null);
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const firebaseUnconfigured = getFirebaseAuth() === null;
+  const [graceElapsed, setGraceElapsed] = useState(false);
 
-  const engageFallback = () => {
-    setFallbackUid(getOrCreateFallbackUid());
-    setIsFallback(true);
-  };
-
-  // Firebase not configured at all -> fallback immediately.
+  // Start the grace timer only while waiting for a Firebase user. A real user
+  // (or unconfigured Firebase) needs no timer.
   useEffect(() => {
-    if (getFirebaseAuth() === null) {
-      engageFallback();
-    }
-  }, []);
+    if (user || firebaseUnconfigured) return;
+    const id = setTimeout(() => setGraceElapsed(true), FALLBACK_GRACE_MS);
+    return () => clearTimeout(id);
+  }, [user, firebaseUnconfigured]);
 
-  // A real Firebase user (anonymous or registered) -> leave fallback mode.
-  // Otherwise start a grace timer; if it elapses with still no user, engage.
-  useEffect(() => {
-    if (user) {
-      if (timerRef.current) clearTimeout(timerRef.current);
-      setIsFallback(false);
-      setFallbackUid(null);
-      return;
-    }
-    if (timerRef.current) clearTimeout(timerRef.current);
-    timerRef.current = setTimeout(engageFallback, FALLBACK_GRACE_MS);
-    return () => {
-      if (timerRef.current) clearTimeout(timerRef.current);
-    };
-  }, [user]);
+  const isFallback = firebaseUnconfigured || (!user && graceElapsed);
+  const fallbackUid = useMemo(
+    () => (isFallback ? getOrCreateFallbackUid() : null),
+    [isFallback]
+  );
 
   const value = useMemo<FallbackIdentity>(
     () => ({ isFallback, fallbackUid }),
     [isFallback, fallbackUid]
   );
 
+  return (
+    <FallbackIdentityContext.Provider value={value}>
+      {children}
+    </FallbackIdentityContext.Provider>
+  );
+}
+
+/**
+ * Unconditionally provides a fallback identity. Used when Firebase is not
+ * configured at all (no `AuthProvider` ancestor, so `useAuthStatus` is
+ * unavailable) — in that case the app is always in fallback mode.
+ */
+export function ForcedFallbackProvider({ children }: { children: ReactNode }) {
+  const [fallbackUid] = useState(getOrCreateFallbackUid);
+  const value = useMemo<FallbackIdentity>(
+    () => ({ isFallback: true, fallbackUid }),
+    [fallbackUid]
+  );
   return (
     <FallbackIdentityContext.Provider value={value}>
       {children}

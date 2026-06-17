@@ -8,11 +8,11 @@ const mockCreateFallbackNetworkClient = vi.fn(() => ({ tag: 'fallback-client' })
 vi.mock('@sudobility/building_blocks/firebase', () => ({
   useApiSafe: () => mockUseApiSafe(),
 }));
-vi.mock('../components/providers/FallbackAuthProvider', () => ({
+vi.mock('../components/providers/fallback-identity-context', () => ({
   useFallbackIdentity: () => mockUseFallbackIdentity(),
 }));
 vi.mock('../lib/FallbackNetworkClient', () => ({
-  createFallbackNetworkClient: (getUid: () => string) => mockCreateFallbackNetworkClient(getUid),
+  createFallbackNetworkClient: () => mockCreateFallbackNetworkClient(),
 }));
 
 import { useEffectiveApi } from './useEffectiveApi';
