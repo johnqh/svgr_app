@@ -17,7 +17,7 @@ import { useImageConverter, QUALITY_MIN, QUALITY_MAX, IMAGE_TYPES } from '@sudob
 import type { ImageType } from '@sudobility/svgr_lib';
 import { ui, colors } from '@sudobility/design';
 import { useSvgrClient } from '../hooks/useSvgrClient';
-import { useApiSafe } from '@sudobility/building_blocks/firebase';
+import { useEffectiveApi } from '../hooks/useEffectiveApi';
 import { trackButtonClick, trackEvent, trackError, trackPageView } from '../analytics';
 import { SEOHead, buildHowToSchema } from '@sudobility/seo_lib';
 import ConvertButton from '../components/ConvertButton';
@@ -43,7 +43,7 @@ export default function ConvertPage() {
   const { t: tContent } = useTranslation('content');
   const { t: tHowTo } = useTranslation('howto');
   const client = useSvgrClient();
-  const api = useApiSafe();
+  const api = useEffectiveApi();
   const converter = useImageConverter(client);
 
   const [file, setFile] = useState<File | null>(null);

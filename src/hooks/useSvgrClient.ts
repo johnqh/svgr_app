@@ -6,7 +6,7 @@
 
 import { useMemo } from 'react';
 import { SvgrClient } from '@sudobility/svgr_client';
-import { useApiSafe } from '@sudobility/building_blocks/firebase';
+import { useEffectiveApi } from './useEffectiveApi';
 import { useFirebaseAuthNetworkClient } from '@sudobility/auth_lib';
 import { API_URL } from '../config/constants';
 
@@ -24,7 +24,7 @@ import { API_URL } from '../config/constants';
  * @returns A memoized `SvgrClient` instance configured with the API URL and authenticated network client.
  */
 export function useSvgrClient(): SvgrClient {
-  const api = useApiSafe();
+  const api = useEffectiveApi();
   const fallbackNetworkClient = useFirebaseAuthNetworkClient();
   const networkClient = api?.networkClient ?? fallbackNetworkClient;
 
