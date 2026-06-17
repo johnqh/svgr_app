@@ -14,8 +14,8 @@ const mockApiNetworkClient = { get: vi.fn(), post: vi.fn() };
 // Track constructor calls
 const svgrClientInstances: Array<{ baseUrl: string; networkClient: unknown }> = [];
 
-vi.mock('@sudobility/building_blocks/firebase', () => ({
-  useApiSafe: vi.fn(() => null),
+vi.mock('./useEffectiveApi', () => ({
+  useEffectiveApi: vi.fn(() => null),
 }));
 
 vi.mock('@sudobility/auth_lib', () => ({
@@ -37,7 +37,7 @@ vi.mock('@sudobility/svgr_client', () => {
   };
 });
 
-import { useApiSafe } from '@sudobility/building_blocks/firebase';
+import { useEffectiveApi } from './useEffectiveApi';
 
 describe('useSvgrClient', () => {
   beforeEach(() => {
@@ -48,7 +48,7 @@ describe('useSvgrClient', () => {
   it('creates a SvgrClient with the fallback network client when API context is null', async () => {
     // Dynamic import to get the module after mocks are set up
     const { useSvgrClient } = await import('./useSvgrClient');
-    vi.mocked(useApiSafe).mockReturnValue(null);
+    vi.mocked(useEffectiveApi).mockReturnValue(null);
 
     renderHook(() => useSvgrClient());
 
@@ -58,9 +58,9 @@ describe('useSvgrClient', () => {
 
   it('creates a SvgrClient with the API context network client when available', async () => {
     const { useSvgrClient } = await import('./useSvgrClient');
-    vi.mocked(useApiSafe).mockReturnValue({
+    vi.mocked(useEffectiveApi).mockReturnValue({
       networkClient: mockApiNetworkClient,
-    } as unknown as ReturnType<typeof useApiSafe>);
+    } as unknown as ReturnType<typeof useEffectiveApi>);
 
     renderHook(() => useSvgrClient());
 
@@ -78,7 +78,7 @@ describe('useSvgrClient', () => {
 
   it('memoizes the client across re-renders with the same network client', async () => {
     const { useSvgrClient } = await import('./useSvgrClient');
-    vi.mocked(useApiSafe).mockReturnValue(null);
+    vi.mocked(useEffectiveApi).mockReturnValue(null);
 
     const { result, rerender } = renderHook(() => useSvgrClient());
     const firstClient = result.current;
