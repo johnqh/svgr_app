@@ -12,6 +12,14 @@ import {
   initializeFirebaseService,
 } from '@sudobility/di';
 import { initializeInfoService } from '@sudobility/di_web';
+import { configureTheme } from '@sudobility/design';
+import { defaultTheme } from '@sudobility/design/themes';
+
+// Activate the design-system theme so `@sudobility/components` render theme-aware
+// semantic classes (bg-primary, ...) that resolve via the :root/.dark CSS
+// variables in index.css + createTailwindPreset() in tailwind.config.js,
+// making all design styles + light/dark work.
+configureTheme(defaultTheme);
 
 /**
  * Required environment variables for Firebase initialization.

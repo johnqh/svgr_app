@@ -10,7 +10,7 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
 import { MasterDetailLayout, MasterListItem } from '@sudobility/components/layout';
-import { ui, buttonVariant } from '@sudobility/design';
+import { ui, buttonVariant, colors } from '@sudobility/design';
 import { trackButtonClick, trackPageView } from '../analytics';
 import { SEOHead } from '@sudobility/seo_lib';
 import { useSetPageConfig } from '../hooks/usePageConfig';
@@ -120,8 +120,10 @@ export default function TutorialsPage() {
 
       {/* Warning (if applicable) */}
       {hasWarning && (
-        <section className="bg-amber-50 dark:bg-amber-950/30 rounded-xl p-6 border border-amber-200 dark:border-amber-800">
-          <h3 className={`${ui.text.h4} text-amber-700 dark:text-amber-400 mb-2`}>
+        <section
+          className={`${colors.component.card.warning.base} ${colors.component.card.warning.dark} rounded-xl p-6 border`}
+        >
+          <h3 className={`${ui.text.h4} ${ui.text.warning} mb-2`}>
             {t(`tutorials.items.${selectedSlug}.warning.title`)}
           </h3>
           <p className={ui.text.body}>{t(`tutorials.items.${selectedSlug}.warning.text`)}</p>

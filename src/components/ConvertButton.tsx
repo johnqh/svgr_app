@@ -36,7 +36,7 @@ export default function ConvertButton({
         disabled={disabled || loading}
         className={`w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-semibold text-sm ${ui.transition.all} ${
           disabled || loading
-            ? `${ui.states.disabled} bg-gray-200 text-gray-400 cursor-not-allowed`
+            ? `${ui.states.disabled} ${ui.background.muted} ${ui.text.muted} cursor-not-allowed`
             : `${buttonVariant('primary')} shadow-md hover:shadow-lg`
         }`}
       >

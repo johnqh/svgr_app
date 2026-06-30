@@ -167,7 +167,7 @@ export default function SplitPage() {
       {converter.error && (
         <div className="max-w-6xl mx-auto px-4 pb-2">
           <div
-            className={`${colors.component.alert.error.base} ${colors.component.alert.error.dark} border border-red-200 rounded-lg p-3 text-sm`}
+            className={`${colors.component.alert.error.base} ${colors.component.alert.error.dark} border rounded-lg p-3 text-sm`}
           >
             {converter.error}
           </div>
@@ -228,7 +228,7 @@ export default function SplitPage() {
                           type="checkbox"
                           checked={converter.ocr}
                           onChange={e => converter.setOcr(e.target.checked)}
-                          className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
+                          className={`w-4 h-4 rounded ${ui.border.default} text-primary ${ui.states.focus}`}
                         />
                         <span className={`${ui.text.label} whitespace-nowrap`}>
                           {t('recognizeText')}
@@ -242,7 +242,7 @@ export default function SplitPage() {
                           type="checkbox"
                           checked={converter.transparentBg}
                           onChange={e => converter.setTransparentBg(e.target.checked)}
-                          className="w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                          className={`w-4 h-4 rounded ${ui.border.default} text-primary ${ui.states.focus}`}
                         />
                         <span className={`${ui.text.label} whitespace-nowrap`}>
                           {t('transparentBg')}
@@ -305,7 +305,7 @@ export default function SplitPage() {
                         type="checkbox"
                         checked={converter.mergePaths}
                         onChange={e => converter.setMergePaths(e.target.checked)}
-                        className={`w-4 h-4 rounded border-gray-300 text-blue-600 ${ui.states.focus}`}
+                        className={`w-4 h-4 rounded ${ui.border.default} text-primary ${ui.states.focus}`}
                       />
                       <span className={`${ui.text.label} whitespace-nowrap`}>
                         {t('mergePaths')}

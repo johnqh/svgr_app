@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useCommunities } from '@sudobility/svgr_lib';
 import type { Community, CommunityPlatform } from '@sudobility/svgr_lib';
 import { SEOHead } from '@sudobility/seo_lib';
+import { ui, colors } from '@sudobility/design';
 import { trackPageView } from '../analytics';
 import { useSvgrClient } from '../hooks/useSvgrClient';
 
@@ -39,10 +40,10 @@ export default function CommunitiesPage() {
         )}
       />
       <div className="py-8 px-4 max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+        <h1 className="text-3xl font-bold text-foreground mb-2">
           {t('communities.title', 'Designer Communities')}
         </h1>
-        <p className="text-gray-600 dark:text-gray-400 mb-8">
+        <p className={`${ui.text.muted} mb-8`}>
           {t(
             'communities.subtitle',
             'Connect with designers and get help with vector graphics, SVG conversion, and logo design.'
@@ -52,13 +53,13 @@ export default function CommunitiesPage() {
         {isLoading && (
           <div className="space-y-4">
             {[1, 2, 3].map(i => (
-              <div key={i} className="animate-pulse h-24 bg-gray-200 dark:bg-gray-700 rounded-lg" />
+              <div key={i} className={`animate-pulse h-24 ${ui.background.muted} rounded-lg`} />
             ))}
           </div>
         )}
 
         {!isLoading && communities.length === 0 && (
-          <p className="text-gray-500 dark:text-gray-400 text-center py-12">
+          <p className={`${ui.text.muted} text-center py-12`}>
             {t('communities.emptyState', 'No communities found for this language.')}
           </p>
         )}
@@ -66,7 +67,7 @@ export default function CommunitiesPage() {
         {!isLoading &&
           Array.from(communitiesByPlatform.entries()).map(([platform, items]) => (
             <section key={platform} className="mb-8">
-              <h2 className="text-lg font-semibold text-gray-800 dark:text-gray-200 mb-3">
+              <h2 className="text-lg font-semibold text-foreground mb-3">
                 {PLATFORM_LABELS[platform] || platform}
               </h2>
               <div className="space-y-3">
@@ -88,7 +89,7 @@ function CommunityCard({ community }: { community: Community }) {
       href={community.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block p-4 rounded-lg border border-gray-200 dark:border-gray-700 hover:border-indigo-300 dark:hover:border-indigo-600 hover:shadow-sm transition-all"
+      className={`block p-4 rounded-lg border ${ui.border.default} hover:border-primary hover:shadow-sm transition-all`}
     >
       <div className="flex items-start gap-3">
         {community.iconUrl ? (
@@ -99,26 +100,22 @@ function CommunityCard({ community }: { community: Community }) {
             loading="lazy"
           />
         ) : (
-          <div className="w-8 h-8 rounded bg-indigo-100 dark:bg-indigo-900 flex items-center justify-center flex-shrink-0">
-            <span className="text-indigo-600 dark:text-indigo-300 text-sm font-bold">
-              {community.name.charAt(0)}
-            </span>
+          <div
+            className={`w-8 h-8 rounded ${colors.component.badge.primary.base} ${colors.component.badge.primary.dark} flex items-center justify-center flex-shrink-0`}
+          >
+            <span className="text-sm font-bold">{community.name.charAt(0)}</span>
           </div>
         )}
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2">
-            <h3 className="font-medium text-gray-900 dark:text-white truncate">{community.name}</h3>
+            <h3 className="font-medium text-foreground truncate">{community.name}</h3>
             {community.nameEnglish && community.nameEnglish !== community.name && (
-              <span className="text-sm text-gray-500 dark:text-gray-400 truncate">
-                ({community.nameEnglish})
-              </span>
+              <span className={`text-sm ${ui.text.muted} truncate`}>({community.nameEnglish})</span>
             )}
           </div>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mt-0.5 line-clamp-2">
-            {community.description}
-          </p>
+          <p className={`text-sm ${ui.text.muted} mt-0.5 line-clamp-2`}>{community.description}</p>
         </div>
-        <span className="text-indigo-600 dark:text-indigo-400 text-sm flex-shrink-0">
+        <span className={`${ui.text.info} text-sm flex-shrink-0`}>
           {t('communities.visitButton', 'Visit')} →
         </span>
       </div>

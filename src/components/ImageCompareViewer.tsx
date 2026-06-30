@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ui } from '@sudobility/design';
+import { ui, colors } from '@sudobility/design';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 import {
@@ -705,6 +705,14 @@ export default function ImageCompareViewer({
               </div>
             )}
 
+            {/*
+              The absolutely-positioned controls below (badges, zoom/download
+              toolbar, split-slider handle) are intentional media-viewer chrome
+              that floats directly over the user's image/SVG canvas. Their
+              translucent black/white scrims + slate text are deliberately
+              hardcoded for legibility over arbitrary artwork and are NOT
+              migrated to semantic surfaces (would break the over-canvas design).
+            */}
             <div className="absolute left-4 top-4 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold text-white shadow">
               {t('originalImage')}
             </div>
@@ -810,8 +818,8 @@ export default function ImageCompareViewer({
             onDragLeave={handleDragLeave}
             className={`flex h-full min-h-[320px] flex-col items-center justify-center rounded-2xl border-2 border-dashed p-10 text-center ${ui.transition.default} ${
               isDraggingFile
-                ? 'border-blue-400 bg-blue-50'
-                : `border-gray-300 hover:border-gray-400 ${ui.background.subtle}`
+                ? `${colors.component.alert.info.base} ${colors.component.alert.info.dark}`
+                : `${ui.border.default} ${ui.background.subtle}`
             }`}
           >
             <ImageUploadIcon className={`mb-4 h-14 w-14 ${ui.text.muted}`} />
@@ -829,7 +837,7 @@ export default function ImageCompareViewer({
 
       {insufficientCredits && (
         <div
-          className="mt-3 flex items-center justify-between rounded-lg border border-yellow-200 bg-yellow-50 p-2"
+          className={`mt-3 flex items-center justify-between rounded-lg border ${colors.component.alert.warning.base} ${colors.component.alert.warning.dark} p-2`}
           role="alert"
         >
           <p className={`text-xs ${ui.text.warning}`}>

@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ui } from '@sudobility/design';
+import { ui, buttonVariant } from '@sudobility/design';
 import { useAuthStatus } from '@sudobility/auth-components';
 import { useUserImages, type ImageWithJobs, type JobResult } from '@sudobility/svgr_client';
 import type { SvgrClient } from '@sudobility/svgr_client';
@@ -52,14 +52,20 @@ function Thumbnail({
 
   if (!url) {
     return (
-      <div className="w-16 h-16 rounded bg-gray-100 flex items-center justify-center flex-shrink-0">
-        <span className="text-gray-300 text-xs">--</span>
+      <div
+        className={`w-16 h-16 rounded ${ui.background.muted} flex items-center justify-center flex-shrink-0`}
+      >
+        <span className={`${ui.text.muted} text-xs`}>--</span>
       </div>
     );
   }
 
   return (
-    <img src={url} alt={alt} className="w-16 h-16 rounded object-cover flex-shrink-0 bg-gray-100" />
+    <img
+      src={url}
+      alt={alt}
+      className={`w-16 h-16 rounded object-cover flex-shrink-0 ${ui.background.muted}`}
+    />
   );
 }
 
@@ -105,7 +111,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
       <button
         type="button"
         onClick={() => setExpanded(prev => !prev)}
-        className="flex w-full items-center gap-3 p-3 text-left hover:bg-gray-50 transition-colors"
+        className="flex w-full items-center gap-3 p-3 text-left hover:bg-accent transition-colors"
       >
         {/* Original thumbnail */}
         <Thumbnail
@@ -137,7 +143,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
             {doneJobs.length} {doneJobs.length === 1 ? t('conversion') : t('conversions')}
           </span>
           <svg
-            className={`w-4 h-4 text-gray-400 transition-transform ${expanded ? 'rotate-180' : ''}`}
+            className={`w-4 h-4 ${ui.text.muted} transition-transform ${expanded ? 'rotate-180' : ''}`}
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -148,12 +154,12 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
       </button>
 
       {expanded && doneJobs.length > 0 && (
-        <div className="border-t border-gray-100 px-4 pb-3">
+        <div className={`border-t ${ui.border.subtle} px-4 pb-3`}>
           <div className="space-y-1 pt-2">
             {doneJobs.map((job: JobResult) => (
               <div
                 key={job.jobId}
-                className="flex items-center justify-between rounded-md px-3 py-2 text-sm bg-gray-50"
+                className={`flex items-center justify-between rounded-md px-3 py-2 text-sm ${ui.background.subtle}`}
               >
                 <div className="flex items-center gap-3 min-w-0">
                   {/* Per-job converted thumbnail */}
@@ -163,7 +169,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
                     client={client}
                   />
                   <div className="min-w-0">
-                    <span className="text-gray-700 truncate block">{formatSettings(job, t)}</span>
+                    <span className="text-foreground truncate block">{formatSettings(job, t)}</span>
                     <span className={`text-xs ${ui.text.muted}`}>
                       {new Date(job.createdAt).toLocaleTimeString()}
                     </span>
@@ -193,7 +199,7 @@ function ImageCard({ image, client }: { image: ImageWithJobs; client: SvgrClient
       )}
 
       {expanded && doneJobs.length === 0 && (
-        <div className="border-t border-gray-100 px-4 py-3">
+        <div className={`border-t ${ui.border.subtle} px-4 py-3`}>
           <p className={`text-sm ${ui.text.muted}`}>
             {t('noConversions', { defaultValue: 'No conversions yet' })}
           </p>
@@ -227,7 +233,7 @@ export default function HistoryPage() {
         </p>
         <button
           onClick={() => navigate(`/${lang || 'en'}/login`)}
-          className="px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors"
+          className={`px-4 py-2 rounded-lg text-sm font-medium ${buttonVariant('primary')} transition-colors`}
         >
           {t('loginAction', { defaultValue: 'Log In' })}
         </button>
@@ -243,7 +249,7 @@ export default function HistoryPage() {
 
       {isLoading ? (
         <div className="flex items-center justify-center py-16">
-          <SpinnerIcon className="animate-spin h-8 w-8 text-gray-400" />
+          <SpinnerIcon className={`animate-spin h-8 w-8 ${ui.text.muted}`} />
         </div>
       ) : images.length === 0 ? (
         <div className="text-center py-16">

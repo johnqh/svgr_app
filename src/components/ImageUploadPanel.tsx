@@ -11,7 +11,7 @@
 import { useCallback, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { isValidImageType } from '@sudobility/svgr_lib';
-import { ui } from '@sudobility/design';
+import { ui, colors } from '@sudobility/design';
 import { trackButtonClick, trackError } from '../analytics';
 import { ImageUploadIcon } from './icons';
 
@@ -169,8 +169,8 @@ export default function ImageUploadPanel({
           onDragLeave={handleDragLeave}
           className={`aspect-[4/3] flex flex-col items-center justify-center rounded-lg border-2 border-dashed cursor-pointer ${ui.transition.default} ${
             isDragging
-              ? 'border-blue-400 bg-blue-50'
-              : `border-gray-300 hover:border-gray-400 ${ui.background.subtle}`
+              ? `${colors.component.alert.info.base} ${colors.component.alert.info.dark}`
+              : `${ui.border.default} ${ui.background.subtle}`
           }`}
         >
           <ImageUploadIcon className={`w-12 h-12 ${ui.text.muted} mb-3`} />

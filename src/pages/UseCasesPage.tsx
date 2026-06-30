@@ -13,7 +13,7 @@
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
-import { buttonVariant, ui } from '@sudobility/design';
+import { buttonVariant, ui, colors } from '@sudobility/design';
 import { trackButtonClick, trackPageView } from '../analytics';
 import { SEOHead } from '@sudobility/seo_lib';
 
@@ -60,7 +60,9 @@ export default function UseCasesPage() {
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           {/* Problem */}
-          <div className="bg-red-50 dark:bg-red-950/30 rounded-xl p-6 border border-red-200 dark:border-red-800">
+          <div
+            className={`${colors.component.card.error.base} ${colors.component.card.error.dark} rounded-xl p-6 border`}
+          >
             <h3 className={`${ui.text.h4} ${ui.text.error} mb-3`}>
               {t('useCases.aiLogos.problem')}
             </h3>
@@ -68,7 +70,9 @@ export default function UseCasesPage() {
           </div>
 
           {/* Solution */}
-          <div className="bg-green-50 dark:bg-green-950/30 rounded-xl p-6 border border-green-200 dark:border-green-800">
+          <div
+            className={`${colors.component.card.success.base} ${colors.component.card.success.dark} rounded-xl p-6 border`}
+          >
             <h3 className={`${ui.text.h4} ${ui.text.success} mb-3`}>
               {t('useCases.aiLogos.solution')}
             </h3>
@@ -85,10 +89,10 @@ export default function UseCasesPage() {
               href={t(`useCases.aiLogos.designers.${key}.url`)}
               target="_blank"
               rel="noopener noreferrer"
-              className={`group bg-theme-bg-secondary rounded-xl p-5 border ${ui.border.default} hover:border-blue-300 dark:hover:border-blue-600 hover:shadow-md ${ui.transition.all}`}
+              className={`group bg-theme-bg-secondary rounded-xl p-5 border ${ui.border.default} hover:border-primary hover:shadow-md ${ui.transition.all}`}
             >
               <h4
-                className={`${ui.text.strong} group-hover:text-blue-600 dark:group-hover:text-blue-400 ${ui.transition.default} mb-1`}
+                className={`${ui.text.strong} group-hover:text-primary ${ui.transition.default} mb-1`}
               >
                 {t(`useCases.aiLogos.designers.${key}.name`)}
                 <span className={`ml-1 text-xs ${ui.text.muted}`}>&#8599;</span>
@@ -107,14 +111,18 @@ export default function UseCasesPage() {
         <p className={`${ui.text.bodyLarge} mb-8`}>{t('useCases.legacyAssets.description')}</p>
 
         <div className="grid md:grid-cols-2 gap-6">
-          <div className="bg-red-50 dark:bg-red-950/30 rounded-xl p-6 border border-red-200 dark:border-red-800">
+          <div
+            className={`${colors.component.card.error.base} ${colors.component.card.error.dark} rounded-xl p-6 border`}
+          >
             <h3 className={`${ui.text.h4} ${ui.text.error} mb-3`}>
               {t('useCases.legacyAssets.problem')}
             </h3>
             <p className={ui.text.body}>{t('useCases.legacyAssets.problemDescription')}</p>
           </div>
 
-          <div className="bg-green-50 dark:bg-green-950/30 rounded-xl p-6 border border-green-200 dark:border-green-800">
+          <div
+            className={`${colors.component.card.success.base} ${colors.component.card.success.dark} rounded-xl p-6 border`}
+          >
             <h3 className={`${ui.text.h4} ${ui.text.success} mb-3`}>
               {t('useCases.legacyAssets.solution')}
             </h3>

@@ -11,7 +11,7 @@
 import { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate, useParams } from 'react-router-dom';
-import { ui } from '@sudobility/design';
+import { ui, colors } from '@sudobility/design';
 import { jsPDF } from 'jspdf';
 import { svg2pdf } from 'svg2pdf.js';
 import { getBaseName, getSvgDimensions } from '@sudobility/svgr_lib';
@@ -172,7 +172,7 @@ export default function SvgPreviewPanel({
         >
           {isConverting ? (
             <div className="flex flex-col items-center gap-2">
-              <SpinnerIcon className="animate-spin h-8 w-8 text-gray-400" />
+              <SpinnerIcon className={`animate-spin h-8 w-8 ${ui.text.muted}`} />
               <p className={`${ui.text.caption} text-sm`}>{t('converting')}</p>
             </div>
           ) : (
@@ -184,7 +184,7 @@ export default function SvgPreviewPanel({
       {/* Insufficient credits notice */}
       {insufficientCredits && (
         <div
-          className="mt-2 p-2 bg-yellow-50 rounded-lg border border-yellow-200 flex items-center justify-between"
+          className={`mt-2 p-2 ${colors.component.alert.warning.base} ${colors.component.alert.warning.dark} rounded-lg border flex items-center justify-between`}
           role="alert"
         >
           <p className={`text-xs ${ui.text.warning}`}>

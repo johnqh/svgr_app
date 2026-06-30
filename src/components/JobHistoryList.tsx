@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { ui, colors } from '@sudobility/design';
 import type { JobResult } from '@sudobility/svgr_client';
 
 interface JobHistoryListProps {
@@ -27,7 +28,7 @@ export function JobHistoryList({ jobs, currentJobId, onSelectJob }: JobHistoryLi
 
   return (
     <div className="mt-4">
-      <h3 className="mb-2 text-sm font-medium text-gray-600">
+      <h3 className={`mb-2 text-sm font-medium ${ui.text.muted}`}>
         {t('jobHistory', 'Conversion History')}
       </h3>
       <div className="space-y-1">
@@ -38,14 +39,14 @@ export function JobHistoryList({ jobs, currentJobId, onSelectJob }: JobHistoryLi
             onClick={() => onSelectJob(job.jobId)}
             className={`flex w-full items-center justify-between rounded-md border px-3 py-2 text-left text-sm transition-colors cursor-pointer ${
               job.jobId === currentJobId
-                ? 'border-blue-500 bg-blue-50'
-                : 'border-gray-200 hover:bg-gray-50'
+                ? `${colors.component.alert.info.base} ${colors.component.alert.info.dark}`
+                : `${ui.border.default} hover:bg-accent`
             }`}
           >
             <div className="flex items-center gap-2">
-              <span className="text-gray-700">{formatSettings(job, t)}</span>
+              <span className="text-foreground">{formatSettings(job, t)}</span>
             </div>
-            <span className="text-xs text-gray-400">
+            <span className={`text-xs ${ui.text.muted}`}>
               {new Date(
                 /[Z+-]\d/.test(job.createdAt) || job.createdAt.endsWith('Z')
                   ? job.createdAt
